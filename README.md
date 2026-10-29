@@ -88,9 +88,12 @@ identical outputs.
 
 ## Integrity checks
 
-`MANIFEST.csv` lists the SHA-256 hash of every file. The SOP files use Windows
-line endings, and `.gitattributes` stops Git from converting them, so the
-hashes in `FINAL_EVALUATION_MAPPING.csv` stay valid.
+`MANIFEST.csv` lists the SHA-256 hash of every file exactly as stored here;
+`.gitattributes` stops Git from converting line endings, so these hashes stay
+valid. The SHA-256 hashes in `FINAL_EVALUATION_MAPPING.csv` were computed on
+the SOP texts with Unix (LF) line endings, whereas the stored files use Windows
+(CRLF) line endings. To check them, convert CRLF to LF before hashing; all 48
+SOPs then match their mapping hash.
 
 ## Limitations
 
