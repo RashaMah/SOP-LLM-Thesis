@@ -1,0 +1,106 @@
+# Standard Operating Procedure: Packing and Dispatch Preparation
+
+## 1. SOP Title
+Packing and Dispatch Preparation of Picked Orders
+
+## 2. Purpose
+This SOP defines the process for packing, documenting, staging, verifying, and releasing a correctly picked order for transport. It ensures that the goods dispatched correspond exactly to the authorized order, that appropriate documentation accompanies the shipment, and that stock records accurately reflect the released goods.
+
+## 3. Scope
+This procedure applies to all orders that have completed the picking process and have been moved to the staging area for packing and onward dispatch. It covers activities from receipt of the picked order in the staging area through to final handover of custody to the carrier or recipient. It does not cover the picking process itself, which is assumed to be completed and correct prior to the start of this SOP.
+
+## 4. Roles and Responsibilities
+
+**Warehouse Staff/Storekeeper**
+- Receive the completed picking order in the staging area.
+- Pack the items appropriately.
+- Associate packed goods with the correct order.
+- Prepare the packing list and required transport/release documentation.
+- Maintain clear separation between different orders in the staging area.
+- Update stock records to reflect released goods.
+
+**Warehouse or Store Manager**
+- Oversee the packing and dispatch preparation process.
+- Ensure that packed goods correspond to the authorized order.
+- Provide oversight/approval where discrepancies or exceptions arise.
+
+**Loading/Checking Personnel**
+- Check the shipment against the dispatch documentation prior to release.
+- Verify the outgoing quantity before custody is transferred.
+
+**Transport Representative**
+- Receive custody of the verified shipment.
+- Accept the goods for transport based on the verified documentation.
+
+*Note: The scenario does not specify further sub-tasks, escalation authorities, or additional personnel beyond those listed above. No additional roles are assumed.*
+
+## 5. Required Inputs / Information
+- A completed and correctly picked order located in the staging area.
+- Order details necessary to confirm correct association of packed goods with the authorized order.
+- Information necessary to prepare the packing list and transport/release documentation.
+
+*The scenario does not specify the exact data fields, systems, or formats required for the packing list or transport documentation. These details should be determined based on existing organizational documentation practices, as none are specified here.*
+
+## 6. Expected Outputs
+- Correctly packed goods matching the authorized order.
+- A completed packing list.
+- Completed transport/release documentation.
+- A verified shipment, checked against dispatch documentation.
+- Updated stock records reflecting the goods released for dispatch.
+- Goods handed over to the transport representative with custody transferred.
+
+## 7. Procedure
+
+**Step 1: Receive Picked Order in Staging Area**
+The Warehouse Staff/Storekeeper confirms that the completed picking order has been moved to the staging area and is ready for packing.
+
+**Step 2: Maintain Order Separation**
+The Warehouse Staff/Storekeeper ensures that the order remains clearly separated from other orders present in the staging area, in accordance with the constraint that staged orders must not be mixed.
+
+**Step 3: Pack the Goods**
+The Warehouse Staff/Storekeeper packs the items appropriately, ensuring the packed goods correspond to the correct order and are suitable for transport.
+
+**Step 4: Associate Packed Goods with the Correct Order**
+The Warehouse Staff/Storekeeper verifies and confirms that the packed goods are correctly associated with the authorized order, in line with the constraint that packed goods must match the authorized order.
+
+**Step 5: Prepare Packing List and Dispatch Documentation**
+The Warehouse Staff/Storekeeper prepares:
+- The packing list, and
+- Any required transport/release documentation.
+
+**Step 6: Manager Oversight**
+The Warehouse or Store Manager reviews the packing and documentation process to confirm that the packed goods correspond to the authorized order, as required by the process constraints.
+
+**Step 7: Verify Shipment Against Dispatch Documentation**
+Prior to release, the loading/checking personnel check the shipment against the dispatch documentation to confirm accuracy.
+
+**Step 8: Verify Outgoing Quantity**
+The loading/checking personnel verify the outgoing quantity of goods before custody is transferred, as required by the constraint that quantity must be verified before release.
+
+**Step 9: Release and Transfer Custody**
+Once verification is complete and confirmed accurate, custody of the shipment is transferred to the transport representative for onward transport.
+
+**Step 10: Update Stock Records**
+The Warehouse Staff/Storekeeper updates stock records to reflect the goods that have been released, ensuring stock records accurately represent the dispatched quantity.
+
+## 8. Exception and Deviation Handling
+
+**Discrepancy Between Packed Goods and Authorized Order**
+If, at any point, the packed goods do not correspond to the authorized order (Step 4 or Step 6), the discrepancy must be identified and resolved before proceeding further. The Warehouse or Store Manager should be involved in confirming correction of the discrepancy. The scenario does not specify a formal escalation procedure beyond manager oversight; therefore, resolution should occur under the Warehouse or Store Manager's supervision before dispatch proceeds.
+
+**Discrepancy Found During Shipment Verification**
+If, during Step 7 or Step 8, the loading/checking personnel identify a mismatch between the shipment and the dispatch documentation, or an incorrect outgoing quantity, the shipment must not be released. The discrepancy must be addressed and corrected prior to any transfer of custody to the transport representative.
+
+**Mixed or Unclear Staging Separation**
+If orders in the staging area are found to be insufficiently separated or unclear, this must be corrected before packing proceeds, to prevent incorrect association of goods with the wrong order.
+
+*The scenario does not specify particular corrective actions, responsible escalation contacts, or documentation requirements for exception handling beyond what is stated above. Any additional exception-handling steps must be defined according to organizational policy not covered in this scenario.*
+
+## 9. Process Completion Criteria
+The process is considered complete when:
+- The correct goods have been packed and matched to the authorized order.
+- The packing list and required transport/release documentation have been prepared.
+- The shipment has been verified against the dispatch documentation.
+- The outgoing quantity has been confirmed as accurate.
+- Custody of the shipment has been successfully transferred to the transport representative.
+- Stock records have been updated to accurately reflect the released goods.

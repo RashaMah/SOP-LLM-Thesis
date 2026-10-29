@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_026",
+  "judge_family": "Google Gemini",
+  "judge_model": "gemini-3.1-pro-preview",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 4,
+      "reason": "The SOP captures almost all operationally relevant information but omits the specific condition that the movement must not create an unmanaged shortage at the source location."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The procedural steps follow a logical, chronological sequence from stock analysis and authorization to picking, transport, receiving, and record updating."
+    },
+    "C3_role_clarity": {
+      "score": 5,
+      "reason": "All roles provided in the source scenario are clearly assigned logical, distinct responsibilities without introducing any unsupported roles."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "Inputs (stock data, authorization) and expected outputs (transferred stock, updated records) are explicitly defined in dedicated sections and perfectly match the scenario."
+    },
+    "C5_exception_handling": {
+      "score": 5,
+      "reason": "Although the source scenario lacks explicit exceptions, the SOP provides highly relevant and logical exception handling for discrepancies, damage, and delays."
+    },
+    "C6_constraint_adherence": {
+      "score": 3,
+      "reason": "The SOP adheres to traceability and authorization constraints but completely omits the explicit constraint that the movement must not create an unmanaged shortage at the source location."
+    },
+    "C7_groundedness": {
+      "score": 5,
+      "reason": "The SOP remains strictly grounded in the source scenario, with only harmless, standard operational examples (e.g., delivery notes) added for clarity."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is highly structured, unambiguous, and actionable, making it very usable for warehouse and logistics personnel."
+    }
+  }
+}

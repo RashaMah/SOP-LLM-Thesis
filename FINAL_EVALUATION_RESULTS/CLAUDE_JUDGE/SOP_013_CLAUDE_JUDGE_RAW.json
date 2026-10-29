@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_013",
+  "judge_family": "Anthropic Claude",
+  "judge_model": "anthropic/claude-sonnet-5",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "All source elements are represented: staging/separation, packing, packing list and transport/release documentation, checking against dispatch documentation, quantity verification before custody transfer, stock record update, and the four roles. No explicit source information is omitted."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The procedure follows the logical order implied by the scenario: receive/separate staged order -> confirm order -> pack -> prepare documentation -> verify shipment/quantity -> release custody -> update stock records. This matches the scenario's implied dependency (packing before documentation checks, checks before custody transfer, release before stock update)."
+    },
+    "C3_role_clarity": {
+      "score": 5,
+      "reason": "All four roles from the scenario (Warehouse Staff/Storekeeper, Warehouse or Store Manager, loading/checking personnel, transport representative) are used consistently with responsibilities that match the scenario's implied duties (packing/documentation by storekeeper, checking/quantity verification by loading/checking personnel, custody by transport representative, oversight/escalation by manager). No new roles introduced."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "Inputs (picked order, staging goods, authorized order info, documentation needs) and outputs (packed goods, packing list, transport/release documentation, verified shipment, updated stock records) are clearly listed and directly traceable to the source scenario's operational information and expected outcome."
+    },
+    "C5_exception_handling": {
+      "score": 5,
+      "reason": "The SOP addresses plausible exception points explicitly grounded in the constraints: separation breakdown, non-corresponding goods, quantity discrepancy, documentation issues, and stock record discrepancy, each with clear stop/escalate/resolve actions tied to the Warehouse or Store Manager, consistent with the scenario's decision conditions."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "All three explicit constraints (clear separation of staged orders, correspondence between packed goods and authorized order, quantity verification before custody transfer) are repeatedly enforced throughout the procedure, checks, and completion criteria sections."
+    },
+    "C7_groundedness": {
+      "score": 5,
+      "reason": "No invented systems, technologies, approval thresholds, or extraneous roles are introduced. All procedural details (e.g., 'do not proceed', 'refer to manager') are reasonable operational elaborations directly tied to stated constraints and roles, not fabricated specifics."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is clearly structured with defined sections (roles, inputs/outputs, procedure steps, exceptions, completion criteria), uses consistent terminology matching the scenario, and provides actionable step-by-step guidance without contradictions, making it practical for warehouse staff to follow."
+    }
+  }
+}

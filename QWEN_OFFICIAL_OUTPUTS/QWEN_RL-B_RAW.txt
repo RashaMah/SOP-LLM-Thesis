@@ -1,0 +1,70 @@
+# STANDARD OPERATING PROCEDURE: REVERSE LOGISTICS AND DAMAGED GOODS HANDLING – PRODUCT RECALL
+
+## 1. SOP Title
+Standard Operating Procedure: Reverse Logistics and Damaged Goods Handling – Product Recall
+
+## 2. Purpose
+To establish the procedure for identifying, isolating, and returning all warehouse stock affected by a product recall following the receipt of a formal recall notice due to quality or safety concerns.
+
+## 3. Scope
+This procedure applies to the warehouse and supply functions when a formal recall notice is received for a product currently stored in the warehouse. It covers the identification, blocking, segregation, recording, and controlled dispatch of affected stock.
+
+## 4. Roles and Responsibilities
+*   **Supply Officer:** Responsible for receiving the recall notification concerning a product from the Supply function.
+*   **Warehouse Personnel (Store Manager, Store Supervisor, Storekeeper, Store Helper/Warehouse Staff):** Responsible for identifying affected stock, stopping issuance, segregating stock in a separate area, marking stock appropriately, and updating stock records.
+*   **Security:** Responsible for enforcing security and release controls during the dispatch of recalled goods.
+
+## 5. Required Inputs / Information
+*   Formal recall notice received by the Supply function.
+*   Details of the product subject to the recall (quality or safety concern).
+*   Current warehouse stock records.
+*   Appropriate documentation required for dispatch.
+
+## 6. Expected Outputs
+*   All affected quantities identified and blocked from use.
+*   Affected stock segregated in a separate area and marked appropriately.
+*   Updated stock records reflecting the movement of quantities out of usable stock.
+*   Coordinated dispatch of goods to relevant offices and external parties.
+*   Traceability maintained for all quantities moved out of usable stock.
+
+## 7. Procedure
+
+**Step 1: Receipt of Recall Notification**
+1.1. The Supply Officer receives a formal recall notification concerning a product due to a quality or safety concern.
+1.2. The Supply Officer confirms the recall status.
+
+**Step 2: Identification and Blocking of Stock**
+2.1. Upon confirmation of the recall, Warehouse Personnel must immediately identify all quantities of the affected product located in warehouse stock.
+2.2. Warehouse Personnel must prevent the affected stock from normal release immediately after the recall is confirmed.
+2.3. All quantities moved out of usable stock must remain traceable throughout the process.
+
+**Step 3: Segregation and Marking**
+3.1. Warehouse Personnel must segregate the identified affected stock in a separate area within the warehouse.
+3.2. Warehouse Personnel must mark the segregated stock appropriately to indicate its recall status.
+
+**Step 4: Record Updates**
+4.1. Warehouse Personnel must update stock records to reflect the identification, blocking, and segregation of the affected quantities.
+
+**Step 5: Coordination Prior to Dispatch**
+5.1. Before the goods are dispatched for recall, relevant offices and external parties must be coordinated with.
+5.2. Ensure all necessary coordination is complete prior to initiating the physical movement of goods for return.
+
+**Step 6: Dispatch and Release**
+6.1. Prepare appropriate documentation required for the dispatch of recalled goods.
+6.2. Security must enforce security and release controls during the dispatch process.
+6.3. Release the goods through a controlled reverse-logistics process.
+
+## 8. Exception and Deviation Handling
+*   **Unauthorized Release:** If affected stock is released for normal use after the recall is confirmed, this constitutes a deviation. Immediate action must be taken to recover the stock and re-establish traceability.
+*   **Missing Quantities:** If quantities of the affected product cannot be identified in the warehouse stock, the limitation of current stock visibility applies. Records must still be updated to reflect the search results.
+*   **Undefined Damage During Handling:** This scenario does not define specific procedures for goods damaged during the segregation or dispatch process. Any such occurrence must be documented to maintain traceability, though specific remediation steps are not defined in this SOP.
+*   **Traceability Failure:** If traceability of quantities moved out of usable stock is compromised, the process must be halted until traceability is restored, as per the constraint that all quantities must remain traceable.
+
+## 9. Process Completion Criteria
+The process is considered complete when:
+1.  All affected quantities are identified.
+2.  All affected quantities are blocked from use.
+3.  All affected quantities are segregated and marked appropriately.
+4.  Stock records are updated.
+5.  Relevant offices and external parties are coordinated.
+6.  Goods are released through a controlled reverse-logistics process with appropriate documentation and security controls.

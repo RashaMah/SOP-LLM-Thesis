@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_021",
+  "judge_family": "Anthropic Claude",
+  "judge_model": "anthropic/claude-sonnet-5",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "All source elements are represented: low picking stock detection, reserve stock availability, transfer, record accuracy, correct product/batch, stock-rotation rule, and expected outcome of aligned physical/recorded stock. No operationally relevant scenario detail is omitted."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The procedure follows the logical and scenario-implied order: stock review -> verify reserve availability -> select correct product/batch -> physical transfer -> record update -> verification -> manager oversight, consistent with the scenario's implied dependencies."
+    },
+    "C3_role_clarity": {
+      "score": 5,
+      "reason": "Responsibilities are clearly and consistently assigned to the two roles provided in the scenario (Storekeeper/Warehouse Staff and Warehouse or Store Manager) with no unsupported new roles introduced."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "Inputs (stock quantities, batch info, rotation rules, records) and outputs (sufficient picking stock, updated records, aligned inventory) are clearly listed and directly consistent with the scenario, with an explicit note avoiding assumptions about unspecified systems."
+    },
+    "C5_exception_handling": {
+      "score": 5,
+      "reason": "The SOP identifies exceptions directly tied to the scenario's constraints (unexplained inventory difference, incorrect product/batch, insufficient reserve stock, rotation rule violation) and assigns escalation to the Manager, without inventing unsupported resolution mechanisms."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "All three explicit constraints (correct product/batch, no unexplained inventory difference, respecting stock-rotation rules) are preserved and reinforced throughout the procedure and completion criteria."
+    },
+    "C7_groundedness": {
+      "score": 5,
+      "reason": "The SOP stays fully grounded in the scenario, explicitly avoiding invented systems, tools, or resolution procedures where the scenario is silent, and does not introduce unsupported operational details."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is clearly structured, logically organized, internally consistent, and actionable for warehouse staff and managers, while remaining faithful to the scenario's scope and terminology."
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_002",
+  "judge_family": "OpenAI GPT",
+  "judge_model": "gpt-5.6-sol",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "The SOP includes all source activities and outcomes: receipt of the recall, immediate blocking, identification of all quantities, segregation and marking, record updates, coordination before dispatch, traceability, documentation, and controlled release."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The sequence correctly places immediate blocking after recall confirmation, followed by identification, segregation, record updating, coordination, and documented security-controlled dispatch."
+    },
+    "C3_role_clarity": {
+      "score": 4,
+      "reason": "Responsibilities are clearly and consistently assigned among all listed roles. However, specific assignments such as Store Manager dispatch authorization and Store Supervisor verification are not explicitly established by the source."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "The formal recall notice, stock records, coordination information, and dispatch documentation are clearly identified as inputs, while the required blocked, segregated, recorded, traceable, and controlled-dispatch results are explicit."
+    },
+    "C5_exception_handling": {
+      "score": 5,
+      "reason": "The SOP correctly handles the source decision points by preventing release of blocked stock, withholding dispatch when coordination or documentation is incomplete, and requiring traceability before further processing."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "All explicit constraints are preserved: immediate prevention of normal release after confirmation, continuous traceability of quantities removed from usable stock, and documentation plus security/release controls for dispatch."
+    },
+    "C7_groundedness": {
+      "score": 3,
+      "reason": "The core process is grounded, but the SOP adds several unsupported operational rules, including managerial dispatch authorization, detailed verification and escalation paths, discrepancy investigation before segregation, transaction-halting procedures, and specific responsibility allocations not provided by the source."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is well structured, actionable, internally consistent, and provides clear steps, responsibilities, completion criteria, and decision points without obscuring the required recall process."
+    }
+  }
+}

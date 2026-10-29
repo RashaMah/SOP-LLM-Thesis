@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_021",
+  "judge_family": "Google Gemini",
+  "judge_model": "gemini-3.1-pro-preview",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "The SOP captures all elements of the source scenario, including the trigger (low stock), actions (transfer, update records), roles, constraints (batch, rotation, accuracy), and expected outcomes."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The procedural steps follow a highly logical and operationally sound sequence, starting from identification of low stock, verification, physical movement, and concluding with record updates and verification."
+    },
+    "C3_role_clarity": {
+      "score": 5,
+      "reason": "Responsibilities are clearly and consistently assigned to the exact roles provided in the source scenario, with appropriate division of labor between staff (execution) and management (oversight/escalation)."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "Required inputs and expected outputs are explicitly detailed in dedicated sections and perfectly align with the conditions and expected outcomes of the source scenario."
+    },
+    "C5_exception_handling": {
+      "score": 5,
+      "reason": "The SOP excellently identifies potential exceptions based on the scenario's constraints (e.g., inventory discrepancies, incorrect batches, rotation violations) and provides logical escalation paths without hallucinating specific resolution procedures."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "All explicit constraints from the source scenario (correct product/batch, no unexplained inventory differences, adherence to stock-rotation rules) are strictly embedded into the procedural steps and exception handling."
+    },
+    "C7_groundedness": {
+      "score": 5,
+      "reason": "The SOP remains strictly grounded in the source scenario. It explicitly avoids inventing specific software systems, documents, or alternative sourcing procedures, maintaining high fidelity to the provided text."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is highly structured, internally consistent, and unambiguous. It uses standard SOP formatting (Purpose, Scope, Procedure, Exceptions) making it highly actionable for warehouse personnel."
+    }
+  }
+}

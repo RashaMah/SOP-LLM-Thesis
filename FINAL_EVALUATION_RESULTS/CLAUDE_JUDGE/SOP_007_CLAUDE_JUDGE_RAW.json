@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_007",
+  "judge_family": "Anthropic Claude",
+  "judge_model": "anthropic/claude-sonnet-5",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "All operationally relevant elements from the source—shortage detection, stock verification, communication to planning/supply function, consideration of existing stock and planned releases, transfer coordination or replenishment initiation, and documentation—are represented in the SOP."
+    },
+    "C2_correct_sequence": {
+      "score": 4,
+      "reason": "The overall flow (review → identify → verify → decide realignment/replenishment → notify) is logically consistent with the source, but placing stakeholder notification as the final step (step 7) rather than concurrent with verification, as implied by 'verify the available stock and communicate the shortage,' introduces a minor sequencing deviation."
+    },
+    "C3_role_clarity": {
+      "score": 4,
+      "reason": "Roles map correctly to the source (Inventory/Supply Officer, Warehouse Manager, Storekeeper, planning/logistics function), but the SOP adds specific sub-responsibilities (e.g., Warehouse Manager instructing Storekeeper) not explicitly stated in the source, which is a reasonable but unverified elaboration."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "Required inputs (inventory levels, planned releases, demand, other-location stock data) and outputs (documented shortage, stakeholder notification, initiated action) are clearly stated and consistent with the source scenario."
+    },
+    "C5_exception_handling": {
+      "score": 4,
+      "reason": "The SOP addresses the core exception noted in the source (inability to realign/replenish in time) but introduces an additional exception—'Inaccurate Inventory Records'—not explicitly present in the source, which, while reasonable, extends beyond the given scenario."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "The SOP respects the constraint of verifying stock before deciding and avoids inventing quantities or silently cancelling requirements, aligning with the decision conditions stated in the source."
+    },
+    "C7_groundedness": {
+      "score": 4,
+      "reason": "Most content remains grounded in the source, but the addition of a record-correction exception and specific procedural roles (e.g., Warehouse Manager instructing Storekeeper) are unsupported elaborations not found in the original scenario."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is clearly structured, sequential, and actionable for warehouse staff, providing distinct sections for roles, inputs, outputs, procedure, and exceptions that align well with the source scenario’s intent."
+    }
+  }
+}

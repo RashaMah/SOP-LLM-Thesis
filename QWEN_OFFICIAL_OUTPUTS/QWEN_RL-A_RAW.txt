@@ -1,0 +1,61 @@
+# Standard Operating Procedure: Reverse Logistics and Damaged Goods Handling
+
+## 1. SOP Title
+Reverse Logistics and Damaged Goods Handling
+
+## 2. Purpose
+To remove identified non-conforming goods from usable inventory and prepare them for controlled return.
+
+## 3. Scope
+This procedure applies to goods already held in the warehouse that are identified as non-conforming and must be returned. It covers the identification, isolation, recording, and preparation of such goods for disposition.
+
+## 4. Roles and Responsibilities
+*   **Warehouse Staff / Storekeeper:** Responsible for identifying the affected quantity, removing goods from normal usable stock, placing goods in a clearly separated holding area, and updating relevant stock records.
+*   **Supply Officer / Logistics Function:** Responsible for coordinating the further return or disposition process.
+*   **Warehouse or Store Manager:** Responsible for overseeing the process to ensure compliance with operational constraints and inventory integrity.
+*   **All Personnel:** Must ensure affected goods do not remain available for normal picking and that identity and quantity remain traceable.
+
+## 5. Required Inputs / Information
+*   Notification or identification of a stored batch as unsuitable for normal use.
+*   Documentation of the quality problem causing the non-conformance.
+*   Relevant stock records for updating.
+*   Required supporting documentation for goods leaving the warehouse.
+
+## 6. Expected Outputs
+*   Affected stock isolated in a clearly separated holding area.
+*   Stock records updated to reflect the removal from usable inventory.
+*   Goods prepared for authorized return accompanied by required supporting documentation.
+*   Normal available inventory remains uncontaminated by non-conforming goods.
+
+## 7. Procedure
+
+**Step 1: Identification of Non-Conforming Goods**
+Upon notification that a stored batch is unsuitable for normal use due to a documented quality problem, Warehouse Staff / Storekeeper must identify the specific affected quantity.
+
+**Step 2: Removal from Usable Stock**
+Warehouse Staff / Storekeeper must physically remove the identified non-conforming goods from normal usable stock locations immediately.
+
+**Step 3: Segregation**
+Place the removed goods in a clearly separated holding area designated for non-conforming items. Ensure the goods are not accessible for normal picking operations.
+
+**Step 4: Record Updating**
+Update the relevant stock records to reflect the removal of the affected quantity from usable inventory. Ensure the identity and quantity of the goods remain traceable within the records.
+
+**Step 5: Coordination of Return**
+The Supply Officer / Logistics Function must coordinate the further return or disposition process for the isolated goods.
+
+**Step 6: Preparation for Exit**
+Ensure all required supporting documentation accompanies the goods when they leave the warehouse. Verify that the exit process is authorized and documented before release.
+
+## 8. Exception and Deviation Handling
+*   **Availability for Picking:** If affected goods are found remaining available for normal picking, they must be immediately removed and segregated per Step 2 and Step 3.
+*   **Traceability Loss:** If the identity or quantity of the goods cannot be traced during the process, the movement must be halted until traceability is re-established.
+*   **Unauthorized Exit:** Goods may only leave the warehouse through an authorized and documented process. Any attempt to move goods without authorization or required supporting documentation must be stopped and reported to the Warehouse or Store Manager.
+*   **Documentation Missing:** If required supporting documentation is not available when goods are scheduled to leave, the goods must remain in the holding area until documentation is secured.
+
+## 9. Process Completion Criteria
+The process is considered complete when:
+1.  Affected stock is fully isolated in the separated holding area.
+2.  Stock records are correctly updated.
+3.  Goods are prepared for authorized return with all required supporting documentation attached.
+4.  Normal available inventory is confirmed free of contamination by the non-conforming goods.

@@ -1,0 +1,167 @@
+# 1. SOP Title
+
+**Normal Multi-Item Order Picking**
+
+# 2. Purpose
+
+To ensure that all available products required by an approved multi-item picking instruction are accurately picked from their assigned warehouse locations, checked, and transferred to the designated staging/packing area for the next fulfilment stage.
+
+# 3. Scope
+
+This SOP applies to normal multi-item picking waves assigned to one Storekeeper/Picker or picking team. It covers:
+
+- Review of the approved picking instruction.
+- Picking from one or more identified storage locations.
+- Verification of each picked line.
+- Maintenance of accurate inventory/location records.
+- Transfer of the completed pick to the designated staging/packing area.
+
+# 4. Roles and Responsibilities
+
+## 4.1 Storekeeper/Picker
+
+- Review the approved picking instruction.
+- Pick only the authorized product references and quantities.
+- Pick products from the corresponding assigned storage locations.
+- Check each picked line against the picking instruction.
+- Ensure physical movements are reflected accurately in inventory/location records.
+- Transfer the completed pick to the designated staging/packing area.
+- Report shortages, product discrepancies, location discrepancies, or other deviations to the Warehouse Supervisor or Manager.
+
+## 4.2 Warehouse Supervisor or Manager
+
+- Oversee the picking process.
+- Address reported shortages, discrepancies, or deviations.
+- Provide direction when the approved picking instruction cannot be completed as stated.
+
+# 5. Required Inputs / Information
+
+- An approved picking instruction containing:
+  - Multiple product references.
+  - Required quantity for each product reference.
+  - Corresponding storage location for each product reference.
+- Assignment of the picking task to one Storekeeper/Picker or picking team.
+- Identification of the designated staging/packing area.
+
+# 6. Expected Outputs
+
+- All available requested items picked accurately.
+- Each picked line checked against the approved picking instruction.
+- No unauthorized product references or quantities included.
+- Accurate inventory/location records following physical movement.
+- Completed pick transferred to the designated staging/packing area for the next fulfilment stage.
+- Any shortage or discrepancy reported for resolution.
+
+# 7. Procedure
+
+## 7.1 Review the Picking Instruction
+
+1. Obtain the approved picking instruction assigned to the Storekeeper/Picker or picking team.
+2. Review all listed product references, required quantities, and corresponding storage locations.
+3. Confirm that the instruction covers a multi-item picking wave and may require picking from several storage locations.
+4. Do not pick any product that is not listed on the approved picking instruction.
+
+## 7.2 Proceed to the Assigned Locations
+
+1. Follow the storage locations stated in the approved picking instruction.
+2. At each location, compare the identified location with the location stated for the required product reference.
+3. If the location does not correspond with the instruction, stop processing the affected line and follow the exception procedure.
+
+## 7.3 Pick the Products
+
+For each line on the approved picking instruction:
+
+1. Identify the required product reference at the stated storage location.
+2. Compare the product reference with the reference shown on the picking instruction.
+3. Determine the required quantity.
+4. Pick only the quantity authorized by the picking instruction.
+5. Do not substitute another product reference or pick an additional quantity.
+6. Keep the picked items together as part of the assigned picking task.
+
+## 7.4 Check Each Picked Line
+
+1. Check every picked line against the approved picking instruction.
+2. Verify:
+   - Product reference.
+   - Picked quantity.
+   - Assigned storage location.
+3. Correct any picking error before completing the task, provided the correction remains consistent with the approved instruction.
+4. If the required product or quantity is unavailable, follow the exception procedure.
+
+## 7.5 Maintain Inventory and Location Accuracy
+
+1. Ensure inventory/location records remain accurate after each physical movement.
+2. Confirm that the recorded movement corresponds to:
+   - The product reference physically picked.
+   - The quantity physically picked.
+   - The storage location from which it was picked.
+3. Report any difference between the physical stock or location and the applicable records to the Warehouse Supervisor or Manager.
+
+## 7.6 Complete the Picking Task
+
+1. Review the full picking instruction after all listed lines have been processed.
+2. Confirm that:
+   - Every line has been checked.
+   - All available requested items have been picked.
+   - Only authorized products and quantities have been included.
+   - Any unavailable quantity or discrepancy has been reported.
+   - Inventory/location records remain accurate after the movement.
+
+## 7.7 Transfer the Completed Pick
+
+1. Transfer the completed pick to the designated staging/packing area.
+2. Place the picked items in the area intended for the next order-fulfilment stage.
+3. Ensure the completed pick remains associated with the applicable picking instruction.
+
+# 8. Exception and Deviation Handling
+
+## 8.1 Product Not Available or Insufficient Quantity
+
+1. Do not replace the unavailable product with another product reference.
+2. Pick only the available quantity if it is part of the requested product and does not exceed the authorized quantity.
+3. Report the unavailable or short quantity to the Warehouse Supervisor or Manager.
+4. Ensure the picked quantity and inventory/location records reflect the actual physical movement.
+5. Follow the direction of the Warehouse Supervisor or Manager for the unresolved portion of the instruction.
+
+## 8.2 Product Reference Discrepancy
+
+If the product at the stated location does not match the instructed product reference:
+
+1. Do not pick the non-matching product.
+2. Stop processing the affected line.
+3. Report the discrepancy to the Warehouse Supervisor or Manager.
+4. Do not substitute another product unless the authorized picking information is changed accordingly.
+
+## 8.3 Location Discrepancy
+
+If the product is not found at the stated storage location, or the location information appears incorrect:
+
+1. Do not pick from an unauthorized location based on assumption.
+2. Report the location discrepancy to the Warehouse Supervisor or Manager.
+3. Ensure that any subsequent physical movement remains consistent with authorized picking information and accurate inventory/location records.
+
+## 8.4 Quantity Discrepancy or Overpick
+
+If more than the authorized quantity has been picked:
+
+1. Do not transfer the excess quantity to the staging/packing area as part of the order.
+2. Correct the physical quantity so it matches the picking instruction.
+3. Ensure inventory/location records accurately reflect the final physical movement.
+4. Report any discrepancy that cannot be corrected to the Warehouse Supervisor or Manager.
+
+## 8.5 Inventory or Location Record Discrepancy
+
+1. Compare the physical product, quantity, and location with the applicable records.
+2. Report any inconsistency to the Warehouse Supervisor or Manager.
+3. Do not treat the picking task as fully complete until the physical movement is accurately reflected in the inventory/location records.
+
+# 9. Process Completion Criteria
+
+The order-picking process is complete when:
+
+- Every line on the approved picking instruction has been processed and checked.
+- All available requested products and quantities have been accurately picked.
+- No unauthorized product reference or quantity is included.
+- Any shortage or discrepancy has been reported to the Warehouse Supervisor or Manager.
+- Inventory/location records accurately reflect the physical movement.
+- The completed pick has been transferred to the designated staging/packing area for the next fulfilment stage.

@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_042",
+  "judge_family": "OpenAI GPT",
+  "judge_model": "gpt-5.6-sol",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "The SOP includes all source activities and outcomes: receipt and confirmation of the recall, immediate blocking, identification of all affected quantities, segregation, marking, record updates, traceability, coordination, and controlled dispatch."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The sequence correctly moves from recall receipt and confirmation to immediate release prevention, identification, segregation, record updating, coordination, dispatch preparation, and controlled release."
+    },
+    "C3_role_clarity": {
+      "score": 5,
+      "reason": "Responsibilities are clearly allocated among all source-listed roles, with the Supply Officer receiving and coordinating the recall, warehouse roles handling stock, and Security controlling release."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "The recall notice, affected-product information, stock records, quantity and location information, coordination information, and dispatch documentation are identifiable, and the expected blocked, segregated, recorded, traceable, and dispatched outputs are explicit."
+    },
+    "C5_exception_handling": {
+      "score": 4,
+      "reason": "The SOP correctly prevents dispatch when documentation or controls are incomplete and preserves blocking and traceability during deviations. However, it adds several detailed exception workflows for missing, mismatched, unclear, or newly found stock that are not explicitly supplied by the scenario."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "The SOP preserves all explicit constraints: immediate prevention of normal release after confirmation, traceability of quantities removed from usable stock, pre-dispatch coordination, and documentation plus security/release controls."
+    },
+    "C7_groundedness": {
+      "score": 3,
+      "reason": "The core procedure is grounded in the scenario, but the SOP adds material unsupported rules and decision processes, including discrepancy reconciliation requirements, special handling for uncertain identification, completion restrictions for missing stock, dispatch authorization language, and detailed verification duties."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is clearly structured, internally consistent, and actionable, with defined responsibilities, sequential instructions, dispatch gates, and completion criteria that preserve the source process."
+    }
+  }
+}

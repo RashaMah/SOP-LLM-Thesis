@@ -1,0 +1,42 @@
+## 1. SOP Title
+Order Picking Procedure for Handling Unavailable Items
+
+## 2. Purpose
+To ensure that the order picking operation continues correctly when an item is not physically available at its expected picking location, and to maintain accurate stock records.
+
+## 3. Scope
+This SOP applies to all order picking operations within the warehouse where the picker encounters an item that is not available at its designated picking location.
+
+## 4. Roles and Responsibilities
+- **Picker/Storekeeper**: Responsible for executing the picking instruction, identifying discrepancies between the physical stock and the picking instruction, and reporting these discrepancies.
+- **Storekeeper responsible for stock records**: Responsible for checking and reconciling stock records upon notification of discrepancies.
+- **Warehouse Supervisor/Manager**: Oversees the picking operation and ensures that discrepancies are addressed appropriately.
+
+## 5. Required Inputs / Information
+- Authorized picking instruction
+- Current stock records (for reference during discrepancy reporting and reconciliation)
+
+## 6. Expected Outputs
+- Accurate picking of available items as per the picking instruction
+- Record of discrepancies between the physical stock and the picking instruction
+- Notification to the Storekeeper responsible for stock records regarding discrepancies
+
+## 7. Procedure
+1. The Picker/Storekeeper receives the authorized picking instruction and begins the picking operation.
+2. For each item listed on the picking instruction, the Picker/Storekeeper checks the designated picking location.
+3. If an item is not found at its designated location or the required quantity is not available:
+   - Do not pick or confirm the unavailable quantity.
+   - Record the discrepancy, including the item details and the quantity missing.
+   - Continue picking the other items listed on the picking instruction if they are available.
+4. Upon completing the picking operation, the Picker/Storekeeper reports the discrepancy to the Storekeeper responsible for stock records.
+5. The Storekeeper responsible for stock records checks and reconciles the stock records based on the discrepancy report.
+
+## 8. Exception and Deviation Handling
+- If an item is not available at its designated picking location, the Picker/Storekeeper must not substitute it with another item or quantity unless permitted by the warehouse stock rules.
+- The discrepancy must be recorded and communicated to the Storekeeper responsible for stock records for further action, which may include stock reconciliation or back-order handling.
+
+## 9. Process Completion Criteria
+The order picking process is considered complete when:
+- All available items have been picked according to the picking instruction.
+- Discrepancies have been recorded and reported to the Storekeeper responsible for stock records.
+- The picking operation has been executed without falsely confirming unavailable quantities as picked.

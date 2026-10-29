@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_011",
+  "judge_family": "OpenAI GPT",
+  "judge_model": "gpt-5.6-sol",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "The SOP includes all source elements: authorized-instruction compliance, physical shortage identification, continued picking of available items, prohibition on false confirmation and unauthorized alternatives, discrepancy recording and communication, reconciliation, and back-order escalation."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The procedure follows a coherent sequence of checking the instructed location, identifying the shortage, handling only authorized available stock, continuing other items, recording and escalating the discrepancy, and retaining the shortage as unconfirmed."
+    },
+    "C3_role_clarity": {
+      "score": 5,
+      "reason": "Responsibilities are clearly allocated among the Picker/Storekeeper, the Storekeeper responsible for stock records, and the Warehouse Supervisor/Manager, consistent with the roles and escalation needs in the source."
+    },
+    "C4_input_output_clarity": {
+      "score": 4,
+      "reason": "Required picking information and expected results are clearly identified. The statement that stock records are checked and reconciled as an output is slightly stronger than the source, which primarily requires escalation for reconciliation or back-order handling."
+    },
+    "C5_exception_handling": {
+      "score": 5,
+      "reason": "The SOP correctly handles full shortages, partial availability, alternative batches or quantities, record-versus-physical discrepancies, and uncertainty without permitting false picking confirmation or unauthorized substitution."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "All explicit constraints are preserved: follow the authorized instruction, select no alternative batch or quantity unless stock rules permit it, record the discrepancy, and never confirm unavailable stock as picked."
+    },
+    "C7_groundedness": {
+      "score": 5,
+      "reason": "The SOP remains grounded in the scenario and does not invent a specific system, threshold, document, or approval process. Added record fields and organizational sections operationalize information already present without materially changing the process."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is well structured, actionable, internally consistent, and explicit about what the picker must do with available items, missing quantities, discrepancy records, and escalation."
+    }
+  }
+}

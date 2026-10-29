@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_033",
+  "judge_family": "Google Gemini",
+  "judge_model": "gemini-3.1-pro-preview",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "The SOP comprehensively covers all activities, roles, constraints, and expected outcomes explicitly mentioned in the source scenario, including staging, packing, documentation, loading, and verification."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The SOP follows a logical and operationally correct sequence, moving systematically from preparation and staging to packing, loading, verification, and finally release."
+    },
+    "C3_role_clarity": {
+      "score": 5,
+      "reason": "Responsibilities are clearly and consistently assigned to the exact roles provided in the source scenario without introducing any unsupported new roles."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "Required inputs and expected outputs are explicitly listed in dedicated sections and perfectly align with the source scenario's requirements and expected outcomes."
+    },
+    "C5_exception_handling": {
+      "score": 5,
+      "reason": "The SOP effectively anticipates and handles deviations related to the scenario's constraints (mixed orders, quantity mismatches, capacity limits) without inventing unsupported resolution procedures."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "All explicit constraints from the source scenario, such as preventing order mixing, respecting capacity limits, and verifying quantities before release, are strictly enforced throughout the procedure."
+    },
+    "C7_groundedness": {
+      "score": 5,
+      "reason": "The SOP remains strictly grounded in the source scenario. It explicitly avoids inventing unsupported details, such as specific packing materials or approval authorities for quantity changes."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is highly structured, clear, and actionable. It uses logical headings, bullet points, and numbered steps that make it easy for warehouse personnel to follow."
+    }
+  }
+}

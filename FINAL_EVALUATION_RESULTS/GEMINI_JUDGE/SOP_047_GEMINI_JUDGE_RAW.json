@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_047",
+  "judge_family": "Google Gemini",
+  "judge_model": "gemini-3.1-pro-preview",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "The SOP includes all operationally relevant information, roles, conditions, and expected outcomes explicitly contained in the source scenario."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The procedural activities follow a logical and operationally correct sequence, moving from identification and authorization to preparation, transport, receipt, and record reconciliation."
+    },
+    "C3_role_clarity": {
+      "score": 5,
+      "reason": "Responsibilities are clearly and consistently assigned to the exact roles provided in the source scenario without introducing unsupported roles."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "Required inputs and expected outputs are clearly defined in dedicated sections and perfectly align with the source scenario's objectives and constraints."
+    },
+    "C5_exception_handling": {
+      "score": 5,
+      "reason": "The SOP effectively identifies and handles exceptions based on the source scenario's constraints, such as preventing unmanaged shortages, handling unauthorized quantities, and addressing losses of traceability."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "All explicit constraints from the source scenario, including maintaining traceability, requiring authorized decisions, and preventing unmanaged source shortages, are strictly preserved and enforced."
+    },
+    "C7_groundedness": {
+      "score": 5,
+      "reason": "The SOP remains firmly grounded in the source scenario. It translates the provided requirements into actionable steps without inventing unsupported systems, documents, or material operational rules."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is highly structured, clear, and actionable. It uses logical headings, bullet points, and numbered steps that make it highly usable for logistics personnel while remaining faithful to the source text."
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_042",
+  "judge_family": "Google Gemini",
+  "judge_model": "gemini-3.1-pro-preview",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "The SOP includes all operationally relevant information from the source scenario, covering all required activities, roles, conditions, and expected outcomes such as identifying, segregating, marking, updating records, and coordinating dispatch."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The procedural steps follow a highly logical and operationally correct sequence, moving from the receipt of the recall and immediate blocking of stock to identification, segregation, coordination, and final controlled dispatch."
+    },
+    "C3_role_clarity": {
+      "score": 5,
+      "reason": "Responsibilities are clearly and consistently assigned to the exact roles provided in the source scenario (Supply Officer, Store Manager, Store Supervisor, Storekeeper, Store Helper, Security) without introducing any unsupported roles."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "Required inputs (e.g., recall notice, stock records) and expected outputs (e.g., segregated stock, updated records, controlled dispatch) are clearly listed in dedicated sections and perfectly align with the source scenario."
+    },
+    "C5_exception_handling": {
+      "score": 5,
+      "reason": "The SOP proactively identifies and handles logical operational exceptions (e.g., stock discrepancies, unclear identification, incomplete documentation) in a dedicated section while remaining faithful to the source constraints."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "All explicit constraints from the source scenario, such as the immediate blocking of stock upon confirmation, maintaining traceability of moved quantities, and requiring security controls for dispatch, are strictly preserved and enforced throughout the procedure."
+    },
+    "C7_groundedness": {
+      "score": 5,
+      "reason": "The SOP elaborates on the operational steps logically without inventing unsupported software systems, specific document names, or arbitrary time thresholds, remaining fully grounded in the source text."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is highly structured, internally consistent, and written in clear, actionable language with standard operating procedure formatting, making it highly usable for warehouse personnel."
+    }
+  }
+}

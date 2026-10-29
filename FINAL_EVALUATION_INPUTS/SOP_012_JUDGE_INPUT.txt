@@ -1,0 +1,361 @@
+FINAL SOP EVALUATION JUDGE PROMPT — VERSION 1.0
+
+You are an evaluator of generated Standard Operating Procedures (SOPs)
+for logistics and warehouse processes.
+
+Your task is to evaluate ONE candidate SOP strictly against the supplied
+SOURCE SCENARIO using the supplied eight-criterion evaluation rubric.
+
+============================================================
+EVALUATION PRINCIPLES
+============================================================
+
+1. Treat the SOURCE SCENARIO as the sole factual reference.
+
+2. Do not use external operational knowledge to impose requirements that
+   are absent from the source scenario.
+
+3. Do not reward the candidate SOP for adding plausible but unsupported
+   operational details.
+
+4. Do not penalize the candidate SOP for omitting information that was
+   never provided in the source scenario.
+
+5. Evaluate only the candidate SOP provided.
+
+6. Do not infer, identify, or speculate about which language model
+   generated the candidate SOP.
+
+7. Score each criterion independently.
+
+8. Base each score on concrete comparison between the SOURCE SCENARIO and
+   the CANDIDATE SOP.
+
+9. Do not reward verbosity, document length, sophisticated formatting,
+   or writing style unless these materially improve the criterion being
+   evaluated.
+
+10. Reasonable paraphrasing is acceptable when the operational meaning
+    of the source scenario is preserved.
+
+11. Do not compare the candidate SOP with other candidate SOPs.
+
+12. Do not calculate or provide an overall score or model ranking.
+
+
+============================================================
+C1 — COMPLETENESS
+============================================================
+
+Evaluate whether all operationally relevant information explicitly
+contained in the source scenario is represented in the SOP, including
+required activities, information, roles, conditions, and expected outcomes.
+
+Do not penalize information that was not provided in the source scenario.
+
+
+============================================================
+C2 — CORRECT SEQUENCE
+============================================================
+
+Evaluate whether procedural activities follow the operational dependencies
+and sequence specified or implied by the source scenario.
+
+Penalize contradictory, illogical, or operationally incorrect ordering.
+
+
+============================================================
+C3 — ROLE CLARITY
+============================================================
+
+Evaluate whether responsibilities are clearly and consistently assigned
+to roles provided in the source scenario.
+
+Penalize ambiguous responsibility, incorrect role assignment, or
+unsupported new roles when these materially affect the procedure.
+
+
+============================================================
+C4 — INPUT / OUTPUT CLARITY
+============================================================
+
+Evaluate whether required inputs and information, as well as expected
+outputs and results, are clearly identifiable and consistent with the
+source scenario.
+
+
+============================================================
+C5 — EXCEPTION HANDLING
+============================================================
+
+Evaluate whether exceptions, deviations, abnormal conditions, and
+decision points contained in the source scenario are correctly identified
+and handled.
+
+Do not penalize the SOP merely because the source scenario itself contains
+few exceptions.
+
+
+============================================================
+C6 — CONSTRAINT ADHERENCE
+============================================================
+
+Evaluate whether explicit constraints and decision conditions contained
+in the source scenario are preserved and respected throughout the SOP.
+
+
+============================================================
+C7 — GROUNDEDNESS / NO HALLUCINATION
+============================================================
+
+Evaluate whether operational claims in the SOP remain grounded in the
+source scenario.
+
+Penalize invented systems, roles, requirements, thresholds, documents,
+technologies, approvals, rules, or other material operational details
+that are unsupported by the source scenario.
+
+Do not penalize harmless paraphrasing, organizational formatting, or
+wording changes that preserve the original operational meaning.
+
+
+============================================================
+C8 — USABILITY
+============================================================
+
+Evaluate whether the SOP is clear, structured, internally consistent,
+unambiguous, and actionable for the intended warehouse or logistics user,
+while remaining faithful to the source scenario.
+
+
+============================================================
+SCORING SCALE
+============================================================
+
+5 — FULLY SATISFIES
+The SOP fully satisfies the criterion. No substantive deficiency is
+identifiable.
+
+4 — GOOD
+The SOP satisfies the criterion with only a minor omission, ambiguity,
+or weakness that does not materially affect the procedure.
+
+3 — ADEQUATE
+The SOP partially satisfies the criterion. One meaningful deficiency or
+several minor deficiencies are present, but the SOP remains substantially
+correct and usable on this dimension.
+
+2 — POOR
+Major deficiencies are present. Important information, logic, or
+requirements are missing, unclear, or incorrect and materially affect
+this dimension.
+
+1 — VERY POOR
+The SOP fundamentally fails the criterion, substantially contradicts the
+source scenario, or omits or incorrectly handles most essential elements
+relevant to the criterion.
+
+
+============================================================
+SCORING PROCEDURE
+============================================================
+
+For EACH of the eight criteria:
+
+1. Compare the candidate SOP directly with the source scenario.
+2. Identify relevant evidence.
+3. Identify substantive omissions, contradictions, unsupported additions,
+   or ambiguities relevant to that criterion.
+4. Assign exactly one INTEGER score from 1 to 5.
+5. Provide a concise justification explaining the score.
+
+Evaluate all eight criteria even if deficiencies overlap.
+
+Do not calculate the total score. The experimental evaluation script will
+calculate totals after the individual criterion scores have been recorded.
+
+
+============================================================
+REQUIRED OUTPUT FORMAT
+============================================================
+
+Return ONLY valid JSON.
+
+Do not include Markdown code fences.
+Do not include introductory text.
+Do not include concluding text.
+Do not include an overall score.
+
+Use exactly the following structure:
+
+{
+  "C1_completeness": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  },
+  "C2_correct_sequence": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  },
+  "C3_role_clarity": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  },
+  "C4_input_output_clarity": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  },
+  "C5_exception_handling": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  },
+  "C6_constraint_adherence": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  },
+  "C7_groundedness": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  },
+  "C8_usability": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  }
+}
+
+
+============================================================
+MATERIAL TO EVALUATE
+============================================================
+
+SOURCE SCENARIO:
+
+Process: Packing and Dispatch Preparation
+
+Scenario:
+A correctly picked order is ready for packing and shipment.
+
+Objective:
+Pack, document, stage and release the prepared goods accurately for transport.
+
+Operational information:
+A completed picking order has been moved to the staging area. The items must be packed appropriately, associated with the correct order and prepared for dispatch. A packing list and required transport/release documentation must be prepared. Before release, the shipment must be checked against the dispatch documentation. Stock records must reflect the released goods.
+
+Roles involved:
+Warehouse Staff/Storekeeper, Warehouse or Store Manager, loading/checking personnel, transport representative.
+
+Constraints / decision conditions:
+Orders in the staging area must remain clearly separated. Packed goods must correspond to the authorized order. The outgoing quantity must be verified before custody is transferred to the carrier or recipient.
+
+Expected outcome:
+The correct shipment is packed, documented, verified and handed over for transport with accurate stock records.
+
+
+CANDIDATE SOP:
+
+# Standard Operating Procedure: Packing and Dispatch Preparation
+
+## 1. SOP Title
+Packing and Dispatch Preparation of Picked Orders
+
+## 2. Purpose
+This SOP defines the process for packing, documenting, staging, verifying, and releasing a correctly picked order for transport. It ensures that the goods dispatched correspond exactly to the authorized order, that appropriate documentation accompanies the shipment, and that stock records accurately reflect the released goods.
+
+## 3. Scope
+This procedure applies to all orders that have completed the picking process and have been moved to the staging area for packing and onward dispatch. It covers activities from receipt of the picked order in the staging area through to final handover of custody to the carrier or recipient. It does not cover the picking process itself, which is assumed to be completed and correct prior to the start of this SOP.
+
+## 4. Roles and Responsibilities
+
+**Warehouse Staff/Storekeeper**
+- Receive the completed picking order in the staging area.
+- Pack the items appropriately.
+- Associate packed goods with the correct order.
+- Prepare the packing list and required transport/release documentation.
+- Maintain clear separation between different orders in the staging area.
+- Update stock records to reflect released goods.
+
+**Warehouse or Store Manager**
+- Oversee the packing and dispatch preparation process.
+- Ensure that packed goods correspond to the authorized order.
+- Provide oversight/approval where discrepancies or exceptions arise.
+
+**Loading/Checking Personnel**
+- Check the shipment against the dispatch documentation prior to release.
+- Verify the outgoing quantity before custody is transferred.
+
+**Transport Representative**
+- Receive custody of the verified shipment.
+- Accept the goods for transport based on the verified documentation.
+
+*Note: The scenario does not specify further sub-tasks, escalation authorities, or additional personnel beyond those listed above. No additional roles are assumed.*
+
+## 5. Required Inputs / Information
+- A completed and correctly picked order located in the staging area.
+- Order details necessary to confirm correct association of packed goods with the authorized order.
+- Information necessary to prepare the packing list and transport/release documentation.
+
+*The scenario does not specify the exact data fields, systems, or formats required for the packing list or transport documentation. These details should be determined based on existing organizational documentation practices, as none are specified here.*
+
+## 6. Expected Outputs
+- Correctly packed goods matching the authorized order.
+- A completed packing list.
+- Completed transport/release documentation.
+- A verified shipment, checked against dispatch documentation.
+- Updated stock records reflecting the goods released for dispatch.
+- Goods handed over to the transport representative with custody transferred.
+
+## 7. Procedure
+
+**Step 1: Receive Picked Order in Staging Area**
+The Warehouse Staff/Storekeeper confirms that the completed picking order has been moved to the staging area and is ready for packing.
+
+**Step 2: Maintain Order Separation**
+The Warehouse Staff/Storekeeper ensures that the order remains clearly separated from other orders present in the staging area, in accordance with the constraint that staged orders must not be mixed.
+
+**Step 3: Pack the Goods**
+The Warehouse Staff/Storekeeper packs the items appropriately, ensuring the packed goods correspond to the correct order and are suitable for transport.
+
+**Step 4: Associate Packed Goods with the Correct Order**
+The Warehouse Staff/Storekeeper verifies and confirms that the packed goods are correctly associated with the authorized order, in line with the constraint that packed goods must match the authorized order.
+
+**Step 5: Prepare Packing List and Dispatch Documentation**
+The Warehouse Staff/Storekeeper prepares:
+- The packing list, and
+- Any required transport/release documentation.
+
+**Step 6: Manager Oversight**
+The Warehouse or Store Manager reviews the packing and documentation process to confirm that the packed goods correspond to the authorized order, as required by the process constraints.
+
+**Step 7: Verify Shipment Against Dispatch Documentation**
+Prior to release, the loading/checking personnel check the shipment against the dispatch documentation to confirm accuracy.
+
+**Step 8: Verify Outgoing Quantity**
+The loading/checking personnel verify the outgoing quantity of goods before custody is transferred, as required by the constraint that quantity must be verified before release.
+
+**Step 9: Release and Transfer Custody**
+Once verification is complete and confirmed accurate, custody of the shipment is transferred to the transport representative for onward transport.
+
+**Step 10: Update Stock Records**
+The Warehouse Staff/Storekeeper updates stock records to reflect the goods that have been released, ensuring stock records accurately represent the dispatched quantity.
+
+## 8. Exception and Deviation Handling
+
+**Discrepancy Between Packed Goods and Authorized Order**
+If, at any point, the packed goods do not correspond to the authorized order (Step 4 or Step 6), the discrepancy must be identified and resolved before proceeding further. The Warehouse or Store Manager should be involved in confirming correction of the discrepancy. The scenario does not specify a formal escalation procedure beyond manager oversight; therefore, resolution should occur under the Warehouse or Store Manager's supervision before dispatch proceeds.
+
+**Discrepancy Found During Shipment Verification**
+If, during Step 7 or Step 8, the loading/checking personnel identify a mismatch between the shipment and the dispatch documentation, or an incorrect outgoing quantity, the shipment must not be released. The discrepancy must be addressed and corrected prior to any transfer of custody to the transport representative.
+
+**Mixed or Unclear Staging Separation**
+If orders in the staging area are found to be insufficiently separated or unclear, this must be corrected before packing proceeds, to prevent incorrect association of goods with the wrong order.
+
+*The scenario does not specify particular corrective actions, responsible escalation contacts, or documentation requirements for exception handling beyond what is stated above. Any additional exception-handling steps must be defined according to organizational policy not covered in this scenario.*
+
+## 9. Process Completion Criteria
+The process is considered complete when:
+- The correct goods have been packed and matched to the authorized order.
+- The packing list and required transport/release documentation have been prepared.
+- The shipment has been verified against the dispatch documentation.
+- The outgoing quantity has been confirmed as accurate.
+- Custody of the shipment has been successfully transferred to the transport representative.
+- Stock records have been updated to accurately reflect the released goods.

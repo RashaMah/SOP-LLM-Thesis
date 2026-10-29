@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_036",
+  "judge_family": "Google Gemini",
+  "judge_model": "gemini-3.1-pro-preview",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "The SOP captures all required activities, roles, conditions, and expected outcomes explicitly mentioned in the source scenario without omitting any operational details."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The procedural steps follow a highly logical and operationally correct sequence, moving from authorization and reservation to picking, staging, releasing, and finally recording and receiving."
+    },
+    "C3_role_clarity": {
+      "score": 5,
+      "reason": "Responsibilities are clearly and logically assigned to the exact roles provided in the source scenario, with no unsupported roles introduced."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "Required inputs (e.g., approved transfer request) and expected outputs (e.g., released goods, updated records, complete documentation) are explicitly defined and perfectly align with the source scenario."
+    },
+    "C5_exception_handling": {
+      "score": 5,
+      "reason": "The SOP effectively anticipates and handles logical exceptions directly tied to the source scenario's constraints, such as unapproved requests, lost transfer associations during staging, and documentation mismatches."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "All explicit constraints from the source scenario, including releasing only against approved requests and maintaining clear association during staging and loading, are strictly enforced throughout the SOP."
+    },
+    "C7_groundedness": {
+      "score": 5,
+      "reason": "The SOP remains entirely grounded in the source scenario. It expands on the provided steps logically without inventing unsupported systems, specific document names, or arbitrary thresholds."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is highly structured, clear, and actionable. It uses a professional format with distinct sections for procedures, roles, and exceptions, making it highly usable for warehouse personnel."
+    }
+  }
+}

@@ -1,0 +1,56 @@
+1. SOP Title
+Packing and Dispatch Preparation SOP
+
+2. Purpose
+To ensure that picked orders are accurately packed, documented, and released for transport, maintaining the integrity of the shipment and updating stock records accordingly.
+
+3. Scope
+This SOP applies to all warehouse staff involved in the packing and dispatch preparation of picked orders, including Warehouse Staff/Storekeeper, Warehouse or Store Manager, loading/checking personnel, and interactions with transport representatives.
+
+4. Roles and Responsibilities
+- Warehouse Staff/Storekeeper: Responsible for packing items, preparing packing lists, and ensuring that goods are correctly associated with their respective orders.
+- Warehouse or Store Manager: Oversees the packing and dispatch process, ensuring compliance with this SOP.
+- Loading/Checking Personnel: Verifies the packed goods against the dispatch documentation before releasing them to the transport representative.
+- Transport Representative: Receives the prepared shipment and takes custody of it for transport.
+
+5. Required Inputs / Information
+- Completed picking order in the staging area.
+- Order details (including items and quantities).
+- Dispatch documentation requirements.
+
+6. Expected Outputs
+- Packed goods corresponding to the authorized order.
+- Prepared packing list.
+- Required transport/release documentation.
+- Updated stock records reflecting the released goods.
+
+7. Procedure
+1. **Packing**:
+   - Warehouse Staff/Storekeeper retrieves the completed picking order from the staging area.
+   - Ensures that items are packed according to the order details, maintaining order integrity.
+   - Prepares a packing list detailing the items packed.
+
+2. **Documentation**:
+   - Warehouse Staff/Storekeeper prepares the required transport/release documentation.
+
+3. **Verification**:
+   - Loading/Checking Personnel checks the packed goods against the packing list and dispatch documentation to ensure accuracy and completeness.
+
+4. **Release for Transport**:
+   - Upon successful verification, the shipment is released to the transport representative.
+   - The transport representative takes custody of the shipment.
+
+5. **Stock Records Update**:
+   - Warehouse Staff/Storekeeper or designated personnel update stock records to reflect the goods released.
+
+8. Exception and Deviation Handling
+- If discrepancies are found during verification (e.g., incorrect items or quantities), the shipment is not released. The discrepancy is investigated and rectified by the Warehouse Staff/Storekeeper under the supervision of the Warehouse or Store Manager before proceeding.
+- If the transport representative refuses to take custody due to discrepancies or damage, the issue is resolved by the Warehouse or Store Manager in coordination with the transport representative.
+
+9. Process Completion Criteria
+The packing and dispatch preparation process is considered complete when:
+- The goods are packed and correspond to the authorized order.
+- The packing list and required transport/release documentation are prepared and accurate.
+- The shipment is verified against the dispatch documentation.
+- The shipment is released to the transport representative.
+- Stock records are updated to reflect the released goods.

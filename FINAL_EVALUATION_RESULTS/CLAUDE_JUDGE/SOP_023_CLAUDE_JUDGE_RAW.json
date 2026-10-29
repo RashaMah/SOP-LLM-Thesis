@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_023",
+  "judge_family": "Anthropic Claude",
+  "judge_model": "anthropic/claude-sonnet-5",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 4,
+      "reason": "The SOP captures nearly all operationally relevant elements from the scenario (documentation comparison, damage/discrepancy identification, segregation, escalation, inventory update). However, the Warehouse Manager/Store Manager role is only 'listed as involved' with no concrete responsibility described, leaving a minor completeness gap regarding that role's function."
+    },
+    "C2_correct_sequence": {
+      "score": 4,
+      "reason": "The main procedure follows a logical flow: arrival, inspection, comparison, issue identification, acceptance, inventory update, communication. However, segregation of damaged/discrepant goods (described only in Section 8) logically should occur before or during inventory recording (Step 7) but is not integrated into the main procedural sequence, creating a minor sequencing ambiguity between the main procedure and the exception section."
+    },
+    "C3_role_clarity": {
+      "score": 3,
+      "reason": "Storekeeper/Warehouse Staff and Supply/Logistics function have clear, consistent responsibilities matching the scenario. Inspection Personnel's role is reasonably tied to inspection. However, the Warehouse Manager/Store Manager is only noted as 'listed as involved role' without any defined responsibility, leaving this role ambiguous relative to the source, which also does not specify duties but is still listed as a role that should presumably have some function."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "Required inputs (delivery, shipping/order/packing documentation, physical items) and expected outputs (accepted goods received, discrepancies documented, escalation, accurate inventory) are explicitly and clearly listed, fully consistent with the source scenario."
+    },
+    "C5_exception_handling": {
+      "score": 5,
+      "reason": "The dedicated exception section explicitly covers identification of abnormal conditions, segregation, stock status control, reporting, and escalation to Supply/Logistics, directly mirroring all deviation-handling requirements in the source scenario."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "All explicit constraints from the source (physical-to-documentation comparison, mandatory reporting of mismatches, segregation of damaged/questionable goods, inventory reflecting only accepted status) are explicitly preserved and operationalized in the SOP."
+    },
+    "C7_groundedness": {
+      "score": 5,
+      "reason": "No unsupported systems, thresholds, approvals, or roles are introduced; all procedural claims trace directly back to the source scenario's operational information."
+    },
+    "C8_usability": {
+      "score": 4,
+      "reason": "The SOP is well-structured with clear headings, inputs/outputs, and completion criteria, making it generally actionable. Minor usability weaknesses include redundancy between the main procedure's communication step and the exception section's reporting/escalation steps, and the vague treatment of the Warehouse Manager role, which could cause slight confusion for a user following the SOP."
+    }
+  }
+}

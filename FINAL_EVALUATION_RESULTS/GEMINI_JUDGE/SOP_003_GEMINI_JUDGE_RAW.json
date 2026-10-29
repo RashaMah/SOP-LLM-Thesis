@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_003",
+  "judge_family": "Google Gemini",
+  "judge_model": "gemini-3.1-pro-preview",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "The SOP includes all operationally relevant information from the source scenario, covering all required activities, roles, conditions, and expected outcomes."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The procedural steps follow a logical and operationally correct sequence, starting from arrival and document verification, through unloading, inspection, acceptance, storage, and finally updating inventory records."
+    },
+    "C3_role_clarity": {
+      "score": 5,
+      "reason": "Responsibilities are clearly and consistently assigned to the exact roles provided in the source scenario (Warehouse Manager/Store Manager, Storekeeper/Warehouse Staff, and Receiving or Inspection Personnel)."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "Required inputs (PO reference, shipping documentation, packing list) and expected outputs (receiving record, updated stock records, stored goods) are explicitly listed and perfectly align with the source scenario."
+    },
+    "C5_exception_handling": {
+      "score": 5,
+      "reason": "The SOP correctly identifies and handles exceptions based on the source scenario's constraints, such as missing documentation or discrepancies in identity and quantity, providing clear instructions on how to proceed."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "The SOP strictly adheres to all constraints, explicitly stating that goods cannot be accepted without valid documentation, that identity and quantity must match, and that goods are not entered into stock before checks are completed."
+    },
+    "C7_groundedness": {
+      "score": 5,
+      "reason": "The SOP remains fully grounded in the source scenario. It does not invent unsupported systems, technologies, or material operational details, utilizing only harmless and logical organizational formatting."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is highly usable, featuring a clear, structured, and internally consistent format with standard headings that make it unambiguous and actionable for warehouse personnel."
+    }
+  }
+}

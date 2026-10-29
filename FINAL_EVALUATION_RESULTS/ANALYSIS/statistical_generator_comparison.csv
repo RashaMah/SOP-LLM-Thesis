@@ -1,0 +1,8 @@
+analysis,comparison,statistic,df,raw_p,holm_p,effect_size,effect_size_type,significant_0.05
+Friedman,QWEN_LLAMA_GPT_CLAUDE,21.54054054,3,8.12857e-05,,0.59834835,Kendalls_W,True
+Wilcoxon_signed_rank,QWEN_vs_LLAMA,8.0,,0.0165194898,0.0660779593,0.79487179,matched_rank_biserial,False
+Wilcoxon_signed_rank,QWEN_vs_GPT,4.5,,0.0622809451,0.1868428354,-0.75,matched_rank_biserial,False
+Wilcoxon_signed_rank,QWEN_vs_CLAUDE,31.5,,0.9277136145,0.9277136145,-0.04545455,matched_rank_biserial,False
+Wilcoxon_signed_rank,LLAMA_vs_GPT,0,,0.0023833982,0.0143003894,-1.0,matched_rank_biserial,True
+Wilcoxon_signed_rank,LLAMA_vs_CLAUDE,1.5,,0.0035069417,0.0175347085,-0.96153846,matched_rank_biserial,True
+Wilcoxon_signed_rank,GPT_vs_CLAUDE,7.5,,0.0762101934,0.1868428354,0.66666667,matched_rank_biserial,False

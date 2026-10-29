@@ -1,0 +1,88 @@
+# Standard Operating Procedure (SOP)
+
+## 1. SOP Title
+Reverse Logistics and Handling of Non-Conforming (Damaged) Goods Held in Warehouse
+
+## 2. Purpose
+This SOP establishes the process for identifying, isolating, recording, and preparing for controlled return any goods already held in the warehouse that are found to be non-conforming due to a documented quality problem. It ensures such goods are removed from usable inventory in a traceable and authorized manner, preventing contamination of normal available stock.
+
+## 3. Scope
+This procedure applies to all stored batches of goods within the warehouse that are identified as non-conforming after receipt and stocking, where the non-conformance is supported by documented evidence of a quality problem. It covers the process from identification of the affected quantity through to the point the goods leave the warehouse under an authorized return/disposition process. This SOP does not cover the inspection/quality determination process itself, nor the specific disposition decision (e.g., destruction, supplier return, rework), as these are not detailed in the source information.
+
+## 4. Roles and Responsibilities
+
+**Storekeeper / Warehouse Staff**
+- Identify the affected quantity within the stored batch.
+- Physically remove the non-conforming goods from normal usable stock.
+- Move the goods to a clearly separated holding area.
+- Update relevant stock records to reflect the removal from usable inventory.
+- Attach or prepare required supporting documentation for the goods.
+
+**Warehouse or Store Manager**
+- Oversee and verify that the identification, isolation, and record update have been carried out correctly.
+- Confirm that the affected goods are not accessible for normal picking.
+- Ensure traceability of identity and quantity is maintained throughout the holding period.
+
+**Supply Officer / Logistics Function**
+- Coordinate the further return or disposition process for the isolated goods.
+- Ensure that any movement of the goods out of the warehouse is authorized and documented.
+- Liaise with relevant parties as required to finalize the return/disposition.
+
+*Note: The scenario does not specify further internal roles (e.g., Quality Assurance) responsible for determining non-conformance; this SOP begins from the point the quality problem has already been documented.*
+
+## 5. Required Inputs / Information
+- Documented evidence of the quality problem affecting the batch.
+- Identification of the affected batch (product identity).
+- Determination of the affected quantity within the batch.
+- Current stock records for the batch/item.
+- Supporting documentation required to accompany goods leaving the warehouse (specific document type not defined in source information).
+
+## 6. Expected Outputs
+- Non-conforming goods physically isolated in a clearly separated holding area.
+- Stock records updated to reflect removal of the affected quantity from usable/available inventory.
+- Affected goods remain traceable by identity and quantity while in the holding area.
+- Goods prepared with required supporting documentation for authorized removal from the warehouse.
+- Coordination initiated with the Supply Officer/Logistics function for return or disposition.
+
+## 7. Procedure
+
+**Step 1 – Identification of Non-Conforming Stock**
+1.1 Warehouse staff/Storekeeper identifies the stored batch affected by the documented quality problem.
+1.2 The affected quantity within the batch is determined and confirmed.
+
+**Step 2 – Removal from Usable Stock**
+2.1 The Storekeeper/warehouse staff physically removes the identified affected quantity from the normal usable/available stock location.
+2.2 The goods must not remain available for normal picking at any point after identification.
+
+**Step 3 – Isolation in Holding Area**
+3.1 The removed goods are placed in a clearly separated holding area, distinct from normal usable inventory.
+3.2 The holding area placement must preserve the identity and quantity of the goods for ongoing traceability.
+
+**Step 4 – Stock Record Update**
+4.1 The Storekeeper updates the relevant stock records to reflect that the affected quantity has been removed from usable inventory and is held separately.
+4.2 The Warehouse or Store Manager verifies that the stock record update accurately reflects the physical isolation performed in Step 3.
+
+**Step 5 – Coordination for Return or Disposition**
+5.1 The Warehouse or Store Manager notifies the Supply Officer/Logistics function of the isolated non-conforming goods.
+5.2 The Supply Officer/Logistics function coordinates the further return or disposition process for the goods.
+
+**Step 6 – Preparation for Authorized Departure**
+6.1 Required supporting documentation is prepared and attached to accompany the goods when they leave the warehouse.
+6.2 The goods may only leave the warehouse through the authorized and documented process coordinated by the Supply Officer/Logistics function.
+6.3 Warehouse staff confirm that the departing goods match the documentation and the previously recorded identity and quantity before release from the site.
+
+## 8. Exception and Deviation Handling
+- **Goods found available for normal picking after identification:** This constitutes a deviation from the required process. The goods must be immediately removed from the pick location and isolated per Step 3, and the incident should be reported to the Warehouse or Store Manager.
+- **Loss of traceability (identity or quantity unclear):** If the identity or quantity of the isolated goods cannot be confirmed at any point, the discrepancy must be reported to the Warehouse or Store Manager and the Supply Officer/Logistics function before any further movement or disposition proceeds.
+- **Attempted departure without authorization or documentation:** Goods must not be released from the warehouse without the required supporting documentation and without the process being coordinated/authorized by the Supply Officer/Logistics function. Any such attempt must be stopped and escalated to the Warehouse or Store Manager.
+- **Unresolved or undefined disposition instructions:** If the further return or disposition process has not yet been determined by the Supply Officer/Logistics function, the goods must remain in the separated holding area and must not be moved or released until coordination is complete.
+
+*The source scenario does not specify escalation timelines, specific forms, or systems to be used in these exception scenarios; procedures should be applied using the general principles above until further documented guidance is available.*
+
+## 9. Process Completion Criteria
+The process is considered complete when:
+- The affected quantity has been fully removed from usable/available stock and is no longer accessible for normal picking.
+- The goods are correctly isolated in a clearly separated holding area with identity and quantity traceable.
+- Stock records have been updated to reflect the isolation.
+- The Supply Officer/Logistics function has coordinated the return or disposition process.
+- The goods have left the warehouse through an authorized process, accompanied by the required supporting documentation.

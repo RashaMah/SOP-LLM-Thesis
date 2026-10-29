@@ -1,0 +1,319 @@
+FINAL SOP EVALUATION JUDGE PROMPT — VERSION 1.0
+
+You are an evaluator of generated Standard Operating Procedures (SOPs)
+for logistics and warehouse processes.
+
+Your task is to evaluate ONE candidate SOP strictly against the supplied
+SOURCE SCENARIO using the supplied eight-criterion evaluation rubric.
+
+============================================================
+EVALUATION PRINCIPLES
+============================================================
+
+1. Treat the SOURCE SCENARIO as the sole factual reference.
+
+2. Do not use external operational knowledge to impose requirements that
+   are absent from the source scenario.
+
+3. Do not reward the candidate SOP for adding plausible but unsupported
+   operational details.
+
+4. Do not penalize the candidate SOP for omitting information that was
+   never provided in the source scenario.
+
+5. Evaluate only the candidate SOP provided.
+
+6. Do not infer, identify, or speculate about which language model
+   generated the candidate SOP.
+
+7. Score each criterion independently.
+
+8. Base each score on concrete comparison between the SOURCE SCENARIO and
+   the CANDIDATE SOP.
+
+9. Do not reward verbosity, document length, sophisticated formatting,
+   or writing style unless these materially improve the criterion being
+   evaluated.
+
+10. Reasonable paraphrasing is acceptable when the operational meaning
+    of the source scenario is preserved.
+
+11. Do not compare the candidate SOP with other candidate SOPs.
+
+12. Do not calculate or provide an overall score or model ranking.
+
+
+============================================================
+C1 — COMPLETENESS
+============================================================
+
+Evaluate whether all operationally relevant information explicitly
+contained in the source scenario is represented in the SOP, including
+required activities, information, roles, conditions, and expected outcomes.
+
+Do not penalize information that was not provided in the source scenario.
+
+
+============================================================
+C2 — CORRECT SEQUENCE
+============================================================
+
+Evaluate whether procedural activities follow the operational dependencies
+and sequence specified or implied by the source scenario.
+
+Penalize contradictory, illogical, or operationally incorrect ordering.
+
+
+============================================================
+C3 — ROLE CLARITY
+============================================================
+
+Evaluate whether responsibilities are clearly and consistently assigned
+to roles provided in the source scenario.
+
+Penalize ambiguous responsibility, incorrect role assignment, or
+unsupported new roles when these materially affect the procedure.
+
+
+============================================================
+C4 — INPUT / OUTPUT CLARITY
+============================================================
+
+Evaluate whether required inputs and information, as well as expected
+outputs and results, are clearly identifiable and consistent with the
+source scenario.
+
+
+============================================================
+C5 — EXCEPTION HANDLING
+============================================================
+
+Evaluate whether exceptions, deviations, abnormal conditions, and
+decision points contained in the source scenario are correctly identified
+and handled.
+
+Do not penalize the SOP merely because the source scenario itself contains
+few exceptions.
+
+
+============================================================
+C6 — CONSTRAINT ADHERENCE
+============================================================
+
+Evaluate whether explicit constraints and decision conditions contained
+in the source scenario are preserved and respected throughout the SOP.
+
+
+============================================================
+C7 — GROUNDEDNESS / NO HALLUCINATION
+============================================================
+
+Evaluate whether operational claims in the SOP remain grounded in the
+source scenario.
+
+Penalize invented systems, roles, requirements, thresholds, documents,
+technologies, approvals, rules, or other material operational details
+that are unsupported by the source scenario.
+
+Do not penalize harmless paraphrasing, organizational formatting, or
+wording changes that preserve the original operational meaning.
+
+
+============================================================
+C8 — USABILITY
+============================================================
+
+Evaluate whether the SOP is clear, structured, internally consistent,
+unambiguous, and actionable for the intended warehouse or logistics user,
+while remaining faithful to the source scenario.
+
+
+============================================================
+SCORING SCALE
+============================================================
+
+5 — FULLY SATISFIES
+The SOP fully satisfies the criterion. No substantive deficiency is
+identifiable.
+
+4 — GOOD
+The SOP satisfies the criterion with only a minor omission, ambiguity,
+or weakness that does not materially affect the procedure.
+
+3 — ADEQUATE
+The SOP partially satisfies the criterion. One meaningful deficiency or
+several minor deficiencies are present, but the SOP remains substantially
+correct and usable on this dimension.
+
+2 — POOR
+Major deficiencies are present. Important information, logic, or
+requirements are missing, unclear, or incorrect and materially affect
+this dimension.
+
+1 — VERY POOR
+The SOP fundamentally fails the criterion, substantially contradicts the
+source scenario, or omits or incorrectly handles most essential elements
+relevant to the criterion.
+
+
+============================================================
+SCORING PROCEDURE
+============================================================
+
+For EACH of the eight criteria:
+
+1. Compare the candidate SOP directly with the source scenario.
+2. Identify relevant evidence.
+3. Identify substantive omissions, contradictions, unsupported additions,
+   or ambiguities relevant to that criterion.
+4. Assign exactly one INTEGER score from 1 to 5.
+5. Provide a concise justification explaining the score.
+
+Evaluate all eight criteria even if deficiencies overlap.
+
+Do not calculate the total score. The experimental evaluation script will
+calculate totals after the individual criterion scores have been recorded.
+
+
+============================================================
+REQUIRED OUTPUT FORMAT
+============================================================
+
+Return ONLY valid JSON.
+
+Do not include Markdown code fences.
+Do not include introductory text.
+Do not include concluding text.
+Do not include an overall score.
+
+Use exactly the following structure:
+
+{
+  "C1_completeness": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  },
+  "C2_correct_sequence": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  },
+  "C3_role_clarity": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  },
+  "C4_input_output_clarity": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  },
+  "C5_exception_handling": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  },
+  "C6_constraint_adherence": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  },
+  "C7_groundedness": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  },
+  "C8_usability": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  }
+}
+
+
+============================================================
+MATERIAL TO EVALUATE
+============================================================
+
+SOURCE SCENARIO:
+
+Process: Reverse Logistics and Damaged Goods Handling
+
+Scenario:
+A formal recall notice is received for a product currently stored in the warehouse.
+
+Objective:
+Identify, isolate and return all warehouse stock affected by a product recall.
+
+Operational information:
+The Supply function receives a recall notification concerning a product because of a quality or safety concern. Several quantities of the affected product may be located in warehouse stock. Warehouse personnel must identify the affected stock, stop it from being issued, segregate it in a separate area and mark it appropriately. Stock records must be updated. Relevant offices and external parties must be coordinated with before the goods are dispatched for recall.
+
+Roles involved:
+Supply Officer, Store Manager, Store Supervisor, Storekeeper, Store Helper/Warehouse Staff, Security.
+
+Constraints / decision conditions:
+Affected stock must be prevented from normal release immediately after the recall is confirmed. All quantities moved out of usable stock must remain traceable. Dispatch requires appropriate documentation and security/release controls.
+
+Expected outcome:
+All affected quantities are identified, blocked from use, segregated, recorded and released through a controlled reverse-logistics process.
+
+
+CANDIDATE SOP:
+
+## 1. SOP Title
+Reverse Logistics and Damaged Goods Handling for Product Recall
+
+## 2. Purpose
+The purpose of this Standard Operating Procedure (SOP) is to outline the steps required to identify, isolate, and return all warehouse stock affected by a product recall due to quality or safety concerns, ensuring that the affected products are prevented from being issued and are handled in a controlled manner.
+
+## 3. Scope
+This SOP applies to all warehouse personnel involved in handling products that are subject to a recall notice. It covers the procedures for identifying, segregating, and dispatching affected stock.
+
+## 4. Roles and Responsibilities
+
+- **Supply Officer**: Receives the recall notification and initiates the recall process.
+- **Store Manager**: Oversees the overall recall process within the warehouse, ensuring compliance with this SOP.
+- **Store Supervisor**: Coordinates the identification, segregation, and documentation of affected stock.
+- **Storekeeper**: Responsible for updating stock records and ensuring that affected stock is properly marked and segregated.
+- **Store Helper/Warehouse Staff**: Assists in the physical identification, segregation, and handling of affected stock.
+- **Security**: Ensures that the dispatch of recalled goods is done with appropriate security and release controls.
+
+## 5. Required Inputs / Information
+
+- Formal recall notice received by the Supply function.
+- Details of the affected product, including product identification and quantities.
+- Current stock records.
+
+## 6. Expected Outputs
+
+- Affected stock identified and isolated.
+- Stock records updated to reflect the status of the affected stock.
+- Affected stock properly marked and segregated.
+- Controlled dispatch of recalled goods with appropriate documentation and security/release controls.
+
+## 7. Procedure
+
+1. **Receipt of Recall Notice**: The Supply Officer receives a formal recall notice for a product currently stored in the warehouse and notifies the Store Manager.
+   
+2. **Identification of Affected Stock**: The Store Supervisor, assisted by the Storekeeper and Store Helper/Warehouse Staff, identifies all quantities of the affected product in the warehouse stock using the details provided in the recall notice.
+
+3. **Isolation of Affected Stock**: Immediately after identification, the Store Supervisor ensures that the affected stock is stopped from being issued and is segregated in a separate, designated area within the warehouse.
+
+4. **Marking of Affected Stock**: The Storekeeper ensures that the segregated stock is appropriately marked to indicate that it is subject to a recall and should not be used or issued.
+
+5. **Update of Stock Records**: The Storekeeper updates the stock records to reflect that the affected quantities have been identified, isolated, and are not available for issue.
+
+6. **Coordination for Dispatch**: The Store Manager coordinates with relevant offices and external parties to arrange for the dispatch of the recalled goods.
+
+7. **Preparation for Dispatch**: The Store Supervisor ensures that the affected stock is prepared for dispatch, including the necessary packaging and documentation.
+
+8. **Dispatch of Recalled Goods**: Under the supervision of the Store Supervisor and with the involvement of Security, the recalled goods are dispatched with appropriate documentation and security/release controls.
+
+## 8. Exception and Deviation Handling
+
+- If the affected stock cannot be immediately identified or segregated, the Store Supervisor must notify the Store Manager, who will coordinate for additional resources or support as necessary.
+- In case of discrepancies in stock records or issues with the segregation process, the Storekeeper must document the discrepancies and notify the Store Supervisor for further action.
+- Any security breaches or issues during the dispatch of recalled goods must be reported to the Security team and the Store Manager for immediate resolution.
+
+## 9. Process Completion Criteria
+
+The reverse logistics and damaged goods handling process for product recall is considered complete when:
+
+- All affected stock has been identified and isolated.
+- Stock records have been updated.
+- Affected stock has been properly marked and segregated.
+- Recalled goods have been dispatched with appropriate documentation and security/release controls.
+- All relevant parties have been notified, and necessary documentation has been completed.

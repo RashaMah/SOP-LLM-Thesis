@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_008",
+  "judge_family": "OpenAI GPT",
+  "judge_model": "gpt-5.6-sol",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "The SOP includes all source activities, roles, constraints, required information, and outcomes: approval validation, reservation, picking, staging, documentation, loading, dispatch, inventory reduction, traceability, and downstream receipt confirmation."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The sequence is operationally coherent and consistent with the source: validate the approved request, reserve/pick/stage goods, prepare documentation, load and dispatch, update outgoing inventory records, and subsequently confirm receipt."
+    },
+    "C3_role_clarity": {
+      "score": 5,
+      "reason": "Responsibilities are clearly assigned among the four source-provided roles, with no ambiguous or newly invented roles. Each procedural step identifies the responsible personnel."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "The approved transfer request, identified goods and quantities, warehouse locations, stock availability, and inventory records are clear inputs; dispatch, complete documentation, updated records, and traceability are clear outputs."
+    },
+    "C5_exception_handling": {
+      "score": 4,
+      "reason": "The SOP correctly handles the source-relevant decision points, including unapproved requests, mismatched goods, loss of transfer association, and inventory-record discrepancies. It also introduces several deviations and escalation instructions not specified by the source, though these do not materially undermine handling."
+    },
+    "C6_constraint_adherence": {
+      "score": 4,
+      "reason": "All explicit source constraints are preserved: release requires an approved request, goods remain associated with the transfer during staging and loading, and records reflect the outgoing movement. However, the SOP adds a separate Warehouse Manager authorization and prohibits pre-release activities for unapproved requests, restrictions not explicitly required by the source."
+    },
+    "C7_groundedness": {
+      "score": 3,
+      "reason": "The core procedure is strongly grounded, but several material details are unsupported, including a second Warehouse Manager release authorization, facility-designated documentation formats, mandatory escalation paths, discrepancy-resolution duties, and completion being contingent on record correction. These are plausible but not supplied by the scenario."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is well structured, internally consistent, and actionable, with clear roles, numbered steps, inputs, outputs, exceptions, and completion criteria. It also clearly distinguishes dispatch activities from the receiving warehouse's downstream process."
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_022",
+  "judge_family": "Google Gemini",
+  "judge_model": "gemini-3.1-pro-preview",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "The SOP captures all operational information, roles, constraints, and expected outcomes explicitly detailed in the source scenario."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The procedural steps follow a logical and operationally correct sequence, starting from inventory review and verification, followed by communication, decision-making, and execution."
+    },
+    "C3_role_clarity": {
+      "score": 5,
+      "reason": "Responsibilities are clearly and consistently assigned to the exact roles provided in the source scenario without introducing unsupported roles."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "Required inputs and expected outputs are clearly defined in dedicated sections and perfectly align with the source scenario's requirements and expected outcomes."
+    },
+    "C5_exception_handling": {
+      "score": 5,
+      "reason": "The SOP effectively translates the source scenario's constraints (e.g., unverified stock, invented quantities, silent cancellations) into clear exception handling procedures."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "All explicit constraints from the source scenario, such as verifying stock before decisions and not silently cancelling pending requirements, are strictly preserved and emphasized."
+    },
+    "C7_groundedness": {
+      "score": 5,
+      "reason": "The SOP remains entirely grounded in the source scenario. It organizes the provided information logically without inventing unsupported systems, thresholds, or documents."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is highly usable, featuring a clear, logical structure with well-defined sections for roles, inputs/outputs, step-by-step procedures, and exception handling that make it highly actionable for warehouse personnel."
+    }
+  }
+}

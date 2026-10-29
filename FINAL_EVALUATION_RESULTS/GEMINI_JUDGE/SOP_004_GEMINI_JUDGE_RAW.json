@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_004",
+  "judge_family": "Google Gemini",
+  "judge_model": "gemini-3.1-pro-preview",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "The SOP includes all operationally relevant information from the source scenario, covering the objective, required activities, roles, constraints, and expected outcomes without omitting any details."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The procedural steps follow a logical and operationally correct sequence, starting from stock analysis and authorization, moving through preparation and transport, and concluding with receipt and record reconciliation."
+    },
+    "C3_role_clarity": {
+      "score": 5,
+      "reason": "Responsibilities are clearly assigned using only the roles provided in the source scenario. The SOP logically distributes tasks among the Store Manager, Supervisor, Storekeeper, and Helpers, and transparently handles the generic 'receiving facility' role."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "Inputs (stock analysis, authorized decision) and outputs (dispatched stock, updated records, traceable movement) are clearly defined and perfectly aligned with the source scenario."
+    },
+    "C5_exception_handling": {
+      "score": 5,
+      "reason": "The SOP effectively identifies and handles exceptions based on the scenario's constraints, such as the risk of creating an unmanaged shortage, traceability gaps, and quantity discrepancies, without overstepping the provided information."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "All explicit constraints from the source scenario (authorized decision for quantity, end-to-end traceability, and prevention of unmanaged shortages at the source) are strictly embedded into the procedural steps and exception handling."
+    },
+    "C7_groundedness": {
+      "score": 5,
+      "reason": "The SOP remains strictly grounded in the source scenario. It explicitly avoids inventing specific systems, documents, or thresholds, and notes where the scenario lacks detail rather than hallucinating operational specifics."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is highly usable, featuring a clear, logical structure with well-defined sections for roles, inputs/outputs, step-by-step procedures, and exception handling, making it actionable for logistics personnel."
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_010",
+  "judge_family": "Anthropic Claude",
+  "judge_model": "anthropic/claude-sonnet-5",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "All operationally relevant elements from the source (approved request, availability, reserve/pick/stage, documentation, removal from sending records, receiving confirmation) are represented in the SOP's roles, inputs/outputs, and procedure sections."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The procedure follows the logical dependency chain implied by the scenario: verify request → reserve → pick → stage → document → verify → release → update records → handover → receiving confirmation, matching the source's implied order without contradiction."
+    },
+    "C3_role_clarity": {
+      "score": 4,
+      "reason": "Roles align with the source (Supply/Inventory Officer, Warehouse Manager, Storekeeper/Warehouse Staff, receiving warehouse personnel) and responsibilities are mostly consistent; however, the Warehouse Manager's specific action of 'ensuring stock is loaded for transport' in step 7 is an added responsibility not explicitly stated in the source, slightly blurring role boundaries."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "Required inputs (approved request, stock availability, inventory records) and expected outputs (transferred stock, documentation, updated records, receipt confirmation) are clearly and consistently listed, matching the source scenario's stated inputs and outcomes."
+    },
+    "C5_exception_handling": {
+      "score": 4,
+      "reason": "The SOP introduces reasonable exception paths (stock unavailability, documentation discrepancy, damage/loss) that align with the general spirit of the constraints, even though the source itself specifies minimal exceptions; these are logically consistent with the process flow."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "All explicit constraints—release only against approved request, correct association of items during staging/loading, and inventory records reflecting outgoing movement—are preserved and enforced through corresponding procedural steps (verification, staging, and record update)."
+    },
+    "C7_groundedness": {
+      "score": 3,
+      "reason": "The exception handling section (stock unavailability hold, discrepancy investigation, damage/loss documentation) introduces new operational rules and decision procedures not explicitly stated in the source scenario, representing unsupported additions beyond the given information."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is clearly structured with defined sections (purpose, scope, roles, inputs/outputs, procedure, exceptions, completion criteria), providing an actionable and unambiguous guide for warehouse personnel consistent with the scenario's intent."
+    }
+  }
+}

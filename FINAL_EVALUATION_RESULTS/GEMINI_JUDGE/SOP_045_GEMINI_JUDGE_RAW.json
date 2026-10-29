@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_045",
+  "judge_family": "Google Gemini",
+  "judge_model": "gemini-3.1-pro-preview",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "The SOP captures all operationally relevant information, including the required activities, roles, constraints, and expected outcomes explicitly stated in the source scenario without omitting any details."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The procedural steps follow a highly logical and operationally correct sequence, starting from receiving the assignment and instruction, to picking, checking, updating records, and finally transferring the goods."
+    },
+    "C3_role_clarity": {
+      "score": 5,
+      "reason": "Responsibilities are clearly and consistently assigned to the exact roles provided in the source scenario (Storekeeper/Picker and Warehouse Supervisor or Manager) without introducing unauthorized roles."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "Required inputs (approved picking instruction with specific details) and expected outputs (accurately picked items, updated records, transferred goods) are explicitly listed in dedicated sections and perfectly match the source scenario."
+    },
+    "C5_exception_handling": {
+      "score": 5,
+      "reason": "The SOP correctly identifies potential exceptions implied by the source constraints (e.g., partial availability based on the phrase 'all available requested items') and logically assigns escalation to the Supervisor/Manager."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "All explicit constraints from the source scenario, including strict adherence to the picking instruction, line-by-line checking, and maintaining record accuracy, are rigorously preserved and integrated into the procedure."
+    },
+    "C7_groundedness": {
+      "score": 5,
+      "reason": "The SOP remains strictly grounded in the source scenario. It avoids inventing specific warehouse management systems, technologies like barcode scanners, or unsupported operational metrics."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is highly structured, clear, and actionable. It uses standard SOP formatting (Purpose, Scope, Procedure, Exceptions) making it highly usable for warehouse personnel while remaining entirely faithful to the source."
+    }
+  }
+}

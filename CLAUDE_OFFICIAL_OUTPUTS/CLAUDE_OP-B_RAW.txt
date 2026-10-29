@@ -1,0 +1,94 @@
+# Standard Operating Procedure: Handling Missing or Insufficient Stock During Order Picking
+
+## 1. SOP Title
+Handling of Stock Discrepancies During Order Picking Operations
+
+## 2. Purpose
+This SOP defines the correct procedure to be followed when a picker, during a multi-item picking operation, finds that an item listed on the picking instruction is not physically available in the required quantity at its expected picking location. The purpose is to ensure that the picking operation continues correctly for all available items, that unavailable stock is never falsely recorded as picked or substituted without authorization, and that the discrepancy is properly documented and escalated for stock reconciliation.
+
+## 3. Scope
+This procedure applies to all order picking operations involving multiple items, where at least one item on the picking instruction cannot be fulfilled in full at its designated location. It covers the actions of the Picker/Storekeeper at the point of discrepancy, the responsibilities of the Storekeeper in charge of stock records, and the escalation path to the Warehouse Supervisor/Manager. This SOP does not cover the resolution mechanics of stock reconciliation or back-order fulfillment beyond initiating the escalation, as these details are not specified in the process information.
+
+## 4. Roles and Responsibilities
+
+**Picker/Storekeeper**
+- Executes the picking instruction as authorized.
+- Verifies physical stock availability at each listed picking location.
+- Picks available items correctly and continues the picking operation for all fulfillable items.
+- Does not substitute an alternative batch, quantity, or location unless explicitly permitted by warehouse stock rules.
+- Does not mark or confirm the unavailable quantity as picked.
+- Records the discrepancy between the physical stock found and the picking instruction/inventory information.
+- Communicates the discrepancy to the Storekeeper responsible for stock records.
+
+**Storekeeper responsible for stock records**
+- Receives the discrepancy report from the Picker/Storekeeper.
+- Checks and reconciles the stock records against the reported physical discrepancy.
+- Coordinates any necessary correction of inventory records based on findings.
+
+**Warehouse Supervisor/Manager**
+- Receives escalation of the discrepancy where reconciliation or further action (such as back-order handling) is required.
+- Oversees resolution of the discrepancy to ensure the picking and inventory process is not compromised.
+
+## 5. Required Inputs / Information
+- The authorized picking instruction, listing all requested items, quantities, and expected picking locations.
+- Physical stock observed at the picking location at the time of picking.
+- Current inventory/stock records associated with the picking location and item.
+
+## 6. Expected Outputs
+- Correctly picked and confirmed quantities for all items that were physically available.
+- An accurate, unfalsified picking record that does not show the unavailable quantity as picked.
+- A documented discrepancy record describing the mismatch between the picking instruction/inventory information and the physical stock found.
+- Escalation of the discrepancy to the responsible Storekeeper and, where necessary, to the Warehouse Supervisor/Manager for reconciliation or back-order handling.
+
+## 7. Procedure
+
+**Step 1 – Follow the Picking Instruction**
+The Picker/Storekeeper proceeds through the multi-item picking operation according to the authorized picking instruction, moving to each listed location in sequence.
+
+**Step 2 – Verify Stock at Each Location**
+At each picking location, the picker checks whether the required item and quantity are physically present.
+
+**Step 3 – Identify the Discrepancy**
+If the picker reaches the listed location for a requested item and finds that the required quantity is not physically available, the picker must not:
+- Select an alternative batch or quantity, unless explicitly permitted by warehouse stock rules.
+- Mark or confirm the missing quantity as picked.
+
+**Step 4 – Continue Picking Available Items**
+The picker continues the picking operation for all other items in the instruction that are physically available at their respective locations, picking them correctly through the appropriate process.
+
+**Step 5 – Record the Discrepancy**
+The picker records the discrepancy, capturing the difference between the physical stock found at the location and the information contained in the picking instruction or inventory records.
+
+**Step 6 – Communicate the Discrepancy**
+The picker communicates the recorded discrepancy to the Storekeeper responsible for stock records.
+
+**Step 7 – Stock Record Check and Reconciliation**
+The Storekeeper responsible for stock records checks and reconciles the inventory records against the reported discrepancy to determine the cause and accuracy of the stock information.
+
+**Step 8 – Escalation**
+The discrepancy is escalated to the Warehouse Supervisor/Manager for further resolution, which may include stock reconciliation or back-order handling, as appropriate to the outcome of the stock record check.
+
+**Step 9 – Completion of the Picking Task**
+Once all available items have been picked and the discrepancy has been recorded and communicated, the picker completes the portion of the picking operation that could be fulfilled, leaving the unavailable quantity clearly identified as outstanding.
+
+## 8. Exception and Deviation Handling
+
+**Exception: Required quantity not available at expected location**
+- The picker must not falsely confirm the missing quantity as picked.
+- The picker must not select a substitute batch, quantity, or alternate stock unless warehouse stock rules explicitly permit this action.
+- The discrepancy must be recorded and communicated to the Storekeeper responsible for stock records without delay.
+- Available items on the same picking instruction are not held up by this exception and should continue through the picking process.
+
+**Deviation: Discrepancy not recorded or not communicated**
+If a picker fails to record or communicate a stock discrepancy, the inventory and picking records will not reflect the true physical stock condition. This SOP requires that recording and communication of the discrepancy occur as an integral part of the picking operation, not as an optional follow-up step.
+
+**Unresolved discrepancies**
+Where the scenario does not specify the exact mechanism for back-order handling or the timeframe for reconciliation, this SOP does not prescribe these details. Resolution beyond escalation to the Warehouse Supervisor/Manager should follow applicable warehouse stock rules, which are not detailed in the available process information.
+
+## 9. Process Completion Criteria
+The picking operation for the given instruction is considered complete for the purposes of this SOP when:
+- All physically available items listed on the picking instruction have been correctly picked and confirmed.
+- The unavailable quantity has not been falsely marked as picked.
+- The discrepancy between the physical stock and the picking instruction/inventory records has been documented.
+- The discrepancy has been communicated to the Storekeeper responsible for stock records.
+- Where required, the discrepancy has been escalated to the Warehouse Supervisor/Manager for reconciliation or back-order handling.

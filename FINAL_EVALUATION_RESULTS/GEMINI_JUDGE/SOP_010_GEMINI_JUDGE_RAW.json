@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_010",
+  "judge_family": "Google Gemini",
+  "judge_model": "gemini-3.1-pro-preview",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 4,
+      "reason": "The SOP covers almost all operational information from the source scenario but omits the specific detail that items must remain clearly associated with the correct transfer during staging and loading."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The procedural steps follow a highly logical sequence (reserve, pick, stage, document, release, update records) that perfectly aligns with the operational dependencies implied by the source scenario."
+    },
+    "C3_role_clarity": {
+      "score": 5,
+      "reason": "Responsibilities are clearly, logically, and consistently assigned to the exact roles provided in the source scenario without inventing new roles."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "Required inputs and expected outputs are explicitly listed in dedicated sections and accurately reflect the requirements and outcomes of the source scenario."
+    },
+    "C5_exception_handling": {
+      "score": 5,
+      "reason": "The source scenario does not contain any explicit exceptions or abnormal conditions to handle; therefore, the SOP does not miss any source-provided exceptions."
+    },
+    "C6_constraint_adherence": {
+      "score": 3,
+      "reason": "The SOP enforces the approval and inventory update constraints but fails to explicitly enforce the constraint that requested items must remain clearly associated with the correct transfer during staging and loading."
+    },
+    "C7_groundedness": {
+      "score": 3,
+      "reason": "The SOP invents an entire exception handling section with procedures for discrepancies, damage, and unavailable stock, which is unsupported by the source and directly contradicts the source statement that 'The required goods are available.'"
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is well-structured, internally consistent, unambiguous, and highly actionable for warehouse personnel."
+    }
+  }
+}

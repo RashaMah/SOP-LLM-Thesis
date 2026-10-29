@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_034",
+  "judge_family": "OpenAI GPT",
+  "judge_model": "gpt-5.6-sol",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 4,
+      "reason": "The SOP covers authorized picking, continued picking of available items, recording and reporting the shortage, reconciliation, possible back-order handling, and prevention of false confirmation. The Warehouse Supervisor/Manager is listed but not incorporated into the escalation procedure, and the alternative-batch condition is not explicit."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The sequence is operationally sound: follow the instruction, check each location, identify and record shortages, continue with available items, report the discrepancy, and reconcile stock records."
+    },
+    "C3_role_clarity": {
+      "score": 4,
+      "reason": "Picker and stock-record Storekeeper responsibilities are clearly assigned and consistent with the scenario. The Warehouse Supervisor/Manager responsibility is stated only generally and has no defined action or escalation point in the procedure."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "The authorized picking instruction and stock information are identifiable inputs, while correctly picked available items, an unconfirmed missing quantity, a discrepancy record, notification, and reconciliation-related action are clear outputs."
+    },
+    "C5_exception_handling": {
+      "score": 5,
+      "reason": "The unavailable-item and insufficient-quantity conditions are directly handled, including recording the discrepancy, continuing available picks, prohibiting unauthorized substitution, and routing the issue for reconciliation or back-order handling."
+    },
+    "C6_constraint_adherence": {
+      "score": 4,
+      "reason": "The SOP preserves the requirements to follow the authorized instruction, record discrepancies, avoid false confirmation, and prohibit unauthorized substitutions. However, it refers to another item or quantity rather than explicitly preserving the source condition concerning an alternative batch or quantity."
+    },
+    "C7_groundedness": {
+      "score": 5,
+      "reason": "The operational claims remain grounded in the scenario. The picking instruction, stock records, discrepancy reporting, reconciliation, back-order handling, and listed roles are all supported, with no material invented system, threshold, document, or approval."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is clearly structured, actionable, and internally consistent, with defined roles, inputs, outputs, procedural steps, exception handling, and completion criteria."
+    }
+  }
+}

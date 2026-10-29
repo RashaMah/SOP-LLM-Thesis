@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_024",
+  "judge_family": "Anthropic Claude",
+  "judge_model": "anthropic/claude-sonnet-5",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 4,
+      "reason": "Most elements are covered (packing, documentation, verification, release, stock update). One notable omission: the constraint that orders in the staging area must remain clearly separated is not explicitly addressed as an activity in the procedure, only implicitly touched via 'order integrity' during packing."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The sequence (retrieve from staging \\u2192 pack \\u2192 documentation \\u2192 verification \\u2192 release \\u2192 stock update) matches the logical and implied order in the source scenario without contradiction."
+    },
+    "C3_role_clarity": {
+      "score": 5,
+      "reason": "All four roles from the source scenario (Warehouse Staff/Storekeeper, Warehouse or Store Manager, loading/checking personnel, transport representative) are used consistently and assigned clear, non-overlapping responsibilities matching the scenario."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "Inputs (picking order, order details, dispatch documentation requirements) and outputs (packed goods, packing list, transport documentation, updated stock records) are explicitly and clearly listed, matching the scenario's stated outcomes."
+    },
+    "C5_exception_handling": {
+      "score": 4,
+      "reason": "Discrepancy handling during verification and transport representative refusal are addressed, which are reasonable extrapolations of the verification/custody constraint. However, no explicit handling of staging area separation violations is included, a minor gap given the constraint's presence in the scenario."
+    },
+    "C6_constraint_adherence": {
+      "score": 3,
+      "reason": "Verification before custody transfer and correspondence to authorized order are preserved. However, the explicit constraint that orders in staging must remain clearly separated is not directly addressed as a procedural step or rule, only weakly implied through 'order integrity' language, leaving this constraint under-enforced."
+    },
+    "C7_groundedness": {
+      "score": 5,
+      "reason": "No invented systems, roles, thresholds, or documents beyond what the scenario describes; the SOP stays within the scope and details provided in the source scenario."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is clearly structured with numbered sections, explicit procedural steps, and defined completion criteria, making it actionable and easy to follow for warehouse staff while remaining faithful to the source scenario."
+    }
+  }
+}

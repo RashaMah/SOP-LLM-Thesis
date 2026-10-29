@@ -1,0 +1,72 @@
+# Standard Operating Procedure: Stock Transfer and Redistribution
+
+## 1. SOP Title
+Standard Operating Procedure: Stock Transfer and Redistribution
+
+## 2. Purpose
+The purpose of this procedure is to realign inventory between locations to reduce the risk of expiry and prevent stockout. This process ensures that surplus stock approaching a risk of expiration at one location is transferred to another location facing insufficient stock.
+
+## 3. Scope
+This SOP applies to situations where stock analysis identifies excess quantity of an item at one facility and insufficient quantity at another facility. It covers the identification, authorization, preparation, transport, receiving, and recording of stock movements between the source location and the receiving location.
+
+## 4. Roles and Responsibilities
+The following roles are involved in the Stock Transfer and Redistribution process:
+
+*   **Supply Officer:** Responsible for determining that redistribution is required based on stock analysis.
+*   **Store Manager, Store Supervisor, Storekeeper, Store Helper/Warehouse Staff (Source Location):** Responsible for preparing the agreed quantity for collection or dispatch, including picking and packing. They must ensure the movement does not create an unmanaged shortage at the source location.
+*   **Transport/3PL Personnel:** Responsible for the transport handover of the stock.
+*   **Receiving Facility (including Store Manager, Store Supervisor, Storekeeper, Store Helper/Warehouse Staff):** Responsible for receiving the stock and recording the stock.
+*   **All Involved Roles:** Responsible for ensuring that picking, packing, transport handover, receiving, and stock-record updates remain traceable throughout the transfer.
+
+## 5. Required Inputs / Information
+*   Stock analysis results identifying excess quantity at one facility and insufficient quantity at another.
+*   Authorized decision confirming redistribution is required.
+*   Agreed quantity for transfer based on stock information and the authorized decision.
+
+## 6. Expected Outputs
+*   Inventory redistributed from the surplus location to the shortage location.
+*   Both locations' stock records correctly reflecting the movement.
+*   Traceable records covering picking, packing, transport handover, receiving, and stock-record updates.
+
+## 7. Procedure
+
+**Step 1: Identification and Authorization**
+1.  Conduct stock analysis to identify facilities with excess quantity of an item and facilities with insufficient quantity.
+2.  The Supply function reviews the stock analysis.
+3.  The Supply function determines that redistribution is required.
+4.  An authorized decision is made regarding the redistribution.
+5.  The quantity for redistribution is established based on stock information and the authorized decision.
+
+**Step 2: Preparation at Source Location**
+1.  The source location receives the instruction regarding the agreed quantity.
+2.  Store Manager, Store Supervisor, Storekeeper, or Store Helper/Warehouse Staff at the source location prepare the agreed quantity for collection or dispatch.
+3.  During preparation, verify that the movement will not create an unmanaged shortage at the source location.
+4.  Perform picking and packing operations.
+5.  Ensure all picking and packing activities are recorded to maintain traceability.
+
+**Step 3: Transport and Handover**
+1.  Arrange for transport via transport/3PL personnel.
+2.  Execute the transport handover.
+3.  Ensure the transport handover is documented to maintain traceability of the stock during transit.
+
+**Step 4: Receiving at Destination**
+1.  The receiving facility accepts the delivered stock.
+2.  Verify the received stock against the agreed quantity.
+3.  Record the stock upon receipt.
+4.  Ensure receiving activities are documented to maintain traceability.
+
+**Step 5: Stock Record Updates**
+1.  Update stock records at the source location to reflect the outbound movement.
+2.  Update stock records at the receiving location to reflect the inbound movement.
+3.  Ensure stock-record updates are traceable and linked to the physical movement.
+
+## 8. Exception and Deviation Handling
+*   **Unmanaged Shortage Risk:** If the preparation of the agreed quantity indicates that the movement will create an unmanaged shortage at the source location, the process must be halted or adjusted to comply with the constraint that the movement should not create an unmanaged shortage.
+*   **Loss of Traceability:** If any stage of the process (picking, packing, transport handover, receiving, or stock-record updates) fails to maintain traceability, the deviation must be addressed immediately to restore traceability before proceeding or finalizing the transaction.
+*   **Discrepancy in Quantity:** If the received stock does not match the agreed quantity based on stock information and authorized decision, the discrepancy must be noted in the stock records to ensure accurate reflection of the movement.
+
+## 9. Process Completion Criteria
+The process is considered complete when:
+1.  Inventory has been physically redistributed from the surplus location to the shortage location.
+2.  Both locations' stock records correctly reflect the movement.
+3.  Traceability is confirmed for picking, packing, transport handover, receiving, and stock-record updates.

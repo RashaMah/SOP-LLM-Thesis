@@ -1,0 +1,44 @@
+## 1. SOP Title
+Reverse Logistics and Damaged Goods Handling Procedure
+
+## 2. Purpose
+The purpose of this Standard Operating Procedure (SOP) is to outline the steps required to identify, isolate, and process non-conforming goods within the warehouse, ensuring they are removed from usable inventory and prepared for controlled return.
+
+## 3. Scope
+This SOP applies to all warehouse staff, Storekeepers, Warehouse or Store Managers, and Supply Officers/Logistics function involved in handling non-conforming goods within the warehouse.
+
+## 4. Roles and Responsibilities
+- **Warehouse Staff**: Identify and segregate non-conforming goods, update stock records as directed.
+- **Storekeeper**: Assist in identifying the affected quantity, physically segregate non-conforming goods, and ensure accurate stock record updates.
+- **Warehouse or Store Manager**: Oversee the segregation process, ensure non-conforming goods are placed in a designated holding area, and verify stock record updates.
+- **Supply Officer/Logistics Function**: Coordinate the further return or disposition process for non-conforming goods and ensure required supporting documentation is prepared.
+
+## 5. Required Inputs / Information
+- Identification of non-conforming goods with documented quality problems.
+- Accurate quantity of affected goods.
+- Relevant stock records.
+
+## 6. Expected Outputs
+- Non-conforming goods isolated and held in a clearly separated area.
+- Updated stock records reflecting the removal of non-conforming goods.
+- Non-conforming goods prepared for authorized return with accompanying documentation.
+
+## 7. Procedure
+1. **Identification of Non-Conforming Goods**: Warehouse staff identify goods with documented quality problems.
+2. **Quantification**: Determine the exact quantity of non-conforming goods.
+3. **Segregation**: Warehouse staff, under the supervision of the Storekeeper, segregate the identified non-conforming goods from usable stock.
+4. **Relocation to Holding Area**: Move the segregated goods to a clearly designated holding area within the warehouse, ensuring they are not available for normal picking.
+5. **Update Stock Records**: The Storekeeper updates the relevant stock records to reflect the removal of non-conforming goods, ensuring their identity and quantity remain traceable.
+6. **Verification**: The Warehouse or Store Manager verifies that non-conforming goods are correctly isolated and stock records are updated accurately.
+7. **Coordination for Return**: The Supply Officer/Logistics function coordinates the return or disposition process, ensuring that the goods are accompanied by required supporting documentation when they leave the warehouse.
+
+## 8. Exception and Deviation Handling
+- If the quantity of non-conforming goods cannot be accurately determined, the Warehouse or Store Manager must be notified to assess the situation and decide on the next steps.
+- In cases where the designated holding area is full or unavailable, the Warehouse or Store Manager will identify an alternative holding area and ensure it is clearly designated for non-conforming goods.
+- Any discrepancies in stock records or issues with the segregation process must be reported to the Warehouse or Store Manager for resolution.
+
+## 9. Process Completion Criteria
+The Reverse Logistics and Damaged Goods Handling process is considered complete when:
+- Non-conforming goods are isolated in a designated holding area.
+- Stock records have been accurately updated.
+- The Supply Officer/Logistics function has coordinated the return or disposition process, and the goods are ready to leave the warehouse with the necessary documentation.

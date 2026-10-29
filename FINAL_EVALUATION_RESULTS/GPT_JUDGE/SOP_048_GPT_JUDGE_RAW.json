@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_048",
+  "judge_family": "OpenAI GPT",
+  "judge_model": "gpt-5.6-sol",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "The SOP includes all source activities, documentation, roles, constraints, checks, records, stock updates, storage transfer, and expected outcomes."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The procedure follows a coherent source-aligned sequence: documentation verification, unloading, visual inspection, identity and quantity checks, acceptance, receipt documentation, stock update, and storage transfer."
+    },
+    "C3_role_clarity": {
+      "score": 5,
+      "reason": "Responsibilities are clearly and consistently allocated among the Warehouse Manager/Store Manager, Storekeeper/Warehouse Staff, and receiving or inspection personnel, all of which are source-provided roles."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "Required shipment documents, expected product and quantity information, receiving records, stock updates, acceptance results, and storage transfer outputs are explicitly identified."
+    },
+    "C5_exception_handling": {
+      "score": 5,
+      "reason": "The SOP correctly addresses missing or invalid documentation, product and quantity discrepancies, and the prohibition on placing unchecked or discrepant goods into normal stock, while acknowledging that final disposition procedures are unspecified."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "The SOP consistently preserves the requirements for valid documentation, matching product identity and quantity, visual inspection before acceptance, and completion of receiving checks before normal-stock entry."
+    },
+    "C7_groundedness": {
+      "score": 4,
+      "reason": "The SOP is overwhelmingly grounded in the scenario, but adds minor unsupported practices such as segregating affected goods and notifying the Warehouse Manager for deviation handling. These additions are cautious and do not materially contradict the source."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is clearly structured, internally consistent, actionable, and provides unambiguous completion criteria and cross-referenced exception handling."
+    }
+  }
+}

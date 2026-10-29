@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_020",
+  "judge_family": "OpenAI GPT",
+  "judge_model": "gpt-5.6-sol",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "The SOP includes all material source elements: document comparison, unloading and inspection, damage and quantity-discrepancy documentation, separation of affected goods, escalation, controlled status pending a decision, receipt of unaffected goods, and accurate inventory updates."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The sequence correctly moves from document verification and physical inspection through discrepancy identification, segregation, reporting, decision handling, and inventory recording. Processing unaffected goods before final disposition of affected goods does not conflict with the source."
+    },
+    "C3_role_clarity": {
+      "score": 4,
+      "reason": "Responsibilities are clearly assigned among all source-listed roles. However, assigning the Warehouse Manager as the required notifier and the Supply/Logistics function as the disposition decision-maker is more specific than the source explicitly states."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "The valid shipping, order, and packing documentation are clearly identified as inputs, while accepted inventory records, discrepancy documentation, notification, and controlled affected goods are identifiable outputs."
+    },
+    "C5_exception_handling": {
+      "score": 5,
+      "reason": "Both stated abnormal conditions—visible damage and a quantity mismatch—are identified, documented, segregated, escalated, and held from normal usable stock pending a decision."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "The SOP preserves all explicit constraints: comparing the delivery with order and packing documents, reporting mismatches, separating damaged or questionable goods, withholding affected goods from usable stock, and recording only accepted quantities and status."
+    },
+    "C7_groundedness": {
+      "score": 4,
+      "reason": "The procedure is predominantly grounded in the scenario, but it adds an unsupported rule requiring Warehouse Manager approval and documentation for any SOP deviation, along with somewhat more specific decision authority than the source provides."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is well structured, actionable, and internally consistent, with clear roles, inputs, outputs, procedural steps, controls, and completion criteria faithful to the core scenario."
+    }
+  }
+}

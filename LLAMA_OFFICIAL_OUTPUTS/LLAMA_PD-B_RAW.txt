@@ -1,0 +1,50 @@
+1. SOP Title
+Packing and Dispatch Preparation for Large Shipments
+
+2. Purpose
+To ensure that large shipments are prepared and dispatched efficiently and accurately, without mixing orders or exceeding operational constraints.
+
+3. Scope
+This SOP applies to the preparation and dispatch of large shipments that require coordinated staging and loading within the warehouse.
+
+4. Roles and Responsibilities
+- Warehouse Manager: Oversees the entire process, ensures compliance with operational constraints, and coordinates between different roles.
+- Storekeeper/Warehouse Staff: Responsible for organizing the staging area, staging the shipment, and preparing packing and dispatch documentation.
+- Tally/Checking or Security Personnel: Verify the shipment against the dispatch/Waybill information before and after loading.
+- Transport Personnel: Load the shipment onto the vehicle and ensure it is secured properly.
+
+5. Required Inputs / Information
+- Approved shipment details
+- Dispatch/Waybill information
+- Vehicle capacity details (weight and volume)
+- Physical warehouse limitations
+
+6. Expected Outputs
+- Staged and packed shipment
+- Accurate packing and dispatch documentation
+- Loaded vehicle corresponding to the authorized shipment and documentation
+- Verified shipment quantities matching the dispatch/Waybill information
+
+7. Procedure
+1. Upon notification of a large approved shipment, the Warehouse Manager coordinates with the Storekeeper/Warehouse Staff to organize the staging area.
+2. The Storekeeper/Warehouse Staff stages the shipment in the designated area, ensuring it is clearly identified and separated from other orders.
+3. The Storekeeper/Warehouse Staff prepares the packing and dispatch documentation.
+4. The Warehouse Manager reviews the vehicle capacity details and physical warehouse limitations to plan the loading operation.
+5. The Storekeeper/Warehouse Staff and Tally/Checking or Security Personnel verify the staged shipment against the dispatch/Waybill information.
+6. Transport Personnel, under the supervision of the Warehouse Manager or Tally/Checking or Security Personnel, load the shipment onto the vehicle, respecting vehicle weight and volume limitations.
+7. During loading, the Tally/Checking or Security Personnel check the quantities being loaded against the dispatch/Waybill information.
+8. Upon completion of loading, the Tally/Checking or Security Personnel verify that the loaded quantities match the dispatch/Waybill information.
+9. The Warehouse Manager or designated personnel confirm that the vehicle load corresponds to the authorized shipment and documentation before release.
+
+8. Exception and Deviation Handling
+- If a discrepancy is found between the staged shipment and the dispatch/Waybill information, the loading operation is halted until the discrepancy is resolved.
+- If the vehicle capacity is insufficient for the shipment, the Warehouse Manager is notified, and alternative arrangements are made.
+- In case of mixing of goods from different orders during staging or loading, the Warehouse Manager is immediately informed, and the affected shipments are re-staged and re-verified.
+
+9. Process Completion Criteria
+The process is considered complete when:
+- The entire authorized shipment is staged and packed.
+- The shipment is loaded onto the vehicle.
+- The loaded quantities are verified to match the dispatch/Waybill information.
+- The vehicle load is confirmed to correspond to the authorized shipment and documentation.
+- The shipment is released for dispatch.

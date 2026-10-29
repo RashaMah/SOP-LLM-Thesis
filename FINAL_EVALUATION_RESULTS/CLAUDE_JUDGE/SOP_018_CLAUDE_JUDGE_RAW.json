@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_018",
+  "judge_family": "Anthropic Claude",
+  "judge_model": "anthropic/claude-sonnet-5",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "All operationally relevant elements from the source scenario are represented: valid shipping documentation, unloading/inspection, damage and quantity discrepancy identification, separation of affected goods, documentation, escalation to Supply/Logistics, and inventory accuracy. No required information is omitted."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The procedure follows a logical operational flow consistent with the scenario: receive delivery → unload/inspect → verify against documentation → control damaged/discrepant goods → process unaffected goods → document → escalate → update inventory. This matches the implied dependencies in the source (inspection before separation, separation before escalation, escalation before final inventory update)."
+    },
+    "C3_role_clarity": {
+      "score": 5,
+      "reason": "Responsibilities are clearly and consistently assigned to the exact roles named in the source (Storekeeper/Warehouse Staff, Inspection Personnel, Warehouse Manager/Store Manager, Supply/Logistics function) with no unsupported new roles introduced."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "Required inputs (shipping, order, and packing documentation; physical quantities; inspection findings) and expected outputs (accepted stock, separated damaged/discrepant goods, documentation, escalation, accurate inventory) are explicitly listed and align with the source scenario."
+    },
+    "C5_exception_handling": {
+      "score": 4,
+      "reason": "Damage, quantity discrepancy, and questionable condition are handled correctly and consistently with the source. However, section 7.4 'Documentation or Inventory Conflict' introduces a rechecking/correction scenario not explicitly described in the source, which is a minor extrapolation beyond stated exceptions."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "All explicit constraints are respected throughout: physical-vs-documentation comparison, mandatory reporting of mismatches, clear separation of damaged/questionable goods, and inventory reflecting only accepted quantities/status."
+    },
+    "C7_groundedness": {
+      "score": 4,
+      "reason": "The SOP remains largely grounded in the source without inventing systems, thresholds, or approvals. The added 'Documentation or Inventory Conflict' exception (7.4) is a mild unsupported extension of scope not stated in the scenario, slightly reducing full groundedness."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is clearly structured with defined sections for purpose, scope, roles, inputs/outputs, procedure, exceptions, and completion criteria, making it actionable and unambiguous for warehouse staff while remaining faithful to the source scenario."
+    }
+  }
+}

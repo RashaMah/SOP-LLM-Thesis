@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_040",
+  "judge_family": "Google Gemini",
+  "judge_model": "gemini-3.1-pro-preview",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "The SOP includes all operationally relevant information, activities, roles, conditions, and expected outcomes explicitly contained in the source scenario without omitting any details."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The procedural activities follow the exact logical and operational sequence specified in the source scenario, moving from identification to removal, isolation, record updating, coordination, and finally authorized departure."
+    },
+    "C3_role_clarity": {
+      "score": 5,
+      "reason": "Responsibilities are clearly and consistently assigned to the exact roles provided in the source scenario (Storekeeper, Warehouse Staff, Warehouse/Store Manager, Supply Officer/Logistics function) without introducing unsupported roles."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "Required inputs (e.g., documented quality problem, affected quantity) and expected outputs (e.g., isolated stock, updated records) are clearly identifiable in dedicated sections and perfectly consistent with the source scenario."
+    },
+    "C5_exception_handling": {
+      "score": 5,
+      "reason": "The SOP correctly identifies and handles logical exceptions and deviations based directly on the constraints provided in the source scenario, such as loss of traceability or unauthorized departure attempts."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "All explicit constraints from the source scenario (goods not available for picking, maintaining traceability, authorized and documented departure) are strictly preserved and embedded into the procedural steps."
+    },
+    "C7_groundedness": {
+      "score": 5,
+      "reason": "The SOP remains entirely grounded in the source scenario. It avoids hallucinating specific systems, document names, or timelines, and explicitly notes where the source scenario lacks such details."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is highly clear, well-structured with logical headings, internally consistent, and actionable for warehouse users while remaining completely faithful to the source scenario."
+    }
+  }
+}

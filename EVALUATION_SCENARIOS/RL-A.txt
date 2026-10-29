@@ -1,0 +1,19 @@
+Process: Reverse Logistics and Damaged Goods Handling
+
+Scenario:
+Goods already held in the warehouse are identified as non-conforming and must be returned.
+
+Objective:
+Remove identified non-conforming goods from usable inventory and prepare them for controlled return.
+
+Operational information:
+A stored batch is identified as unsuitable for normal use because of a documented quality problem. Warehouse personnel must identify the affected quantity, remove it from normal usable stock, place it in a clearly separated holding area and update the relevant stock records. The responsible logistics/supply function must coordinate the further return or disposition process. Required supporting documentation must accompany the goods when they leave the warehouse.
+
+Roles involved:
+Supply Officer/Logistics function, Warehouse or Store Manager, Storekeeper, warehouse staff.
+
+Constraints / decision conditions:
+Affected goods must not remain available for normal picking. Their identity and quantity must remain traceable. The goods may only leave the warehouse through an authorized and documented process.
+
+Expected outcome:
+Affected stock is isolated, correctly recorded and prepared for authorized return without contaminating normal available inventory.

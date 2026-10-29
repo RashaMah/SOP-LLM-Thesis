@@ -1,0 +1,187 @@
+# Standard Operating Procedure: Reverse Logistics and Product Recall Handling
+
+## 1. SOP Title
+
+**Reverse Logistics and Product Recall Handling for Warehouse Stock**
+
+## 2. Purpose
+
+To define the process for identifying, blocking, segregating, recording, and returning all warehouse stock affected by a confirmed product recall due to a quality or safety concern.
+
+## 3. Scope
+
+This SOP applies when a formal recall notice is received for a product currently stored in the warehouse. It covers the process from receipt and confirmation of the recall through controlled dispatch of the affected stock.
+
+## 4. Roles and Responsibilities
+
+### 4.1 Supply Officer
+- Receive the recall notification.
+- Coordinate with relevant offices and external parties regarding the recall.
+- Communicate the confirmed recall and available recall information to the Store Manager.
+- Coordinate the return requirements before dispatch.
+
+### 4.2 Store Manager
+- Direct implementation of the warehouse recall activities.
+- Ensure that affected stock is immediately prevented from normal release.
+- Oversee identification, segregation, marking, recording, and dispatch preparation.
+- Ensure dispatch occurs only after the required coordination, documentation, and release controls are complete.
+
+### 4.3 Store Supervisor
+- Supervise the search for and handling of affected stock.
+- Ensure all identified quantities are moved out of usable stock and remain traceable.
+- Verify that affected stock is appropriately segregated and marked.
+- Support verification of quantities and stock-record updates.
+
+### 4.4 Storekeeper
+- Identify affected stock using the information contained in the recall notification.
+- Stop the affected stock from being issued.
+- Record affected quantities and update stock records.
+- Maintain traceability of quantities removed from usable stock.
+- Prepare applicable stock information and documentation for dispatch.
+
+### 4.5 Store Helper/Warehouse Staff
+- Assist with locating, counting, moving, segregating, and marking affected stock.
+- Handle affected goods only as directed by the Store Manager, Store Supervisor, or Storekeeper.
+- Keep recalled goods separate from usable stock.
+
+### 4.6 Security
+- Apply the required security and release controls for dispatch.
+- Permit the goods to leave the warehouse only when the appropriate dispatch documentation and release controls are in place.
+
+## 5. Required Inputs / Information
+
+- Formal recall notice concerning a warehouse-held product.
+- Confirmation that the recall applies to the product in warehouse stock.
+- Product-identification and affected-stock information provided in the recall notification.
+- Current warehouse stock records.
+- Quantity and location information identified during the warehouse search.
+- Return or dispatch information obtained through coordination with relevant offices and external parties.
+- Appropriate documentation required for dispatch and release.
+
+## 6. Expected Outputs
+
+- All affected warehouse quantities identified.
+- Affected stock immediately blocked from normal issue or use.
+- Recalled goods segregated in a separate area and appropriately marked.
+- All quantities removed from usable stock kept traceable.
+- Stock records updated to reflect the affected quantities.
+- Required coordination with relevant offices and external parties completed.
+- Recalled goods dispatched through a controlled reverse-logistics process with appropriate documentation and security/release controls.
+
+## 7. Procedure
+
+### 7.1 Receive and Confirm the Recall
+
+1. The Supply Officer receives the formal recall notification concerning a product stored in the warehouse.
+2. The Supply Officer confirms that the notification applies to warehouse-held stock.
+3. The Supply Officer communicates the confirmed recall and all available identification information to the Store Manager.
+4. Once the recall is confirmed, the Store Manager ensures that potentially affected stock is immediately prevented from normal release.
+
+### 7.2 Stop Issue of Affected Stock
+
+1. The Store Manager directs the Store Supervisor and Storekeeper to stop issue of the affected product.
+2. The Storekeeper ensures that affected stock is not released as normal usable stock.
+3. Warehouse personnel must not issue, use, or return the affected stock to normal storage while the recall is active.
+
+### 7.3 Identify All Affected Quantities
+
+1. The Store Supervisor coordinates a search of warehouse stock using the product information provided in the recall notification.
+2. The Storekeeper reviews stock records to identify recorded quantities and warehouse locations.
+3. Store Helpers/Warehouse Staff physically locate the product in the warehouse.
+4. Warehouse personnel check all identified warehouse locations where quantities of the affected product may be stored.
+5. The Storekeeper records each affected quantity and its location.
+6. The Store Supervisor verifies that the search addresses all quantities indicated by warehouse records and all quantities physically located.
+
+### 7.4 Segregate and Mark the Stock
+
+1. Under the Store Supervisor’s direction, Store Helpers/Warehouse Staff move identified affected stock out of usable stock.
+2. Move the recalled stock to a separate segregated area.
+3. Mark the stock appropriately to show that it is affected by the recall and must not be issued.
+4. Keep the stock separated from normal usable inventory.
+5. Maintain traceability for every quantity moved, including its identification and quantity.
+
+### 7.5 Update Stock Records
+
+1. The Storekeeper updates stock records to show that the affected quantities have been removed from usable stock.
+2. The updated records must preserve traceability of all recalled quantities.
+3. The Store Supervisor verifies that the physically segregated quantities correspond with the recorded quantities.
+4. Any mismatch or unidentified quantity must be handled as a deviation under Section 8 before dispatch.
+
+### 7.6 Coordinate the Return
+
+1. The Supply Officer coordinates with relevant offices and external parties before dispatch.
+2. Coordination must establish the available return and dispatch information for the recalled goods.
+3. The Store Manager ensures that warehouse dispatch preparation follows the coordinated return information.
+4. The recalled goods must remain blocked, segregated, marked, and traceable until dispatch is authorized and completed.
+
+### 7.7 Prepare for Dispatch
+
+1. The Storekeeper prepares the applicable stock and quantity information for the recalled goods.
+2. The Store Supervisor checks the goods prepared for dispatch against the updated stock records.
+3. The Store Manager confirms that:
+   - Affected goods remain segregated and marked.
+   - Dispatch quantities are traceable.
+   - Coordination with relevant offices and external parties has been completed.
+   - Appropriate dispatch documentation is available.
+   - Required security and release controls can be applied.
+4. Do not dispatch recalled goods until these conditions are satisfied.
+
+### 7.8 Release and Dispatch
+
+1. Present the recalled goods and appropriate dispatch documentation for security and release control.
+2. Security verifies that the required documentation and release controls are in place.
+3. Security permits release of the goods only after the applicable controls have been satisfied.
+4. Dispatch the affected stock through the controlled reverse-logistics process.
+5. Ensure the final dispatched quantities remain traceable to the quantities removed from usable warehouse stock.
+
+## 8. Exception and Deviation Handling
+
+### 8.1 Stock Cannot Be Located
+
+- Keep the affected product blocked from normal release.
+- Recheck warehouse locations and stock records.
+- Inform the Store Supervisor and Store Manager.
+- Do not treat the recall as complete until the affected quantities are identified or the unresolved difference is recorded and addressed through coordination with the Supply Officer.
+
+### 8.2 Physical Quantity Does Not Match Stock Records
+
+- Keep all identified affected stock segregated and blocked.
+- Recount the physical stock and review the relevant stock records.
+- Record the discrepancy.
+- Notify the Store Supervisor and Store Manager.
+- Maintain traceability of the confirmed quantities and do not dispatch unresolved quantities as though they were reconciled.
+
+### 8.3 Identification of Affected Stock Is Unclear
+
+- Prevent potentially affected stock from normal release.
+- Keep it separate from usable stock.
+- Refer the uncertainty to the Store Manager and Supply Officer for coordination using the recall information.
+- Do not release the stock for normal use unless it is determined not to be affected.
+
+### 8.4 Dispatch Documentation or Release Controls Are Incomplete
+
+- Do not dispatch the recalled goods.
+- Keep the goods segregated, marked, blocked, and traceable.
+- The Supply Officer must continue coordination with relevant offices and external parties.
+- Dispatch may proceed only when appropriate documentation and security/release controls are in place.
+
+### 8.5 Additional Affected Stock Is Found
+
+- Immediately stop the additional quantity from being issued.
+- Segregate and mark it with the other recalled stock.
+- Update stock records and dispatch quantities as applicable.
+- Ensure the additional quantity is included in the controlled recall process.
+
+## 9. Process Completion Criteria
+
+The recall-handling process is complete when:
+
+- All affected warehouse quantities have been identified.
+- All affected stock has been prevented from normal issue or use.
+- The stock has been segregated in a separate area and appropriately marked.
+- All quantities removed from usable stock are traceable.
+- Stock records have been updated.
+- Relevant offices and external parties have been coordinated with.
+- Appropriate dispatch documentation and security/release controls have been completed.
+- All affected goods have been released and dispatched through the controlled reverse-logistics process.
+- Any quantity discrepancies or other deviations have been recorded and addressed.

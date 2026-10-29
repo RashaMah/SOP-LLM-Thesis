@@ -1,0 +1,109 @@
+# Standard Operating Procedure (SOP)
+
+## 1. SOP Title
+Inventory Replenishment and Stock Realignment: Transfer of Stock from Reserve Storage to Active Picking Location
+
+## 2. Purpose
+This SOP defines the process for replenishing an active picking location with stock from reserve storage when picking stock has fallen to a low level, in order to ensure continued picking operations are not disrupted and that inventory and location records remain accurate after the stock movement.
+
+## 3. Scope
+This procedure applies to all situations within the warehouse where:
+- A picking location for an item is identified as having low stock.
+- Reserve storage holds additional quantity of the same item.
+- Stock must be moved from reserve storage to the active picking location to sustain picking activity.
+
+This SOP covers the identification of low picking stock, verification of reserve stock, the physical transfer of stock, and the corresponding update of inventory/location records. It applies to Storekeeper/Warehouse Staff and Warehouse or Store Manager involved in this process.
+
+## 4. Roles and Responsibilities
+
+**Storekeeper/Warehouse Staff**
+- Conduct or participate in stock review of picking locations.
+- Identify when picking stock for an item has become low.
+- Confirm availability of additional quantity of the same item in reserve storage.
+- Verify that the correct product and correct stock batch are selected for transfer.
+- Physically move the required stock from reserve storage to the designated picking location.
+- Apply any applicable stock-rotation rule during selection and movement of stock.
+- Update inventory/location records to reflect the stock movement.
+- Verify that physical quantities and recorded quantities match after the movement.
+- Escalate to the Warehouse or Store Manager if any discrepancy, insufficiency, or irregularity is identified.
+
+**Warehouse or Store Manager**
+- Oversee the replenishment process to ensure it is carried out correctly.
+- Review and resolve any escalated issues, such as discrepancies between physical and recorded inventory, insufficient reserve stock, or batch/product identification issues.
+- Confirm that stock-rotation rules and inventory accuracy requirements have been respected before the process is considered complete.
+
+## 5. Required Inputs / Information
+- Current stock quantity at the active picking location for the item.
+- Confirmation that the picking stock quantity is low relative to expected picking activity.
+- Availability and quantity of the same item in reserve storage.
+- Product identification details sufficient to confirm the correct item.
+- Stock batch information for the item in reserve storage.
+- Applicable stock-rotation rule (if any) governing which batch or stock should be moved first.
+- Current inventory/location records for both reserve storage and the picking location.
+
+*Note: The scenario does not specify the exact system, document, or tool used to record or review inventory levels. This SOP does not assume any specific software or system beyond "inventory/location records" as referenced in the scenario.*
+
+## 6. Expected Outputs
+- The active picking location contains sufficient stock of the item to support continued picking operations.
+- Reserve storage records are updated to reflect the reduced quantity due to the transfer.
+- Picking location records are updated to reflect the increased quantity due to the transfer.
+- Physical inventory at both reserve storage and the picking location matches the recorded inventory, with no unexplained differences.
+- Applicable stock-rotation rules remain respected following the movement.
+
+## 7. Procedure
+
+**Step 1: Stock Review**
+1.1 Warehouse personnel (Storekeeper/Warehouse Staff) conduct a stock review of the active picking location.
+1.2 During this review, staff determine that the quantity of an item in its picking location has fallen to a low level relative to expected picking activity.
+
+**Step 2: Verify Reserve Stock Availability**
+2.1 Storekeeper/Warehouse Staff check reserve storage to confirm that additional quantity of the same item is available.
+2.2 Confirm that the item and batch identified in reserve storage correctly match the item required at the picking location.
+
+**Step 3: Select Correct Product and Batch**
+3.1 Identify the correct product to be moved, ensuring it matches the item required at the picking location.
+3.2 Identify the correct stock batch to be moved, applying any applicable stock-rotation rule to determine which batch should be selected.
+
+**Step 4: Physical Transfer of Stock**
+4.1 Storekeeper/Warehouse Staff physically move the required quantity of stock from reserve storage to the designated picking location.
+4.2 Ensure the correct quantity is transferred to bring the picking location to a level sufficient for continued picking operations.
+
+**Step 5: Update Inventory/Location Records**
+5.1 Update the inventory/location records to reflect the reduction in reserve storage quantity.
+5.2 Update the inventory/location records to reflect the increase in picking location quantity.
+5.3 Ensure that the recorded quantities align with the physical quantities at both locations after the transfer.
+
+**Step 6: Verification**
+6.1 Storekeeper/Warehouse Staff verify that no unexplained difference exists between physical and recorded inventory at either the reserve storage or the picking location.
+6.2 Confirm that the stock-rotation rule (if applicable) was correctly followed during the transfer.
+
+**Step 7: Manager Oversight**
+7.1 Warehouse or Store Manager oversees the replenishment process to confirm it has been carried out correctly.
+7.2 If discrepancies, insufficient reserve stock, or other irregularities are identified at any stage, escalate per Section 8 below.
+
+## 8. Exception and Deviation Handling
+
+**Exception: Unexplained Difference Between Physical and Recorded Inventory**
+- If, after the stock movement, a difference is found between physical inventory and recorded inventory that cannot be explained, the Storekeeper/Warehouse Staff must escalate the issue to the Warehouse or Store Manager.
+- The movement must not be finalized as complete until the discrepancy is investigated and resolved by the Warehouse or Store Manager.
+- The scenario does not specify the exact investigation or correction method; therefore, this SOP does not prescribe a specific resolution process beyond escalation to management.
+
+**Exception: Incorrect Product or Batch Identified**
+- If the wrong product or an incorrect stock batch is identified during selection, the transfer must not proceed until the correct product and batch are confirmed.
+- Any stock-rotation rule applicable to the item must be re-checked before proceeding.
+
+**Exception: Insufficient Reserve Stock**
+- If reserve storage does not hold sufficient additional quantity of the item to replenish the picking location adequately, this must be escalated to the Warehouse or Store Manager for further action.
+- The scenario does not specify alternative sourcing procedures in this situation; therefore, no such procedure is assumed here.
+
+**Exception: Stock-Rotation Rule Violation**
+- If a stock-rotation rule applicable to the item cannot be respected during the transfer (e.g., due to batch arrangement or availability), this must be flagged and escalated to the Warehouse or Store Manager before completing the movement.
+
+## 9. Process Completion Criteria
+The replenishment process is considered complete when all of the following conditions are met:
+- The active picking location contains sufficient stock of the item to support continued picking operations.
+- The correct product and correct stock batch were used in the transfer.
+- Any applicable stock-rotation rule was respected during the transfer.
+- Inventory/location records for both reserve storage and the picking location have been updated to reflect the movement.
+- Physical inventory and recorded inventory are aligned at both reserve storage and the picking location, with no unexplained differences.
+- Any escalated issues (discrepancies, insufficient stock, batch/product errors, or rotation rule conflicts) have been reviewed and resolved by the Warehouse or Store Manager.

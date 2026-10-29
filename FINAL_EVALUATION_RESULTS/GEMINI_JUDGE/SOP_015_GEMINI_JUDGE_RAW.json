@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_015",
+  "judge_family": "Google Gemini",
+  "judge_model": "gemini-3.1-pro-preview",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "The SOP captures all operational information, roles, constraints, and expected outcomes explicitly detailed in the source scenario without omitting any relevant details."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The procedural steps follow a logical and operationally correct sequence, starting from receiving instructions to verifying availability, handling the discrepancy, and continuing with the rest of the order."
+    },
+    "C3_role_clarity": {
+      "score": 5,
+      "reason": "Responsibilities are clearly and accurately assigned to the exact roles provided in the source scenario without introducing unsupported roles."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "Required inputs and expected outputs are explicitly listed in dedicated sections and perfectly align with the source scenario."
+    },
+    "C5_exception_handling": {
+      "score": 5,
+      "reason": "The SOP effectively addresses the primary exception (unavailable stock) and clearly outlines the required deviations, prohibitions, and escalation paths as dictated by the source scenario."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "All constraints from the source scenario, including strict adherence to picking instructions and rules regarding batch/quantity substitution, are explicitly preserved and emphasized."
+    },
+    "C7_groundedness": {
+      "score": 5,
+      "reason": "The SOP introduces no unsupported operational details, technologies, or invented systems, remaining strictly faithful to the provided source scenario."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is highly structured, internally consistent, and written in clear, actionable language suitable for warehouse personnel."
+    }
+  }
+}

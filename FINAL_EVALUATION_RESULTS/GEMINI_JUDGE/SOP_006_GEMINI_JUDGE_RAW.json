@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_006",
+  "judge_family": "Google Gemini",
+  "judge_model": "gemini-3.1-pro-preview",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "The SOP captures all operational information, roles, constraints, and expected outcomes explicitly provided in the source scenario without omitting any details."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The procedural steps follow a logical and operationally correct sequence, moving from assignment and instruction retrieval to picking, verification, record updating, and final transfer."
+    },
+    "C3_role_clarity": {
+      "score": 5,
+      "reason": "Roles are clearly assigned based on the source. The SOP correctly attributes the physical tasks to the Storekeeper/Picker and accurately notes that the Supervisor's specific duties are not defined in the source."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "Inputs (picking instruction, locations) and outputs (completed pick, updated records, transferred goods) are clearly identified and perfectly align with the source scenario."
+    },
+    "C5_exception_handling": {
+      "score": 5,
+      "reason": "The SOP correctly identifies the implied exception of unavailable items based on the phrase 'all available requested items' and accurately notes the source's lack of specific escalation procedures."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "All explicit constraints, such as picking only stated quantities, checking each line, and maintaining record accuracy, are prominently featured and respected in the procedure."
+    },
+    "C7_groundedness": {
+      "score": 5,
+      "reason": "The SOP remains strictly grounded in the source scenario. It does not invent any systems, documents, or procedures, and explicitly acknowledges where the source lacks detail."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is highly usable, featuring a clear, logical structure with actionable steps that are easy for a warehouse operator to follow while remaining entirely faithful to the source."
+    }
+  }
+}

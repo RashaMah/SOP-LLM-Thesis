@@ -1,0 +1,5 @@
+generator,n,mean_consensus_total,median_consensus_total,sd_consensus_total,minimum_consensus_total,maximum_consensus_total
+QWEN,12,38.083333,38.333333,1.319052,35.0,39.666667
+LLAMA,12,36.055556,36.333333,1.841351,32.333333,38.333333
+GPT,12,39.0,39.0,0.651339,38.0,40.0
+CLAUDE,12,38.444445,38.5,0.640917,37.0,39.666667

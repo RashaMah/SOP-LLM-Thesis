@@ -1,0 +1,207 @@
+# 1. SOP Title
+
+**Standard Operating Procedure: Stock Transfer and Redistribution Between Locations**
+
+## 2. Purpose
+
+To define the process for redistributing stock from a location holding surplus inventory at risk of expiration to a location with insufficient stock. The procedure aims to reduce expiry risk, prevent stockout, maintain traceability, and ensure accurate stock records at both locations.
+
+## 3. Scope
+
+This SOP applies to stock redistribution between:
+
+- A **source location** holding excess stock; and
+- A **receiving location** with insufficient stock.
+
+It covers:
+
+- Stock analysis and the redistribution decision;
+- Confirmation of the transfer quantity;
+- Picking and packing;
+- Collection or dispatch;
+- Transport handover;
+- Receipt at the receiving location; and
+- Stock-record updates at both locations.
+
+## 4. Roles and Responsibilities
+
+### 4.1 Supply Officer
+
+- Review stock information identifying excess stock at one location and insufficient stock at another.
+- Determine whether redistribution is required.
+- Ensure the redistribution quantity is based on available stock information and an authorized decision.
+- Ensure the movement does not create an unmanaged shortage at the source location.
+- Coordinate the redistribution with the relevant locations and transport personnel.
+
+### 4.2 Store Manager
+
+- Oversee transfer preparation at the source location.
+- Confirm that the agreed quantity is prepared for collection or dispatch.
+- Ensure transfer activities and stock-record updates remain traceable.
+
+### 4.3 Store Supervisor
+
+- Supervise picking, packing, and handover activities.
+- Verify that the prepared stock corresponds to the agreed redistribution quantity.
+- Ensure traceability is maintained during preparation and handover.
+
+### 4.4 Storekeeper
+
+- Pick and prepare the agreed stock quantity.
+- Support verification, packing, handover, and stock-record updates.
+- Maintain traceability of the stock throughout source-location activities.
+
+### 4.5 Store Helper/Warehouse Staff
+
+- Assist with picking, packing, movement, staging, and loading of the stock as directed.
+- Preserve the identity and traceability of the stock during handling.
+
+### 4.6 Transport/3PL Personnel
+
+- Accept the stock at transport handover.
+- Maintain the traceability of the transferred stock while it is in transport custody.
+- Deliver the stock to the receiving location.
+
+### 4.7 Receiving Facility
+
+- Receive the transferred stock.
+- Verify the received stock against the agreed transfer.
+- Record the receipt and update the receiving location’s stock records.
+- Report any discrepancy or traceability issue.
+
+## 5. Required Inputs / Information
+
+The process requires:
+
+- Stock information showing excess quantity at the source location;
+- Stock information showing insufficient quantity at the receiving location;
+- Identification of the item to be redistributed;
+- An authorized decision to redistribute the stock;
+- The agreed redistribution quantity;
+- Identification of the source and receiving locations;
+- Information required to maintain traceability through picking, packing, transport handover, receipt, and stock-record updates; and
+- Collection or dispatch arrangements.
+
+## 6. Expected Outputs
+
+- The agreed stock quantity is transferred from the surplus location to the shortage location.
+- Expiry risk at the source location is reduced.
+- Stockout risk at the receiving location is reduced.
+- The movement does not create an unmanaged shortage at the source location.
+- The transfer remains traceable through all handling stages.
+- Source and receiving stock records correctly reflect the movement.
+- Any discrepancy or deviation is identified and addressed before the process is considered complete.
+
+## 7. Procedure
+
+### 7.1 Identify the Redistribution Need
+
+1. Review stock information for the relevant item at both locations.
+2. Confirm that:
+   - The source location holds excess stock approaching a risk of expiration; and
+   - The receiving location has insufficient stock.
+3. The Supply Officer determines whether redistribution is required.
+
+### 7.2 Determine and Authorize the Transfer Quantity
+
+1. Determine the proposed redistribution quantity using the available stock information.
+2. Confirm that transferring the proposed quantity will not create an unmanaged shortage at the source location.
+3. Obtain or confirm the authorized decision for the redistribution.
+4. Communicate the agreed item, quantity, source location, and receiving location to the personnel involved.
+5. Do not prepare or move stock based solely on an unsupported quantity or an unauthorized decision.
+
+### 7.3 Prepare Stock at the Source Location
+
+1. The Store Manager or Store Supervisor coordinates preparation of the agreed quantity.
+2. The Storekeeper, supported by the Store Helper/Warehouse Staff, identifies and picks the stock.
+3. Verify that the picked item and quantity match the authorized redistribution decision.
+4. Maintain traceability while the stock is picked, moved, and staged.
+5. Pack the stock for collection or dispatch.
+6. Keep the packed stock identifiable and traceable pending transport handover.
+
+### 7.4 Complete Transport Handover
+
+1. Make the prepared stock available for collection or dispatch.
+2. At handover, the responsible source-location personnel and transport/3PL personnel confirm the stock being transferred.
+3. Ensure the handover remains traceable, including the item and quantity transferred.
+4. Transfer custody of the stock to the transport/3PL personnel.
+5. Update the source location’s stock records to reflect the stock movement.
+6. Preserve the relationship between the handover information and the corresponding stock-record update.
+
+### 7.5 Transport the Stock
+
+1. Transport/3PL personnel move the stock from the source location to the receiving location.
+2. Maintain stock identity and traceability while the stock is in transport custody.
+3. Deliver the stock to the identified receiving facility.
+
+### 7.6 Receive and Verify the Stock
+
+1. The receiving facility accepts the delivered stock.
+2. Verify the received item and quantity against the agreed transfer and transport handover information.
+3. Confirm that the stock remains traceable to the source-location transfer.
+4. Identify and report any quantity difference, incorrect item, loss of traceability, or other deviation before completing the receipt.
+
+### 7.7 Record Receipt and Reconcile Records
+
+1. The receiving facility records the stock receipt.
+2. Update the receiving location’s stock records by the quantity received and accepted.
+3. Confirm that:
+   - The source location’s records reflect the stock dispatched;
+   - The receiving location’s records reflect the stock received; and
+   - The records correspond to the traceable transfer information.
+4. Reconcile any difference between the dispatched and received quantities before considering the transfer complete.
+
+## 8. Exception and Deviation Handling
+
+### 8.1 Proposed Transfer Would Create a Source Shortage
+
+- Do not proceed with a quantity that would create an unmanaged shortage at the source location.
+- Refer the quantity for review by the responsible Supply function.
+- Proceed only after an authorized redistribution quantity has been confirmed.
+
+### 8.2 Quantity Is Not Authorized or Is Unclear
+
+- Do not pick, dispatch, or receive the stock as a completed transfer until the agreed quantity is confirmed through an authorized decision.
+- The Supply Officer must resolve the uncertainty and communicate the confirmed quantity.
+
+### 8.3 Picking or Packing Discrepancy
+
+- Stop preparation if the item or quantity does not match the agreed transfer.
+- Recheck the stock information and authorized decision.
+- Correct the discrepancy before transport handover.
+
+### 8.4 Handover Discrepancy
+
+- Do not complete the transport handover if the stock presented does not match the agreed item or quantity.
+- The source-location personnel and transport/3PL personnel must identify the discrepancy.
+- Correct the stock or confirm an authorized change before custody is transferred.
+
+### 8.5 Receiving Discrepancy
+
+If the receiving facility identifies a shortage, excess, incorrect item, or other mismatch:
+
+- Record the actual quantity and item received.
+- Maintain the stock separately identifiable while the discrepancy is being resolved where necessary to preserve traceability.
+- Notify the relevant transfer participants.
+- Reconcile the source dispatch information, transport handover information, physical receipt, and stock records.
+- Do not treat the transfer as complete until the discrepancy has been addressed and the records reflect the resolved movement.
+
+### 8.6 Loss of Traceability
+
+- Stop the affected activity where traceability cannot be maintained or demonstrated.
+- Identify the last point at which the stock movement was traceable.
+- Reconcile the available picking, packing, handover, receiving, and stock-record information.
+- Do not complete the transfer until traceability has been restored or the deviation has been addressed.
+
+## 9. Process Completion Criteria
+
+The stock transfer and redistribution process is complete only when:
+
+- Redistribution was based on stock information and an authorized decision;
+- The agreed quantity was prepared and dispatched from the source location;
+- The movement did not create an unmanaged shortage at the source location;
+- The stock was delivered to and accepted by the receiving facility;
+- Picking, packing, transport handover, receiving, and record updates are traceable;
+- The source location’s stock records reflect the dispatched quantity;
+- The receiving location’s stock records reflect the received quantity; and
+- All discrepancies or deviations have been addressed and the records correctly reflect the final stock movement.

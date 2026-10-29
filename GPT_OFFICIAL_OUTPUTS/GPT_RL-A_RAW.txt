@@ -1,0 +1,173 @@
+# Standard Operating Procedure: Reverse Logistics and Damaged Goods Handling
+
+## 1. SOP Title
+
+**Reverse Logistics and Damaged Goods Handling for Non-Conforming Warehouse Stock**
+
+## 2. Purpose
+
+To ensure that goods identified as non-conforming due to a documented quality problem are:
+
+- Removed from usable inventory;
+- Prevented from being picked for normal use;
+- Clearly isolated and kept traceable;
+- Correctly reflected in stock records; and
+- Prepared for authorized return or other coordinated disposition.
+
+## 3. Scope
+
+This SOP applies to goods already held in the warehouse that are identified as unsuitable for normal use because of a documented quality problem.
+
+It covers the process from identification of the affected stored batch through isolation, stock record update, preparation, and authorized removal from the warehouse.
+
+## 4. Roles and Responsibilities
+
+### 4.1 Supply Officer/Logistics Function
+
+- Coordinate the further return or disposition process.
+- Ensure that removal from the warehouse is authorized and documented.
+- Coordinate the supporting documentation required to accompany the goods when they leave the warehouse.
+
+### 4.2 Warehouse or Store Manager
+
+- Oversee the identification, removal, and isolation of affected stock.
+- Ensure affected goods are not available for normal picking.
+- Ensure stock records are updated.
+- Ensure goods leave the warehouse only through an authorized and documented process.
+
+### 4.3 Storekeeper
+
+- Identify and verify the affected stock and quantity.
+- Remove the affected quantity from normal usable stock.
+- Place the goods in a clearly separated holding area.
+- Update the relevant stock records while preserving identity and quantity traceability.
+- Assist in preparing the goods for authorized return or disposition.
+
+### 4.4 Warehouse Staff
+
+- Support identification, removal, handling, and transfer of affected goods.
+- Prevent affected goods from being returned to normal usable inventory or selected for normal picking.
+- Maintain separation and traceability during handling.
+
+## 5. Required Inputs / Information
+
+The process requires:
+
+- Identification of the stored batch affected by the quality problem;
+- Documentation of the quality problem;
+- Information needed to identify the affected goods;
+- Confirmation of the affected quantity;
+- Relevant stock records;
+- Authorization and supporting documentation for return or disposition before the goods leave the warehouse.
+
+## 6. Expected Outputs
+
+- Affected goods removed from normal usable inventory;
+- Affected goods placed in a clearly separated holding area;
+- Affected identity and quantity maintained as traceable;
+- Relevant stock records updated;
+- Affected goods prevented from normal picking;
+- Return or disposition coordinated by the Supply Officer/Logistics function;
+- Required supporting documentation prepared to accompany the goods; and
+- Goods released from the warehouse only through an authorized and documented process.
+
+## 7. Procedure
+
+### 7.1 Confirm the Non-Conforming Stock
+
+1. Review the documented quality problem affecting the stored batch.
+2. Identify the goods and batch covered by the documented problem.
+3. Determine and verify the affected quantity.
+4. Maintain a clear link between the documented quality problem and the identity and quantity of the affected goods.
+
+### 7.2 Remove Goods from Usable Inventory
+
+1. Locate the affected goods in the warehouse.
+2. Remove the confirmed affected quantity from normal usable stock.
+3. Ensure that the affected goods are no longer available for normal picking.
+4. Keep the affected goods identifiable and traceable throughout removal and handling.
+
+### 7.3 Isolate the Affected Goods
+
+1. Transfer the affected goods to a clearly separated holding area.
+2. Keep the goods separated from normal available inventory.
+3. Maintain the identity and quantity of the affected stock while it is held.
+4. Do not return the goods to normal usable inventory unless handled through an authorized process.
+
+### 7.4 Update Stock Records
+
+1. Update the relevant stock records to reflect the removal of the affected quantity from normal usable stock.
+2. Record the affected goods in a manner that preserves their identity and quantity traceability.
+3. Verify that warehouse records no longer show the affected goods as available for normal picking.
+
+### 7.5 Coordinate Return or Disposition
+
+1. Notify or engage the responsible Supply Officer/Logistics function.
+2. Provide the available information concerning:
+   - The identity of the affected goods;
+   - The affected quantity;
+   - The documented quality problem; and
+   - The location of the isolated goods.
+3. The Supply Officer/Logistics function shall coordinate the further return or disposition process.
+4. Keep the goods in the separated holding area until the authorized process is ready.
+
+### 7.6 Prepare for Warehouse Release
+
+1. Confirm that the return or disposition is authorized.
+2. Prepare the affected goods for release while maintaining their identity, quantity, and separation from usable inventory.
+3. Ensure that all required supporting documentation is available.
+4. Ensure the required supporting documentation accompanies the goods when they leave the warehouse.
+5. Release the goods only through the authorized and documented process.
+6. Update relevant stock records to reflect the goods leaving the warehouse.
+
+## 8. Exception and Deviation Handling
+
+### 8.1 Affected Quantity Cannot Be Confirmed
+
+- Do not release the goods for normal picking.
+- Keep potentially affected goods separated from usable inventory.
+- Escalate the discrepancy to the Warehouse or Store Manager and the Supply Officer/Logistics function.
+- Do not proceed with warehouse release until the identity and quantity are traceable and the process is authorized.
+
+### 8.2 Goods Cannot Be Clearly Identified
+
+- Prevent the goods from remaining available for normal picking.
+- Place the potentially affected goods in the clearly separated holding area.
+- Maintain all available identifying information.
+- Refer the issue to the Warehouse or Store Manager and the Supply Officer/Logistics function for coordinated handling.
+
+### 8.3 Stock Record Discrepancy
+
+- Keep the affected goods isolated.
+- Do not treat the goods as normal available inventory.
+- Verify the physical identity and quantity against the relevant stock records.
+- Escalate unresolved discrepancies to the Warehouse or Store Manager and the Supply Officer/Logistics function.
+
+### 8.4 Authorization or Documentation Is Missing
+
+- Do not allow the goods to leave the warehouse.
+- Retain the goods in the clearly separated holding area.
+- Refer the issue to the Supply Officer/Logistics function for coordination.
+- Release the goods only after the process is authorized and the required supporting documentation is available.
+
+### 8.5 Separation Is Compromised
+
+- Stop handling activities that could mix the affected goods with usable inventory.
+- Re-establish clear separation immediately.
+- Reconfirm the identity and quantity of the affected goods.
+- Update records if any discrepancy is identified.
+
+## 9. Process Completion Criteria
+
+The process is complete when:
+
+- The affected goods have been identified and the affected quantity confirmed;
+- The goods have been removed from normal usable stock;
+- The goods are not available for normal picking;
+- The goods have been held in a clearly separated area until authorized release;
+- Their identity and quantity have remained traceable;
+- Relevant stock records have been updated;
+- The Supply Officer/Logistics function has coordinated the return or disposition;
+- The warehouse release has been authorized and documented;
+- Required supporting documentation accompanies the goods; and
+- The goods have left the warehouse through the authorized process without contaminating normal available inventory.

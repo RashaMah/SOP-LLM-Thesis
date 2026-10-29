@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_043",
+  "judge_family": "OpenAI GPT",
+  "judge_model": "gpt-5.6-sol",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "The SOP includes the stated trigger, objective, stock analysis, authorized redistribution decision, agreed quantity, source preparation, picking, packing, transport handover, receipt, record updates, traceability, shortage constraint, and expected outcome."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The sequence logically follows the scenario: analyze stock, authorize and determine quantity, prepare and dispatch at source, hand over for transport, receive at destination, and update both locations' records."
+    },
+    "C3_role_clarity": {
+      "score": 4,
+      "reason": "The Supply function, source-location personnel, transport/3PL personnel, and receiving facility have clear general responsibilities. Minor ambiguity remains because several source roles are grouped with interchangeable responsibility, and the receiving facility is said to include named store roles without source confirmation."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "Inputs clearly include stock analysis, an authorized redistribution decision, and the agreed quantity; outputs clearly include physical redistribution, corrected records at both locations, and traceable movement activities."
+    },
+    "C5_exception_handling": {
+      "score": 5,
+      "reason": "The SOP appropriately addresses the source scenario's key abnormal conditions: a transfer that could create an unmanaged source shortage and a loss of traceability. It also provides a usable response to a received-quantity discrepancy."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "The SOP consistently preserves all explicit constraints: quantity is based on stock information and authorization, traceability is maintained across specified stages, and the transfer is checked to avoid an unmanaged source shortage."
+    },
+    "C7_groundedness": {
+      "score": 4,
+      "reason": "The SOP is predominantly grounded in the scenario, but adds some unsupported operational instructions, including arranging transport, verifying receipt against the agreed quantity, documenting discrepancies in stock records, and requiring traceability restoration before proceeding or finalizing."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is well structured, internally consistent, and actionable, with clearly identified inputs, outputs, roles, sequential steps, constraints, exceptions, and completion criteria."
+    }
+  }
+}

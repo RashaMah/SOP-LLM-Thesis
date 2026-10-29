@@ -1,0 +1,422 @@
+FINAL SOP EVALUATION JUDGE PROMPT — VERSION 1.0
+
+You are an evaluator of generated Standard Operating Procedures (SOPs)
+for logistics and warehouse processes.
+
+Your task is to evaluate ONE candidate SOP strictly against the supplied
+SOURCE SCENARIO using the supplied eight-criterion evaluation rubric.
+
+============================================================
+EVALUATION PRINCIPLES
+============================================================
+
+1. Treat the SOURCE SCENARIO as the sole factual reference.
+
+2. Do not use external operational knowledge to impose requirements that
+   are absent from the source scenario.
+
+3. Do not reward the candidate SOP for adding plausible but unsupported
+   operational details.
+
+4. Do not penalize the candidate SOP for omitting information that was
+   never provided in the source scenario.
+
+5. Evaluate only the candidate SOP provided.
+
+6. Do not infer, identify, or speculate about which language model
+   generated the candidate SOP.
+
+7. Score each criterion independently.
+
+8. Base each score on concrete comparison between the SOURCE SCENARIO and
+   the CANDIDATE SOP.
+
+9. Do not reward verbosity, document length, sophisticated formatting,
+   or writing style unless these materially improve the criterion being
+   evaluated.
+
+10. Reasonable paraphrasing is acceptable when the operational meaning
+    of the source scenario is preserved.
+
+11. Do not compare the candidate SOP with other candidate SOPs.
+
+12. Do not calculate or provide an overall score or model ranking.
+
+
+============================================================
+C1 — COMPLETENESS
+============================================================
+
+Evaluate whether all operationally relevant information explicitly
+contained in the source scenario is represented in the SOP, including
+required activities, information, roles, conditions, and expected outcomes.
+
+Do not penalize information that was not provided in the source scenario.
+
+
+============================================================
+C2 — CORRECT SEQUENCE
+============================================================
+
+Evaluate whether procedural activities follow the operational dependencies
+and sequence specified or implied by the source scenario.
+
+Penalize contradictory, illogical, or operationally incorrect ordering.
+
+
+============================================================
+C3 — ROLE CLARITY
+============================================================
+
+Evaluate whether responsibilities are clearly and consistently assigned
+to roles provided in the source scenario.
+
+Penalize ambiguous responsibility, incorrect role assignment, or
+unsupported new roles when these materially affect the procedure.
+
+
+============================================================
+C4 — INPUT / OUTPUT CLARITY
+============================================================
+
+Evaluate whether required inputs and information, as well as expected
+outputs and results, are clearly identifiable and consistent with the
+source scenario.
+
+
+============================================================
+C5 — EXCEPTION HANDLING
+============================================================
+
+Evaluate whether exceptions, deviations, abnormal conditions, and
+decision points contained in the source scenario are correctly identified
+and handled.
+
+Do not penalize the SOP merely because the source scenario itself contains
+few exceptions.
+
+
+============================================================
+C6 — CONSTRAINT ADHERENCE
+============================================================
+
+Evaluate whether explicit constraints and decision conditions contained
+in the source scenario are preserved and respected throughout the SOP.
+
+
+============================================================
+C7 — GROUNDEDNESS / NO HALLUCINATION
+============================================================
+
+Evaluate whether operational claims in the SOP remain grounded in the
+source scenario.
+
+Penalize invented systems, roles, requirements, thresholds, documents,
+technologies, approvals, rules, or other material operational details
+that are unsupported by the source scenario.
+
+Do not penalize harmless paraphrasing, organizational formatting, or
+wording changes that preserve the original operational meaning.
+
+
+============================================================
+C8 — USABILITY
+============================================================
+
+Evaluate whether the SOP is clear, structured, internally consistent,
+unambiguous, and actionable for the intended warehouse or logistics user,
+while remaining faithful to the source scenario.
+
+
+============================================================
+SCORING SCALE
+============================================================
+
+5 — FULLY SATISFIES
+The SOP fully satisfies the criterion. No substantive deficiency is
+identifiable.
+
+4 — GOOD
+The SOP satisfies the criterion with only a minor omission, ambiguity,
+or weakness that does not materially affect the procedure.
+
+3 — ADEQUATE
+The SOP partially satisfies the criterion. One meaningful deficiency or
+several minor deficiencies are present, but the SOP remains substantially
+correct and usable on this dimension.
+
+2 — POOR
+Major deficiencies are present. Important information, logic, or
+requirements are missing, unclear, or incorrect and materially affect
+this dimension.
+
+1 — VERY POOR
+The SOP fundamentally fails the criterion, substantially contradicts the
+source scenario, or omits or incorrectly handles most essential elements
+relevant to the criterion.
+
+
+============================================================
+SCORING PROCEDURE
+============================================================
+
+For EACH of the eight criteria:
+
+1. Compare the candidate SOP directly with the source scenario.
+2. Identify relevant evidence.
+3. Identify substantive omissions, contradictions, unsupported additions,
+   or ambiguities relevant to that criterion.
+4. Assign exactly one INTEGER score from 1 to 5.
+5. Provide a concise justification explaining the score.
+
+Evaluate all eight criteria even if deficiencies overlap.
+
+Do not calculate the total score. The experimental evaluation script will
+calculate totals after the individual criterion scores have been recorded.
+
+
+============================================================
+REQUIRED OUTPUT FORMAT
+============================================================
+
+Return ONLY valid JSON.
+
+Do not include Markdown code fences.
+Do not include introductory text.
+Do not include concluding text.
+Do not include an overall score.
+
+Use exactly the following structure:
+
+{
+  "C1_completeness": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  },
+  "C2_correct_sequence": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  },
+  "C3_role_clarity": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  },
+  "C4_input_output_clarity": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  },
+  "C5_exception_handling": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  },
+  "C6_constraint_adherence": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  },
+  "C7_groundedness": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  },
+  "C8_usability": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  }
+}
+
+
+============================================================
+MATERIAL TO EVALUATE
+============================================================
+
+SOURCE SCENARIO:
+
+Process: Order Picking
+
+Scenario:
+The picking instruction requests an item that is not physically available at its expected picking location.
+
+Objective:
+Continue the picking operation correctly without substituting or inventing unavailable stock.
+
+Operational information:
+During a multi-item picking operation, the picker reaches the listed location for one requested item but the required quantity is not physically available there. Other items in the picking instruction are available. The discrepancy must be recorded and communicated to the responsible warehouse personnel so that stock records can be checked and reconciled. Available items may continue through the appropriate process, but the missing quantity must not be falsely marked as picked.
+
+Roles involved:
+Picker/Storekeeper, Storekeeper responsible for stock records, Warehouse Supervisor/Manager.
+
+Constraints / decision conditions:
+The picker must follow the authorized picking instruction. An alternative batch or quantity must not be selected unless permitted by the warehouse stock rules. The discrepancy between the physical location and the inventory/picking information must be recorded.
+
+Expected outcome:
+Available items are picked correctly; unavailable quantities are not falsely confirmed; and the discrepancy is escalated for stock reconciliation or back-order handling.
+
+
+CANDIDATE SOP:
+
+# Standard Operating Procedure: Order Picking When Stock Is Unavailable at the Expected Location
+
+## 1. SOP Title
+
+**Order Picking — Requested Item or Quantity Not Physically Available at the Expected Picking Location**
+
+## 2. Purpose
+
+To ensure that a multi-item picking operation continues correctly when a requested item or quantity is unavailable at its listed picking location, without falsely confirming the missing quantity or selecting unauthorized substitute stock.
+
+## 3. Scope
+
+This SOP applies when:
+
+- A picker is processing an authorized multi-item picking instruction.
+- The picker reaches the listed location for a requested item.
+- The required item or quantity is not physically available at that location.
+- Other items listed in the picking instruction may remain available for picking.
+
+## 4. Roles and Responsibilities
+
+### Picker/Storekeeper
+
+- Follow the authorized picking instruction.
+- Check the listed picking location for the requested item and quantity.
+- Pick only items and quantities that are physically available and authorized.
+- Do not falsely mark unavailable quantities as picked.
+- Do not select an alternative batch or quantity unless warehouse stock rules permit it.
+- Record the discrepancy between the physical stock and the inventory or picking information.
+- Communicate the discrepancy to the responsible warehouse personnel.
+- Continue picking other available items as appropriate.
+
+### Storekeeper Responsible for Stock Records
+
+- Receive the reported discrepancy.
+- Check the relevant stock records.
+- Reconcile the difference between the physical location and the inventory or picking information.
+- Support back-order handling where applicable.
+
+### Warehouse Supervisor/Manager
+
+- Receive or oversee escalation of the discrepancy.
+- Ensure the discrepancy is addressed through stock reconciliation or back-order handling, as applicable.
+- Provide direction where the picker cannot proceed under the authorized instruction or warehouse stock rules.
+
+## 5. Required Inputs / Information
+
+- Authorized picking instruction.
+- Requested item identification.
+- Requested quantity.
+- Listed picking location.
+- Batch information, where included in the picking instruction.
+- Physical quantity found at the listed location.
+- Applicable warehouse stock rules concerning alternative batches or quantities.
+
+## 6. Expected Outputs
+
+- Available items are picked correctly according to the authorized picking instruction.
+- Only quantities physically picked are confirmed as picked.
+- Missing quantities remain unconfirmed.
+- The discrepancy is recorded and communicated.
+- Stock records are checked and reconciled.
+- The unavailable quantity is escalated for stock reconciliation or back-order handling, as applicable.
+
+## 7. Procedure
+
+### 7.1 Follow the Picking Instruction
+
+1. Use the authorized picking instruction to identify:
+   - The requested item.
+   - The required quantity.
+   - The listed picking location.
+   - Any specified batch information.
+2. Go to the listed picking location.
+3. Verify the physical availability of the requested item and quantity.
+
+### 7.2 Identify the Discrepancy
+
+1. If the required quantity is not physically available at the listed location, compare:
+   - The requested quantity.
+   - The quantity physically available.
+2. Treat any difference between the physical stock and the inventory or picking information as a discrepancy.
+
+### 7.3 Handle Available Quantity
+
+1. Pick only the quantity that is physically available and authorized by the picking instruction and warehouse stock rules.
+2. Do not record or confirm any unavailable quantity as picked.
+3. Do not select a different batch or alternative quantity unless this is permitted by the warehouse stock rules.
+4. If an alternative batch or quantity is not permitted, leave the missing quantity unpicked.
+
+### 7.4 Continue the Multi-Item Pick
+
+1. Continue processing the other items listed in the picking instruction when they are available.
+2. Pick each available item according to the authorized instruction.
+3. Keep the missing quantity identified as unpicked while allowing available items to continue through the appropriate process.
+
+### 7.5 Record the Discrepancy
+
+Record the discrepancy between the physical location and the inventory or picking information. The record must identify, using the information available from the picking instruction and physical check:
+
+- The affected item.
+- The listed picking location.
+- The requested quantity.
+- The quantity physically available.
+- The resulting missing quantity.
+- Any relevant batch information.
+
+The scenario does not specify the method or format for recording the discrepancy. Use the established warehouse method without falsely confirming the missing stock.
+
+### 7.6 Communicate and Escalate
+
+1. Communicate the discrepancy to the storekeeper responsible for stock records.
+2. Escalate the issue to the Warehouse Supervisor/Manager where stock reconciliation, back-order handling, or further direction is required.
+3. Ensure the responsible warehouse personnel can check and reconcile the stock records against the physical quantity.
+
+### 7.7 Address the Outstanding Quantity
+
+1. Keep the unavailable quantity unconfirmed as picked.
+2. Refer the unavailable quantity for:
+   - Stock reconciliation; or
+   - Back-order handling, as applicable.
+3. Do not close the discrepancy by inventing stock, recording stock that was not physically picked, or using an unauthorized alternative.
+
+## 8. Exception and Deviation Handling
+
+### 8.1 No Stock Available at the Listed Location
+
+- Record the full requested quantity as unavailable.
+- Do not confirm any quantity as picked.
+- Continue picking other available items.
+- Communicate and escalate the discrepancy for reconciliation or back-order handling.
+
+### 8.2 Partial Quantity Available
+
+- Pick only the physically available quantity when authorized by the picking instruction and warehouse stock rules.
+- Do not confirm the missing balance as picked.
+- Record and communicate the shortage.
+
+### 8.3 Alternative Batch or Quantity Identified
+
+- Do not select the alternative batch or quantity unless warehouse stock rules permit it.
+- If permission is not established, leave the quantity unpicked and escalate the discrepancy.
+- The scenario does not specify how permission is obtained; follow the applicable warehouse stock rules.
+
+### 8.4 Physical Stock and Records Do Not Match
+
+- Do not change the physical result to match the inventory or picking information.
+- Record the actual physical quantity found.
+- Notify the storekeeper responsible for stock records.
+- Escalate to the Warehouse Supervisor/Manager as required for reconciliation.
+
+### 8.5 Uncertainty About How to Proceed
+
+- Do not substitute stock or confirm unavailable quantities.
+- Seek direction from the Warehouse Supervisor/Manager.
+- Keep the affected quantity unpicked until it can be handled under the authorized picking instruction and warehouse stock rules.
+
+## 9. Process Completion Criteria
+
+The process is complete when:
+
+- All physically available and authorized items have been picked correctly.
+- No unavailable quantity has been falsely confirmed as picked.
+- No unauthorized alternative batch or quantity has been selected.
+- The discrepancy has been recorded.
+- The discrepancy has been communicated to the responsible warehouse personnel.
+- The missing quantity has been referred for stock reconciliation or back-order handling, as applicable.

@@ -1,0 +1,60 @@
+# Standard Operating Procedure: Packing and Dispatch Preparation
+
+## 1. SOP Title
+Standard Operating Procedure: Packing and Dispatch Preparation
+
+## 2. Purpose
+To pack, document, stage, and release prepared goods accurately for transport following the completion of the picking process.
+
+## 3. Scope
+This procedure applies to all correctly picked orders that have been moved to the staging area and are ready for packing and shipment. It covers activities from the receipt of the picked order in the staging area through to the handover of custody to the carrier or recipient.
+
+## 4. Roles and Responsibilities
+*   **Warehouse Staff/Storekeeper:** Responsible for packing items appropriately, associating goods with the correct order, preparing documentation, and ensuring stock records reflect released goods.
+*   **Loading/Checking Personnel:** Responsible for verifying the shipment against dispatch documentation and verifying outgoing quantity before custody transfer.
+*   **Transport Representative:** Responsible for receiving custody of the shipment upon verification.
+*   **Warehouse or Store Manager:** Involved in the overall process oversight.
+
+## 5. Required Inputs / Information
+*   A completed picking order moved to the staging area.
+*   Authorized order details.
+*   Items ready for packing.
+
+## 6. Expected Outputs
+*   Correctly packed shipment.
+*   Prepared packing list.
+*   Required transport/release documentation.
+*   Verified shipment ready for transport.
+*   Accurate stock records reflecting released goods.
+
+## 7. Procedure
+
+1.  **Staging Area Receipt:** Confirm that the completed picking order has been moved to the staging area.
+2.  **Order Separation:** Ensure that orders in the staging area remain clearly separated from other orders.
+3.  **Packing and Association:**
+    *   Pack the items appropriately.
+    *   Ensure packed goods correspond to the authorized order.
+    *   Associate the packed goods with the correct order.
+4.  **Documentation Preparation:** Prepare the packing list and required transport/release documentation.
+5.  **Pre-Release Verification:**
+    *   Before release, check the shipment against the dispatch documentation.
+    *   Verify that the outgoing quantity matches the documentation.
+6.  **Custody Transfer:**
+    *   Once verification is complete, transfer custody to the carrier or recipient (Transport Representative).
+    *   Note: Custody transfer must only occur after the outgoing quantity has been verified.
+7.  **Record Update:** Ensure stock records reflect the released goods.
+
+## 8. Exception and Deviation Handling
+*   **Order Separation Failure:** If orders in the staging area are not clearly separated, the process must pause until separation is established to prevent mixing.
+*   **Goods Mismatch:** If packed goods do not correspond to the authorized order, the shipment must not be released.
+*   **Verification Failure:** If the shipment does not match the dispatch documentation or the outgoing quantity cannot be verified, custody must not be transferred to the carrier or recipient.
+*   **Documentation Missing:** If the packing list or required transport/release documentation is not prepared, the shipment cannot proceed to the verification or release stage.
+
+*Note: Specific remediation steps for discrepancies (e.g., repacking, re-picking) are not defined in this scenario and must be managed according to existing organizational protocols.*
+
+## 9. Process Completion Criteria
+The process is considered complete when:
+1.  The correct shipment is packed and documented.
+2.  The shipment has been verified against dispatch documentation.
+3.  Custody has been handed over for transport.
+4.  Stock records accurately reflect the released goods.

@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "PILOT_SOP_001",
+  "judge_family": "Anthropic Claude",
+  "judge_model": "anthropic/claude-sonnet-5",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "All operationally relevant elements from the source scenario are represented: documentation verification, unloading, visual inspection, quantity/identity comparison, receiving record documentation, storage transfer, and stock record update. Roles, inputs, outputs, and constraints are all captured."
+    },
+    "C2_correct_sequence": {
+      "score": 4,
+      "reason": "The overall sequence (arrival, verification, unloading, inspection, comparison, acceptance, documentation, storage, stock update) is logical and matches the scenario's implied order. Minor issue: Step 8 'Stock Entry Restriction' is inserted as a standalone step after documentation but references Steps 2-5, which slightly disrupts the natural flow since it's more of a constraint than a sequential action."
+    },
+    "C3_role_clarity": {
+      "score": 3,
+      "reason": "Storekeeper and Receiving/Inspection Personnel have clear, distinct responsibilities. However, the Warehouse Manager/Store Manager role is only vaguely described as 'Involved party in the warehouse operation structure' with no concrete responsibilities assigned, despite being listed in the source scenario as a role involved in the process. This creates ambiguity in role clarity for one of the named roles."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "Inputs (scheduled delivery, PO reference, shipping documentation, packing list) and outputs (verified shipment, accepted goods, receiving record, stock records, storage transfer) are clearly listed and directly consistent with the source scenario."
+    },
+    "C5_exception_handling": {
+      "score": 5,
+      "reason": "The SOP explicitly identifies and handles the three constraint-based exceptions from the source scenario (invalid documentation, mismatched items/quantities, premature stock entry) in a dedicated section, correctly reflecting the scenario's decision conditions."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "All three explicit constraints (valid documentation required, product identity/quantity must match, no stock entry before checks) are preserved and reinforced both in the procedure steps and the exception handling section."
+    },
+    "C7_groundedness": {
+      "score": 5,
+      "reason": "No invented systems, roles, thresholds, or unsupported operational details are introduced. All content traces directly back to the source scenario without embellishment."
+    },
+    "C8_usability": {
+      "score": 4,
+      "reason": "The SOP is clearly structured, actionable, and unambiguous overall. Minor usability weakness stems from the underspecified Warehouse Manager role and the slightly awkward placement of the 'Stock Entry Restriction' step, which could cause minor confusion for an end user following the steps sequentially."
+    }
+  }
+}

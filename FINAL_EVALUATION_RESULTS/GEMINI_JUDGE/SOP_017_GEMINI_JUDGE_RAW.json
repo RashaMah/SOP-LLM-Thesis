@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_017",
+  "judge_family": "Google Gemini",
+  "judge_model": "gemini-3.1-pro-preview",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "The SOP captures all operationally relevant information, roles, constraints, and expected outcomes explicitly mentioned in the source scenario without omitting any details."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The procedural steps follow a logical and operationally correct sequence, moving from authorization and availability verification to picking, staging, documenting, updating records, and finally releasing and confirming receipt."
+    },
+    "C3_role_clarity": {
+      "score": 5,
+      "reason": "The SOP clearly assigns responsibilities to the roles provided in the source scenario, accurately noting where the scenario lacks specific task assignments for the Supply/Inventory Officer and Warehouse Manager rather than inventing them."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "Required inputs (such as the approved transfer request) and expected outputs (released goods, documentation, updated records, and receipt confirmation) are clearly identified in dedicated sections and perfectly consistent with the source scenario."
+    },
+    "C5_exception_handling": {
+      "score": 5,
+      "reason": "The SOP effectively derives logical exception handling scenarios (e.g., unapproved requests, loss of item association, availability issues) directly from the constraints and conditions provided in the source scenario."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "All explicit constraints from the source scenario (approval requirement, item association during staging/loading, and inventory record updates) are prominently preserved and integrated directly into the procedural steps."
+    },
+    "C7_groundedness": {
+      "score": 5,
+      "reason": "The SOP remains strictly grounded in the source scenario. It avoids inventing unsupported systems, documents, or tasks, and explicitly notes when the source lacks specific details for certain roles rather than hallucinating them."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is highly usable, featuring a clear, logical structure with well-defined sections for roles, inputs/outputs, step-by-step procedures, and exception handling, making it highly actionable for warehouse personnel."
+    }
+  }
+}

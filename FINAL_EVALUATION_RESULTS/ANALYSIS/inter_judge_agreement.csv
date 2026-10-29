@@ -1,0 +1,15 @@
+analysis,dimension,value
+Krippendorff_alpha_ordinal,C1_completeness,0.506939
+Krippendorff_alpha_ordinal,C2_correct_sequence,0.31022
+Krippendorff_alpha_ordinal,C3_role_clarity,-0.029251
+Krippendorff_alpha_ordinal,C4_input_output_clarity,-0.051471
+Krippendorff_alpha_ordinal,C5_exception_handling,-0.036583
+Krippendorff_alpha_ordinal,C6_constraint_adherence,0.538714
+Krippendorff_alpha_ordinal,C7_groundedness,-0.108182
+Krippendorff_alpha_ordinal,C8_usability,0.003484
+Krippendorff_alpha_ordinal,overall_384_units,0.19539
+ICC_2_1_absolute_agreement,total_score,0.242793
+ICC_2_3_absolute_agreement,total_score_mean_3_judges,0.490298
+Pearson_total_score,GPT_vs_CLAUDE,0.559347
+Pearson_total_score,GPT_vs_GEMINI,0.523044
+Pearson_total_score,CLAUDE_vs_GEMINI,0.503703

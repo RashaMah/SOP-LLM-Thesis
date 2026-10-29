@@ -1,0 +1,364 @@
+FINAL SOP EVALUATION JUDGE PROMPT — VERSION 1.0
+
+You are an evaluator of generated Standard Operating Procedures (SOPs)
+for logistics and warehouse processes.
+
+Your task is to evaluate ONE candidate SOP strictly against the supplied
+SOURCE SCENARIO using the supplied eight-criterion evaluation rubric.
+
+============================================================
+EVALUATION PRINCIPLES
+============================================================
+
+1. Treat the SOURCE SCENARIO as the sole factual reference.
+
+2. Do not use external operational knowledge to impose requirements that
+   are absent from the source scenario.
+
+3. Do not reward the candidate SOP for adding plausible but unsupported
+   operational details.
+
+4. Do not penalize the candidate SOP for omitting information that was
+   never provided in the source scenario.
+
+5. Evaluate only the candidate SOP provided.
+
+6. Do not infer, identify, or speculate about which language model
+   generated the candidate SOP.
+
+7. Score each criterion independently.
+
+8. Base each score on concrete comparison between the SOURCE SCENARIO and
+   the CANDIDATE SOP.
+
+9. Do not reward verbosity, document length, sophisticated formatting,
+   or writing style unless these materially improve the criterion being
+   evaluated.
+
+10. Reasonable paraphrasing is acceptable when the operational meaning
+    of the source scenario is preserved.
+
+11. Do not compare the candidate SOP with other candidate SOPs.
+
+12. Do not calculate or provide an overall score or model ranking.
+
+
+============================================================
+C1 — COMPLETENESS
+============================================================
+
+Evaluate whether all operationally relevant information explicitly
+contained in the source scenario is represented in the SOP, including
+required activities, information, roles, conditions, and expected outcomes.
+
+Do not penalize information that was not provided in the source scenario.
+
+
+============================================================
+C2 — CORRECT SEQUENCE
+============================================================
+
+Evaluate whether procedural activities follow the operational dependencies
+and sequence specified or implied by the source scenario.
+
+Penalize contradictory, illogical, or operationally incorrect ordering.
+
+
+============================================================
+C3 — ROLE CLARITY
+============================================================
+
+Evaluate whether responsibilities are clearly and consistently assigned
+to roles provided in the source scenario.
+
+Penalize ambiguous responsibility, incorrect role assignment, or
+unsupported new roles when these materially affect the procedure.
+
+
+============================================================
+C4 — INPUT / OUTPUT CLARITY
+============================================================
+
+Evaluate whether required inputs and information, as well as expected
+outputs and results, are clearly identifiable and consistent with the
+source scenario.
+
+
+============================================================
+C5 — EXCEPTION HANDLING
+============================================================
+
+Evaluate whether exceptions, deviations, abnormal conditions, and
+decision points contained in the source scenario are correctly identified
+and handled.
+
+Do not penalize the SOP merely because the source scenario itself contains
+few exceptions.
+
+
+============================================================
+C6 — CONSTRAINT ADHERENCE
+============================================================
+
+Evaluate whether explicit constraints and decision conditions contained
+in the source scenario are preserved and respected throughout the SOP.
+
+
+============================================================
+C7 — GROUNDEDNESS / NO HALLUCINATION
+============================================================
+
+Evaluate whether operational claims in the SOP remain grounded in the
+source scenario.
+
+Penalize invented systems, roles, requirements, thresholds, documents,
+technologies, approvals, rules, or other material operational details
+that are unsupported by the source scenario.
+
+Do not penalize harmless paraphrasing, organizational formatting, or
+wording changes that preserve the original operational meaning.
+
+
+============================================================
+C8 — USABILITY
+============================================================
+
+Evaluate whether the SOP is clear, structured, internally consistent,
+unambiguous, and actionable for the intended warehouse or logistics user,
+while remaining faithful to the source scenario.
+
+
+============================================================
+SCORING SCALE
+============================================================
+
+5 — FULLY SATISFIES
+The SOP fully satisfies the criterion. No substantive deficiency is
+identifiable.
+
+4 — GOOD
+The SOP satisfies the criterion with only a minor omission, ambiguity,
+or weakness that does not materially affect the procedure.
+
+3 — ADEQUATE
+The SOP partially satisfies the criterion. One meaningful deficiency or
+several minor deficiencies are present, but the SOP remains substantially
+correct and usable on this dimension.
+
+2 — POOR
+Major deficiencies are present. Important information, logic, or
+requirements are missing, unclear, or incorrect and materially affect
+this dimension.
+
+1 — VERY POOR
+The SOP fundamentally fails the criterion, substantially contradicts the
+source scenario, or omits or incorrectly handles most essential elements
+relevant to the criterion.
+
+
+============================================================
+SCORING PROCEDURE
+============================================================
+
+For EACH of the eight criteria:
+
+1. Compare the candidate SOP directly with the source scenario.
+2. Identify relevant evidence.
+3. Identify substantive omissions, contradictions, unsupported additions,
+   or ambiguities relevant to that criterion.
+4. Assign exactly one INTEGER score from 1 to 5.
+5. Provide a concise justification explaining the score.
+
+Evaluate all eight criteria even if deficiencies overlap.
+
+Do not calculate the total score. The experimental evaluation script will
+calculate totals after the individual criterion scores have been recorded.
+
+
+============================================================
+REQUIRED OUTPUT FORMAT
+============================================================
+
+Return ONLY valid JSON.
+
+Do not include Markdown code fences.
+Do not include introductory text.
+Do not include concluding text.
+Do not include an overall score.
+
+Use exactly the following structure:
+
+{
+  "C1_completeness": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  },
+  "C2_correct_sequence": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  },
+  "C3_role_clarity": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  },
+  "C4_input_output_clarity": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  },
+  "C5_exception_handling": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  },
+  "C6_constraint_adherence": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  },
+  "C7_groundedness": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  },
+  "C8_usability": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  }
+}
+
+
+============================================================
+MATERIAL TO EVALUATE
+============================================================
+
+SOURCE SCENARIO:
+
+Process: Inventory Replenishment and Stock Realignment
+
+Scenario:
+Picking stock has fallen to a low level while reserve stock is available.
+
+Objective:
+Replenish the active picking location from warehouse reserve stock before it becomes insufficient for expected picking activity.
+
+Operational information:
+The warehouse uses separate active picking locations and reserve storage. During stock review, warehouse personnel determine that the quantity of an item in its picking location has become low. Additional quantity of the same item is available in reserve storage. The required stock must be transferred from reserve storage to the designated picking location and the inventory/location records must remain accurate after the movement.
+
+Roles involved:
+Storekeeper/Warehouse Staff, Warehouse or Store Manager.
+
+Constraints / decision conditions:
+The correct product and stock batch must be used. The movement must not create an unexplained difference between physical and recorded inventory. Any applicable stock-rotation rule must continue to be respected.
+
+Expected outcome:
+The picking location contains sufficient stock for continued operations and both physical and recorded quantities remain aligned.
+
+
+CANDIDATE SOP:
+
+# Standard Operating Procedure (SOP)
+
+## 1. SOP Title
+Inventory Replenishment and Stock Realignment: Transfer of Stock from Reserve Storage to Active Picking Location
+
+## 2. Purpose
+This SOP defines the process for replenishing an active picking location with stock from reserve storage when picking stock has fallen to a low level, in order to ensure continued picking operations are not disrupted and that inventory and location records remain accurate after the stock movement.
+
+## 3. Scope
+This procedure applies to all situations within the warehouse where:
+- A picking location for an item is identified as having low stock.
+- Reserve storage holds additional quantity of the same item.
+- Stock must be moved from reserve storage to the active picking location to sustain picking activity.
+
+This SOP covers the identification of low picking stock, verification of reserve stock, the physical transfer of stock, and the corresponding update of inventory/location records. It applies to Storekeeper/Warehouse Staff and Warehouse or Store Manager involved in this process.
+
+## 4. Roles and Responsibilities
+
+**Storekeeper/Warehouse Staff**
+- Conduct or participate in stock review of picking locations.
+- Identify when picking stock for an item has become low.
+- Confirm availability of additional quantity of the same item in reserve storage.
+- Verify that the correct product and correct stock batch are selected for transfer.
+- Physically move the required stock from reserve storage to the designated picking location.
+- Apply any applicable stock-rotation rule during selection and movement of stock.
+- Update inventory/location records to reflect the stock movement.
+- Verify that physical quantities and recorded quantities match after the movement.
+- Escalate to the Warehouse or Store Manager if any discrepancy, insufficiency, or irregularity is identified.
+
+**Warehouse or Store Manager**
+- Oversee the replenishment process to ensure it is carried out correctly.
+- Review and resolve any escalated issues, such as discrepancies between physical and recorded inventory, insufficient reserve stock, or batch/product identification issues.
+- Confirm that stock-rotation rules and inventory accuracy requirements have been respected before the process is considered complete.
+
+## 5. Required Inputs / Information
+- Current stock quantity at the active picking location for the item.
+- Confirmation that the picking stock quantity is low relative to expected picking activity.
+- Availability and quantity of the same item in reserve storage.
+- Product identification details sufficient to confirm the correct item.
+- Stock batch information for the item in reserve storage.
+- Applicable stock-rotation rule (if any) governing which batch or stock should be moved first.
+- Current inventory/location records for both reserve storage and the picking location.
+
+*Note: The scenario does not specify the exact system, document, or tool used to record or review inventory levels. This SOP does not assume any specific software or system beyond "inventory/location records" as referenced in the scenario.*
+
+## 6. Expected Outputs
+- The active picking location contains sufficient stock of the item to support continued picking operations.
+- Reserve storage records are updated to reflect the reduced quantity due to the transfer.
+- Picking location records are updated to reflect the increased quantity due to the transfer.
+- Physical inventory at both reserve storage and the picking location matches the recorded inventory, with no unexplained differences.
+- Applicable stock-rotation rules remain respected following the movement.
+
+## 7. Procedure
+
+**Step 1: Stock Review**
+1.1 Warehouse personnel (Storekeeper/Warehouse Staff) conduct a stock review of the active picking location.
+1.2 During this review, staff determine that the quantity of an item in its picking location has fallen to a low level relative to expected picking activity.
+
+**Step 2: Verify Reserve Stock Availability**
+2.1 Storekeeper/Warehouse Staff check reserve storage to confirm that additional quantity of the same item is available.
+2.2 Confirm that the item and batch identified in reserve storage correctly match the item required at the picking location.
+
+**Step 3: Select Correct Product and Batch**
+3.1 Identify the correct product to be moved, ensuring it matches the item required at the picking location.
+3.2 Identify the correct stock batch to be moved, applying any applicable stock-rotation rule to determine which batch should be selected.
+
+**Step 4: Physical Transfer of Stock**
+4.1 Storekeeper/Warehouse Staff physically move the required quantity of stock from reserve storage to the designated picking location.
+4.2 Ensure the correct quantity is transferred to bring the picking location to a level sufficient for continued picking operations.
+
+**Step 5: Update Inventory/Location Records**
+5.1 Update the inventory/location records to reflect the reduction in reserve storage quantity.
+5.2 Update the inventory/location records to reflect the increase in picking location quantity.
+5.3 Ensure that the recorded quantities align with the physical quantities at both locations after the transfer.
+
+**Step 6: Verification**
+6.1 Storekeeper/Warehouse Staff verify that no unexplained difference exists between physical and recorded inventory at either the reserve storage or the picking location.
+6.2 Confirm that the stock-rotation rule (if applicable) was correctly followed during the transfer.
+
+**Step 7: Manager Oversight**
+7.1 Warehouse or Store Manager oversees the replenishment process to confirm it has been carried out correctly.
+7.2 If discrepancies, insufficient reserve stock, or other irregularities are identified at any stage, escalate per Section 8 below.
+
+## 8. Exception and Deviation Handling
+
+**Exception: Unexplained Difference Between Physical and Recorded Inventory**
+- If, after the stock movement, a difference is found between physical inventory and recorded inventory that cannot be explained, the Storekeeper/Warehouse Staff must escalate the issue to the Warehouse or Store Manager.
+- The movement must not be finalized as complete until the discrepancy is investigated and resolved by the Warehouse or Store Manager.
+- The scenario does not specify the exact investigation or correction method; therefore, this SOP does not prescribe a specific resolution process beyond escalation to management.
+
+**Exception: Incorrect Product or Batch Identified**
+- If the wrong product or an incorrect stock batch is identified during selection, the transfer must not proceed until the correct product and batch are confirmed.
+- Any stock-rotation rule applicable to the item must be re-checked before proceeding.
+
+**Exception: Insufficient Reserve Stock**
+- If reserve storage does not hold sufficient additional quantity of the item to replenish the picking location adequately, this must be escalated to the Warehouse or Store Manager for further action.
+- The scenario does not specify alternative sourcing procedures in this situation; therefore, no such procedure is assumed here.
+
+**Exception: Stock-Rotation Rule Violation**
+- If a stock-rotation rule applicable to the item cannot be respected during the transfer (e.g., due to batch arrangement or availability), this must be flagged and escalated to the Warehouse or Store Manager before completing the movement.
+
+## 9. Process Completion Criteria
+The replenishment process is considered complete when all of the following conditions are met:
+- The active picking location contains sufficient stock of the item to support continued picking operations.
+- The correct product and correct stock batch were used in the transfer.
+- Any applicable stock-rotation rule was respected during the transfer.
+- Inventory/location records for both reserve storage and the picking location have been updated to reflect the movement.
+- Physical inventory and recorded inventory are aligned at both reserve storage and the picking location, with no unexplained differences.
+- Any escalated issues (discrepancies, insufficient stock, batch/product errors, or rotation rule conflicts) have been reviewed and resolved by the Warehouse or Store Manager.

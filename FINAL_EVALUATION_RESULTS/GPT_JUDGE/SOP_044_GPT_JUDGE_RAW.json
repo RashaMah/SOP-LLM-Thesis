@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_044",
+  "judge_family": "OpenAI GPT",
+  "judge_model": "gpt-5.6-sol",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "The SOP includes stock verification, comparison with planned releases and known demand, shortage documentation and communication, realignment assessment, transfer coordination, replenishment initiation, and protection of pending requirements."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "Activities follow the required dependencies: identify the potential shortage, verify stock, determine and document the shortage, communicate it, assess realignment, and then initiate either an authorized transfer or replenishment."
+    },
+    "C3_role_clarity": {
+      "score": 5,
+      "reason": "Responsibilities are clearly assigned among the Storekeeper, Warehouse Manager, Inventory/Supply Officer, and relevant planning or logistics function, consistent with their involvement in verification, communication, assessment, and response coordination."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "The SOP clearly identifies the affected item, verified stock, planned releases, additional demand, pending requirements, and possible remote stock as inputs, with documented shortage and initiated realignment or replenishment as outputs."
+    },
+    "C5_exception_handling": {
+      "score": 5,
+      "reason": "It appropriately handles unverified stock, unconfirmed remote stock, unauthorized realignment, excess pending demand, and incomplete demand information without assuming inventory or cancelling requirements."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "The SOP consistently requires verification before decisions, prohibits assumed or invented stock, preserves pending requirements, and prevents unavailable quantities from being represented as available or fulfilled."
+    },
+    "C7_groundedness": {
+      "score": 5,
+      "reason": "Operational content remains grounded in the scenario. References to authorization, transfers, replenishment, documentation, and stakeholder communication directly reflect or reasonably organize the stated requirements without introducing material external systems or roles."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is clearly structured, internally consistent, role-specific, and actionable, with explicit decision branches and completion criteria that faithfully implement the source scenario."
+    }
+  }
+}

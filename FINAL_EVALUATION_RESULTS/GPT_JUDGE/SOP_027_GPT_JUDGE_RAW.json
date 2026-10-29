@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_027",
+  "judge_family": "OpenAI GPT",
+  "judge_model": "gpt-5.6-sol",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "The SOP captures all source activities, roles, conditions, controls, communications, inventory requirements, and expected outcomes, including receipt of unaffected goods and control of damaged or discrepant goods."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The sequence logically progresses from arrival and unloading through inspection, document comparison, classification, separation, documentation, escalation, acceptance, and inventory updating without contradicting the source."
+    },
+    "C3_role_clarity": {
+      "score": 5,
+      "reason": "Responsibilities are clearly and consistently allocated among the warehouse staff, inspection personnel, manager, and Supply/Logistics function, all of which are roles identified in the source."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "The physical delivery, shipping, order and packing documentation, counts, and inspection findings are identifiable as inputs, while accepted stock, controlled affected goods, documented findings, escalation, and accurate inventory records are clear outputs."
+    },
+    "C5_exception_handling": {
+      "score": 5,
+      "reason": "Both specified abnormal conditions—visible damage and a quantity mismatch—are explicitly identified, documented, separated from usable stock, escalated, and held pending a decision."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "The SOP preserves the required comparison with order and packing documentation, mandatory reporting of mismatches, separation of questionable goods, and recording of only accepted quantities and statuses."
+    },
+    "C7_groundedness": {
+      "score": 4,
+      "reason": "The SOP is overwhelmingly grounded in the source, but it adds minor unsupported requirements such as manager approval of inventory updates and assigns the disposition decision specifically to Supply/Logistics, with illustrative resolution methods not stated in the source."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is clearly structured, actionable, internally consistent, and provides unambiguous completion criteria while remaining substantially faithful to the scenario."
+    }
+  }
+}

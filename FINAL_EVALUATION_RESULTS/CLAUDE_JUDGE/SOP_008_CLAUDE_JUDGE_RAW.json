@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_008",
+  "judge_family": "Anthropic Claude",
+  "judge_model": "anthropic/claude-sonnet-5",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "All operationally relevant elements from the scenario—approved transfer request, reservation/picking/staging, release and transport documentation, removal of outgoing stock from records, and downstream receipt confirmation—are represented, along with all listed roles and constraints."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The procedure follows a logical and scenario-consistent order: validate approved request, authorize release, reserve/pick/stage, prepare documentation, load/dispatch, update inventory records, and downstream receipt confirmation, matching the implied dependencies in the source."
+    },
+    "C3_role_clarity": {
+      "score": 4,
+      "reason": "Roles match those listed in the source (Supply/Inventory Officer, Warehouse Manager, Storekeeper/Warehouse Staff, receiving warehouse personnel), but some specific assignments (e.g., Warehouse Manager authorizing release, Supply/Inventory Officer coordinating communication to the sending warehouse) are reasonable extrapolations not explicitly stated in the scenario, introducing minor ambiguity in who exactly performs certain sub-tasks."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "Required inputs (approved transfer request details, stock availability, inventory records) and expected outputs (dispatched goods, documentation, updated records, traceability) are clearly and consistently identified and align with the source scenario."
+    },
+    "C5_exception_handling": {
+      "score": 5,
+      "reason": "The SOP thoughtfully addresses exceptions implied by the constraints (unapproved requests, stock unavailability, incorrect goods, loss of association, record discrepancies) while explicitly noting where the scenario does not specify further detail, avoiding overreach."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "All explicit constraints—release only against approved requests, maintaining correct association during staging/loading, and accurate reflection of outgoing movement in records—are consistently preserved and reinforced throughout the procedure."
+    },
+    "C7_groundedness": {
+      "score": 4,
+      "reason": "Most content is grounded in the scenario, and the SOP explicitly flags where documentation formats are unspecified. However, a few operational details (e.g., Warehouse Manager formally 'authorizing' release, Supply/Inventory Officer 'coordinating communication' to the sending warehouse) are mild extrapolations beyond what the scenario explicitly states, though they do not introduce fabricated systems or unsupported technologies."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is clearly structured with defined roles, sequential steps, exception handling, and completion criteria, making it actionable and unambiguous for warehouse personnel while remaining faithful to the source scenario."
+    }
+  }
+}

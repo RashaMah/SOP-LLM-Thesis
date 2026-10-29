@@ -1,0 +1,375 @@
+FINAL SOP EVALUATION JUDGE PROMPT — VERSION 1.0
+
+You are an evaluator of generated Standard Operating Procedures (SOPs)
+for logistics and warehouse processes.
+
+Your task is to evaluate ONE candidate SOP strictly against the supplied
+SOURCE SCENARIO using the supplied eight-criterion evaluation rubric.
+
+============================================================
+EVALUATION PRINCIPLES
+============================================================
+
+1. Treat the SOURCE SCENARIO as the sole factual reference.
+
+2. Do not use external operational knowledge to impose requirements that
+   are absent from the source scenario.
+
+3. Do not reward the candidate SOP for adding plausible but unsupported
+   operational details.
+
+4. Do not penalize the candidate SOP for omitting information that was
+   never provided in the source scenario.
+
+5. Evaluate only the candidate SOP provided.
+
+6. Do not infer, identify, or speculate about which language model
+   generated the candidate SOP.
+
+7. Score each criterion independently.
+
+8. Base each score on concrete comparison between the SOURCE SCENARIO and
+   the CANDIDATE SOP.
+
+9. Do not reward verbosity, document length, sophisticated formatting,
+   or writing style unless these materially improve the criterion being
+   evaluated.
+
+10. Reasonable paraphrasing is acceptable when the operational meaning
+    of the source scenario is preserved.
+
+11. Do not compare the candidate SOP with other candidate SOPs.
+
+12. Do not calculate or provide an overall score or model ranking.
+
+
+============================================================
+C1 — COMPLETENESS
+============================================================
+
+Evaluate whether all operationally relevant information explicitly
+contained in the source scenario is represented in the SOP, including
+required activities, information, roles, conditions, and expected outcomes.
+
+Do not penalize information that was not provided in the source scenario.
+
+
+============================================================
+C2 — CORRECT SEQUENCE
+============================================================
+
+Evaluate whether procedural activities follow the operational dependencies
+and sequence specified or implied by the source scenario.
+
+Penalize contradictory, illogical, or operationally incorrect ordering.
+
+
+============================================================
+C3 — ROLE CLARITY
+============================================================
+
+Evaluate whether responsibilities are clearly and consistently assigned
+to roles provided in the source scenario.
+
+Penalize ambiguous responsibility, incorrect role assignment, or
+unsupported new roles when these materially affect the procedure.
+
+
+============================================================
+C4 — INPUT / OUTPUT CLARITY
+============================================================
+
+Evaluate whether required inputs and information, as well as expected
+outputs and results, are clearly identifiable and consistent with the
+source scenario.
+
+
+============================================================
+C5 — EXCEPTION HANDLING
+============================================================
+
+Evaluate whether exceptions, deviations, abnormal conditions, and
+decision points contained in the source scenario are correctly identified
+and handled.
+
+Do not penalize the SOP merely because the source scenario itself contains
+few exceptions.
+
+
+============================================================
+C6 — CONSTRAINT ADHERENCE
+============================================================
+
+Evaluate whether explicit constraints and decision conditions contained
+in the source scenario are preserved and respected throughout the SOP.
+
+
+============================================================
+C7 — GROUNDEDNESS / NO HALLUCINATION
+============================================================
+
+Evaluate whether operational claims in the SOP remain grounded in the
+source scenario.
+
+Penalize invented systems, roles, requirements, thresholds, documents,
+technologies, approvals, rules, or other material operational details
+that are unsupported by the source scenario.
+
+Do not penalize harmless paraphrasing, organizational formatting, or
+wording changes that preserve the original operational meaning.
+
+
+============================================================
+C8 — USABILITY
+============================================================
+
+Evaluate whether the SOP is clear, structured, internally consistent,
+unambiguous, and actionable for the intended warehouse or logistics user,
+while remaining faithful to the source scenario.
+
+
+============================================================
+SCORING SCALE
+============================================================
+
+5 — FULLY SATISFIES
+The SOP fully satisfies the criterion. No substantive deficiency is
+identifiable.
+
+4 — GOOD
+The SOP satisfies the criterion with only a minor omission, ambiguity,
+or weakness that does not materially affect the procedure.
+
+3 — ADEQUATE
+The SOP partially satisfies the criterion. One meaningful deficiency or
+several minor deficiencies are present, but the SOP remains substantially
+correct and usable on this dimension.
+
+2 — POOR
+Major deficiencies are present. Important information, logic, or
+requirements are missing, unclear, or incorrect and materially affect
+this dimension.
+
+1 — VERY POOR
+The SOP fundamentally fails the criterion, substantially contradicts the
+source scenario, or omits or incorrectly handles most essential elements
+relevant to the criterion.
+
+
+============================================================
+SCORING PROCEDURE
+============================================================
+
+For EACH of the eight criteria:
+
+1. Compare the candidate SOP directly with the source scenario.
+2. Identify relevant evidence.
+3. Identify substantive omissions, contradictions, unsupported additions,
+   or ambiguities relevant to that criterion.
+4. Assign exactly one INTEGER score from 1 to 5.
+5. Provide a concise justification explaining the score.
+
+Evaluate all eight criteria even if deficiencies overlap.
+
+Do not calculate the total score. The experimental evaluation script will
+calculate totals after the individual criterion scores have been recorded.
+
+
+============================================================
+REQUIRED OUTPUT FORMAT
+============================================================
+
+Return ONLY valid JSON.
+
+Do not include Markdown code fences.
+Do not include introductory text.
+Do not include concluding text.
+Do not include an overall score.
+
+Use exactly the following structure:
+
+{
+  "C1_completeness": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  },
+  "C2_correct_sequence": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  },
+  "C3_role_clarity": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  },
+  "C4_input_output_clarity": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  },
+  "C5_exception_handling": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  },
+  "C6_constraint_adherence": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  },
+  "C7_groundedness": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  },
+  "C8_usability": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  }
+}
+
+
+============================================================
+MATERIAL TO EVALUATE
+============================================================
+
+SOURCE SCENARIO:
+
+Process: Goods Receipt / Receiving
+
+Scenario: Incoming shipment contains damaged goods and a quantity discrepancy.
+
+Objective:
+Process an incoming shipment while correctly handling discrepancies identified during receiving.
+
+Operational information:
+A supplier delivery arrives with valid shipping documentation. During unloading and inspection, warehouse staff identify two problems: part of the shipment is visibly damaged and the physical quantity of one item does not match the quantity indicated in the documentation. The unaffected items are otherwise suitable for receipt. The discrepancy and damage must be documented and communicated to the responsible logistics/supply function. The affected items must not be treated as normal usable stock until a decision has been made.
+
+Roles involved:
+Warehouse Manager/Store Manager, Storekeeper/Warehouse Staff, inspection personnel, responsible Supply/Logistics function.
+
+Constraints / decision conditions:
+The physical delivery must be compared with the order and packing documentation. Any mismatch must be reported. Damaged or questionable goods must be clearly identified and separated from normal available stock. Inventory records must reflect only the accepted quantities/status.
+
+Expected outcome:
+Accepted goods are correctly received; damaged/discrepant goods are controlled and documented; the discrepancy is escalated; and inventory records accurately reflect the result.
+
+
+CANDIDATE SOP:
+
+# Standard Operating Procedure: Goods Receipt Handling for Shipments with Damaged Goods and Quantity Discrepancy
+
+## 1. SOP Title
+Goods Receipt / Receiving Procedure for Incoming Shipments with Identified Damage and Quantity Discrepancy
+
+## 2. Purpose
+This SOP defines the steps required to receive an incoming supplier shipment when, during unloading and inspection, warehouse staff identify (a) visibly damaged goods and (b) a discrepancy between the physical quantity received and the quantity stated in the shipping documentation. The purpose is to ensure that undamaged, correctly matched goods are received normally, while damaged or discrepant goods are properly identified, separated, documented, escalated, and excluded from usable inventory until a decision is made.
+
+## 3. Scope
+This procedure applies to all incoming supplier deliveries arriving with valid shipping documentation at the warehouse, specifically to situations where inspection during receiving reveals:
+- Physical damage to part of the shipment, and/or
+- A mismatch between the physical quantity of an item and the quantity stated in the accompanying documentation.
+
+It covers activities from delivery arrival through documentation, escalation, and final update of inventory records. It does not cover deliveries that are fully compliant with documentation and free of damage, nor does it define specific corrective actions to be taken by the Supply/Logistics function after escalation, as this information is not specified in the source scenario.
+
+## 4. Roles and Responsibilities
+
+**Storekeeper / Warehouse Staff**
+- Receive the physical delivery.
+- Perform unloading and physical inspection of goods.
+- Compare physical delivery against order and packing documentation.
+- Identify and flag damaged goods and quantity discrepancies.
+- Physically separate damaged/discrepant goods from normal available stock.
+- Document findings.
+
+**Inspection Personnel**
+- Support or perform detailed inspection of goods to confirm damage and assess condition.
+- Verify and confirm the nature and extent of discrepancies identified by warehouse staff.
+
+**Warehouse Manager / Store Manager**
+- Oversee the receiving process and ensure procedure is followed.
+- Review documentation of damage and discrepancy prepared by warehouse staff/inspection personnel.
+- Confirm the decision to withhold affected goods from usable stock.
+- Escalate and communicate the issue to the responsible Supply/Logistics function.
+- Approve update of inventory records reflecting only accepted quantities/status.
+
+**Responsible Supply/Logistics Function**
+- Receive escalation regarding damaged goods and quantity discrepancy.
+- Make or coordinate the decision on how to handle the affected goods (e.g., return, replacement, adjustment) — specific resolution actions are not defined in this SOP, as this detail is not provided in the source scenario.
+
+## 5. Required Inputs / Information
+- Valid shipping documentation accompanying the delivery.
+- Purchase order and/or packing documentation for comparison against physical goods.
+- Physical delivery (goods) arriving at the warehouse.
+- Visual/physical inspection findings (damage observed, quantity counted).
+
+## 6. Expected Outputs
+- Undamaged, quantity-matched goods correctly received into normal available stock.
+- Damaged and/or quantity-discrepant goods clearly identified, physically separated, and excluded from usable stock.
+- Documented record of the damage and quantity discrepancy.
+- Escalation communication sent to the responsible Supply/Logistics function.
+- Inventory records updated to reflect only the accepted quantities and status of goods.
+
+## 7. Procedure
+
+**Step 1: Delivery Arrival**
+1.1 Storekeeper/Warehouse Staff confirms the supplier delivery has arrived with valid shipping documentation.
+
+**Step 2: Unloading**
+2.1 Storekeeper/Warehouse Staff unloads the shipment from the delivery vehicle.
+
+**Step 3: Physical Inspection**
+3.1 Storekeeper/Warehouse Staff and/or inspection personnel visually inspect the unloaded goods.
+3.2 Inspection identifies that part of the shipment is visibly damaged.
+3.3 Inspection identifies that the physical quantity of one item does not match the quantity stated in the shipping/order/packing documentation.
+
+**Step 4: Documentation Comparison**
+4.1 Storekeeper/Warehouse Staff compares the physical delivery (quantities and condition) against the order and packing documentation for all items in the shipment.
+4.2 Any mismatch between physical goods and documentation must be identified and recorded.
+
+**Step 5: Classification of Goods**
+5.1 Items that are undamaged and match the documented quantity are classified as acceptable for normal receipt.
+5.2 Items that are damaged and/or subject to quantity discrepancy are classified as affected goods and must not be treated as normal usable stock.
+
+**Step 6: Physical Separation**
+6.1 Storekeeper/Warehouse Staff physically separates and clearly identifies the damaged and/or discrepant goods from the normal available stock.
+6.2 Separated goods must remain clearly marked/identified until a decision is made regarding their disposition.
+
+**Step 7: Documentation of Findings**
+7.1 Storekeeper/Warehouse Staff and/or inspection personnel document the damage observed and the quantity discrepancy identified, including the affected item(s) and the nature of the mismatch.
+7.2 Warehouse Manager/Store Manager reviews the documentation for completeness and accuracy.
+
+**Step 8: Escalation/Communication**
+8.1 Warehouse Manager/Store Manager communicates the documented discrepancy and damage to the responsible Supply/Logistics function.
+8.2 The escalation must clearly convey which items are affected, the nature of the damage, and the details of the quantity discrepancy.
+
+**Step 9: Receipt of Acceptable Goods**
+9.1 Storekeeper/Warehouse Staff proceeds to receive into stock the goods that are undamaged and match the documentation.
+
+**Step 10: Inventory Record Update**
+10.1 Storekeeper/Warehouse Staff (with Warehouse Manager/Store Manager approval) updates inventory records to reflect only the accepted quantities and status of goods.
+10.2 Damaged/discrepant goods are not entered into inventory as normal usable stock; their status is recorded as separated/pending decision.
+
+**Step 11: Pending Decision**
+11.1 Affected goods remain physically separated and excluded from usable stock until the responsible Supply/Logistics function provides a decision on their disposition.
+11.2 Note: The specific resolution process (e.g., return, credit, replacement) following the Supply/Logistics function's decision is not defined in this SOP, as it is not specified in the source scenario.
+
+## 8. Exception and Deviation Handling
+
+**Exception: Damaged Goods Identified**
+- Damaged goods must be clearly identified and physically separated from normal available stock immediately upon discovery.
+- Damaged goods must not be entered into inventory as usable stock.
+- The damage must be documented and escalated to the responsible Supply/Logistics function.
+
+**Exception: Quantity Discrepancy Identified**
+- Any mismatch between the physical quantity and the documented quantity must be reported.
+- The affected item must not be recorded in inventory at the documented (undelivered) quantity; only the actual accepted quantity may be reflected in inventory records.
+- The discrepancy must be documented and escalated to the responsible Supply/Logistics function.
+
+**General Deviation Handling**
+- Any goods that are damaged and/or subject to quantity discrepancy must not be treated as normal usable stock until a decision has been made by the responsible Supply/Logistics function.
+- All deviations from the expected shipment (damage, quantity mismatch) must be documented and communicated; undocumented or unreported discrepancies are not permitted under this procedure.
+- If further guidance is required beyond escalation (e.g., specific corrective or disposal actions), this SOP does not define those steps, as such detail is not provided in the source scenario; escalation to the responsible Supply/Logistics function is the defined action.
+
+## 9. Process Completion Criteria
+The goods receipt process is considered complete for a given shipment when:
+1. All undamaged, quantity-matched goods have been received and recorded into normal available stock.
+2. All damaged and/or quantity-discrepant goods have been clearly identified, physically separated, and excluded from usable stock.
+3. The damage and quantity discrepancy have been fully documented.
+4. The discrepancy and damage have been escalated/communicated to the responsible Supply/Logistics function.
+5. Inventory records have been updated to accurately reflect only the accepted quantities and status of goods, with affected goods marked as pending decision rather than usable stock.

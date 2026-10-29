@@ -1,0 +1,19 @@
+Process: Packing and Dispatch Preparation
+
+Scenario:
+A large outgoing shipment requires coordinated staging and loading.
+
+Objective:
+Prepare and dispatch a large shipment without mixing orders or exceeding loading/operational constraints.
+
+Operational information:
+A large approved shipment has been picked. The volume of goods requires a planned loading operation rather than immediate release. Warehouse personnel must organize the staging area, keep the shipment clearly identified, prepare packing and dispatch documentation and coordinate loading. The vehicle load must correspond to the authorized shipment and documentation. Physical warehouse limitations and vehicle weight/volume limitations must be considered.
+
+Roles involved:
+Warehouse Manager, Storekeeper/Warehouse Staff, tally/checking or security personnel, transport personnel.
+
+Constraints / decision conditions:
+Goods belonging to different orders must not be mixed. Loading must respect vehicle and operational capacity constraints. Quantities loaded must be checked against the dispatch/Waybill information before release.
+
+Expected outcome:
+The complete authorized shipment is staged, packed, loaded, verified and released without order mixing or undocumented quantity differences.

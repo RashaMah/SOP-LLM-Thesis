@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_007",
+  "judge_family": "OpenAI GPT",
+  "judge_model": "gpt-5.6-sol",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 4,
+      "reason": "The SOP covers shortage detection, stock verification, communication, consideration of planned demand, and the realignment-or-replenishment decision. However, it does not explicitly require authorization for realignment, and documentation appears as an output/completion criterion rather than a clearly assigned procedural action."
+    },
+    "C2_correct_sequence": {
+      "score": 4,
+      "reason": "Stock is reviewed, verified, and confirmed before realignment or replenishment is selected, preserving the main dependency. The principal weakness is that general stakeholder notification occurs after the response is initiated, whereas the scenario indicates the shortage should be communicated to the responsible supply/planning function as part of determining the response."
+    },
+    "C3_role_clarity": {
+      "score": 4,
+      "reason": "Responsibilities are clearly assigned among the four source roles. There is minor ambiguity because the planning/logistics function is described as processing realignment requests, while the Inventory/Supply Officer is later assigned to coordinate the transfer, and no role is explicitly assigned responsibility for documenting the shortage."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "The SOP clearly identifies current inventory, planned releases, known additional demand, requirements, and possible stock at other locations as inputs. It also clearly states the expected outputs of a documented shortage, stakeholder notification, and initiation of replenishment or realignment."
+    },
+    "C5_exception_handling": {
+      "score": 4,
+      "reason": "The key decision condition is correctly handled: use realignment when stock is available elsewhere and otherwise initiate replenishment. The added handling for record discrepancies and inability to meet demand is clear, but it introduces unsupported corrective actions rather than limiting itself to the source conditions."
+    },
+    "C6_constraint_adherence": {
+      "score": 3,
+      "reason": "The SOP verifies stock before selecting a response and states that unavailable stock must not be promised. However, it does not explicitly preserve the constraints against silently cancelling pending requirements or using invented quantities, and it omits the requirement that stock realignment be authorized."
+    },
+    "C7_groundedness": {
+      "score": 3,
+      "reason": "Most of the procedure is grounded in the scenario, but several operational details are invented, including mandatory physical verification against records, investigation and correction of records, responsibility for processing requests, a timing-based inability to replenish, and adjustment of plans. These additions are plausible but unsupported by the source."
+    },
+    "C8_usability": {
+      "score": 4,
+      "reason": "The SOP is well structured, readable, and largely actionable, with clear steps, roles, inputs, outputs, and completion criteria. Usability is slightly weakened by the lack of an explicit documentation step, unclear realignment authorization, and notification being placed after response initiation."
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_037",
+  "judge_family": "Anthropic Claude",
+  "judge_model": "anthropic/claude-sonnet-5",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "All explicit elements from the source scenario—stock review, low-stock determination, reserve verification, correct product/batch selection, rotation rule respect, transfer execution, and record accuracy—are represented in the SOP. No operationally relevant detail from the scenario is omitted."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The procedure follows the logical operational flow implied by the scenario: review stock, identify low stock, verify reserve availability, select correct batch, apply rotation rules, execute transfer, then update records. This matches the dependency structure of the source scenario with no contradictions."
+    },
+    "C3_role_clarity": {
+      "score": 3,
+      "reason": "Storekeeper/Warehouse Staff responsibilities are clearly defined and consistent with the scenario. However, the Warehouse or Store Manager is only noted as 'involved' with an explicit disclaimer that duties are undefined, leaving this role functionally unassigned to any procedural step, creating ambiguity even though the source scenario itself provides no specifics."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "Required inputs (stock levels, reserve availability, location identification, records, rotation rules) and expected outputs (sufficient picking stock, aligned physical/recorded quantities, updated records) are clearly listed and directly traceable to the source scenario."
+    },
+    "C5_exception_handling": {
+      "score": 5,
+      "reason": "The SOP identifies and handles all constraint-based exceptions present in the scenario: inventory discrepancy, incorrect product/batch, rotation rule violation, and insufficient reserve stock, each with an appropriate halt/no-proceed instruction."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "All explicit constraints from the scenario—correct product and batch, no unexplained inventory difference, and respecting stock-rotation rules—are preserved and explicitly addressed in both the procedure and exception handling sections."
+    },
+    "C7_groundedness": {
+      "score": 5,
+      "reason": "No invented systems, roles, technologies, thresholds, or approval steps are introduced. The SOP explicitly flags where the source scenario lacks detail (manager duties) rather than fabricating content, remaining fully grounded."
+    },
+    "C8_usability": {
+      "score": 4,
+      "reason": "The SOP is well-structured, sequential, and actionable for the Storekeeper role, with clear completion criteria. Usability is slightly reduced by the unresolved ambiguity around the Manager's role, which could create confusion in practical execution despite being transparently flagged."
+    }
+  }
+}

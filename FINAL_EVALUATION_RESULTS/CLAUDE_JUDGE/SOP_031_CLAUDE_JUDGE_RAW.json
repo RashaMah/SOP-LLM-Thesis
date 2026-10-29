@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_031",
+  "judge_family": "Anthropic Claude",
+  "judge_model": "anthropic/claude-sonnet-5",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "All scenario elements—low picking stock, reserve availability, transfer requirement, record accuracy, roles, constraints, and expected outcome—are represented in the SOP's purpose, scope, procedure, and completion criteria."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The procedure follows a logical operational flow: identify low stock, confirm reserve availability, select correct stock/batch, transfer, update records, verify completion—consistent with the implied sequence in the source scenario."
+    },
+    "C3_role_clarity": {
+      "score": 5,
+      "reason": "Responsibilities are clearly split between Storekeeper/Warehouse Staff (execution) and Warehouse or Store Manager (oversight/exception resolution), matching the two roles named in the scenario with no unsupported new roles introduced."
+    },
+    "C4_input_output_clarity": {
+      "score": 4,
+      "reason": "Inputs and outputs are clearly listed and mostly traceable to the scenario; however, 'Expected picking requirement sufficient to determine the replenishment need' is a mild elaboration not explicitly stated in the source, slightly extending beyond given inputs."
+    },
+    "C5_exception_handling": {
+      "score": 5,
+      "reason": "The SOP thoroughly addresses exceptions implied by the constraints (incorrect product/batch, insufficient reserve stock, inventory discrepancy, stock-rotation conflict, incorrect destination), all logically derived from the scenario's constraints without introducing unsupported scenarios."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "All three explicit constraints—correct product/batch, no unexplained inventory difference, and stock-rotation rule adherence—are consistently enforced throughout the procedure, exception handling, and completion criteria."
+    },
+    "C7_groundedness": {
+      "score": 5,
+      "reason": "No invented systems, roles, technologies, or unsupported thresholds are introduced; all operational details are reasonable elaborations of the scenario's explicit statements without adding extraneous specifics."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is clearly structured with numbered steps, defined roles, explicit exception handling, and completion criteria, making it actionable and unambiguous for warehouse staff while remaining faithful to the source scenario."
+    }
+  }
+}

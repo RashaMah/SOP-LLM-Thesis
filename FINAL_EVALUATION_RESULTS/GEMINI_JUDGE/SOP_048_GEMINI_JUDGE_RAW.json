@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_048",
+  "judge_family": "Google Gemini",
+  "judge_model": "gemini-3.1-pro-preview",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "The SOP captures all operational information, roles, constraints, and expected outcomes explicitly mentioned in the source scenario without omitting any details."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The procedural steps follow a logical and operationally correct sequence, starting with delivery receipt and document verification, followed by unloading, inspection, acceptance, documentation, and finally storage transfer."
+    },
+    "C3_role_clarity": {
+      "score": 5,
+      "reason": "Responsibilities are clearly and logically distributed among the exact roles provided in the source scenario, with no unsupported roles added."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "Required inputs (e.g., shipping documentation, packing list) and expected outputs (e.g., updated stock records, transferred goods) are explicitly listed and perfectly align with the source scenario."
+    },
+    "C5_exception_handling": {
+      "score": 5,
+      "reason": "The SOP effectively anticipates exceptions based on the source constraints (e.g., missing documentation, quantity discrepancies) and provides safe, grounded handling instructions (withholding from normal stock and escalating) without inventing resolution procedures not in the text."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "All explicit constraints from the source scenario, such as requiring valid documentation and preventing goods from entering normal stock before checks are complete, are strictly enforced throughout the procedure."
+    },
+    "C7_groundedness": {
+      "score": 5,
+      "reason": "The SOP introduces no unsupported operational details, technologies, or metrics. It relies entirely on the provided source scenario, maintaining strict groundedness."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is highly usable, featuring a clear, logical structure with numbered steps, distinct sections for roles and exceptions, and unambiguous, actionable instructions suitable for warehouse personnel."
+    }
+  }
+}

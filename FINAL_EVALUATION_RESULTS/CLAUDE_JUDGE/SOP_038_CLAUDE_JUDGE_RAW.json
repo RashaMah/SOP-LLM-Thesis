@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_038",
+  "judge_family": "Anthropic Claude",
+  "judge_model": "anthropic/claude-sonnet-5",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "All operationally relevant elements from the source (approved picking instruction with references/quantities/locations, single operator/team assignment, multi-location picking, checking each line, transfer to staging/packing area, inventory accuracy, roles) are represented in the SOP without introducing unrelated scope."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The procedure follows a logical operational flow: review instruction, go to locations, pick, check each line, maintain inventory accuracy, complete task, transfer to staging area — consistent with the implied sequence in the source scenario."
+    },
+    "C3_role_clarity": {
+      "score": 5,
+      "reason": "Responsibilities are clearly and consistently assigned to the two roles named in the source (Storekeeper/Picker and Warehouse Supervisor or Manager), with no unsupported new roles introduced."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "Required inputs (picking instruction contents, task assignment, staging area) and expected outputs (accurate picks, checked lines, transferred pick, accurate records) are explicitly and clearly stated, matching the source scenario's described inputs and expected outcome."
+    },
+    "C5_exception_handling": {
+      "score": 4,
+      "reason": "The SOP adds detailed exception handling (product unavailable, reference discrepancy, location discrepancy, overpick, inventory discrepancy) that reasonably extrapolates from the source's constraint language, but the source scenario itself does not explicitly enumerate these as distinct exception types, making some structural detail an interpretive elaboration rather than directly sourced."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "The SOP consistently enforces the core constraints: only authorized references/quantities may be picked, each line must be checked against the instruction, and inventory/location records must remain accurate after movement, all preserved throughout the procedure and exception sections."
+    },
+    "C7_groundedness": {
+      "score": 4,
+      "reason": "Most content is grounded in the source scenario, but some procedural granularity (e.g., specific overpick correction steps, detailed location-discrepancy handling) introduces operational specifics not explicitly stated in the source, though these remain plausible extensions of stated constraints rather than fabricated systems or roles."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is clearly structured with numbered sections, roles, inputs/outputs, procedure steps, and exception handling, making it actionable and unambiguous for a warehouse picker or supervisor while remaining faithful to the scenario."
+    }
+  }
+}

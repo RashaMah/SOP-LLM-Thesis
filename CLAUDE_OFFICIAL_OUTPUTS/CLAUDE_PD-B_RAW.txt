@@ -1,0 +1,104 @@
+# STANDARD OPERATING PROCEDURE
+
+## 1. SOP Title
+Packing and Dispatch Preparation for Large Outgoing Shipments
+
+## 2. Purpose
+This SOP defines the process for staging, packing, documenting, loading, and releasing a large approved outgoing shipment. It ensures that the shipment is dispatched in a controlled and verified manner, without mixing goods from different orders and without exceeding warehouse or vehicle loading/operational constraints.
+
+## 3. Scope
+This procedure applies to outgoing shipments that:
+- Have already been picked and approved.
+- Are large in volume, requiring a planned loading operation rather than immediate release.
+
+It covers activities from staging area preparation through final verification and release of the loaded vehicle. It does not cover the picking process itself, as picking is stated to have already occurred prior to this procedure.
+
+## 4. Roles and Responsibilities
+
+**Warehouse Manager**
+- Oversees and coordinates the overall staging, packing, and loading operation.
+- Ensures physical warehouse limitations and vehicle weight/volume limitations are considered before and during loading.
+- Ensures no mixing of goods from different orders occurs.
+- Authorizes final release of the shipment.
+
+**Storekeeper / Warehouse Staff**
+- Organizes the staging area.
+- Keeps the shipment clearly identified throughout staging and packing.
+- Prepares packing and dispatch documentation.
+- Packs goods and prepares them for loading in accordance with order segregation requirements.
+
+**Tally/Checking or Security Personnel**
+- Checks and verifies quantities loaded against the dispatch/Waybill information.
+- Confirms that the vehicle load corresponds to the authorized shipment and its documentation.
+- Flags any discrepancies identified during checking.
+
+**Transport Personnel**
+- Coordinates and performs the physical loading of goods onto the vehicle in cooperation with warehouse staff.
+- Ensures the load is arranged in line with vehicle capacity and operational constraints as directed by warehouse personnel.
+
+## 5. Required Inputs / Information
+- Approved and picked shipment ready for staging.
+- Order-level identification information to prevent mixing of goods from different orders.
+- Dispatch/Waybill information for verification of quantities.
+- Information on physical warehouse limitations (staging space).
+- Information on vehicle weight/volume limitations.
+
+*Note: The scenario does not specify particular systems, forms, or document names used for dispatch documentation. This SOP refers only to "packing and dispatch documentation" and "dispatch/Waybill information" as stated.*
+
+## 6. Expected Outputs
+- A staged, clearly identified shipment, organized without mixing of different orders.
+- Completed packing and dispatch documentation.
+- A vehicle loaded in accordance with the authorized shipment, respecting weight/volume and operational constraints.
+- Verified quantities matching the dispatch/Waybill information.
+- A released shipment with no undocumented quantity differences.
+
+## 7. Procedure
+
+**Step 1: Staging Area Preparation**
+1.1 The Storekeeper/Warehouse Staff organizes the staging area for the approved, picked shipment.
+1.2 Goods are arranged so that the shipment remains clearly identified at all times.
+1.3 Goods belonging to different orders must be kept separated in the staging area to prevent mixing.
+1.4 The Warehouse Manager confirms that the staging area layout respects physical warehouse limitations.
+
+**Step 2: Documentation Preparation**
+2.1 The Storekeeper/Warehouse Staff prepares the packing and dispatch documentation for the shipment.
+2.2 Documentation must accurately reflect the goods staged for this shipment, including the dispatch/Waybill information used later for verification.
+
+**Step 3: Packing**
+3.1 The Storekeeper/Warehouse Staff packs the goods according to the shipment requirements, maintaining clear separation between different orders.
+3.2 Packed goods are kept identifiable and traceable to their respective shipment/order throughout the packing process.
+
+**Step 4: Loading Coordination**
+4.1 The Warehouse Manager coordinates with Transport Personnel to plan the loading operation, given the large volume of the shipment.
+4.2 The Warehouse Manager and Transport Personnel ensure that vehicle weight and volume limitations are respected when planning how goods will be loaded.
+4.3 Transport Personnel, in coordination with Storekeeper/Warehouse Staff, physically load the packed goods onto the vehicle.
+4.4 Loading must proceed in a manner that avoids mixing goods from different orders and stays within operational capacity constraints.
+
+**Step 5: Quantity Verification**
+5.1 Tally/Checking or Security Personnel check the quantities loaded onto the vehicle against the dispatch/Waybill information.
+5.2 This check confirms that the vehicle load corresponds to the authorized shipment and its accompanying documentation.
+5.3 Any discrepancy between loaded quantities and the dispatch/Waybill information must be identified before proceeding to release (see Section 8).
+
+**Step 6: Release Authorization**
+6.1 Once quantities are verified as matching the dispatch/Waybill information and no order mixing has occurred, the Warehouse Manager authorizes release of the shipment.
+6.2 The vehicle is released for dispatch only after this authorization.
+
+## 8. Exception and Deviation Handling
+
+**Order Mixing Detected**
+If goods from different orders are found to be mixed during staging, packing, or loading, the responsible personnel (Storekeeper/Warehouse Staff or Transport Personnel) must halt the affected activity and separate the goods before continuing. The Warehouse Manager must be informed to determine corrective action before the process resumes.
+
+**Vehicle or Operational Capacity Exceeded**
+If the planned load is found to exceed vehicle weight/volume limitations or warehouse operational capacity, loading must be paused. The Warehouse Manager, in coordination with Transport Personnel, must reassess the loading plan to bring it within the applicable limitations before loading continues.
+
+**Quantity Discrepancy at Verification**
+If the tally/checking or security personnel identify a discrepancy between the quantities loaded and the dispatch/Waybill information, the shipment must not be released. The discrepancy must be reported to the Warehouse Manager, who must resolve and document the difference before authorizing release.
+
+*Note: The scenario does not specify the exact corrective procedures, escalation paths, or documentation formats for resolving these exceptions. Personnel should apply the constraints stated above (no mixing, respect capacity limits, no undocumented quantity differences) and escalate to the Warehouse Manager for resolution in any case not explicitly covered.*
+
+## 9. Process Completion Criteria
+The Packing and Dispatch Preparation process is considered complete when:
+- The complete authorized shipment has been staged, packed, and loaded without mixing goods from different orders.
+- The loaded vehicle complies with vehicle weight/volume limitations and warehouse operational constraints.
+- Quantities loaded have been checked and confirmed against the dispatch/Waybill information with no undocumented differences.
+- The Warehouse Manager has authorized release, and the vehicle has been dispatched.

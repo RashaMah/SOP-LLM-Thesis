@@ -1,0 +1,3 @@
+generator_family,same_family_judge,n_scenarios,same_family_mean,other_two_judges_mean,mean_difference,median_difference,positive_differences,zero_differences,negative_differences,wilcoxon_statistic,raw_p,holm_p,significant_holm_0.05
+GPT,GPT,12,37.916666666666664,39.541666666666664,-1.625,-2.0,0,4,8,0.0,0.0078125,0.015625,True
+CLAUDE,CLAUDE,12,39.083333333333336,38.125,0.9583333333333334,1.0,10,1,1,7.0,0.0185546875,0.0185546875,True

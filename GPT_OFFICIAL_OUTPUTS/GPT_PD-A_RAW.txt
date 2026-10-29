@@ -1,0 +1,166 @@
+# Standard Operating Procedure: Packing and Dispatch Preparation
+
+## 1. SOP Title
+
+**Packing and Dispatch Preparation**
+
+## 2. Purpose
+
+To ensure that correctly picked orders are packed, documented, staged, verified, and released accurately for transport, with corresponding stock records updated.
+
+## 3. Scope
+
+This SOP applies to completed picking orders moved to the staging area for packing and shipment. It covers:
+
+- Separation and identification of staged orders
+- Packing of picked items
+- Association of packed goods with the authorized order
+- Preparation of the packing list and required transport/release documentation
+- Verification of the shipment against dispatch documentation
+- Verification of outgoing quantities
+- Transfer of custody to the carrier or recipient
+- Updating of stock records for released goods
+
+## 4. Roles and Responsibilities
+
+### 4.1 Warehouse Staff/Storekeeper
+
+- Maintain clear separation of orders in the staging area.
+- Confirm that goods being packed are associated with the correct authorized order.
+- Pack the items appropriately.
+- Prepare the packing list and required transport/release documentation.
+- Make the shipment available for checking and release.
+- Ensure stock records reflect the goods released.
+
+### 4.2 Warehouse or Store Manager
+
+- Oversee the packing and dispatch preparation process.
+- Confirm that the shipment is ready for release after required checks are completed.
+- Address identified discrepancies or deviations before release.
+
+### 4.3 Loading/Checking Personnel
+
+- Check the prepared shipment against the dispatch documentation.
+- Verify the outgoing quantity before custody is transferred.
+- Load or prepare the verified shipment for handover.
+
+### 4.4 Transport Representative
+
+- Receive custody of the verified shipment for transport.
+- Participate in the handover after the outgoing quantity has been verified.
+
+## 5. Required Inputs / Information
+
+- A correctly picked and completed order
+- The authorized order information
+- Goods moved to the staging area
+- Information required to prepare the packing list
+- Information required for transport/release documentation
+- Dispatch documentation used to verify the shipment
+- Outgoing quantity information
+- Stock records requiring adjustment for released goods
+
+## 6. Expected Outputs
+
+- Correct goods packed appropriately
+- Packed goods clearly associated with the authorized order
+- Orders kept clearly separated in the staging area
+- Completed packing list
+- Completed required transport/release documentation
+- Shipment verified against dispatch documentation
+- Outgoing quantity verified before transfer of custody
+- Shipment handed over for transport
+- Stock records accurately reflecting the released goods
+
+## 7. Procedure
+
+### 7.1 Receive the Completed Order in the Staging Area
+
+1. Confirm that the completed picking order has been moved to the staging area.
+2. Keep the order clearly separated from all other orders in the staging area.
+3. Maintain clear association between the goods and the corresponding authorized order throughout packing and dispatch preparation.
+
+### 7.2 Confirm the Order Before Packing
+
+1. Compare the staged goods with the authorized order.
+2. Confirm that the goods selected for packing correspond to that order.
+3. Do not proceed with release if the goods cannot be associated with the correct authorized order.
+
+### 7.3 Pack the Goods
+
+1. Pack the items appropriately for shipment.
+2. Keep all packed goods associated with the same order together.
+3. Continue to maintain clear separation between this order and other staged orders.
+4. Ensure the packed shipment corresponds to the authorized order.
+
+### 7.4 Prepare Shipment Documentation
+
+1. Prepare the packing list for the packed order.
+2. Prepare all required transport/release documentation.
+3. Ensure the documentation is associated with the correct packed shipment.
+4. Make the packed shipment and its documentation available for checking.
+
+### 7.5 Verify the Shipment
+
+1. Loading/checking personnel shall check the packed shipment against the dispatch documentation.
+2. Confirm that the packed goods correspond to the authorized order.
+3. Verify the outgoing quantity.
+4. Complete the verification before custody is transferred to the transport representative, carrier, or recipient.
+5. Do not release the shipment when the goods, quantity, order association, or documentation do not correspond.
+
+### 7.6 Stage and Release the Shipment
+
+1. Keep the verified shipment clearly separated and associated with its documentation while awaiting handover.
+2. Following successful verification, prepare the shipment for loading or collection.
+3. Release the shipment to the transport representative, carrier, or recipient.
+4. Transfer custody only after the outgoing quantity has been verified.
+
+### 7.7 Update Stock Records
+
+1. Record the released goods in the stock records.
+2. Ensure the stock records reflect the goods and quantities actually released.
+3. Confirm that the stock update corresponds to the shipment handed over for transport.
+
+## 8. Exception and Deviation Handling
+
+### 8.1 Orders Are Not Clearly Separated
+
+- Stop packing, checking, or release activity for the affected orders.
+- Re-establish clear separation and correct order association before proceeding.
+
+### 8.2 Goods Do Not Correspond to the Authorized Order
+
+- Do not pack or release the nonconforming goods as part of the order.
+- Keep the shipment in the staging area and clearly separated.
+- Refer the discrepancy to the Warehouse or Store Manager.
+- Resume processing only after the shipment corresponds to the authorized order.
+
+### 8.3 Quantity Discrepancy
+
+- Do not transfer custody if the outgoing quantity cannot be verified or does not match the dispatch documentation.
+- Keep the shipment separated and withhold release.
+- Refer the discrepancy to the Warehouse or Store Manager for resolution.
+- Repeat the quantity verification before handover.
+
+### 8.4 Documentation Discrepancy or Missing Documentation
+
+- Do not release the shipment if the packing list or required transport/release documentation is missing, incorrect, or cannot be associated with the shipment.
+- Correct or complete the documentation before repeating the shipment check.
+
+### 8.5 Stock Record Discrepancy
+
+- Ensure the stock records are corrected so they reflect the goods and quantities actually released.
+- Refer unresolved discrepancies to the Warehouse or Store Manager.
+
+## 9. Process Completion Criteria
+
+The process is complete when all of the following conditions have been met:
+
+- The correct goods have been packed appropriately.
+- The packed goods correspond to the authorized order.
+- The order remained clearly separated from other staged orders.
+- The packing list and required transport/release documentation have been prepared.
+- The shipment has been checked against the dispatch documentation.
+- The outgoing quantity has been verified before transfer of custody.
+- The verified shipment has been handed over for transport.
+- Stock records accurately reflect the released goods.

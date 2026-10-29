@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "PILOT_SOP_001",
+  "judge_family": "OpenAI GPT",
+  "judge_model": "gpt-5.6-sol",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "The SOP includes all source activities, documentation, roles, acceptance conditions, records, storage transfer, stock update, and expected outcomes."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The sequence correctly places documentation verification, unloading, visual inspection, and identity/quantity checks before acceptance, followed by receiving documentation, storage transfer, and stock-record updating."
+    },
+    "C3_role_clarity": {
+      "score": 5,
+      "reason": "All source roles are identified, and the operational responsibilities are clearly assigned to warehouse staff and receiving or inspection personnel without materially conflicting with the source."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "The scheduled delivery, purchase-order reference, shipping documentation, and packing list are explicit inputs, while verification, acceptance, receiving documentation, inventory recording, and storage transfer are explicit outputs."
+    },
+    "C5_exception_handling": {
+      "score": 5,
+      "reason": "The SOP correctly addresses the source decision conditions for invalid or missing documentation, identity or quantity discrepancies, and premature entry into normal stock."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "It preserves all explicit constraints: valid shipment documentation is required, identity and quantity must match expectations, and normal stock entry cannot occur before receiving checks are complete."
+    },
+    "C7_groundedness": {
+      "score": 5,
+      "reason": "The SOP remains grounded in the source scenario and adds no material unsupported systems, thresholds, approvals, documents, or operational requirements."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is clearly organized, internally consistent, and actionable, with distinct roles, inputs, outputs, ordered steps, exceptions, and completion criteria."
+    }
+  }
+}

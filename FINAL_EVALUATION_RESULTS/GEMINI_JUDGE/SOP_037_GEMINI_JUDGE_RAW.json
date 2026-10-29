@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_037",
+  "judge_family": "Google Gemini",
+  "judge_model": "gemini-3.1-pro-preview",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "The SOP captures all operationally relevant information from the source scenario, including the objective, roles, constraints, and expected outcomes."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The procedural steps follow a highly logical and operationally correct sequence, moving from stock review and identification to verification, transfer, and record updating."
+    },
+    "C3_role_clarity": {
+      "score": 5,
+      "reason": "Roles are clearly assigned. The SOP correctly notes that while the Warehouse or Store Manager is listed in the source, specific duties were not provided, avoiding hallucinated responsibilities."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "Inputs and expected outputs are explicitly listed in dedicated sections and perfectly align with the source scenario."
+    },
+    "C5_exception_handling": {
+      "score": 5,
+      "reason": "The SOP effectively translates the source scenario's constraints (e.g., correct batch, rotation rules, inventory alignment) into clear, logical exception handling protocols."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "All explicit constraints, including stock-rotation rules, correct product/batch selection, and maintaining accurate inventory records, are strictly preserved and integrated into the procedure."
+    },
+    "C7_groundedness": {
+      "score": 5,
+      "reason": "The SOP remains entirely grounded in the source scenario. Minor phrasing additions like 'scheduled stock review period' are harmless and preserve the original operational meaning."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is highly usable, well-structured, internally consistent, and provides clear, actionable steps for warehouse personnel."
+    }
+  }
+}

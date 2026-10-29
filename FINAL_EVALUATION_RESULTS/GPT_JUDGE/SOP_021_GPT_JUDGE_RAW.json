@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_021",
+  "judge_family": "OpenAI GPT",
+  "judge_model": "gpt-5.6-sol",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "The SOP captures all source activities, roles, conditions, constraints, and outcomes: low-stock identification, reserve availability, correct product and batch selection, stock rotation, transfer, record updates, and physical-to-recorded alignment."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The sequence is operationally coherent and consistent with the scenario: review picking stock, verify reserve stock, select the correct product and batch, transfer stock, update records, and verify alignment."
+    },
+    "C3_role_clarity": {
+      "score": 4,
+      "reason": "Responsibilities are clearly assigned between the two source-provided roles. However, mandatory manager oversight, confirmation, escalation review, and resolution duties are more specific than the source scenario establishes."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "Required stock, product, batch, rotation, location, and inventory information is clearly identified, and the outputs accurately state sufficient picking stock and aligned physical and recorded quantities."
+    },
+    "C5_exception_handling": {
+      "score": 4,
+      "reason": "The SOP clearly addresses product or batch errors, inventory discrepancies, stock-rotation conflicts, and insufficient reserve stock. The mandatory escalation and manager-resolution mechanisms are sensible but are not specified in the source."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "The SOP consistently preserves the explicit constraints: use the correct product and batch, respect applicable stock rotation, and prevent unexplained differences between physical and recorded inventory."
+    },
+    "C7_groundedness": {
+      "score": 3,
+      "reason": "Most operational content is grounded in the scenario, and the SOP appropriately avoids inventing a specific inventory system. However, it adds material requirements for manager oversight, escalation, investigation, resolution, and withholding completion until manager action, none of which are stated in the source."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is clearly structured, internally consistent, and actionable, with distinct responsibilities, inputs, outputs, procedural steps, exceptions, and completion criteria that faithfully support the core process."
+    }
+  }
+}

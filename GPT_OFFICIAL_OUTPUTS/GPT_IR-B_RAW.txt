@@ -1,0 +1,195 @@
+# Standard Operating Procedure: Inventory Replenishment and Stock Realignment
+
+## 1. SOP Title
+
+**Inventory Replenishment and Stock Realignment**
+
+## 2. Purpose
+
+To identify and document an inventory shortage and initiate an appropriate replenishment or stock-realignment response without promising or allocating unavailable stock.
+
+## 3. Scope
+
+This SOP applies when the quantity currently available for an item is lower than the quantity required for planned releases and additional demand is already known.
+
+The procedure covers:
+
+- Verification of available inventory;
+- Review of planned releases and known additional demand;
+- Communication of the shortage;
+- Assessment of stock-realignment options;
+- Coordination of an authorized transfer when stock can be realigned; and
+- Initiation of replenishment when realignment is not available.
+
+## 4. Roles and Responsibilities
+
+### 4.1 Storekeeper
+
+- Verify the available stock for the affected item.
+- Provide accurate stock information to the Warehouse Manager and Inventory/Supply Officer.
+- Avoid confirming, issuing, or representing quantities that are not available.
+
+### 4.2 Warehouse Manager
+
+- Review the verified stock position against planned releases and known demand.
+- Ensure the shortage is documented and communicated.
+- Support coordination of any authorized stock transfer affecting warehouse operations.
+- Ensure pending requirements are not silently cancelled or treated as fulfilled with unavailable quantities.
+
+### 4.3 Inventory/Supply Officer
+
+- Assess the shortage using verified available stock, planned releases, and known additional demand.
+- Coordinate with the relevant planning or logistics function.
+- Determine whether stock can be realigned from another location.
+- Coordinate an authorized transfer when realignment is possible.
+- Initiate replenishment through the appropriate supply process when realignment is not possible.
+
+### 4.4 Relevant Planning or Logistics Function
+
+- Review the communicated shortage and pending requirements.
+- Participate in determining whether stock can be realigned from another location.
+- Support coordination of the authorized transfer or the appropriate replenishment response.
+
+## 5. Required Inputs / Information
+
+The following information is required:
+
+- Identification of the affected item;
+- Verified quantity currently available;
+- Quantities required for planned releases;
+- Known additional demand;
+- Pending requirements;
+- Information on whether stock is available at another location for possible realignment; and
+- Authorization to proceed with stock realignment, where applicable.
+
+Where any required information is unavailable, the shortage must not be resolved by assuming that stock exists or by inventing quantities.
+
+## 6. Expected Outputs
+
+- Verified inventory position for the affected item;
+- Identified and documented shortage;
+- Notification to the responsible stakeholders;
+- Review of existing stock, planned releases, and known additional demand;
+- Initiation of an authorized stock realignment, where possible; or
+- Initiation of replenishment through the appropriate supply process when realignment is not possible;
+- Pending requirements retained accurately without silent cancellation or false fulfillment; and
+- No promise or allocation of unavailable stock.
+
+## 7. Procedure
+
+### 7.1 Identify the Potential Shortage
+
+1. Review the available quantity for the affected item against the quantities required for planned releases.
+2. Include known additional demand in the review.
+3. Identify a potential shortage when the available quantity is lower than the quantity required for planned releases and additional known demand.
+
+### 7.2 Verify Available Stock
+
+1. The Storekeeper must verify the quantity physically or operationally available for the affected item.
+2. The verified quantity must be communicated to the Warehouse Manager and Inventory/Supply Officer.
+3. No decision may be based on unverified or assumed stock.
+4. Unavailable quantities must not be promised, allocated, issued, or represented as available.
+
+### 7.3 Determine the Shortage Position
+
+1. Compare the verified available quantity with:
+   - Planned releases;
+   - Known additional demand; and
+   - Other pending requirements.
+2. Confirm the quantity and nature of the shortage based only on verified stock and known requirements.
+3. Do not silently cancel any pending requirement.
+4. Do not mark a requirement as fulfilled using invented or unavailable quantities.
+
+### 7.4 Document and Communicate the Shortage
+
+1. Document the following information:
+   - Affected item;
+   - Verified available quantity;
+   - Planned release requirements;
+   - Known additional demand;
+   - Pending requirements; and
+   - Identified shortage.
+2. Communicate the shortage to:
+   - The Inventory/Supply Officer;
+   - The Warehouse Manager; and
+   - The relevant planning or logistics function.
+3. Ensure stakeholders understand that verified stock cannot satisfy all known future demand.
+
+### 7.5 Assess Stock Realignment
+
+1. The Inventory/Supply Officer, in coordination with the relevant planning or logistics function, must determine whether stock is available at another location for realignment.
+2. Any realignment decision must consider:
+   - Verified stock at the current location;
+   - Planned releases;
+   - Known additional demand;
+   - Pending requirements; and
+   - Confirmed availability of stock at the other location.
+3. Do not initiate a transfer based on assumed stock availability.
+4. Proceed with realignment only when the transfer is authorized.
+
+### 7.6 Coordinate Authorized Stock Realignment
+
+If stock can be realigned and the transfer is authorized:
+
+1. The Inventory/Supply Officer must coordinate the transfer with the relevant planning or logistics function.
+2. The Warehouse Manager and Storekeeper must support the warehouse activities associated with the coordinated transfer.
+3. Record that authorized stock realignment has been initiated.
+4. Continue to represent available quantities accurately until the transferred stock is available. Do not promise the transferred quantity as currently available before it becomes available.
+
+### 7.7 Initiate Replenishment
+
+If stock cannot be realigned:
+
+1. The Inventory/Supply Officer must initiate replenishment through the appropriate supply process.
+2. Inform the Warehouse Manager, Storekeeper, and relevant planning or logistics function that replenishment has been initiated.
+3. Record that replenishment is the selected response to the shortage.
+4. Maintain pending requirements accurately while replenishment is in progress.
+5. Do not promise replenishment quantities as currently available stock.
+
+## 8. Exception and Deviation Handling
+
+### 8.1 Available Stock Cannot Be Verified
+
+- Do not assume that stock exists.
+- Do not promise, allocate, issue, or report unverified quantities as available.
+- Communicate that the stock position remains unverified to the Warehouse Manager, Inventory/Supply Officer, and relevant planning or logistics function.
+- Complete verification before making a realignment or replenishment decision based on availability.
+
+### 8.2 Stock at Another Location Cannot Be Confirmed
+
+- Do not initiate or rely on a stock transfer based on assumed availability.
+- Treat realignment as unavailable until stock availability is confirmed and the transfer is authorized.
+- Initiate replenishment through the appropriate supply process if realignment cannot be used.
+
+### 8.3 Realignment Is Not Authorized
+
+- Do not proceed with the transfer.
+- Initiate replenishment through the appropriate supply process.
+- Document that realignment was not authorized and that replenishment was initiated.
+
+### 8.4 Pending Demand Exceeds Available Stock
+
+- Do not silently cancel any pending requirement.
+- Do not represent unavailable quantities as fulfilled.
+- Keep the shortage visible and communicate it to the responsible stakeholders.
+- Proceed with authorized realignment or replenishment as applicable.
+
+### 8.5 Requirements or Demand Information Is Incomplete
+
+- Do not create or assume missing quantities.
+- Communicate the information gap to the relevant planning or logistics function.
+- Base all decisions only on verified stock and known requirements.
+
+## 9. Process Completion Criteria
+
+The process is complete when all of the following conditions are met:
+
+- Available stock has been verified;
+- Planned releases, known additional demand, and pending requirements have been considered;
+- The shortage has been identified and documented;
+- The Inventory/Supply Officer, Warehouse Manager, Storekeeper, and relevant planning or logistics function have been informed as applicable;
+- Either:
+  - An authorized stock realignment has been initiated, or
+  - Replenishment has been initiated through the appropriate supply process;
+- No unavailable or invented quantity has been promised, allocated, issued, or recorded as fulfilled; and
+- No pending requirement has been silently cancelled.

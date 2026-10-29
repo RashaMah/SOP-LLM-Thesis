@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_012",
+  "judge_family": "Google Gemini",
+  "judge_model": "gemini-3.1-pro-preview",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "The SOP captures all required activities, roles, conditions, and expected outcomes explicitly mentioned in the source scenario without omitting any operational details."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The procedural steps follow a logical and operationally correct sequence, moving from staging and packing to documentation, verification, release, and finally updating stock records."
+    },
+    "C3_role_clarity": {
+      "score": 5,
+      "reason": "Responsibilities are clearly and consistently assigned to the exact roles provided in the source scenario, with no unsupported roles introduced."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "Required inputs and expected outputs are explicitly listed in dedicated sections and perfectly align with the source scenario's requirements and expected outcomes."
+    },
+    "C5_exception_handling": {
+      "score": 5,
+      "reason": "The SOP logically derives exception handling scenarios (e.g., discrepancies in packing, verification mismatches, and staging separation issues) directly from the constraints provided in the source scenario."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "All explicit constraints from the source scenario (order separation, matching authorized orders, and pre-transfer quantity verification) are strictly preserved and integrated into the procedural steps."
+    },
+    "C7_groundedness": {
+      "score": 5,
+      "reason": "The SOP remains strictly grounded in the source scenario, explicitly avoiding the invention of unsupported systems, metrics, or external documentation requirements."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is highly structured, clear, and actionable, utilizing standard SOP formatting (roles, inputs/outputs, step-by-step procedure, exceptions) while remaining entirely faithful to the source text."
+    }
+  }
+}

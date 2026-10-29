@@ -1,0 +1,49 @@
+# Standard Operating Procedure: Order Picking
+
+## 1. SOP Title
+Standard Operating Procedure: Order Picking (Multi-Item Wave)
+
+## 2. Purpose
+The purpose of this procedure is to define the steps for a warehouse operator to prepare a normal multi-item picking wave. The objective is to pick all required products and quantities accurately from assigned warehouse locations and transfer the completed pick for the next fulfilment stage.
+
+## 3. Scope
+This SOP applies to the Order Picking process within the warehouse environment. It covers the preparation and execution of normal multi-item picking waves using approved picking instructions. It involves operations where orders may contain items from several identified storage locations.
+
+## 4. Roles and Responsibilities
+*   **Storekeeper/Picker:** Responsible for executing the picking task, verifying product references and quantities against the instruction, checking each picked line, ensuring inventory record accuracy, and transferring items to the staging area.
+*   **Warehouse Supervisor or Manager:** Involved in the process. Specific operational duties for this role are not defined in the provided process scenario.
+
+## 5. Required Inputs / Information
+*   **Approved Picking Instruction:** Must contain multiple product references, required quantities, and corresponding storage locations.
+*   **Assignment Confirmation:** Verification that one operator or picking team is assigned to the picking task.
+*   **Identified Storage Locations:** Physical locations within the warehouse where items are stored.
+
+## 6. Expected Outputs
+*   **Completed Pick:** All available requested items picked accurately and checked.
+*   **Transferred Goods:** Items moved to the designated staging/packing area.
+*   **Accurate Records:** Inventory/location records reflecting the physical movement of goods.
+*   **Next Stage Readiness:** Order ready for the next order-fulfilment stage.
+
+## 7. Procedure
+1.  **Receive Assignment:** Confirm assignment to the picking task as either a single operator or a picking team.
+2.  **Retrieve Instruction:** Access the approved picking instruction containing the product references, required quantities, and corresponding storage locations.
+3.  **Locate Items:** Navigate to the identified storage locations. Note that the order may contain items from several locations.
+4.  **Execute Picking:** Pick products strictly according to the authorized picking information.
+    *   Only pick the product references and quantities stated in the picking instruction.
+    *   Do not pick items outside the scope of the instruction.
+5.  **Verify Lines:** Check each picked line against the picking instruction to ensure accuracy of product reference and quantity.
+6.  **Maintain Record Accuracy:** Ensure inventory/location records remain accurate immediately after the physical movement of items.
+7.  **Transfer Goods:** Upon completion of the picking task, transfer the completed pick to the designated staging/packing area.
+
+## 8. Exception and Deviation Handling
+*   **Unavailable Items:** The expected outcome specifies that "all available requested items" are to be picked. If an item is not available, it is excluded from the physical pick, but the process continues for available items.
+*   **Instruction Discrepancies:** Only product references and quantities stated in the picking instruction may be picked. Any deviation from these parameters constitutes a violation of the picking constraint.
+*   **Record Accuracy:** If physical movement occurs, inventory/location records must be updated or verified to remain accurate. Specific procedures for resolving record discrepancies are not defined in the provided scenario.
+*   **Limitation:** Specific escalation paths or corrective actions for significant deviations (e.g., damaged goods, system failures) are not detailed in the provided process scenario.
+
+## 9. Process Completion Criteria
+The process is considered complete when:
+1.  All available requested items have been picked accurately.
+2.  Each picked line has been checked against the instruction.
+3.  Inventory/location records are accurate following the physical movement.
+4.  The completed pick has been transferred to the next order-fulfilment stage (designated staging/packing area).

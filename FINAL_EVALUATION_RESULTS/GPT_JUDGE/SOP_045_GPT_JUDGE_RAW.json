@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_045",
+  "judge_family": "OpenAI GPT",
+  "judge_model": "gpt-5.6-sol",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "The SOP represents all operationally relevant source elements: the approved multi-item instruction, assigned picker or team, multiple locations, authorized references and quantities, line checking, record accuracy, transfer to staging/packing, involved roles, and the expected outcome."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The sequence is operationally coherent: assignment and instruction review precede picking, picked lines are checked, records are kept accurate following movement, and the completed pick is then transferred to staging/packing."
+    },
+    "C3_role_clarity": {
+      "score": 4,
+      "reason": "Picker responsibilities are clearly assigned and consistent with the process. However, assigning tasks, resolving discrepancies, and optionally reviewing completed activity are attributed to the Supervisor or Manager without those specific responsibilities being stated in the source."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "The approved picking instruction, product references, quantities, locations, and task assignment are clearly identified as inputs, while checked available items, accurate records, and transfer to staging/packing are clearly identified as outputs."
+    },
+    "C5_exception_handling": {
+      "score": 4,
+      "reason": "The SOP recognizes partial availability, mismatches, and record discrepancies and avoids authorizing substitutions. A minor ambiguity exists because one provision requires reporting before proceeding, while another says picking available items may proceed; the source does not define the escalation workflow."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "The SOP consistently preserves the explicit constraints that only authorized references and quantities may be picked, every picked line must be checked, and inventory/location records must remain accurate after movement."
+    },
+    "C7_groundedness": {
+      "score": 3,
+      "reason": "The core procedure is grounded, but the SOP adds several unsupported operational details, including mandatory supervisor escalation and resolution, damage handling, pre-pick full review and confirmation, per-line record-update timing, and optional supervisory review of completed activity."
+    },
+    "C8_usability": {
+      "score": 4,
+      "reason": "The SOP is structured, clear, and largely actionable. Usability is slightly reduced by unnecessary meta-commentary and the ambiguity between stopping for supervisor resolution before proceeding and continuing to pick available items."
+    }
+  }
+}

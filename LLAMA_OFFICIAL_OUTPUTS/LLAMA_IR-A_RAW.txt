@@ -1,0 +1,41 @@
+## 1. SOP Title
+Inventory Replenishment and Stock Realignment Procedure
+
+## 2. Purpose
+To ensure that the active picking locations in the warehouse are replenished with the correct stock from reserve storage, maintaining sufficient stock levels for picking operations and ensuring that physical and recorded inventory quantities remain accurate.
+
+## 3. Scope
+This SOP applies to all warehouse operations involving the replenishment of active picking locations from reserve storage, managed by the Storekeeper/Warehouse Staff under the supervision of the Warehouse or Store Manager.
+
+## 4. Roles and Responsibilities
+- **Storekeeper/Warehouse Staff:** Responsible for identifying the need for replenishment, conducting the stock transfer from reserve storage to the active picking location, and updating inventory/location records.
+- **Warehouse or Store Manager:** Oversees the replenishment process, ensures adherence to this SOP, and verifies the accuracy of inventory/location records after the transfer.
+
+## 5. Required Inputs / Information
+- Current quantity of stock in the active picking location.
+- Quantity and location of the same item in reserve storage.
+- Stock batch information for the item in both the picking location and reserve storage.
+- Inventory/location records for the item.
+
+## 6. Expected Outputs
+- The active picking location is replenished with the correct stock.
+- Inventory/location records are updated to reflect the stock movement.
+- Physical and recorded quantities of the item are aligned.
+
+## 7. Procedure
+1. **Identify the Need for Replenishment:** Storekeeper/Warehouse Staff review stock levels in active picking locations and identify items that have fallen to a low level.
+2. **Verify Availability of Reserve Stock:** Check if the same item is available in reserve storage and confirm the quantity and batch information.
+3. **Plan the Replenishment:** Determine the quantity needed to replenish the picking location to the required level, ensuring not to overstock. Verify that the batch to be transferred is correct and adheres to any applicable stock rotation rules (e.g., First-In-First-Out).
+4. **Transfer Stock:** Storekeeper/Warehouse Staff retrieve the required quantity from reserve storage and transfer it to the designated picking location.
+5. **Update Inventory/Location Records:** After the transfer, update the inventory/location records to reflect the movement of stock from reserve storage to the picking location. Ensure that the records accurately show the new quantities in both locations.
+6. **Verify the Transfer:** Warehouse or Store Manager verifies that the transfer was conducted correctly, the picking location is adequately stocked, and the inventory/location records are accurate.
+
+## 8. Exception and Deviation Handling
+- **Incorrect Stock or Batch:** If the wrong stock or batch is identified during or after the transfer, the Storekeeper/Warehouse Staff must immediately notify the Warehouse or Store Manager. The stock must be returned to its original location, and the inventory records corrected. The replenishment process should be restarted with the correct stock.
+- **Inventory Discrepancy:** If a discrepancy between physical and recorded inventory is discovered during or after the transfer, the Storekeeper/Warehouse Staff must halt the process and notify the Warehouse or Store Manager. An investigation should be conducted to identify the cause, and corrective actions taken to resolve the discrepancy before proceeding.
+
+## 9. Process Completion Criteria
+The inventory replenishment and stock realignment process is considered complete when:
+- The active picking location has been replenished with the correct stock to a sufficient level.
+- Inventory/location records have been accurately updated to reflect the stock movement.
+- Verification by the Warehouse or Store Manager confirms that the process was conducted correctly and that physical and recorded quantities are aligned.

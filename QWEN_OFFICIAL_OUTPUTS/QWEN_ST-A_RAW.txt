@@ -1,0 +1,71 @@
+# Standard Operating Procedure: Stock Transfer and Redistribution
+
+## 1. SOP Title
+Standard Operating Procedure: Stock Transfer and Redistribution
+
+## 2. Purpose
+To prepare, release, and document an authorized stock transfer while preserving inventory traceability.
+
+## 3. Scope
+This procedure applies to the transfer of approved stock from one warehouse to another warehouse within the same logistics network.
+
+## 4. Roles and Responsibilities
+The following roles are involved in this process. Specific operational responsibilities are assigned based on the provided process information.
+
+*   **Storekeeper/Warehouse Staff:** Responsible for reserving, picking, and staging the correct goods; preparing release and transport documentation; and ensuring outgoing quantities are removed from sending warehouse records.
+*   **Receiving Warehouse Personnel:** Responsible for confirming receipt of goods through the receiving process at the destination warehouse.
+*   **Supply/Inventory Officer:** Involved in the process as identified in the scenario. (Note: Specific operational tasks for this role are not detailed in the provided scenario information.)
+*   **Warehouse Manager:** Involved in the process as identified in the scenario. (Note: Specific operational tasks for this role are not detailed in the provided scenario information.)
+
+## 5. Required Inputs / Information
+*   An approved transfer request identifying the goods and quantities to be moved.
+*   Confirmation that the required goods are available at the sending warehouse.
+*   Access to sending warehouse inventory records.
+
+## 6. Expected Outputs
+*   Correct goods released to the destination warehouse.
+*   Complete release and transport documentation.
+*   Traceable stock records reflecting the outgoing movement.
+*   Receipt confirmation from the receiving warehouse.
+
+## 7. Procedure
+
+1.  **Verify Transfer Authorization**
+    *   Obtain the approved transfer request.
+    *   Review the request to identify the specific goods and quantities to be moved from the sending warehouse to the receiving warehouse.
+    *   **Constraint:** Stock may only be released against an approved transfer request.
+
+2.  **Verify Availability**
+    *   Confirm that the required goods identified in the transfer request are available at the sending warehouse.
+
+3.  **Reserve, Pick, and Stage Goods**
+    *   Reserve the correct goods based on the transfer request.
+    *   Pick the reserved goods from storage.
+    *   Stage the goods for transport.
+    *   **Constraint:** Requested items must remain clearly associated with the correct transfer during staging and loading.
+
+4.  **Prepare Documentation**
+    *   Prepare the required release and transport documentation for the shipment.
+
+5.  **Update Inventory Records**
+    *   Remove the outgoing quantity from the sending warehouse records.
+    *   **Constraint:** Inventory records must reflect the outgoing movement.
+
+6.  **Release Goods**
+    *   Release the staged goods to the destination warehouse with the prepared documentation.
+
+7.  **Confirm Receipt**
+    *   The receiving warehouse personnel will confirm receipt of the goods through their receiving process.
+
+## 8. Exception and Deviation Handling
+*   **Unapproved Request:** If a transfer request is not approved, stock must not be released.
+*   **Loss of Association:** If requested items lose clear association with the correct transfer during staging or loading, the process must be halted until the association is restored to ensure traceability.
+*   **Record Discrepancy:** If inventory records do not reflect the outgoing movement after release, corrective action must be taken to update the records to maintain traceability.
+*   **Availability Issues:** If the required goods are not available despite the request, the transfer cannot proceed as described in the operational information.
+
+## 9. Process Completion Criteria
+The process is considered complete when:
+*   The correct goods have been released to the destination warehouse.
+*   Complete documentation accompanies the release.
+*   Stock records are traceable and reflect the outgoing movement.
+*   The receiving warehouse has confirmed receipt through its receiving process.

@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_014",
+  "judge_family": "OpenAI GPT",
+  "judge_model": "gpt-5.6-sol",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "The SOP includes all source activities, roles, conditions, documentation requirements, and outcomes: affected quantity identification, removal, segregation, record updating, logistics coordination, traceability, and authorized documented exit."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The procedure follows the operational dependencies in a coherent order: identify the affected quantity, remove and segregate it, update records, coordinate disposition, and complete documentation and authorization before exit."
+    },
+    "C3_role_clarity": {
+      "score": 4,
+      "reason": "Core responsibilities are clearly assigned to warehouse staff/storekeeper and the Supply Officer/Logistics function. However, managerial oversight and the broad responsibilities assigned to 'All Personnel' are not explicitly established by the source scenario."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "The documented quality problem, affected stock, stock records, and supporting documentation are clearly identified as inputs, while isolation, updated records, traceability, prepared return, and protected usable inventory are clearly stated outputs."
+    },
+    "C5_exception_handling": {
+      "score": 5,
+      "reason": "The SOP directly addresses the source conditions involving picking availability, lost traceability, unauthorized exit, and missing supporting documentation, with actions that preserve isolation and prevent release until requirements are met."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "All explicit constraints are preserved: affected goods are unavailable for normal picking, identity and quantity remain traceable, and warehouse exit requires authorization, documentation, and supporting paperwork."
+    },
+    "C7_groundedness": {
+      "score": 4,
+      "reason": "The SOP is predominantly grounded in the source, but adds minor unsupported operational details such as immediate removal, managerial reporting, halting movement until traceability is restored, and explicit manager oversight."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is clearly structured, internally consistent, and actionable, with defined responsibilities, sequential steps, exception responses, and completion criteria that remain faithful to the source process."
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_044",
+  "judge_family": "Google Gemini",
+  "judge_model": "gemini-3.1-pro-preview",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "The SOP comprehensively covers all activities, roles, constraints, and expected outcomes explicitly mentioned in the source scenario."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The procedural steps follow a highly logical and operationally correct sequence, moving from shortage identification and stock verification to communication, assessment, and resolution."
+    },
+    "C3_role_clarity": {
+      "score": 5,
+      "reason": "Responsibilities are clearly and consistently assigned to the exact roles provided in the source scenario without introducing unsupported roles."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "Required inputs and expected outputs are explicitly defined in dedicated sections and perfectly align with the source scenario's requirements and expected outcomes."
+    },
+    "C5_exception_handling": {
+      "score": 5,
+      "reason": "The SOP effectively anticipates and handles exceptions such as unverified stock, unauthorized realignment, and incomplete information, directly supporting the scenario's constraints."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "All explicit constraints from the source scenario, including not assuming stock exists and not silently cancelling pending requirements, are strictly preserved and integrated throughout the SOP."
+    },
+    "C7_groundedness": {
+      "score": 5,
+      "reason": "The SOP remains strictly grounded in the source scenario. It does not invent unsupported systems, metrics, documents, or technologies."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is highly structured, clear, and actionable. It uses standard formatting with distinct sections for roles, inputs, outputs, procedure, and exceptions, making it highly usable."
+    }
+  }
+}

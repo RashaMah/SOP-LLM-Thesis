@@ -1,0 +1,19 @@
+Process: Order Picking
+
+Scenario:
+The picking instruction requests an item that is not physically available at its expected picking location.
+
+Objective:
+Continue the picking operation correctly without substituting or inventing unavailable stock.
+
+Operational information:
+During a multi-item picking operation, the picker reaches the listed location for one requested item but the required quantity is not physically available there. Other items in the picking instruction are available. The discrepancy must be recorded and communicated to the responsible warehouse personnel so that stock records can be checked and reconciled. Available items may continue through the appropriate process, but the missing quantity must not be falsely marked as picked.
+
+Roles involved:
+Picker/Storekeeper, Storekeeper responsible for stock records, Warehouse Supervisor/Manager.
+
+Constraints / decision conditions:
+The picker must follow the authorized picking instruction. An alternative batch or quantity must not be selected unless permitted by the warehouse stock rules. The discrepancy between the physical location and the inventory/picking information must be recorded.
+
+Expected outcome:
+Available items are picked correctly; unavailable quantities are not falsely confirmed; and the discrepancy is escalated for stock reconciliation or back-order handling.

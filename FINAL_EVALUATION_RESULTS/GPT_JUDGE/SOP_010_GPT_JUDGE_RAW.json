@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_010",
+  "judge_family": "OpenAI GPT",
+  "judge_model": "gpt-5.6-sol",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 4,
+      "reason": "The SOP includes the approved request, reservation, picking, staging, documentation, release, inventory deduction, and receiving confirmation. It does not explicitly require the goods to remain associated with the correct transfer throughout both staging and loading."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The main activities follow the source dependencies: approved request, reservation, picking, staging, documentation and verification, release, inventory update, transport handover, and subsequent receipt confirmation."
+    },
+    "C3_role_clarity": {
+      "score": 4,
+      "reason": "Responsibilities are clearly assigned among all source roles. However, the SOP also introduces \"designated personnel\" and \"transport personnel,\" which are not roles provided in the source and create minor responsibility ambiguity."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "The approved transfer request and available goods are identifiable as inputs, while released stock, complete documentation, updated outgoing inventory records, and receiving confirmation are clearly stated results."
+    },
+    "C5_exception_handling": {
+      "score": 3,
+      "reason": "The SOP provides clear responses to discrepancies, shortages, damage, and loss, but these exceptions and their remedies are not supplied by the source. It also introduces an unavailable-stock condition even though the scenario states that the required goods are available."
+    },
+    "C6_constraint_adherence": {
+      "score": 4,
+      "reason": "The SOP preserves the approved-request requirement and requires inventory records to reflect the outgoing movement. Identification and verification support traceability, but continuous association with the correct transfer during staging and loading is not explicitly required."
+    },
+    "C7_groundedness": {
+      "score": 3,
+      "reason": "The core procedure is grounded in the source, but several unsupported operational details are added, including an inventory system, a designated staging area, authenticity verification, transport personnel, cancellation or amendment, corrective investigation, damage or loss handling, and document filing."
+    },
+    "C8_usability": {
+      "score": 4,
+      "reason": "The SOP is well structured, clear, and largely actionable. Minor weaknesses are the unsupported exception content and the failure to state explicitly how transfer association is maintained during staging and loading."
+    }
+  }
+}

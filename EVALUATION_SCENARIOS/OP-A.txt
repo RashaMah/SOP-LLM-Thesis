@@ -1,0 +1,19 @@
+Process: Order Picking
+
+Scenario:
+A warehouse operator must prepare a normal multi-item picking wave.
+
+Objective:
+Pick all required products and quantities accurately from their assigned warehouse locations and transfer the completed pick for the next fulfilment stage.
+
+Operational information:
+An approved picking instruction contains multiple product references, required quantities and corresponding storage locations. One operator or picking team is assigned to the picking task. The warehouse uses identified storage locations and the order may contain items from several locations. Items must be picked according to the authorized picking information and transferred to the designated staging/packing area after completion.
+
+Roles involved:
+Storekeeper/Picker, Warehouse Supervisor or Manager.
+
+Constraints / decision conditions:
+Only the product references and quantities stated in the picking instruction may be picked. Each picked line must be checked against the instruction. Inventory/location records must remain accurate after the physical movement.
+
+Expected outcome:
+All available requested items are picked accurately, checked and transferred to the next order-fulfilment stage.

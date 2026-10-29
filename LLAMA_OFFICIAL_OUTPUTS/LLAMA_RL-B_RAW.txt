@@ -1,0 +1,64 @@
+## 1. SOP Title
+Reverse Logistics and Damaged Goods Handling for Product Recall
+
+## 2. Purpose
+The purpose of this Standard Operating Procedure (SOP) is to outline the steps required to identify, isolate, and return all warehouse stock affected by a product recall due to quality or safety concerns, ensuring that the affected products are prevented from being issued and are handled in a controlled manner.
+
+## 3. Scope
+This SOP applies to all warehouse personnel involved in handling products that are subject to a recall notice. It covers the procedures for identifying, segregating, and dispatching affected stock.
+
+## 4. Roles and Responsibilities
+
+- **Supply Officer**: Receives the recall notification and initiates the recall process.
+- **Store Manager**: Oversees the overall recall process within the warehouse, ensuring compliance with this SOP.
+- **Store Supervisor**: Coordinates the identification, segregation, and documentation of affected stock.
+- **Storekeeper**: Responsible for updating stock records and ensuring that affected stock is properly marked and segregated.
+- **Store Helper/Warehouse Staff**: Assists in the physical identification, segregation, and handling of affected stock.
+- **Security**: Ensures that the dispatch of recalled goods is done with appropriate security and release controls.
+
+## 5. Required Inputs / Information
+
+- Formal recall notice received by the Supply function.
+- Details of the affected product, including product identification and quantities.
+- Current stock records.
+
+## 6. Expected Outputs
+
+- Affected stock identified and isolated.
+- Stock records updated to reflect the status of the affected stock.
+- Affected stock properly marked and segregated.
+- Controlled dispatch of recalled goods with appropriate documentation and security/release controls.
+
+## 7. Procedure
+
+1. **Receipt of Recall Notice**: The Supply Officer receives a formal recall notice for a product currently stored in the warehouse and notifies the Store Manager.
+   
+2. **Identification of Affected Stock**: The Store Supervisor, assisted by the Storekeeper and Store Helper/Warehouse Staff, identifies all quantities of the affected product in the warehouse stock using the details provided in the recall notice.
+
+3. **Isolation of Affected Stock**: Immediately after identification, the Store Supervisor ensures that the affected stock is stopped from being issued and is segregated in a separate, designated area within the warehouse.
+
+4. **Marking of Affected Stock**: The Storekeeper ensures that the segregated stock is appropriately marked to indicate that it is subject to a recall and should not be used or issued.
+
+5. **Update of Stock Records**: The Storekeeper updates the stock records to reflect that the affected quantities have been identified, isolated, and are not available for issue.
+
+6. **Coordination for Dispatch**: The Store Manager coordinates with relevant offices and external parties to arrange for the dispatch of the recalled goods.
+
+7. **Preparation for Dispatch**: The Store Supervisor ensures that the affected stock is prepared for dispatch, including the necessary packaging and documentation.
+
+8. **Dispatch of Recalled Goods**: Under the supervision of the Store Supervisor and with the involvement of Security, the recalled goods are dispatched with appropriate documentation and security/release controls.
+
+## 8. Exception and Deviation Handling
+
+- If the affected stock cannot be immediately identified or segregated, the Store Supervisor must notify the Store Manager, who will coordinate for additional resources or support as necessary.
+- In case of discrepancies in stock records or issues with the segregation process, the Storekeeper must document the discrepancies and notify the Store Supervisor for further action.
+- Any security breaches or issues during the dispatch of recalled goods must be reported to the Security team and the Store Manager for immediate resolution.
+
+## 9. Process Completion Criteria
+
+The reverse logistics and damaged goods handling process for product recall is considered complete when:
+
+- All affected stock has been identified and isolated.
+- Stock records have been updated.
+- Affected stock has been properly marked and segregated.
+- Recalled goods have been dispatched with appropriate documentation and security/release controls.
+- All relevant parties have been notified, and necessary documentation has been completed.

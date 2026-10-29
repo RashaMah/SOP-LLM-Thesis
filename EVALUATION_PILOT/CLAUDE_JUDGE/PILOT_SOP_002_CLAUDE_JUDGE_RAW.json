@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "PILOT_SOP_002",
+  "judge_family": "Anthropic Claude",
+  "judge_model": "anthropic/claude-sonnet-5",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "All operationally relevant elements from the scenario—delivery arrival, unloading/inspection, documentation comparison, damage/quantity discrepancy identification, handling of unaffected items, inventory update, escalation, and outcome criteria—are represented in the SOP. No required activity or role is omitted."
+    },
+    "C2_correct_sequence": {
+      "score": 4,
+      "reason": "The main procedure follows the logical order given in the scenario (arrival → inspection → comparison → identification → acceptance → inventory update → communication). However, the segregation/control of damaged items is placed in a separate 'Exception Handling' section after the main inventory recording step, creating a minor structural disconnect rather than integrating segregation directly before inventory finalization."
+    },
+    "C3_role_clarity": {
+      "score": 3,
+      "reason": "Most roles are clearly assigned (Storekeeper/Warehouse Staff, Inspection Personnel, Supply/Logistics function), but the Warehouse Manager/Store Manager is merely 'Listed as involved role' with no defined responsibility, leaving ambiguity about this role's actual function in the procedure."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "Required inputs (delivery, shipping/order/packing documentation, physical items) and expected outputs (accepted goods received, discrepancies documented/escalated, inventory reflecting accepted quantities) are explicitly and consistently listed, matching the source scenario."
+    },
+    "C5_exception_handling": {
+      "score": 5,
+      "reason": "The SOP explicitly addresses the abnormal conditions from the scenario: identification of damage/discrepancy, segregation from usable stock, control until decision, mandatory reporting, and escalation—fully aligned with the scenario's exception requirements."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "All explicit constraints from the scenario are preserved: comparison of physical delivery with order/packing documentation, mandatory reporting of mismatches, separation of damaged/questionable goods, and inventory records reflecting only accepted quantities/status."
+    },
+    "C7_groundedness": {
+      "score": 5,
+      "reason": "No invented systems, thresholds, approvals, or extraneous roles are introduced; all content is directly traceable to the source scenario with only reasonable paraphrasing."
+    },
+    "C8_usability": {
+      "score": 4,
+      "reason": "The SOP is well-structured, clear, and actionable for warehouse staff, with distinct sections for procedure and exception handling. The unclear responsibility of the Warehouse Manager slightly reduces overall usability by leaving one role's contribution ambiguous."
+    }
+  }
+}

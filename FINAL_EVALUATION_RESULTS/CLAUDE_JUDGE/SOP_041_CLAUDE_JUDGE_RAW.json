@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_041",
+  "judge_family": "Anthropic Claude",
+  "judge_model": "anthropic/claude-sonnet-5",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 4,
+      "reason": "The SOP covers receipt of recall notice, identification, isolation, marking, stock record updates, coordination, and controlled dispatch as required by the scenario. However, the explicit constraint that 'all quantities moved out of usable stock must remain traceable' is only implicitly addressed via stock record updates and is not explicitly called out as a traceability requirement, leaving a minor completeness gap."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The procedural flow (receipt → identification → isolation → marking → stock record update → coordination → dispatch preparation → dispatch) matches the logical and temporal dependencies implied by the source scenario, including coordinating with external parties before dispatch as required."
+    },
+    "C3_role_clarity": {
+      "score": 5,
+      "reason": "All six roles from the source scenario (Supply Officer, Store Manager, Store Supervisor, Storekeeper, Store Helper/Warehouse Staff, Security) are used consistently with clearly assigned, non-overlapping responsibilities that reasonably map to the scenario's description of 'warehouse personnel' duties without introducing new roles."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "Required inputs (recall notice, product details, stock records) and expected outputs (identified/isolated stock, updated records, marked/segregated stock, controlled dispatch) are clearly and explicitly listed, matching the scenario's expected outcome statement."
+    },
+    "C5_exception_handling": {
+      "score": 4,
+      "reason": "The SOP introduces reasonable decision points (stock not immediately identifiable, record discrepancies, security issues during dispatch) that align with the spirit of the scenario's control requirements, even though the source scenario itself does not explicitly enumerate exceptions. This is an acceptable elaboration rather than a contradiction."
+    },
+    "C6_constraint_adherence": {
+      "score": 4,
+      "reason": "The constraint to immediately block affected stock from release is respected (Step 3), and dispatch with documentation and security/release controls is addressed (Step 8). However, the explicit traceability constraint for stock moved out of usable inventory is not clearly articulated beyond generic record updates, a minor adherence gap."
+    },
+    "C7_groundedness": {
+      "score": 4,
+      "reason": "Most operational claims are grounded in the source scenario; roles, activities, and outcomes match. Minor additions such as 'necessary packaging' and specific exception scenarios (security breach reporting) are plausible but not explicitly stated in the source, representing slight unsupported elaboration rather than major hallucination."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is clearly structured with distinct sections for purpose, scope, roles, inputs/outputs, procedure, exceptions, and completion criteria, making it actionable and unambiguous for warehouse staff while remaining faithful to the source scenario."
+    }
+  }
+}

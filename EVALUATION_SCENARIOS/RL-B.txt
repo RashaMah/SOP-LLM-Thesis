@@ -1,0 +1,19 @@
+Process: Reverse Logistics and Damaged Goods Handling
+
+Scenario:
+A formal recall notice is received for a product currently stored in the warehouse.
+
+Objective:
+Identify, isolate and return all warehouse stock affected by a product recall.
+
+Operational information:
+The Supply function receives a recall notification concerning a product because of a quality or safety concern. Several quantities of the affected product may be located in warehouse stock. Warehouse personnel must identify the affected stock, stop it from being issued, segregate it in a separate area and mark it appropriately. Stock records must be updated. Relevant offices and external parties must be coordinated with before the goods are dispatched for recall.
+
+Roles involved:
+Supply Officer, Store Manager, Store Supervisor, Storekeeper, Store Helper/Warehouse Staff, Security.
+
+Constraints / decision conditions:
+Affected stock must be prevented from normal release immediately after the recall is confirmed. All quantities moved out of usable stock must remain traceable. Dispatch requires appropriate documentation and security/release controls.
+
+Expected outcome:
+All affected quantities are identified, blocked from use, segregated, recorded and released through a controlled reverse-logistics process.

@@ -1,0 +1,18 @@
+Process: Goods Receipt / Receiving
+
+Scenario: Incoming shipment contains damaged goods and a quantity discrepancy.
+
+Objective:
+Process an incoming shipment while correctly handling discrepancies identified during receiving.
+
+Operational information:
+A supplier delivery arrives with valid shipping documentation. During unloading and inspection, warehouse staff identify two problems: part of the shipment is visibly damaged and the physical quantity of one item does not match the quantity indicated in the documentation. The unaffected items are otherwise suitable for receipt. The discrepancy and damage must be documented and communicated to the responsible logistics/supply function. The affected items must not be treated as normal usable stock until a decision has been made.
+
+Roles involved:
+Warehouse Manager/Store Manager, Storekeeper/Warehouse Staff, inspection personnel, responsible Supply/Logistics function.
+
+Constraints / decision conditions:
+The physical delivery must be compared with the order and packing documentation. Any mismatch must be reported. Damaged or questionable goods must be clearly identified and separated from normal available stock. Inventory records must reflect only the accepted quantities/status.
+
+Expected outcome:
+Accepted goods are correctly received; damaged/discrepant goods are controlled and documented; the discrepancy is escalated; and inventory records accurately reflect the result.

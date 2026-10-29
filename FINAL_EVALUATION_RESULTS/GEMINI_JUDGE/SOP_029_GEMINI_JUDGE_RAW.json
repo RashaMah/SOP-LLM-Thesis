@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_029",
+  "judge_family": "Google Gemini",
+  "judge_model": "gemini-3.1-pro-preview",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "The SOP captures all operationally relevant information from the source scenario, including the multi-item context, the requirement to continue picking available items, the prohibition against false confirmation or unauthorized substitution, and the need to record and communicate the discrepancy."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The procedural steps follow a logical and operationally sound sequence, moving from verifying stock and identifying the discrepancy to continuing the pick, recording/communicating the issue, and escalating for reconciliation."
+    },
+    "C3_role_clarity": {
+      "score": 5,
+      "reason": "The SOP clearly and accurately assigns responsibilities to the exact three roles provided in the source scenario (Picker/Storekeeper, Storekeeper responsible for stock records, and Warehouse Supervisor/Manager) without inventing new roles."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "Inputs (authorized picking instruction, physical stock, inventory records) and expected outputs (correctly picked items, unfalsified records, documented discrepancy, escalation) are clearly defined and perfectly aligned with the source scenario."
+    },
+    "C5_exception_handling": {
+      "score": 5,
+      "reason": "The SOP effectively treats the core scenario (missing stock) as an exception and clearly outlines the required handling steps, including what not to do (no false confirmation, no unauthorized substitution)."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "All explicit constraints from the source scenario are strictly preserved, particularly the rules against selecting alternative batches/quantities unless permitted by warehouse rules and the prohibition against falsely marking items as picked."
+    },
+    "C7_groundedness": {
+      "score": 5,
+      "reason": "The SOP remains entirely grounded in the source scenario. It does not invent unsupported systems, documents, or thresholds, and explicitly notes where the source scenario lacks detail (e.g., exact back-order mechanics) to avoid hallucination."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is highly structured, clear, internally consistent, and actionable. It uses standard SOP formatting (Purpose, Scope, Roles, Procedure) making it highly usable for warehouse personnel while remaining faithful to the source."
+    }
+  }
+}

@@ -1,0 +1,181 @@
+# Standard Operating Procedure: Stock Transfer and Redistribution
+
+## 1. SOP Title
+
+**Stock Transfer and Redistribution Between Warehouses**
+
+## 2. Purpose
+
+To define the process for preparing, releasing, documenting, and recording an authorized stock transfer between warehouses within the same logistics network while preserving inventory traceability.
+
+## 3. Scope
+
+This SOP applies to approved stock transfers from a sending warehouse to a receiving warehouse within the same logistics network. It covers:
+
+- Verification of the approved transfer request
+- Reservation, picking, and staging of goods
+- Preparation of release and transport documentation
+- Loading and release of goods
+- Recording the outgoing inventory movement
+- Handover to the receiving warehouse’s receiving process
+
+## 4. Roles and Responsibilities
+
+### 4.1 Supply/Inventory Officer
+
+- Ensure that an approved transfer request identifies the goods, quantities, and destination warehouse.
+- Support inventory traceability for the transfer.
+- Ensure the outgoing movement is reflected in the sending warehouse inventory records.
+
+### 4.2 Warehouse Manager
+
+- Confirm that stock is released only against an approved transfer request.
+- Oversee preparation and release of the transfer.
+- Ensure the goods and documentation correspond to the approved request.
+- Ensure inventory records reflect the outgoing movement.
+
+### 4.3 Storekeeper/Warehouse Staff
+
+- Reserve the required goods.
+- Pick the correct goods and quantities.
+- Stage the goods while maintaining a clear association with the correct transfer.
+- Prepare the required release and transport documentation.
+- Maintain transfer identification during loading.
+- Release the goods only as authorized.
+
+### 4.4 Receiving Warehouse Personnel
+
+- Confirm receipt through the receiving warehouse’s receiving process.
+
+## 5. Required Inputs / Information
+
+The following information and conditions are required:
+
+- An approved transfer request
+- Identification of the goods to be transferred
+- Approved quantities
+- Identification of the destination warehouse
+- Availability of the required goods
+- Information necessary to prepare the required release and transport documentation
+
+## 6. Expected Outputs
+
+- Correct goods and quantities released to the specified destination warehouse
+- Complete release and transport documentation
+- Goods traceably associated with the approved transfer throughout staging and loading
+- Outgoing quantities removed from the sending warehouse records
+- Transfer made available for confirmation through the receiving warehouse’s receiving process
+
+## 7. Procedure
+
+### 7.1 Verify Transfer Authorization
+
+1. Obtain the approved transfer request.
+2. Verify that the request identifies:
+   - The goods to be moved
+   - The quantities to be moved
+   - The destination warehouse
+3. Do not begin release activities if the transfer request is not approved or does not contain sufficient information to identify the goods, quantities, and destination.
+
+### 7.2 Confirm Stock Availability
+
+1. Confirm that the sending warehouse has the required goods and quantities.
+2. Match the available goods against the approved transfer request.
+3. Proceed only with goods and quantities authorized by the approved request.
+
+### 7.3 Reserve the Goods
+
+1. Reserve the required goods for the approved transfer.
+2. Ensure the reserved goods remain associated with the correct transfer.
+3. Prevent the reserved goods from being mixed with goods for another transfer or warehouse activity.
+
+### 7.4 Pick the Goods
+
+1. Pick the goods specified in the approved transfer request.
+2. Verify that the picked goods match the requested items.
+3. Verify that the picked quantities match the approved quantities.
+4. Keep the picked goods identifiable as belonging to the correct transfer.
+
+### 7.5 Stage the Goods
+
+1. Move the picked goods to the staging area.
+2. Maintain clear association between the staged goods and the approved transfer request.
+3. Keep goods for different transfers distinguishable during staging.
+4. Recheck the staged goods and quantities against the approved transfer request before documentation and loading.
+
+### 7.6 Prepare Documentation
+
+1. Prepare the required release documentation.
+2. Prepare the required transport documentation.
+3. Ensure the documentation corresponds to:
+   - The approved transfer request
+   - The goods being released
+   - The quantities being released
+   - The destination warehouse
+4. Confirm that the documentation is complete before release.
+
+### 7.7 Load and Release the Goods
+
+1. Verify that the goods selected for loading are the staged goods associated with the approved transfer.
+2. Maintain the association between the goods and the transfer during loading.
+3. Confirm that the goods and quantities being loaded match the approved transfer request and accompanying documentation.
+4. Release the goods to the destination warehouse only after authorization and documentation have been verified.
+
+### 7.8 Record the Outgoing Inventory Movement
+
+1. Record the outgoing stock movement in the sending warehouse records.
+2. Remove the quantity released from the sending warehouse inventory records.
+3. Ensure the recorded movement corresponds to the goods and quantities actually released.
+4. Preserve traceability between the inventory movement, approved transfer request, and release documentation.
+
+### 7.9 Receiving Warehouse Confirmation
+
+1. The receiving warehouse personnel shall process the transferred goods through the receiving warehouse’s receiving process.
+2. Receipt confirmation is completed subsequently by the receiving warehouse.
+3. Detailed receiving activities are outside the scope of this SOP because they are not specified in the process scenario.
+
+## 8. Exception and Deviation Handling
+
+### 8.1 Transfer Request Is Not Approved
+
+- Do not reserve, pick, stage, load, or release stock.
+- Hold the transfer until an approved transfer request is available.
+
+### 8.2 Transfer Information Is Missing or Unclear
+
+- Do not release goods if the items, quantities, or destination warehouse cannot be confirmed.
+- Obtain clarification before continuing the transfer.
+
+### 8.3 Goods or Quantities Do Not Match the Request
+
+- Stop the affected transfer activity.
+- Do not release incorrect or unauthorized goods or quantities.
+- Reconcile the discrepancy against the approved transfer request before proceeding.
+
+### 8.4 Transfer Association Is Lost During Staging or Loading
+
+- Stop staging or loading of the affected goods.
+- Re-establish a clear association between the goods and the correct approved transfer before continuing.
+
+### 8.5 Documentation Is Incomplete or Does Not Match
+
+- Do not release the affected goods.
+- Correct or complete the release and transport documentation so that it matches the approved request and the goods being released.
+
+### 8.6 Inventory Record Discrepancy
+
+- Do not treat the transfer as complete until the outgoing movement is accurately reflected in the sending warehouse records.
+- Reconcile the inventory record with the quantity actually released.
+
+## 9. Process Completion Criteria
+
+The stock transfer and redistribution process is complete when:
+
+- The transfer request is approved.
+- The correct goods and authorized quantities have been released.
+- The goods were kept clearly associated with the correct transfer during staging and loading.
+- Required release and transport documentation is complete and accompanies the transfer.
+- The destination warehouse is correctly identified.
+- The outgoing quantity has been removed from the sending warehouse records.
+- Traceability is maintained between the approved request, released goods, documentation, and inventory movement.
+- The transfer has been handed over for subsequent confirmation through the receiving warehouse’s receiving process.

@@ -1,0 +1,50 @@
+FINAL LLM-AS-A-JUDGE CONFIGURATION — VERSION 1.0
+
+Evaluation design:
+Multi-judge, scenario-grounded, rubric-based evaluation.
+
+Number of independent judge families: 3
+
+
+JUDGE 1
+Family: OpenAI GPT
+Model: GPT-5.6 Sol
+API model ID: gpt-5.6-sol
+
+
+JUDGE 2
+Family: Anthropic Claude
+Model: Claude Sonnet 5
+API/OpenRouter model ID: anthropic/claude-sonnet-5
+
+
+JUDGE 3
+Family: Google Gemini
+Model: Gemini 3.1 Pro
+API model ID: gemini-3.1-pro-preview
+
+
+EVALUATION PROCEDURE
+
+- Every generated SOP is evaluated independently by all three judges.
+- Generator/model identity is hidden from the judges.
+- Each judge receives the same source scenario.
+- Each judge receives the same candidate SOP.
+- Each judge receives the same frozen 8-criterion rubric and judge instructions.
+- Each criterion is scored from 1 to 5.
+- All individual judge scores are retained.
+- Judge reasoning/justification is retained for auditability.
+- The evaluation script calculates totals; judges do not calculate totals.
+- Scores from different judges are not shown to one another.
+- Judges do not debate or revise their scores based on another judge.
+- Inter-judge agreement will be analyzed separately.
+- A subset will subsequently undergo independent human validation.
+
+Primary dataset:
+
+48 generated SOPs
+× 3 independent judges
+= 144 judge evaluations
+
+8 criterion scores per evaluation
+= 1,152 individual criterion ratings.

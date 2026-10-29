@@ -1,0 +1,48 @@
+**1. SOP Title**
+Goods Receipt and Verification Procedure for Scheduled Supplier Deliveries
+
+**2. Purpose**
+To ensure that goods received from suppliers are correctly verified, documented, and stored in the warehouse, and that inventory records are accurately updated.
+
+**3. Scope**
+This SOP applies to all scheduled supplier deliveries received at the warehouse with valid purchase-order references, shipping documentation, and packing lists.
+
+**4. Roles and Responsibilities**
+- **Warehouse Manager/Store Manager**: Oversees the goods receipt process, ensures compliance with this SOP, and manages warehouse staff.
+- **Storekeeper/Warehouse Staff**: Responsible for unloading goods, verifying shipments against documentation, inspecting goods, and updating inventory records.
+- **Receiving or Inspection Personnel**: Conducts the initial verification and inspection of received goods.
+
+**5. Required Inputs / Information**
+- Valid purchase order reference
+- Shipping documentation
+- Packing list
+- Goods delivered by the supplier
+
+**6. Expected Outputs**
+- Verified shipment details
+- Receiving record documentation
+- Updated warehouse stock records
+- Goods stored in the designated storage area
+
+**7. Procedure**
+1. Upon arrival of a scheduled supplier delivery, the Storekeeper/Warehouse Staff checks for the presence of shipping documentation and a packing list.
+2. The receiving personnel verifies the shipment documentation against the expected purchase order reference to ensure it matches and is valid.
+3. The goods are unloaded and visually inspected for damage or discrepancies.
+4. The Storekeeper/Warehouse Staff compares the delivered items and quantities with the details on the packing list and shipping documentation.
+5. If the delivered goods match the documentation in terms of identity and quantity, and are found to be in satisfactory condition upon visual inspection, they are accepted.
+6. The receiving personnel documents the receipt by creating a receiving record, noting any observations or discrepancies.
+7. Accepted goods are moved to the designated storage area.
+8. The Storekeeper/Warehouse Staff updates the warehouse stock records to reflect the new inventory.
+
+**8. Exception and Deviation Handling**
+- If the shipment lacks valid documentation or there are discrepancies between the goods received and the documentation, the goods are not accepted into stock until the issue is resolved.
+- In cases of damaged goods or discrepancies, the receiving personnel documents the issue in the receiving record and notifies the Warehouse Manager/Store Manager.
+- The Warehouse Manager/Store Manager is responsible for resolving discrepancies or damaged goods issues with the supplier.
+
+**9. Process Completion Criteria**
+The goods receipt process is considered complete when:
+- The shipment has been verified against the documentation.
+- The goods have been inspected and accepted.
+- A receiving record has been created.
+- The goods have been stored in the designated storage area.
+- Warehouse stock records have been updated to reflect the receipt of goods.

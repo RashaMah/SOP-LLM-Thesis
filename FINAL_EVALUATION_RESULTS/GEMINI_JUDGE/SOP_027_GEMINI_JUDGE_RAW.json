@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_027",
+  "judge_family": "Google Gemini",
+  "judge_model": "gemini-3.1-pro-preview",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "The SOP captures all operational information, roles, constraints, and expected outcomes explicitly stated in the source scenario without omitting any details."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The procedural steps follow a highly logical and operationally correct sequence, moving from delivery arrival and unloading to inspection, separation, documentation, escalation, and finally inventory updates."
+    },
+    "C3_role_clarity": {
+      "score": 5,
+      "reason": "Responsibilities are clearly and consistently assigned to the exact roles provided in the source scenario, with logical task distribution that supports the procedure."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "Required inputs (shipping documentation, physical goods) and expected outputs (updated inventory, separated goods, escalation communication) are clearly defined and perfectly align with the source scenario."
+    },
+    "C5_exception_handling": {
+      "score": 5,
+      "reason": "The SOP explicitly identifies the damaged goods and quantity discrepancies as exceptions and provides clear, scenario-aligned instructions for handling them (separation, documentation, escalation)."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "All constraints from the source scenario, including comparing physical delivery to documentation, separating damaged goods, and updating inventory only with accepted quantities, are strictly adhered to."
+    },
+    "C7_groundedness": {
+      "score": 5,
+      "reason": "The SOP remains strictly grounded in the source scenario. It explicitly avoids inventing post-escalation resolution steps or specific software systems, noting that such details were not provided in the source."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is highly structured, internally consistent, and written in clear, actionable language that would be highly usable for warehouse personnel."
+    }
+  }
+}

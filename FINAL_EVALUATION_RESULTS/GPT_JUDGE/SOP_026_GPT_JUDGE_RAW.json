@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_026",
+  "judge_family": "OpenAI GPT",
+  "judge_model": "gpt-5.6-sol",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 3,
+      "reason": "The SOP covers identification, authorization, preparation, picking, packing, handover, transport, receipt, and receiving-side recording. However, it does not include a procedural step for updating the source location's stock record and omits the requirement to avoid creating an unmanaged shortage at the source."
+    },
+    "C2_correct_sequence": {
+      "score": 4,
+      "reason": "The main sequence from stock analysis through authorization, preparation, handover, transport, receipt, and receiving record update is logical. The sequence is incomplete because the source stock-record update is not placed anywhere in the procedure."
+    },
+    "C3_role_clarity": {
+      "score": 4,
+      "reason": "Responsibilities are clearly assigned among the listed roles, and no entirely new role is introduced. Some specific assignments, such as making the Supply Officer the transfer authorizer and dividing oversight duties between source and receiving Store Managers, are more specific than the source scenario supports."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "The SOP clearly identifies stock analysis and an authorized redistribution decision as inputs and identifies transfer completion plus correctly updated records at both locations as outputs, consistent with the scenario."
+    },
+    "C5_exception_handling": {
+      "score": 2,
+      "reason": "The SOP provides discrepancy, damage, and transport-delay handling, but these exceptions are not contained in the source scenario. More importantly, it does not handle the source scenario's explicit decision condition that the transfer must not create an unmanaged shortage at the source."
+    },
+    "C6_constraint_adherence": {
+      "score": 3,
+      "reason": "The SOP preserves authorization, use of stock information, and transfer traceability. It fails to preserve the explicit constraint that the selected quantity must not create an unmanaged shortage at the source location."
+    },
+    "C7_groundedness": {
+      "score": 3,
+      "reason": "The core procedure is grounded in the scenario, but the SOP adds unsupported operational requirements, including delivery or consignment notes, mandatory discrepancy investigation before proceeding, damage documentation and notification, and delay notifications. Several detailed role assignments also go beyond the supplied facts."
+    },
+    "C8_usability": {
+      "score": 4,
+      "reason": "The SOP is clearly structured, readable, and largely actionable. Usability is weakened by the absence of an explicit source stock-record update step and a check preventing an unmanaged source shortage, despite both being necessary to execute the stated process faithfully."
+    }
+  }
+}

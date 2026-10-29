@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_046",
+  "judge_family": "Google Gemini",
+  "judge_model": "gemini-3.1-pro-preview",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "The SOP captures all operationally relevant information from the source scenario, including required activities, roles, constraints, and expected outcomes."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The procedural steps follow a logical and operationally correct sequence, starting from receiving instructions to picking, checking, and finally transferring the items."
+    },
+    "C3_role_clarity": {
+      "score": 5,
+      "reason": "Responsibilities are clearly and consistently assigned to the Storekeeper/Picker and Warehouse Supervisor/Manager exactly as provided in the source scenario."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "Inputs, such as the approved picking instruction, and expected outputs, such as accurately picked and transferred items, are clearly defined and match the source scenario."
+    },
+    "C5_exception_handling": {
+      "score": 5,
+      "reason": "The SOP effectively identifies potential exceptions (e.g., missing or damaged items, which are implied by the source's 'available requested items' phrasing) and provides clear escalation paths to the Supervisor."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "Explicit constraints from the source scenario, such as checking each picked line against the instruction and maintaining inventory accuracy, are preserved and respected."
+    },
+    "C7_groundedness": {
+      "score": 5,
+      "reason": "The SOP remains entirely grounded in the source scenario without inventing unsupported systems, documents, technologies, or material operational details."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is highly usable, well-structured, unambiguous, and actionable for warehouse personnel, utilizing standard and clear formatting."
+    }
+  }
+}

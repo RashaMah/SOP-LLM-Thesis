@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_042",
+  "judge_family": "Anthropic Claude",
+  "judge_model": "anthropic/claude-sonnet-5",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "The SOP captures all operationally relevant elements from the source: recall receipt by Supply, identification/isolation of affected stock, stopping issue, segregation and marking, stock record updates, coordination with relevant offices/external parties, and controlled dispatch with documentation and security/release controls. All roles listed in the scenario (Supply Officer, Store Manager, Store Supervisor, Storekeeper, Store Helper/Warehouse Staff, Security) are represented with responsibilities tied to the source's described activities."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The procedure follows a logical and scenario-consistent sequence: receive/confirm recall \\u2192 stop issue \\u2192 identify affected quantities \\u2192 segregate/mark \\u2192 update records \\u2192 coordinate return \\u2192 prepare for dispatch \\u2192 release/dispatch. This matches the operational dependencies implied by the source scenario (block immediately after confirmation, then segregate, record, coordinate, then dispatch under controls)."
+    },
+    "C3_role_clarity": {
+      "score": 5,
+      "reason": "Each role from the source scenario is assigned clear, non-overlapping responsibilities consistent with the scenario's implied duties (e.g., Supply Officer handles external coordination, Store Manager oversees implementation, Storekeeper manages records, Security controls release). No new roles are introduced, and assignments are consistent throughout the procedure and exception sections."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "Required inputs (recall notice, stock records, product identification info, coordination outcomes, dispatch documentation) and expected outputs (identified/blocked/segregated/recorded/dispatched stock) are explicitly listed and consistently referenced throughout the procedure steps, matching the scenario's stated objective and expected outcome."
+    },
+    "C5_exception_handling": {
+      "score": 5,
+      "reason": "The SOP proactively addresses plausible deviations implied by the scenario's constraints (traceability, documentation requirements) such as stock not located, quantity mismatches, unclear identification, incomplete dispatch documentation, and additional stock found later. These exceptions logically extend the source's traceability and control requirements without introducing unsupported operational specifics."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "All explicit constraints from the source are preserved: immediate blocking after recall confirmation (7.1.4, 7.2), traceability of quantities moved (7.4.5, 7.5, 8.2, 7.8.5), and dispatch requiring documentation and security/release controls (7.7.3, 7.8, 8.4). No constraint is contradicted or omitted."
+    },
+    "C7_groundedness": {
+      "score": 4,
+      "reason": "The SOP largely stays grounded in the source scenario, but adds procedural specifics not explicitly stated, such as detailed exception scenarios (8.1-8.5) and specific verification steps (e.g., Store Supervisor checking dispatch goods against records, cross-verification steps in 7.3.6, 7.5.3). These are reasonable extrapolations of the stated constraints (traceability, documentation) rather than fabricated systems or roles, but they do introduce operational detail beyond what was explicitly provided, warranting a minor deduction."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is clearly structured with logical sections (roles, inputs/outputs, procedure, exceptions, completion criteria), uses actionable step-by-step language, and remains internally consistent with the source scenario's terminology and requirements. It is readily usable by warehouse personnel for executing the recall process."
+    }
+  }
+}

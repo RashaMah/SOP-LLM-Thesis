@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "PILOT_SOP_002",
+  "judge_family": "OpenAI GPT",
+  "judge_model": "gpt-5.6-sol",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "The SOP includes all source-specified activities, conditions, roles, controls, reporting requirements, inventory requirements, and expected outcomes."
+    },
+    "C2_correct_sequence": {
+      "score": 3,
+      "reason": "The core steps correctly progress through arrival, inspection, comparison, issue identification, acceptance, recording, and communication. However, segregation and stock-status control appear later in a separate exception section, creating ambiguity about whether affected goods are separated before unaffected goods are received and inventory is updated."
+    },
+    "C3_role_clarity": {
+      "score": 3,
+      "reason": "The source roles are identified and most activities have clear owners, but the Warehouse Manager/Store Manager has no defined responsibility. The SOP also assigns the final decision on affected items to Supply/Logistics and inventory updating to warehouse staff, although the source does not make those assignments."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "The supplier delivery, shipping, order, and packing documentation, and physical goods are clearly identified as inputs. Outputs accurately cover accepted receipt, controlled affected goods, escalation, documentation, and accurate inventory status."
+    },
+    "C5_exception_handling": {
+      "score": 5,
+      "reason": "Both stated exceptions—visible damage and quantity mismatch—are identified and handled through documentation, reporting, segregation, stock-status control, and escalation pending a decision."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "The SOP preserves all explicit constraints: comparison with order and packing documentation, reporting mismatches, identifying and separating damaged or questionable goods, withholding them from usable stock, and recording only accepted quantities and status."
+    },
+    "C7_groundedness": {
+      "score": 3,
+      "reason": "Most content is directly grounded in the scenario, but the SOP adds unsupported operational requirements and assignments, including immediate reporting, formal documentation before communication, assigning the disposition decision to Supply/Logistics, and assigning inventory updates specifically to warehouse staff."
+    },
+    "C8_usability": {
+      "score": 4,
+      "reason": "The SOP is structured, readable, and largely actionable. Usability is slightly reduced because exception-control steps are separated from the main workflow and placed after receipt and inventory recording, making the timing of segregation and status control less clear."
+    }
+  }
+}

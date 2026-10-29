@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_020",
+  "judge_family": "Anthropic Claude",
+  "judge_model": "anthropic/claude-sonnet-5",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "All key elements from the source scenario are represented: shipment arrival with documentation, unloading/inspection, identification of damage and quantity discrepancy, separation of affected goods, documentation, escalation to Supply/Logistics, and accurate inventory reflecting only accepted goods. No operationally relevant information from the scenario is omitted."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The procedure follows a logical order consistent with the scenario: receipt/inspection, comparison with documentation, identification/separation of discrepancies, processing of accepted goods, escalation, awaiting decision, and final inventory update. This matches the implied dependency chain in the source scenario."
+    },
+    "C3_role_clarity": {
+      "score": 4,
+      "reason": "Roles from the source (Warehouse Manager, Storekeeper/Warehouse Staff, Inspection Personnel, Supply/Logistics function) are all used correctly. Minor ambiguity exists in step 4 where 'Handling Discrepancies' vaguely assigns documentation and informing duties without specifying whether Storekeeper or Inspection Personnel performs this, slightly blurring role boundaries between staff and inspection roles."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "Inputs (shipping documentation, order/packing documentation) and outputs (updated inventory records, documented discrepancies, notification to Supply/Logistics) are clearly listed and consistent with the source scenario, with no invented or missing elements."
+    },
+    "C5_exception_handling": {
+      "score": 4,
+      "reason": "The SOP correctly handles the core exception (damage and quantity discrepancy) by isolating affected goods and escalating. However, the added generic exception clause ('deviation from this SOP must be approved...') is a minor addition beyond the specific exception described in the scenario, though it does not contradict it."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "All explicit constraints are preserved: comparison of physical delivery with documentation, mandatory reporting of mismatches, separation of damaged/questionable goods, and inventory reflecting only accepted quantities/status. These are directly and accurately incorporated into the procedure."
+    },
+    "C7_groundedness": {
+      "score": 4,
+      "reason": "Most content is grounded in the source scenario. The added generic deviation-approval clause in Section 8 ('Any deviation from this SOP must be approved by the Warehouse Manager...') introduces a governance rule not explicitly stated in the source, constituting a minor unsupported addition."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is clearly structured with logical sections (roles, inputs/outputs, procedure, exceptions, completion criteria), making it actionable and easy to follow for warehouse staff while remaining faithful to the scenario."
+    }
+  }
+}

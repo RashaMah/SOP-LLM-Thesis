@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_034",
+  "judge_family": "Google Gemini",
+  "judge_model": "gemini-3.1-pro-preview",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "The SOP captures all operationally relevant information, roles, constraints, and expected outcomes explicitly mentioned in the source scenario, including handling multi-item picks and escalating discrepancies."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The procedural steps follow a logical and operationally correct sequence, starting with receiving instructions, identifying missing items, recording the discrepancy, continuing the pick, and finally reporting for reconciliation."
+    },
+    "C3_role_clarity": {
+      "score": 5,
+      "reason": "Responsibilities are clearly and consistently assigned to the exact roles provided in the source scenario, with no unsupported roles introduced."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "Required inputs, such as the authorized picking instruction, and expected outputs, such as accurate picking and discrepancy records, are clearly identifiable and perfectly align with the source scenario."
+    },
+    "C5_exception_handling": {
+      "score": 5,
+      "reason": "The core exception of the scenario (item unavailable at expected location) is correctly identified and handled according to the source constraints, including back-order handling and stock reconciliation."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "Explicit constraints, such as not substituting items unless permitted by warehouse stock rules and not falsely confirming unavailable quantities, are strictly preserved and emphasized."
+    },
+    "C7_groundedness": {
+      "score": 5,
+      "reason": "The SOP remains entirely grounded in the source scenario without inventing unsupported systems, documents, thresholds, or operational details."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is highly structured, internally consistent, unambiguous, and actionable for warehouse personnel, utilizing standard SOP formatting while remaining faithful to the source scenario."
+    }
+  }
+}

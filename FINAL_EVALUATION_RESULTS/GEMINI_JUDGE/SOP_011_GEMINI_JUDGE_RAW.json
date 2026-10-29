@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_011",
+  "judge_family": "Google Gemini",
+  "judge_model": "gemini-3.1-pro-preview",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "The SOP captures all operational information, roles, constraints, and expected outcomes explicitly stated in the source scenario without omitting any details."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The procedural steps follow a logical and operationally correct sequence, starting with following the instruction, identifying the discrepancy, handling available items, continuing the pick, and finally recording and escalating the issue."
+    },
+    "C3_role_clarity": {
+      "score": 5,
+      "reason": "Responsibilities are clearly and accurately assigned to the exact three roles specified in the source scenario, with no unauthorized roles added."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "Required inputs (picking instructions, physical quantities) and expected outputs (correctly picked items, unconfirmed missing quantities, escalated discrepancies) are clearly defined and perfectly align with the source scenario."
+    },
+    "C5_exception_handling": {
+      "score": 5,
+      "reason": "The SOP effectively breaks down the primary exception (unavailable stock) into specific, actionable sub-scenarios (no stock, partial stock, alternative batches) and handles them strictly according to the source constraints."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "All explicit constraints from the source scenario, such as not falsely confirming missing quantities and not selecting unauthorized alternative batches, are strictly preserved and emphasized throughout the SOP."
+    },
+    "C7_groundedness": {
+      "score": 5,
+      "reason": "The SOP remains entirely grounded in the source scenario. It avoids inventing specific software systems, forms, or unauthorized procedures, explicitly noting where the scenario does not specify a method."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is highly structured, internally consistent, and written in clear, actionable language that would be highly usable for warehouse personnel while remaining strictly faithful to the source text."
+    }
+  }
+}

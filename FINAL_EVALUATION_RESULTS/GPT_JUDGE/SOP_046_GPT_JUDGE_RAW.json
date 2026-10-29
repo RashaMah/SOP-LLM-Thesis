@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_046",
+  "judge_family": "OpenAI GPT",
+  "judge_model": "gpt-5.6-sol",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 4,
+      "reason": "The SOP covers the approved instruction, product references, quantities, locations, line checks, transfer, roles, and record accuracy. Minor gaps are that it does not clearly address assignment to one operator or picking team and does not provide a procedural step for maintaining inventory/location records."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The sequence of receiving and reviewing the approved instruction, picking from specified locations, checking each line, completing the pick, and transferring it to staging/packing follows the scenario's operational dependencies."
+    },
+    "C3_role_clarity": {
+      "score": 4,
+      "reason": "Picker responsibilities are clearly assigned and the source roles are used consistently. However, the SOP adds unsupported supervisor responsibilities for providing the instruction, ensuring approval, and overseeing compliance, while the possible picking-team assignment is not addressed."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "The approved picking instruction and its product, quantity, and location information are clearly identified as inputs, while accurate checked picks, staging/packing transfer, and accurate inventory/location records are identified as outputs."
+    },
+    "C5_exception_handling": {
+      "score": 3,
+      "reason": "The SOP recognizes unavailable or missing products and directs notification, which is relevant to the expected outcome of picking all available requested items. However, it requires resolution before completion and states that all listed items must be picked, making completion with genuinely unavailable items unclear; several additional discrepancy and damage rules are unsupported."
+    },
+    "C6_constraint_adherence": {
+      "score": 3,
+      "reason": "The SOP generally requires picking and checking against the approved instruction and preserves record accuracy as an expected result. It does not expressly state that only authorized references and quantities may be picked, and its suggestion that the instruction may be adjusted lacks a defined authorization condition."
+    },
+    "C7_groundedness": {
+      "score": 3,
+      "reason": "Most of the procedure is directly grounded in the scenario, but it invents material details such as supervisor issuance of the instruction, supervisor responsibility for approval and oversight, mandatory discrepancy documentation, resolution before completion, adjustment of picking instructions, and damage-handling requirements."
+    },
+    "C8_usability": {
+      "score": 4,
+      "reason": "The SOP is clearly structured, readable, and largely actionable. Usability is weakened by the absence of an operational record-maintenance step and by inconsistent completion logic between picking all listed items and handling items that are unavailable."
+    }
+  }
+}

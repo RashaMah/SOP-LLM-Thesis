@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_008",
+  "judge_family": "Google Gemini",
+  "judge_model": "gemini-3.1-pro-preview",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "The SOP captures all operationally relevant information, activities, roles, constraints, and expected outcomes explicitly contained in the source scenario."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The procedural steps follow a logical and operationally correct sequence, moving from request validation and authorization to picking, staging, dispatching, and finally updating records and downstream receipt."
+    },
+    "C3_role_clarity": {
+      "score": 5,
+      "reason": "Responsibilities are clearly and consistently assigned to the exact roles provided in the source scenario without introducing unsupported new roles."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "Required inputs (approved transfer request, stock availability) and expected outputs (released goods, documentation, updated records) are clearly identified and perfectly align with the source scenario."
+    },
+    "C5_exception_handling": {
+      "score": 5,
+      "reason": "The SOP effectively identifies potential exceptions based on the scenario's constraints (e.g., unapproved requests, loss of item association) and provides logical escalation paths without inventing unsupported operational rules."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "All explicit constraints from the source scenario, such as releasing stock only against approved requests and maintaining clear association during staging and loading, are strictly preserved and emphasized throughout the SOP."
+    },
+    "C7_groundedness": {
+      "score": 5,
+      "reason": "The SOP remains strictly grounded in the source scenario. It assigns tasks logically to the provided roles and explicitly avoids inventing specific document names, systems, or resolution procedures not found in the source text."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is highly structured, clear, and actionable. It uses standard SOP sections (Purpose, Scope, Roles, Procedure, Exceptions) making it highly usable for logistics personnel while remaining faithful to the source text."
+    }
+  }
+}

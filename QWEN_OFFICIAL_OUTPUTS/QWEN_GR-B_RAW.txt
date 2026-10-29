@@ -1,0 +1,55 @@
+# Standard Operating Procedure: Goods Receipt and Discrepancy Handling
+
+## 1. SOP Title
+Goods Receipt / Receiving – Handling of Damaged Goods and Quantity Discrepancies
+
+## 2. Purpose
+To process an incoming shipment while correctly handling discrepancies identified during receiving, ensuring that accepted goods are received, damaged or discrepant goods are controlled and documented, discrepancies are escalated, and inventory records accurately reflect the result.
+
+## 3. Scope
+This procedure applies to the Goods Receipt / Receiving process when a supplier delivery arrives with valid shipping documentation. It specifically covers operational situations where unloading and inspection reveal visibly damaged goods or a physical quantity mismatch compared to documentation.
+
+## 4. Roles and Responsibilities
+*   **Warehouse Manager/Store Manager:** Listed as involved role.
+*   **Storekeeper/Warehouse Staff:** Responsible for unloading, inspection, identification of problems, separation of goods, and updating inventory records.
+*   **Inspection Personnel:** Involved in the inspection process alongside warehouse staff.
+*   **Responsible Supply/Logistics Function:** Receives communication regarding discrepancies and damage; responsible for making decisions on affected items.
+
+## 5. Required Inputs / Information
+*   Supplier delivery.
+*   Valid shipping documentation.
+*   Order documentation.
+*   Packing documentation.
+*   Physical delivery items.
+
+## 6. Expected Outputs
+*   Accepted goods correctly received.
+*   Damaged and discrepant goods controlled and documented.
+*   Discrepancy escalated to the responsible Supply/Logistics function.
+*   Inventory records reflecting only accepted quantities and status.
+
+## 7. Procedure
+1.  **Delivery Arrival:** Receive the supplier delivery which includes valid shipping documentation.
+2.  **Unloading and Inspection:** Storekeeper/Warehouse Staff and Inspection Personnel perform unloading and inspection of the shipment.
+3.  **Documentation Comparison:** Compare the physical delivery with the order and packing documentation.
+4.  **Identification of Issues:** During inspection, identify if any part of the shipment is visibly damaged or if the physical quantity of any item does not match the quantity indicated in the documentation.
+5.  **Assessment of Unaffected Items:** Determine if unaffected items are otherwise suitable for receipt.
+6.  **Receipt of Accepted Goods:** Process the unaffected items suitable for receipt as normal stock.
+7.  **Inventory Recording:** Update inventory records to reflect only the accepted quantities and status.
+8.  **Communication:** Document the discrepancy and damage and communicate these findings to the responsible Supply/Logistics function.
+
+## 8. Exception and Deviation Handling
+This section addresses the abnormal conditions of damaged goods and quantity discrepancies identified during the receiving process.
+
+1.  **Identification of Abnormal Condition:** If inspection reveals visible damage or a quantity mismatch between physical delivery and documentation, classify these items as affected items.
+2.  **Segregation:** Clearly identify and separate the damaged or questionable goods from normal available stock.
+3.  **Stock Status Control:** Do not treat the affected items as normal usable stock. Maintain control over these items until a decision has been made by the responsible Supply/Logistics function.
+4.  **Reporting:** Ensure any mismatch is reported immediately. The discrepancy and damage must be formally documented before communication occurs.
+5.  **Escalation:** Escalate the discrepancy to the responsible Supply/Logistics function for resolution.
+
+## 9. Process Completion Criteria
+The process is considered complete when:
+*   Accepted goods are correctly received.
+*   Damaged and discrepant goods are controlled and documented.
+*   The discrepancy has been escalated to the responsible Supply/Logistics function.
+*   Inventory records accurately reflect the accepted quantities and status.

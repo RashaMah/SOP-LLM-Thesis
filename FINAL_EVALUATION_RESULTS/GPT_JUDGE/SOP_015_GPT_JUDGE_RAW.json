@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_015",
+  "judge_family": "OpenAI GPT",
+  "judge_model": "gpt-5.6-sol",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "The SOP includes all source activities, roles, conditions, and outcomes: following the authorized instruction, handling unavailable quantity, continuing available items, recording and communicating the discrepancy, preventing false confirmation, and escalation for reconciliation or back-order handling."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The procedure follows a coherent sequence from receiving the instruction and verifying stock through stopping the affected pick, applying substitution rules, recording and communicating the discrepancy, continuing other picks, and preventing false confirmation."
+    },
+    "C3_role_clarity": {
+      "score": 5,
+      "reason": "Responsibilities are clearly assigned among the Picker/Storekeeper, Storekeeper responsible for stock records, and Warehouse Supervisor/Manager, consistent with the roles identified in the source."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "The authorized picking instruction, physical availability, and applicable stock rules are identifiable inputs, while correctly picked available items, unconfirmed missing quantities, a recorded discrepancy, and escalation are clearly stated outputs."
+    },
+    "C5_exception_handling": {
+      "score": 5,
+      "reason": "The unavailable-stock condition, substitution decision, discrepancy recording, escalation, continuation of other items, and treatment of the missing quantity are all explicitly and correctly handled."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "The SOP preserves the key constraints: follow the authorized instruction, do not select an alternative batch or quantity without permission under stock rules, record the discrepancy, and never falsely mark missing quantity as picked."
+    },
+    "C7_groundedness": {
+      "score": 4,
+      "reason": "The SOP is overwhelmingly grounded in the source, but it adds minor unsupported details such as requiring immediate recording, prohibiting estimated quantities, and assigning the Supervisor/Manager an oversight function. These additions do not materially alter the core process."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is clearly organized, actionable, internally consistent, and provides an unambiguous workflow and completion criteria while remaining faithful to the scenario."
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_024",
+  "judge_family": "OpenAI GPT",
+  "judge_model": "gpt-5.6-sol",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 3,
+      "reason": "The SOP covers packing, order association, documentation, verification, release, custody transfer, and stock updating. However, it omits the explicit requirement to keep staged orders clearly separated and does not clearly state that outgoing quantity must be verified before custody transfer."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The activities follow the required dependency order: packing and documentation precede verification, verification precedes release and custody transfer, and stock records are updated for the released goods."
+    },
+    "C3_role_clarity": {
+      "score": 4,
+      "reason": "Responsibilities are clearly assigned among the provided roles. The phrase \"or designated personnel\" for stock updating introduces an unsupported and undefined responsible party, but otherwise role assignments are consistent and actionable."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "The completed picking order, order details, quantities, and documentation requirements are identifiable inputs, while packed goods, packing and release documents, custody transfer, and updated stock records are clear outputs."
+    },
+    "C5_exception_handling": {
+      "score": 4,
+      "reason": "The SOP appropriately prevents release when item or quantity discrepancies are detected and requires correction before proceeding. It also adds a carrier-refusal or damage exception not contained in the source, but the handling is clear and does not contradict the core process."
+    },
+    "C6_constraint_adherence": {
+      "score": 3,
+      "reason": "The SOP preserves the requirement that packed goods match the authorized order and places verification before custody transfer. It does not preserve the explicit staging-area separation constraint, and outgoing quantity verification is only implied through general accuracy checks and discrepancy examples rather than directly required."
+    },
+    "C7_groundedness": {
+      "score": 3,
+      "reason": "Most operational content is grounded in the scenario, but the SOP invents managerial supervision duties, an undefined \"designated personnel\" role, and a carrier-refusal or damage resolution process. These additions are plausible but unsupported by the source."
+    },
+    "C8_usability": {
+      "score": 4,
+      "reason": "The SOP is well structured, clear, and largely actionable, with defined roles, inputs, outputs, steps, and completion criteria. Usability is weakened by the missing staged-order separation instruction, the lack of an explicit outgoing-quantity check, and the undefined \"designated personnel.\""
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_034",
+  "judge_family": "Anthropic Claude",
+  "judge_model": "anthropic/claude-sonnet-5",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 4,
+      "reason": "Most explicit operational elements (discrepancy recording, continuing with available items, not falsely marking as picked, escalation for reconciliation/back-order) are present. However, the Warehouse Supervisor/Manager role, though defined in Section 4, is never actually invoked or referenced in the Procedure or Exception Handling sections, leaving their operational involvement incomplete relative to the source scenario's role list."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The procedure follows the logical order implied by the scenario: receive instruction → check location → handle discrepancy → continue with available items → report discrepancy → reconcile stock. No contradictions or illogical ordering are present."
+    },
+    "C3_role_clarity": {
+      "score": 3,
+      "reason": "Picker/Storekeeper and Storekeeper (stock records) responsibilities are clearly assigned and consistently used in the procedure. However, the Warehouse Supervisor/Manager is described only generically in Section 4 ('oversees... ensures discrepancies are addressed') without any concrete trigger or step in the Procedure or Exception Handling sections, creating ambiguity about when/how this role actually participates."
+    },
+    "C4_input_output_clarity": {
+      "score": 4,
+      "reason": "Inputs (authorized picking instruction, stock records) and outputs (accurate picking, discrepancy record, notification) are clearly stated and consistent with the scenario. Minor lack of clarity on what specific stock-record output the Storekeeper produces after reconciliation."
+    },
+    "C5_exception_handling": {
+      "score": 4,
+      "reason": "The core exception (item/quantity not available) is correctly handled: no false confirmation, discrepancy recorded, other items continue. Back-order handling is mentioned only briefly in Exception Handling section without procedural detail, slightly limiting full treatment of the expected outcome mentioned in the scenario."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "All explicit constraints are respected: adherence to the authorized picking instruction, prohibition on substituting alternative batch/quantity unless permitted by warehouse stock rules, and mandatory recording of the discrepancy between physical and inventory information."
+    },
+    "C7_groundedness": {
+      "score": 5,
+      "reason": "No invented systems, technologies, approval hierarchies, or unsupported operational details are introduced. All content stays within the bounds of the source scenario's information."
+    },
+    "C8_usability": {
+      "score": 4,
+      "reason": "The SOP is clearly structured with distinct sections (roles, inputs, outputs, procedure, exceptions, completion criteria) and is actionable for warehouse staff. Slight usability gap exists due to the undefined trigger point for Supervisor involvement, which could cause confusion in practice."
+    }
+  }
+}

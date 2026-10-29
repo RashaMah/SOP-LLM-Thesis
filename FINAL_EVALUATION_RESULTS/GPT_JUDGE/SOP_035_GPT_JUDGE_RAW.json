@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_035",
+  "judge_family": "OpenAI GPT",
+  "judge_model": "gpt-5.6-sol",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "The SOP represents all source activities, inputs, constraints, involved roles, and outcomes, including documentation verification, unloading, inspection, identity and quantity comparison, acceptance, receipt documentation, storage transfer, and stock-record updating."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The sequence preserves the required dependencies: documentation is verified, goods are unloaded and visually inspected, identity and quantity are checked before acceptance, and accepted goods are then documented, transferred, and recorded in stock."
+    },
+    "C3_role_clarity": {
+      "score": 4,
+      "reason": "Operational responsibilities are clearly assigned to warehouse staff and receiving or inspection personnel, and the collective term Warehouse Personnel is defined. The Warehouse Manager/Store Manager is listed only as an involved party without a specific responsibility, which is a minor clarity weakness."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "The scheduled delivery, approved purchase-order reference, shipping documentation, and packing list are clearly identified as inputs, while verification, acceptance, receiving documentation, inventory recording, and storage transfer are clearly identified as outputs."
+    },
+    "C5_exception_handling": {
+      "score": 5,
+      "reason": "The SOP correctly addresses all decision conditions in the source: missing or invalid documentation, identity or quantity discrepancies, and premature entry into normal stock."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "The SOP preserves the explicit constraints that documentation must be valid, product identity and quantity must match the expected shipment, and normal stock entry cannot occur before required receiving checks are complete."
+    },
+    "C7_groundedness": {
+      "score": 5,
+      "reason": "The procedure remains grounded in the source and does not introduce material unsupported systems, documents, roles, thresholds, approvals, or technologies. Added wording such as confirming arrival is organizational and does not alter the process."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is clearly structured, internally consistent, and actionable, with defined inputs, outputs, responsibilities, ordered steps, exceptions, and completion criteria faithful to the source."
+    }
+  }
+}

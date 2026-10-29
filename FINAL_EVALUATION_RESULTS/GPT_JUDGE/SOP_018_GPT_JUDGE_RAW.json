@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_018",
+  "judge_family": "OpenAI GPT",
+  "judge_model": "gpt-5.6-sol",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "The SOP captures all source activities, roles, conditions, controls, communications, inventory requirements, and expected outcomes, including comparison against order and packing documents, segregation of affected goods, escalation, and receipt of unaffected goods."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The sequence is operationally consistent: documentation is reviewed, goods are unloaded and inspected, quantities are verified, affected goods are controlled, findings are documented and escalated, and inventory records are updated to reflect the result."
+    },
+    "C3_role_clarity": {
+      "score": 5,
+      "reason": "Responsibilities are clearly assigned among Warehouse Staff, Inspection Personnel, the Warehouse/Store Manager, and the responsible Supply/Logistics function, all of which are roles provided by the source scenario."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "Required inputs such as the delivery, shipping, order and packing documentation, physical quantities, and inspection findings are explicit, while outputs clearly include accepted stock, controlled affected goods, documented discrepancies, escalation, and accurate inventory records."
+    },
+    "C5_exception_handling": {
+      "score": 5,
+      "reason": "The SOP correctly handles visible damage, quantity mismatch, and questionable goods by documenting, reporting, identifying, separating, and withholding affected goods from normal use pending a decision."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "All explicit constraints are preserved: physical goods are compared with order and packing documentation, mismatches are reported, affected goods are segregated, and inventory reflects only accepted quantities and appropriate status."
+    },
+    "C7_groundedness": {
+      "score": 4,
+      "reason": "The SOP remains strongly grounded in the scenario and introduces no unsupported systems, thresholds, technologies, or documents. The added documentation/inventory-conflict subsection and explicit disposition coordination are modest elaborations rather than material contradictions."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is clearly structured, actionable, internally consistent, and unambiguous, with defined responsibilities, sequential steps, exception controls, and completion criteria faithful to the scenario."
+    }
+  }
+}

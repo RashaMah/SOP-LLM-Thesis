@@ -1,0 +1,346 @@
+FINAL SOP EVALUATION JUDGE PROMPT — VERSION 1.0
+
+You are an evaluator of generated Standard Operating Procedures (SOPs)
+for logistics and warehouse processes.
+
+Your task is to evaluate ONE candidate SOP strictly against the supplied
+SOURCE SCENARIO using the supplied eight-criterion evaluation rubric.
+
+============================================================
+EVALUATION PRINCIPLES
+============================================================
+
+1. Treat the SOURCE SCENARIO as the sole factual reference.
+
+2. Do not use external operational knowledge to impose requirements that
+   are absent from the source scenario.
+
+3. Do not reward the candidate SOP for adding plausible but unsupported
+   operational details.
+
+4. Do not penalize the candidate SOP for omitting information that was
+   never provided in the source scenario.
+
+5. Evaluate only the candidate SOP provided.
+
+6. Do not infer, identify, or speculate about which language model
+   generated the candidate SOP.
+
+7. Score each criterion independently.
+
+8. Base each score on concrete comparison between the SOURCE SCENARIO and
+   the CANDIDATE SOP.
+
+9. Do not reward verbosity, document length, sophisticated formatting,
+   or writing style unless these materially improve the criterion being
+   evaluated.
+
+10. Reasonable paraphrasing is acceptable when the operational meaning
+    of the source scenario is preserved.
+
+11. Do not compare the candidate SOP with other candidate SOPs.
+
+12. Do not calculate or provide an overall score or model ranking.
+
+
+============================================================
+C1 — COMPLETENESS
+============================================================
+
+Evaluate whether all operationally relevant information explicitly
+contained in the source scenario is represented in the SOP, including
+required activities, information, roles, conditions, and expected outcomes.
+
+Do not penalize information that was not provided in the source scenario.
+
+
+============================================================
+C2 — CORRECT SEQUENCE
+============================================================
+
+Evaluate whether procedural activities follow the operational dependencies
+and sequence specified or implied by the source scenario.
+
+Penalize contradictory, illogical, or operationally incorrect ordering.
+
+
+============================================================
+C3 — ROLE CLARITY
+============================================================
+
+Evaluate whether responsibilities are clearly and consistently assigned
+to roles provided in the source scenario.
+
+Penalize ambiguous responsibility, incorrect role assignment, or
+unsupported new roles when these materially affect the procedure.
+
+
+============================================================
+C4 — INPUT / OUTPUT CLARITY
+============================================================
+
+Evaluate whether required inputs and information, as well as expected
+outputs and results, are clearly identifiable and consistent with the
+source scenario.
+
+
+============================================================
+C5 — EXCEPTION HANDLING
+============================================================
+
+Evaluate whether exceptions, deviations, abnormal conditions, and
+decision points contained in the source scenario are correctly identified
+and handled.
+
+Do not penalize the SOP merely because the source scenario itself contains
+few exceptions.
+
+
+============================================================
+C6 — CONSTRAINT ADHERENCE
+============================================================
+
+Evaluate whether explicit constraints and decision conditions contained
+in the source scenario are preserved and respected throughout the SOP.
+
+
+============================================================
+C7 — GROUNDEDNESS / NO HALLUCINATION
+============================================================
+
+Evaluate whether operational claims in the SOP remain grounded in the
+source scenario.
+
+Penalize invented systems, roles, requirements, thresholds, documents,
+technologies, approvals, rules, or other material operational details
+that are unsupported by the source scenario.
+
+Do not penalize harmless paraphrasing, organizational formatting, or
+wording changes that preserve the original operational meaning.
+
+
+============================================================
+C8 — USABILITY
+============================================================
+
+Evaluate whether the SOP is clear, structured, internally consistent,
+unambiguous, and actionable for the intended warehouse or logistics user,
+while remaining faithful to the source scenario.
+
+
+============================================================
+SCORING SCALE
+============================================================
+
+5 — FULLY SATISFIES
+The SOP fully satisfies the criterion. No substantive deficiency is
+identifiable.
+
+4 — GOOD
+The SOP satisfies the criterion with only a minor omission, ambiguity,
+or weakness that does not materially affect the procedure.
+
+3 — ADEQUATE
+The SOP partially satisfies the criterion. One meaningful deficiency or
+several minor deficiencies are present, but the SOP remains substantially
+correct and usable on this dimension.
+
+2 — POOR
+Major deficiencies are present. Important information, logic, or
+requirements are missing, unclear, or incorrect and materially affect
+this dimension.
+
+1 — VERY POOR
+The SOP fundamentally fails the criterion, substantially contradicts the
+source scenario, or omits or incorrectly handles most essential elements
+relevant to the criterion.
+
+
+============================================================
+SCORING PROCEDURE
+============================================================
+
+For EACH of the eight criteria:
+
+1. Compare the candidate SOP directly with the source scenario.
+2. Identify relevant evidence.
+3. Identify substantive omissions, contradictions, unsupported additions,
+   or ambiguities relevant to that criterion.
+4. Assign exactly one INTEGER score from 1 to 5.
+5. Provide a concise justification explaining the score.
+
+Evaluate all eight criteria even if deficiencies overlap.
+
+Do not calculate the total score. The experimental evaluation script will
+calculate totals after the individual criterion scores have been recorded.
+
+
+============================================================
+REQUIRED OUTPUT FORMAT
+============================================================
+
+Return ONLY valid JSON.
+
+Do not include Markdown code fences.
+Do not include introductory text.
+Do not include concluding text.
+Do not include an overall score.
+
+Use exactly the following structure:
+
+{
+  "C1_completeness": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  },
+  "C2_correct_sequence": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  },
+  "C3_role_clarity": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  },
+  "C4_input_output_clarity": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  },
+  "C5_exception_handling": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  },
+  "C6_constraint_adherence": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  },
+  "C7_groundedness": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  },
+  "C8_usability": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  }
+}
+
+
+============================================================
+MATERIAL TO EVALUATE
+============================================================
+
+SOURCE SCENARIO:
+
+Process: Order Picking
+
+Scenario:
+A warehouse operator must prepare a normal multi-item picking wave.
+
+Objective:
+Pick all required products and quantities accurately from their assigned warehouse locations and transfer the completed pick for the next fulfilment stage.
+
+Operational information:
+An approved picking instruction contains multiple product references, required quantities and corresponding storage locations. One operator or picking team is assigned to the picking task. The warehouse uses identified storage locations and the order may contain items from several locations. Items must be picked according to the authorized picking information and transferred to the designated staging/packing area after completion.
+
+Roles involved:
+Storekeeper/Picker, Warehouse Supervisor or Manager.
+
+Constraints / decision conditions:
+Only the product references and quantities stated in the picking instruction may be picked. Each picked line must be checked against the instruction. Inventory/location records must remain accurate after the physical movement.
+
+Expected outcome:
+All available requested items are picked accurately, checked and transferred to the next order-fulfilment stage.
+
+
+CANDIDATE SOP:
+
+# Standard Operating Procedure (SOP)
+
+## 1. SOP Title
+**Standard Operating Procedure for Multi-Item Order Picking in the Warehouse**
+
+## 2. Purpose
+This SOP defines the standard process for accurately picking a normal multi-item picking wave from designated warehouse storage locations, in accordance with an approved picking instruction, and transferring the completed pick to the staging/packing area for the next fulfilment stage. The objective is to ensure picking accuracy, maintain inventory/location record integrity, and enable a smooth handover to subsequent order-fulfilment activities.
+
+## 3. Scope
+This procedure applies to:
+- All normal multi-item picking waves involving multiple product references, required quantities, and multiple storage locations within the warehouse.
+- The activities performed from receipt of an approved picking instruction through to transfer of the completed pick to the staging/packing area.
+
+This procedure does not cover activities occurring after transfer to the staging/packing area (e.g., packing, dispatch), nor does it define specific software systems, technologies, or numerical thresholds, as these are not specified in the source information.
+
+## 4. Roles and Responsibilities
+
+**Storekeeper/Picker**
+- Receives and reviews the approved picking instruction.
+- Physically travels to each designated storage location and picks the specified product references and quantities.
+- Checks each picked line against the picking instruction to confirm accuracy.
+- Ensures inventory/location records remain accurate following physical movement of goods.
+- Transfers the completed pick to the designated staging/packing area.
+- Reports any discrepancies, shortages, or issues encountered during picking to the Warehouse Supervisor or Manager.
+
+**Warehouse Supervisor or Manager**
+- Assigns the picking task (order/wave) to one operator or picking team.
+- Acts as point of escalation for exceptions or deviations identified during picking.
+- Reviews and resolves reported discrepancies (e.g., missing items, quantity mismatches, location errors).
+- Oversees that the picking process is carried out according to the authorized picking instruction.
+
+## 5. Required Inputs / Information
+- An approved picking instruction, containing:
+  - Multiple product references
+  - Required quantities for each product reference
+  - Corresponding storage locations for each item
+- Assignment of the picking task to a specific operator or picking team.
+- Identified storage location information within the warehouse (as items may be located across several locations).
+
+## 6. Expected Outputs
+- All available requested items picked accurately according to the approved picking instruction.
+- Each picked line checked and confirmed against the picking instruction.
+- Inventory/location records updated and kept accurate following the physical pick.
+- Completed pick transferred to the designated staging/packing area, ready for the next fulfilment stage.
+
+## 7. Procedure
+
+**Step 1: Receive Picking Assignment**
+1.1 The Warehouse Supervisor or Manager assigns the picking task (the multi-item picking wave) to a designated operator or picking team.
+1.2 The Storekeeper/Picker receives the approved picking instruction, which specifies product references, required quantities, and storage locations.
+
+**Step 2: Review Picking Instruction**
+2.1 The Storekeeper/Picker reviews the picking instruction in full before beginning physical picking activity.
+2.2 The Storekeeper/Picker confirms understanding of all product references, quantities, and storage locations listed.
+
+**Step 3: Travel to Storage Locations and Pick Items**
+3.1 The Storekeeper/Picker proceeds to each identified storage location referenced in the picking instruction.
+3.2 At each location, the Storekeeper/Picker picks only the product references and quantities stated in the picking instruction.
+3.3 If the order contains items from several locations, the Storekeeper/Picker continues this process across all required locations until all lines have been addressed.
+
+**Step 4: Check Each Picked Line**
+4.1 For each product picked, the Storekeeper/Picker checks the picked item and quantity against the corresponding line in the picking instruction.
+4.2 Only quantities and references matching the authorized picking instruction are confirmed as correctly picked.
+
+**Step 5: Maintain Inventory/Location Record Accuracy**
+5.1 Following the physical movement of each item from its storage location, the Storekeeper/Picker ensures that inventory and location records reflect the pick accurately.
+5.2 This step must be completed for each picked line to preserve the integrity of stock and location data.
+
+**Step 6: Transfer Completed Pick**
+6.1 Once all lines in the picking instruction have been picked and checked, the Storekeeper/Picker transfers the completed pick to the designated staging/packing area.
+6.2 This transfer marks the handover point to the next order-fulfilment stage.
+
+**Step 7: Supervisory Oversight**
+7.1 The Warehouse Supervisor or Manager may review the completed picking activity to confirm it was carried out in accordance with the authorized picking instruction.
+
+## 8. Exception and Deviation Handling
+
+The scenario identifies the following constraints and potential deviation points; the following handling principles apply:
+
+- **Unauthorized Items or Quantities:** Only product references and quantities stated in the picking instruction may be picked. If the Storekeeper/Picker identifies a discrepancy (e.g., an item is unavailable, damaged, or present in insufficient quantity at the storage location), this must be reported to the Warehouse Supervisor or Manager for resolution before proceeding, since the scenario does not specify a defined substitution or override procedure.
+- **Mismatched Picked Line:** If a picked item or quantity does not match the corresponding line in the picking instruction during the checking step, the discrepancy must be flagged and escalated to the Warehouse Supervisor or Manager rather than transferred forward, as the scenario does not authorize deviation from the approved instruction.
+- **Partial Availability:** The expected outcome specifies that "all available requested items" are picked, indicating that if certain items are not available, the picking of available items may proceed; however, the scenario does not specify a documented procedure for handling unavailable items, and this should be clarified with the Warehouse Supervisor or Manager.
+- **Inventory/Location Record Discrepancies:** If, after physical movement, the inventory/location record cannot be confirmed as accurate, this must be raised to the Warehouse Supervisor or Manager, as maintaining accurate records is a stated requirement of this process.
+- **Escalation Point:** In all cases of deviation, discrepancy, or exception not explicitly resolvable at the Storekeeper/Picker level, the issue must be escalated to the Warehouse Supervisor or Manager for review and resolution. The scenario does not specify further escalation paths beyond this role.
+
+## 9. Process Completion Criteria
+The Order Picking process is considered complete when:
+- All available product references and quantities specified in the approved picking instruction have been picked from their assigned storage locations.
+- Each picked line has been checked and confirmed against the picking instruction.
+- Inventory/location records have been updated to remain accurate following the physical movement of picked items.
+- The completed pick has been transferred to the designated staging/packing area for the next fulfilment stage.

@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_036",
+  "judge_family": "OpenAI GPT",
+  "judge_model": "gpt-5.6-sol",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "The SOP includes all source activities, roles, conditions, and outcomes: approval verification, reservation, picking, staging, documentation, loading and release, outgoing inventory recording, traceability, and subsequent receiving confirmation."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The sequence correctly progresses from authorization and availability checks through reservation, picking, staging, documentation, loading, release, inventory recording, and subsequent receiving confirmation, with no contradictory ordering."
+    },
+    "C3_role_clarity": {
+      "score": 5,
+      "reason": "Responsibilities are clearly assigned among the four source-provided roles. Warehouse staff perform physical and documentation activities, management and inventory roles oversee authorization and records, and receiving personnel subsequently confirm receipt."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "The approved request, goods, quantities, destination, availability, and documentation information are clearly identified as inputs, while released goods, complete documents, updated records, traceability, and receiving handover are clearly stated outputs."
+    },
+    "C5_exception_handling": {
+      "score": 5,
+      "reason": "The SOP appropriately handles failures related to approval, missing transfer information, mismatched goods or quantities, lost transfer association, incomplete documentation, and inventory discrepancies. These responses directly support the source conditions without conflicting with them."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "All explicit constraints are consistently preserved: release requires an approved request, goods remain associated with the correct transfer during staging and loading, and sending-warehouse records reflect the outgoing movement."
+    },
+    "C7_groundedness": {
+      "score": 5,
+      "reason": "The SOP remains grounded in the scenario and introduces no material unsupported systems, roles, thresholds, approvals, or documents. Its verification and stop/correct instructions are reasonable procedural expressions of the stated constraints."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is clearly structured, internally consistent, and actionable. Roles, inputs, outputs, ordered steps, exceptions, and completion criteria provide practical guidance while remaining faithful to the source."
+    }
+  }
+}

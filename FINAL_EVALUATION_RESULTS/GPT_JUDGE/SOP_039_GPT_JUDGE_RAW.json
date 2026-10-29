@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_039",
+  "judge_family": "OpenAI GPT",
+  "judge_model": "gpt-5.6-sol",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 4,
+      "reason": "The SOP represents nearly all source requirements, including staging, identification, documentation, capacity consideration, loading, verification, and release. However, packing is stated as an output and completion criterion without an explicit procedural packing activity or assigned responsibility."
+    },
+    "C2_correct_sequence": {
+      "score": 4,
+      "reason": "The sequence logically progresses from staging-area organization through staging, documentation, capacity planning, verification, loading, final checking, and release confirmation. The main weakness is that packing is not explicitly placed before loading."
+    },
+    "C3_role_clarity": {
+      "score": 4,
+      "reason": "Responsibilities are clearly assigned among the four source roles for coordination, staging, documentation, loading, and checking. Packing responsibility is not assigned, and the final authorization uses the ambiguous and unsupported phrase 'designated personnel.'"
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "The SOP clearly identifies the approved shipment, dispatch/Waybill information, vehicle capacity details, and warehouse limitations as inputs, and defines staged, packed, documented, loaded, verified, and released results consistent with the source."
+    },
+    "C5_exception_handling": {
+      "score": 4,
+      "reason": "The SOP addresses shipment discrepancies, insufficient vehicle capacity, and order mixing. However, it does not explicitly state what happens if the final post-loading quantity verification fails, and phrases such as 'resolved' and 'alternative arrangements' leave the response somewhat undefined."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "The SOP preserves the key constraints by separating orders, clearly identifying the shipment, considering physical warehouse and vehicle weight/volume limitations, and requiring loaded quantities and the vehicle load to match authorized dispatch documentation before release."
+    },
+    "C7_groundedness": {
+      "score": 3,
+      "reason": "Most content is grounded in the scenario, but several material procedures are added without source support, including securing the load, mandatory pre- and post-loading checks, halting until discrepancies are resolved, making alternative arrangements, re-staging affected shipments, and allowing unspecified designated personnel to confirm release."
+    },
+    "C8_usability": {
+      "score": 4,
+      "reason": "The SOP is well structured, readable, and largely actionable, with clear inputs, outputs, steps, exceptions, and completion criteria. Usability is reduced by the missing explicit packing step and vague terms such as 'designated personnel,' 'resolved,' and 'alternative arrangements.'"
+    }
+  }
+}

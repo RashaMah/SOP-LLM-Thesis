@@ -1,0 +1,72 @@
+# Standard Operating Procedure: Packing and Dispatch Preparation for Large Outgoing Shipments
+
+## 1. SOP Title
+Standard Operating Procedure: Packing and Dispatch Preparation for Large Outgoing Shipments
+
+## 2. Purpose
+The purpose of this procedure is to define the steps required to prepare and dispatch a large outgoing shipment. The objective is to ensure the shipment is processed without mixing orders or exceeding loading and operational constraints.
+
+## 3. Scope
+This SOP applies to large outgoing shipments that have been picked and approved but require a planned loading operation rather than immediate release due to volume. It covers the organization of the staging area, identification of goods, preparation of documentation, coordination of loading, and verification prior to release.
+
+## 4. Roles and Responsibilities
+*   **Warehouse Manager:** Oversees the coordination of the loading operation and ensures operational constraints are managed.
+*   **Storekeeper/Warehouse Staff:** Responsible for organizing the staging area, keeping the shipment clearly identified, preparing packing and dispatch documentation, and ensuring goods belonging to different orders are not mixed.
+*   **Tally/Checking or Security Personnel:** Responsible for checking quantities loaded against dispatch/Waybill information before release.
+*   **Transport Personnel:** Responsible for executing the loading of the vehicle in coordination with warehouse staff.
+
+## 5. Required Inputs / Information
+*   A large approved shipment that has been picked.
+*   Authorized shipment details.
+*   Dispatch/Waybill information.
+*   Knowledge of physical warehouse limitations.
+*   Knowledge of vehicle weight and volume limitations.
+
+## 6. Expected Outputs
+*   Complete authorized shipment staged, packed, loaded, verified, and released.
+*   Prepared packing and dispatch documentation.
+*   Confirmation that there is no order mixing or undocumented quantity differences.
+
+## 7. Procedure
+
+**Step 1: Receipt of Picked Shipment**
+1.1. Confirm that the large shipment has been picked and approved.
+1.2. Acknowledge that the volume of goods requires a planned loading operation rather than immediate release.
+
+**Step 2: Staging Area Organization**
+2.1. Warehouse personnel (Storekeeper/Warehouse Staff) must organize the staging area.
+2.2. Physical warehouse limitations must be considered during organization.
+2.3. Ensure the shipment is kept clearly identified within the staging area.
+2.4. Strictly ensure that goods belonging to different orders are not mixed.
+
+**Step 3: Documentation Preparation**
+3.1. Prepare packing and dispatch documentation corresponding to the authorized shipment.
+3.2. Ensure documentation aligns with the Dispatch/Waybill information.
+
+**Step 4: Loading Coordination and Planning**
+4.1. Coordinate the loading operation between Warehouse personnel and Transport personnel.
+4.2. Assess vehicle weight and volume limitations.
+4.3. Ensure the planned vehicle load respects vehicle and operational capacity constraints.
+
+**Step 5: Loading Execution**
+5.1. Transport personnel proceed with loading the vehicle.
+5.2. Ensure the vehicle load corresponds to the authorized shipment and documentation.
+
+**Step 6: Verification**
+6.1. Tally/checking or security personnel must check the quantities loaded.
+6.2. Compare loaded quantities against the dispatch/Waybill information.
+6.3. Verification must occur before the release of the shipment.
+
+**Step 7: Release**
+7.1. Upon successful verification, authorize the release of the shipment.
+
+## 8. Exception and Deviation Handling
+*   **Order Mixing:** If goods belonging to different orders are found to be mixed during staging or loading, the process must stop immediately. Goods must be segregated to prevent mixing before proceeding.
+*   **Capacity Constraints:** If the vehicle load exceeds vehicle weight/volume limitations or operational capacity constraints, the loading plan must be adjusted to respect these limitations before release.
+*   **Quantity Discrepancies:** If the quantities loaded do not match the dispatch/Waybill information, the shipment must not be released. The discrepancy must be resolved to ensure there are no undocumented quantity differences.
+
+## 9. Process Completion Criteria
+The process is considered complete when:
+1.  The complete authorized shipment is staged, packed, loaded, verified, and released.
+2.  There is no evidence of order mixing.
+3.  There are no undocumented quantity differences between the loaded goods and the dispatch/Waybill information.

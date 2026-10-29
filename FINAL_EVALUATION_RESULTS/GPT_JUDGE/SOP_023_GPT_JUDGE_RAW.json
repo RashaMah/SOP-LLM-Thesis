@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_023",
+  "judge_family": "OpenAI GPT",
+  "judge_model": "gpt-5.6-sol",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "The SOP represents all operationally relevant scenario elements, including document comparison, damage and quantity mismatch identification, segregation, documentation, escalation, restricted stock treatment, acceptance of unaffected goods, and accurate inventory recording."
+    },
+    "C2_correct_sequence": {
+      "score": 4,
+      "reason": "The overall flow is substantially correct, but segregation and stock-status control are placed in a separate exception section after the main procedure has already received goods and updated inventory, creating minor ambiguity about when those controls must occur."
+    },
+    "C3_role_clarity": {
+      "score": 3,
+      "reason": "Warehouse Staff, Inspection Personnel, and Supply/Logistics have generally clear duties, but the Warehouse Manager is merely described as a listed role. The SOP also assigns final decision responsibility to Supply/Logistics and unloading to Inspection Personnel without those assignments being established by the scenario."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "The delivery, shipping, order, and packing information are clearly identified as inputs, and the stated outputs accurately cover accepted goods, controlled affected goods, escalation, documentation, and inventory results."
+    },
+    "C5_exception_handling": {
+      "score": 4,
+      "reason": "Both visible damage and quantity mismatch are identified and handled through segregation, stock-status control, documentation, reporting, and escalation. The unsupported designation of Supply/Logistics as the decision maker is a minor weakness."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "The SOP preserves all explicit constraints: comparison with order and packing documents, reporting mismatches, identifying and separating damaged or questionable goods, withholding them from usable stock, and recording only accepted quantities and status."
+    },
+    "C7_groundedness": {
+      "score": 3,
+      "reason": "Most content directly reflects the scenario, but several operational details are unsupported: Supply/Logistics is assigned decision authority, Inspection Personnel are assigned unloading, reporting must be immediate, and formal documentation is required before communication."
+    },
+    "C8_usability": {
+      "score": 4,
+      "reason": "The SOP is organized, clear, and largely actionable. Usability is slightly reduced by separating exception controls from the main sequence and by stating both immediate reporting and mandatory formal documentation before communication without clarifying how those requirements interact."
+    }
+  }
+}

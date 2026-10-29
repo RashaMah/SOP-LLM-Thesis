@@ -1,0 +1,50 @@
+1. SOP Title
+Stock Transfer and Redistribution Procedure
+
+2. Purpose
+The purpose of this Standard Operating Procedure (SOP) is to realign inventory between locations by transferring surplus stock from one facility to another facing insufficient stock, thereby reducing the risk of expiry and preventing stockout while maintaining traceability throughout the transfer process.
+
+3. Scope
+This SOP applies to the stock transfer and redistribution process between facilities within the organization, involving the Supply Officer, Store Manager, Store Supervisor, Storekeeper, Store Helper/Warehouse Staff, transport/3PL personnel, and the receiving facility.
+
+4. Roles and Responsibilities
+- Supply Officer: Determines the need for stock redistribution based on stock analysis and authorizes the transfer quantity.
+- Store Manager (Source Location): Oversees the preparation of the stock for transfer.
+- Store Supervisor (Source Location): Ensures that the stock is picked and packed according to the transfer details.
+- Storekeeper (Source Location): Prepares the stock for dispatch and hands it over to transport/3PL personnel.
+- Store Helper/Warehouse Staff (Source Location): Assists in picking and packing the stock.
+- Transport/3PL Personnel: Responsible for the transportation of the stock from the source location to the receiving location.
+- Store Manager (Receiving Location): Oversees the receipt and recording of the transferred stock.
+- Storekeeper/Receiving Facility (Receiving Location): Receives the stock and updates the stock records.
+
+5. Required Inputs / Information
+- Stock analysis data showing surplus stock at one location and insufficient stock at another.
+- Authorized decision by the Supply Officer for the redistribution quantity.
+
+6. Expected Outputs
+- Surplus stock is transferred from the source location to the receiving location.
+- Stock records at both locations are updated to reflect the transfer.
+
+7. Procedure
+1. The Supply Officer analyzes stock data and identifies surplus and insufficient stock quantities at different locations.
+2. The Supply Officer determines the redistribution quantity and authorizes the stock transfer.
+3. The Store Manager at the source location is informed of the transfer details.
+4. The Store Supervisor at the source location coordinates the picking of the authorized quantity.
+5. The Store Helper/Warehouse Staff assist in picking and packing the stock as per the transfer details.
+6. The Storekeeper at the source location verifies the picked quantity against the transfer details and prepares it for dispatch.
+7. The Storekeeper hands over the stock to the transport/3PL personnel, ensuring that the transfer is traceable (e.g., using a delivery note or consignment note).
+8. Transport/3PL personnel transport the stock to the receiving location.
+9. Upon receipt, the Storekeeper/Receiving Facility at the receiving location verifies the stock against the transfer details.
+10. The Storekeeper/Receiving Facility updates the stock records to reflect the received quantity.
+11. The Store Manager at the receiving location oversees the receipt and recording process.
+
+8. Exception and Deviation Handling
+- If the actual quantity picked or received deviates from the authorized transfer quantity, the discrepancy must be investigated and resolved before proceeding with the transfer or updating stock records.
+- If the stock is damaged during transport, the receiving location must document the damage and inform the source location and Supply Officer for further action.
+- In case of any delay or issue during transportation, the transport/3PL personnel must notify both the source and receiving locations.
+
+9. Process Completion Criteria
+The stock transfer and redistribution process is considered complete when:
+- The stock has been successfully transferred from the source location to the receiving location.
+- The stock records at both locations have been updated to reflect the transfer.
+- Any discrepancies or issues identified during the process have been resolved.

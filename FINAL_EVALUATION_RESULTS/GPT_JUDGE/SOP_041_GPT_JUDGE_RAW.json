@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_041",
+  "judge_family": "OpenAI GPT",
+  "judge_model": "gpt-5.6-sol",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 3,
+      "reason": "The SOP covers identification, segregation, marking, record updates, coordination, and controlled dispatch, but does not clearly require immediate blocking upon recall confirmation or explicitly ensure traceability of every quantity removed from usable stock."
+    },
+    "C2_correct_sequence": {
+      "score": 3,
+      "reason": "Most steps follow a logical sequence and coordination occurs before dispatch, but issuance is stopped only after affected stock has been identified rather than immediately after the recall is confirmed, creating a potentially material delay."
+    },
+    "C3_role_clarity": {
+      "score": 5,
+      "reason": "Responsibilities are clearly and consistently assigned among the Supply Officer, Store Manager, Store Supervisor, Storekeeper, warehouse staff, and Security, with no material role ambiguity."
+    },
+    "C4_input_output_clarity": {
+      "score": 4,
+      "reason": "The recall notice, product details, stock records, and principal outputs are clearly identified, but traceability of all quantities moved from usable stock is not stated as a distinct required result."
+    },
+    "C5_exception_handling": {
+      "score": 3,
+      "reason": "The SOP provides clear escalation paths for identification, segregation, record, and security issues, but if stock cannot be identified immediately it does not require an interim block on normal release, as demanded by the source constraint."
+    },
+    "C6_constraint_adherence": {
+      "score": 3,
+      "reason": "Documentation and security/release controls are preserved, and stock records are updated, but the SOP fails to block affected stock immediately upon recall confirmation and does not expressly require continued traceability of all moved quantities."
+    },
+    "C7_groundedness": {
+      "score": 3,
+      "reason": "The core procedure is grounded in the scenario, but it adds unsupported operational details such as required packaging, additional-resource escalation, discrepancy documentation, security-breach reporting, and an assumption that quantities are specified in the recall notice."
+    },
+    "C8_usability": {
+      "score": 4,
+      "reason": "The SOP is well structured, readable, and generally actionable, but the delayed issuance block and lack of an explicit end-to-end traceability requirement reduce operational reliability."
+    }
+  }
+}

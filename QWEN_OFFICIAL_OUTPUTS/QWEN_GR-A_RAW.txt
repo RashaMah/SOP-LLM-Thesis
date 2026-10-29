@@ -1,0 +1,63 @@
+# Standard Operating Procedure: Goods Receipt / Receiving
+
+## 1. SOP Title
+Standard Operating Procedure for Goods Receipt / Receiving
+
+## 2. Purpose
+To receive an expected shipment correctly, verify it against the available documentation, record the receipt, and transfer accepted goods into warehouse stock.
+
+## 3. Scope
+This procedure applies to standard supplier deliveries arriving at the warehouse. It covers the process from the arrival of the scheduled delivery to the final recording of inventory and transfer to storage.
+
+## 4. Roles and Responsibilities
+The following roles are involved in the Goods Receipt process:
+
+*   **Warehouse Manager/Store Manager:** Involved party in the warehouse operation structure.
+*   **Storekeeper/Warehouse Staff:** Responsible for unloading goods, documenting the receipt through the appropriate receiving record, moving accepted goods to the designated storage area, and updating warehouse stock records.
+*   **Receiving or Inspection Personnel:** Responsible for verifying documentation, comparing delivered items and quantities with the expected shipment, and performing visual inspections of goods before acceptance.
+
+*Note: The term "Warehouse Personnel" used in operational steps refers collectively to Storekeeper/Warehouse Staff and Receiving or Inspection Personnel.*
+
+## 5. Required Inputs / Information
+To initiate the receiving process, the following inputs must be available:
+*   Scheduled supplier delivery.
+*   Approved purchase-order reference.
+*   Shipping documentation.
+*   Packing list.
+
+## 6. Expected Outputs
+Upon successful completion of the process, the following outputs must be achieved:
+*   Shipment verified against documentation.
+*   Goods accepted into the warehouse.
+*   Receipt documented through the appropriate receiving record.
+*   Inventory recorded in warehouse stock records.
+*   Goods transferred to the appropriate storage location.
+
+## 7. Procedure
+The following steps must be executed in the specified order:
+
+1.  **Delivery Arrival:** Confirm the arrival of a scheduled supplier delivery at the warehouse.
+2.  **Documentation Verification:** Warehouse Personnel must verify the shipment documentation. Ensure the shipment has an approved purchase-order reference, shipping documentation, and a packing list.
+3.  **Unloading:** Unload the goods from the delivery vehicle.
+4.  **Visual Inspection:** Perform a visual inspection of the goods.
+5.  **Quantity and Identity Verification:** Compare the delivered items and quantities with the expected shipment. Ensure product identity and received quantity correspond to the expected shipment.
+6.  **Acceptance Decision:** Accept the goods only if the documentation is valid and the product identity and quantity match the expected shipment.
+7.  **Documentation:** Document the accepted goods through the appropriate receiving record.
+8.  **Stock Entry Restriction:** Ensure goods are not entered into normal stock until the required receiving checks (Steps 2–5) have been completed.
+9.  **Storage Transfer:** Move the accepted goods to the designated storage area.
+10. **Record Update:** Update warehouse stock records after receipt.
+
+## 8. Exception and Deviation Handling
+The following conditions constitute exceptions or deviations and must be handled according to the constraints below:
+
+*   **Invalid Documentation:** The warehouse may only accept goods associated with valid shipment documentation. If documentation is missing or invalid, the goods must not be accepted.
+*   **Mismatched Items or Quantities:** Product identity and received quantity must correspond to the expected shipment. If there is a discrepancy, the goods must not be accepted into stock.
+*   **Premature Stock Entry:** Goods should not be entered into normal stock before the required receiving checks have been completed. Any entry prior to verification constitutes a deviation.
+
+## 9. Process Completion Criteria
+The process is considered complete when:
+*   The shipment is verified.
+*   The shipment is accepted.
+*   The receipt is documented.
+*   The inventory is recorded.
+*   The goods are transferred to the appropriate storage location.

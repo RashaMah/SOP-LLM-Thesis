@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_041",
+  "judge_family": "Google Gemini",
+  "judge_model": "gemini-3.1-pro-preview",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "The SOP includes all operationally relevant information from the source scenario, including the receipt of the recall, identification, segregation, marking, record updating, coordination, and controlled dispatch."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The procedural steps follow a highly logical and correct sequence, starting from the receipt of the recall notice, moving through identification and isolation, and concluding with coordination and dispatch."
+    },
+    "C3_role_clarity": {
+      "score": 5,
+      "reason": "All roles provided in the source scenario (Supply Officer, Store Manager, Store Supervisor, Storekeeper, Store Helper/Warehouse Staff, Security) are explicitly included and assigned clear, appropriate responsibilities."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "Inputs (recall notice, product details, stock records) and expected outputs (isolated stock, updated records, controlled dispatch) are clearly defined in dedicated sections and perfectly align with the source scenario."
+    },
+    "C5_exception_handling": {
+      "score": 5,
+      "reason": "Although the source scenario contains few explicit exceptions, the SOP provides a dedicated section for logical, operationally sound deviations (e.g., inability to immediately identify stock, record discrepancies) without contradicting the source."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "The SOP strictly adheres to all constraints, explicitly stating that affected stock must be immediately stopped from being issued, records updated for traceability, and dispatch conducted with security and release controls."
+    },
+    "C7_groundedness": {
+      "score": 5,
+      "reason": "The SOP remains entirely grounded in the source scenario. It does not invent unsupported systems, technologies, or material operational requirements, utilizing only harmless operational phrasing to structure the procedure."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is highly usable, featuring a clear, professional structure with distinct sections for roles, inputs/outputs, step-by-step procedures, and exception handling, making it unambiguous and actionable for warehouse personnel."
+    }
+  }
+}

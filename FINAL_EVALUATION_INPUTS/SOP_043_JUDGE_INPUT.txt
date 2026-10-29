@@ -1,0 +1,327 @@
+FINAL SOP EVALUATION JUDGE PROMPT — VERSION 1.0
+
+You are an evaluator of generated Standard Operating Procedures (SOPs)
+for logistics and warehouse processes.
+
+Your task is to evaluate ONE candidate SOP strictly against the supplied
+SOURCE SCENARIO using the supplied eight-criterion evaluation rubric.
+
+============================================================
+EVALUATION PRINCIPLES
+============================================================
+
+1. Treat the SOURCE SCENARIO as the sole factual reference.
+
+2. Do not use external operational knowledge to impose requirements that
+   are absent from the source scenario.
+
+3. Do not reward the candidate SOP for adding plausible but unsupported
+   operational details.
+
+4. Do not penalize the candidate SOP for omitting information that was
+   never provided in the source scenario.
+
+5. Evaluate only the candidate SOP provided.
+
+6. Do not infer, identify, or speculate about which language model
+   generated the candidate SOP.
+
+7. Score each criterion independently.
+
+8. Base each score on concrete comparison between the SOURCE SCENARIO and
+   the CANDIDATE SOP.
+
+9. Do not reward verbosity, document length, sophisticated formatting,
+   or writing style unless these materially improve the criterion being
+   evaluated.
+
+10. Reasonable paraphrasing is acceptable when the operational meaning
+    of the source scenario is preserved.
+
+11. Do not compare the candidate SOP with other candidate SOPs.
+
+12. Do not calculate or provide an overall score or model ranking.
+
+
+============================================================
+C1 — COMPLETENESS
+============================================================
+
+Evaluate whether all operationally relevant information explicitly
+contained in the source scenario is represented in the SOP, including
+required activities, information, roles, conditions, and expected outcomes.
+
+Do not penalize information that was not provided in the source scenario.
+
+
+============================================================
+C2 — CORRECT SEQUENCE
+============================================================
+
+Evaluate whether procedural activities follow the operational dependencies
+and sequence specified or implied by the source scenario.
+
+Penalize contradictory, illogical, or operationally incorrect ordering.
+
+
+============================================================
+C3 — ROLE CLARITY
+============================================================
+
+Evaluate whether responsibilities are clearly and consistently assigned
+to roles provided in the source scenario.
+
+Penalize ambiguous responsibility, incorrect role assignment, or
+unsupported new roles when these materially affect the procedure.
+
+
+============================================================
+C4 — INPUT / OUTPUT CLARITY
+============================================================
+
+Evaluate whether required inputs and information, as well as expected
+outputs and results, are clearly identifiable and consistent with the
+source scenario.
+
+
+============================================================
+C5 — EXCEPTION HANDLING
+============================================================
+
+Evaluate whether exceptions, deviations, abnormal conditions, and
+decision points contained in the source scenario are correctly identified
+and handled.
+
+Do not penalize the SOP merely because the source scenario itself contains
+few exceptions.
+
+
+============================================================
+C6 — CONSTRAINT ADHERENCE
+============================================================
+
+Evaluate whether explicit constraints and decision conditions contained
+in the source scenario are preserved and respected throughout the SOP.
+
+
+============================================================
+C7 — GROUNDEDNESS / NO HALLUCINATION
+============================================================
+
+Evaluate whether operational claims in the SOP remain grounded in the
+source scenario.
+
+Penalize invented systems, roles, requirements, thresholds, documents,
+technologies, approvals, rules, or other material operational details
+that are unsupported by the source scenario.
+
+Do not penalize harmless paraphrasing, organizational formatting, or
+wording changes that preserve the original operational meaning.
+
+
+============================================================
+C8 — USABILITY
+============================================================
+
+Evaluate whether the SOP is clear, structured, internally consistent,
+unambiguous, and actionable for the intended warehouse or logistics user,
+while remaining faithful to the source scenario.
+
+
+============================================================
+SCORING SCALE
+============================================================
+
+5 — FULLY SATISFIES
+The SOP fully satisfies the criterion. No substantive deficiency is
+identifiable.
+
+4 — GOOD
+The SOP satisfies the criterion with only a minor omission, ambiguity,
+or weakness that does not materially affect the procedure.
+
+3 — ADEQUATE
+The SOP partially satisfies the criterion. One meaningful deficiency or
+several minor deficiencies are present, but the SOP remains substantially
+correct and usable on this dimension.
+
+2 — POOR
+Major deficiencies are present. Important information, logic, or
+requirements are missing, unclear, or incorrect and materially affect
+this dimension.
+
+1 — VERY POOR
+The SOP fundamentally fails the criterion, substantially contradicts the
+source scenario, or omits or incorrectly handles most essential elements
+relevant to the criterion.
+
+
+============================================================
+SCORING PROCEDURE
+============================================================
+
+For EACH of the eight criteria:
+
+1. Compare the candidate SOP directly with the source scenario.
+2. Identify relevant evidence.
+3. Identify substantive omissions, contradictions, unsupported additions,
+   or ambiguities relevant to that criterion.
+4. Assign exactly one INTEGER score from 1 to 5.
+5. Provide a concise justification explaining the score.
+
+Evaluate all eight criteria even if deficiencies overlap.
+
+Do not calculate the total score. The experimental evaluation script will
+calculate totals after the individual criterion scores have been recorded.
+
+
+============================================================
+REQUIRED OUTPUT FORMAT
+============================================================
+
+Return ONLY valid JSON.
+
+Do not include Markdown code fences.
+Do not include introductory text.
+Do not include concluding text.
+Do not include an overall score.
+
+Use exactly the following structure:
+
+{
+  "C1_completeness": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  },
+  "C2_correct_sequence": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  },
+  "C3_role_clarity": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  },
+  "C4_input_output_clarity": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  },
+  "C5_exception_handling": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  },
+  "C6_constraint_adherence": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  },
+  "C7_groundedness": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  },
+  "C8_usability": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  }
+}
+
+
+============================================================
+MATERIAL TO EVALUATE
+============================================================
+
+SOURCE SCENARIO:
+
+Process: Stock Transfer and Redistribution
+
+Scenario:
+One location holds surplus stock approaching a risk of expiration while another location faces insufficient stock.
+
+Objective:
+Realign inventory between locations to reduce the risk of expiry and prevent stockout.
+
+Operational information:
+Stock analysis identifies excess quantity of an item at one facility and insufficient quantity at another facility. The responsible Supply function determines that redistribution is required. The source location must prepare the agreed quantity for collection or dispatch. The receiving location must receive and record the stock. Picking, packing, transport handover, receiving and stock-record updates must remain traceable.
+
+Roles involved:
+Supply Officer, Store Manager, Store Supervisor, Storekeeper, Store Helper/Warehouse Staff, transport/3PL personnel, receiving facility.
+
+Constraints / decision conditions:
+The redistribution quantity must be based on stock information and an authorized decision. Stock must remain traceable throughout the transfer. The movement should not create an unmanaged shortage at the source location.
+
+Expected outcome:
+Inventory is redistributed from the surplus location to the shortage location and both locations' stock records correctly reflect the movement.
+
+
+CANDIDATE SOP:
+
+# Standard Operating Procedure: Stock Transfer and Redistribution
+
+## 1. SOP Title
+Standard Operating Procedure: Stock Transfer and Redistribution
+
+## 2. Purpose
+The purpose of this procedure is to realign inventory between locations to reduce the risk of expiry and prevent stockout. This process ensures that surplus stock approaching a risk of expiration at one location is transferred to another location facing insufficient stock.
+
+## 3. Scope
+This SOP applies to situations where stock analysis identifies excess quantity of an item at one facility and insufficient quantity at another facility. It covers the identification, authorization, preparation, transport, receiving, and recording of stock movements between the source location and the receiving location.
+
+## 4. Roles and Responsibilities
+The following roles are involved in the Stock Transfer and Redistribution process:
+
+*   **Supply Officer:** Responsible for determining that redistribution is required based on stock analysis.
+*   **Store Manager, Store Supervisor, Storekeeper, Store Helper/Warehouse Staff (Source Location):** Responsible for preparing the agreed quantity for collection or dispatch, including picking and packing. They must ensure the movement does not create an unmanaged shortage at the source location.
+*   **Transport/3PL Personnel:** Responsible for the transport handover of the stock.
+*   **Receiving Facility (including Store Manager, Store Supervisor, Storekeeper, Store Helper/Warehouse Staff):** Responsible for receiving the stock and recording the stock.
+*   **All Involved Roles:** Responsible for ensuring that picking, packing, transport handover, receiving, and stock-record updates remain traceable throughout the transfer.
+
+## 5. Required Inputs / Information
+*   Stock analysis results identifying excess quantity at one facility and insufficient quantity at another.
+*   Authorized decision confirming redistribution is required.
+*   Agreed quantity for transfer based on stock information and the authorized decision.
+
+## 6. Expected Outputs
+*   Inventory redistributed from the surplus location to the shortage location.
+*   Both locations' stock records correctly reflecting the movement.
+*   Traceable records covering picking, packing, transport handover, receiving, and stock-record updates.
+
+## 7. Procedure
+
+**Step 1: Identification and Authorization**
+1.  Conduct stock analysis to identify facilities with excess quantity of an item and facilities with insufficient quantity.
+2.  The Supply function reviews the stock analysis.
+3.  The Supply function determines that redistribution is required.
+4.  An authorized decision is made regarding the redistribution.
+5.  The quantity for redistribution is established based on stock information and the authorized decision.
+
+**Step 2: Preparation at Source Location**
+1.  The source location receives the instruction regarding the agreed quantity.
+2.  Store Manager, Store Supervisor, Storekeeper, or Store Helper/Warehouse Staff at the source location prepare the agreed quantity for collection or dispatch.
+3.  During preparation, verify that the movement will not create an unmanaged shortage at the source location.
+4.  Perform picking and packing operations.
+5.  Ensure all picking and packing activities are recorded to maintain traceability.
+
+**Step 3: Transport and Handover**
+1.  Arrange for transport via transport/3PL personnel.
+2.  Execute the transport handover.
+3.  Ensure the transport handover is documented to maintain traceability of the stock during transit.
+
+**Step 4: Receiving at Destination**
+1.  The receiving facility accepts the delivered stock.
+2.  Verify the received stock against the agreed quantity.
+3.  Record the stock upon receipt.
+4.  Ensure receiving activities are documented to maintain traceability.
+
+**Step 5: Stock Record Updates**
+1.  Update stock records at the source location to reflect the outbound movement.
+2.  Update stock records at the receiving location to reflect the inbound movement.
+3.  Ensure stock-record updates are traceable and linked to the physical movement.
+
+## 8. Exception and Deviation Handling
+*   **Unmanaged Shortage Risk:** If the preparation of the agreed quantity indicates that the movement will create an unmanaged shortage at the source location, the process must be halted or adjusted to comply with the constraint that the movement should not create an unmanaged shortage.
+*   **Loss of Traceability:** If any stage of the process (picking, packing, transport handover, receiving, or stock-record updates) fails to maintain traceability, the deviation must be addressed immediately to restore traceability before proceeding or finalizing the transaction.
+*   **Discrepancy in Quantity:** If the received stock does not match the agreed quantity based on stock information and authorized decision, the discrepancy must be noted in the stock records to ensure accurate reflection of the movement.
+
+## 9. Process Completion Criteria
+The process is considered complete when:
+1.  Inventory has been physically redistributed from the surplus location to the shortage location.
+2.  Both locations' stock records correctly reflect the movement.
+3.  Traceability is confirmed for picking, packing, transport handover, receiving, and stock-record updates.

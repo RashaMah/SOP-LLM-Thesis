@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_015",
+  "judge_family": "Anthropic Claude",
+  "judge_model": "anthropic/claude-sonnet-5",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "All operationally relevant elements from the source scenario are represented: the picking instruction, location verification, discrepancy recording, communication to responsible personnel, prohibition on substitution, continued picking of available items, and escalation for reconciliation/back-order handling. No explicit source information is omitted."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The procedure follows a logical sequence consistent with the scenario: receive instruction, navigate to location, verify availability, pick if available, if unavailable stop and avoid substitution, record discrepancy, communicate, continue with other items, and prevent false confirmation. This matches the implied operational flow in the source."
+    },
+    "C3_role_clarity": {
+      "score": 5,
+      "reason": "Responsibilities are clearly and consistently assigned to the three roles named in the source scenario (Picker/Storekeeper, Storekeeper responsible for stock records, Warehouse Supervisor/Manager) without introducing new roles or ambiguity."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "Required inputs (picking instruction, physical inventory, stock rules) and expected outputs (correctly picked available items, no false confirmation, recorded discrepancy, escalation) are explicitly and clearly stated, matching the source scenario's expected outcome."
+    },
+    "C5_exception_handling": {
+      "score": 5,
+      "reason": "The SOP dedicates a specific section to exception handling that directly addresses the scenario's core exception (unavailable stock), including substitution prohibition, recording requirement, and escalation, all grounded in the source."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "The constraints from the source scenario \\u2014 following the authorized instruction, not substituting unless permitted by warehouse stock rules, and recording the discrepancy \\u2014 are explicitly preserved and reiterated in both the procedure and exception sections."
+    },
+    "C7_groundedness": {
+      "score": 5,
+      "reason": "No invented systems, roles, thresholds, or unsupported operational details are introduced. All statements trace directly back to information provided in the source scenario, using reasonable paraphrasing only."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is well-structured with clear sections (purpose, scope, roles, inputs/outputs, procedure, exceptions, completion criteria), providing an actionable and unambiguous guide for warehouse personnel while remaining faithful to the source scenario."
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_006",
+  "judge_family": "Anthropic Claude",
+  "judge_model": "anthropic/claude-sonnet-5",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "All operationally relevant elements from the source (approved picking instruction contents, assignment, multi-location picking, checking each line, record accuracy, transfer to staging, roles, expected outcome) are represented in the SOP sections 4-9."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The procedure follows a logical and scenario-consistent order: receive assignment, retrieve instruction, locate items, pick, verify lines, maintain record accuracy, transfer goods \\u2014 matching the implied dependencies in the source scenario."
+    },
+    "C3_role_clarity": {
+      "score": 4,
+      "reason": "Storekeeper/Picker responsibilities are clearly and correctly assigned per the scenario. Warehouse Supervisor/Manager role is explicitly acknowledged as involved but undefined, which is honest given the source lacks detail, though it leaves this role's contribution unclear (minor weakness, not fabricated)."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "Inputs (approved picking instruction, assignment confirmation, storage locations) and outputs (completed pick, transferred goods, accurate records, next-stage readiness) are clearly and accurately derived from the source scenario with no invented elements."
+    },
+    "C5_exception_handling": {
+      "score": 5,
+      "reason": "The SOP appropriately addresses the limited exceptions implied by the source (unavailable items, instruction discrepancies, record accuracy) and transparently notes where the scenario does not specify further exception handling, without penalizing for scenario's sparse exception detail."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "The constraints (only pick stated references/quantities, check each line, maintain accurate records) are explicitly and repeatedly preserved throughout the Procedure and Exception sections."
+    },
+    "C7_groundedness": {
+      "score": 5,
+      "reason": "No invented systems, thresholds, approvals, or extraneous roles are introduced; the SOP explicitly flags areas not defined in the scenario rather than fabricating details, maintaining strong groundedness."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is clearly structured with distinct sections, actionable steps, and consistent terminology, making it usable for warehouse personnel while remaining faithful to the source scenario."
+    }
+  }
+}

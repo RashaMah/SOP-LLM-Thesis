@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_009",
+  "judge_family": "OpenAI GPT",
+  "judge_model": "gpt-5.6-sol",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "The SOP captures all source activities, roles, conditions, and outcomes: identifying the affected quantity, removing it from usable stock, isolating it, updating records, coordinating return or disposition, maintaining traceability, and ensuring authorized documented release with supporting documentation."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The procedure follows a coherent source-aligned sequence from confirmation and quantity identification through removal, isolation, record update, logistics coordination, and authorized warehouse release."
+    },
+    "C3_role_clarity": {
+      "score": 4,
+      "reason": "Responsibilities are clearly assigned, and the Supply Officer/Logistics function correctly coordinates return or disposition. Some detailed assignments to the Manager and Storekeeper are not explicitly allocated by the source, but they are consistent with the listed roles and do not materially distort the process."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "The SOP clearly identifies the documented quality problem, affected batch and quantity, stock records, authorization, and supporting documentation as inputs, and clearly states the required isolation, record, traceability, coordination, and release outputs."
+    },
+    "C5_exception_handling": {
+      "score": 4,
+      "reason": "The source constraints are handled effectively, particularly missing authorization or documentation and loss of traceability or separation. The SOP adds several plausible discrepancy scenarios and escalation paths not explicitly contained in the source, but their handling remains consistent with its requirements."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "The SOP consistently preserves all explicit constraints: affected goods are unavailable for normal picking, identity and quantity remain traceable, separation from usable inventory is maintained, and warehouse departure requires authorization and documentation."
+    },
+    "C7_groundedness": {
+      "score": 4,
+      "reason": "The core process remains firmly grounded in the source. Minor unsupported elaborations include specific escalation assignments, verification steps, added exception categories, and a further stock-record update upon final departure, but these do not materially change the required operation."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is well structured, internally consistent, and actionable, with clear roles, ordered steps, constraints, exception responses, and completion criteria that faithfully support the stated warehouse process."
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_045",
+  "judge_family": "Anthropic Claude",
+  "judge_model": "anthropic/claude-sonnet-5",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "All source elements are represented: approved picking instruction with product references, quantities, locations; task assignment to operator/team; multi-location picking; line-by-line checking; inventory/location record accuracy; transfer to staging/packing area; roles; expected outcome. No operationally relevant scenario detail is omitted."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The procedure follows a logical and scenario-consistent order: assignment -> review instruction -> travel and pick -> check each line -> maintain record accuracy -> transfer to staging/packing -> supervisory oversight. This matches the implied dependencies in the source (pick before check, check before transfer, transfer after all lines completed)."
+    },
+    "C3_role_clarity": {
+      "score": 5,
+      "reason": "Responsibilities are clearly and consistently split between Storekeeper/Picker (physical picking, checking, record accuracy, transfer, reporting) and Warehouse Supervisor or Manager (assignment, escalation point, oversight), matching the two roles named in the source with no unsupported new roles introduced."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "Inputs (approved picking instruction with product refs/quantities/locations, task assignment) and outputs (accurately picked items, checked lines, updated records, completed pick transferred) are explicitly and clearly stated, directly mirroring the scenario's operational information and expected outcome."
+    },
+    "C5_exception_handling": {
+      "score": 5,
+      "reason": "The SOP identifies plausible deviation points grounded in the scenario (unauthorized items/quantities, mismatched lines, partial availability tied to 'all available requested items' phrasing, record discrepancies) and correctly routes them to the Warehouse Supervisor/Manager for escalation, while explicitly noting the scenario does not specify further procedures—avoiding fabrication while still addressing exceptions the scenario implies via its constraints."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "All explicit constraints are preserved and enforced throughout: only instructed refs/quantities may be picked (Step 3.2, Section 8), each line must be checked against the instruction (Step 4), and inventory/location records must remain accurate after movement (Step 5, Section 8). No constraint is contradicted or dropped."
+    },
+    "C7_groundedness": {
+      "score": 5,
+      "reason": "No invented systems, technologies, thresholds, documents, or extra roles are introduced. The SOP explicitly notes it avoids defining unspecified systems/thresholds (Section 3) and frames exception handling as inference from stated constraints rather than fabricated rules, remaining tightly grounded in the source scenario."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is clearly structured with numbered steps, defined roles, inputs/outputs, exception handling, and completion criteria, making it actionable and unambiguous for a warehouse picker or supervisor while remaining faithful to the source scenario's scope and content."
+    }
+  }
+}

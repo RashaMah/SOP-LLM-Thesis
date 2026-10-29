@@ -1,0 +1,320 @@
+FINAL SOP EVALUATION JUDGE PROMPT — VERSION 1.0
+
+You are an evaluator of generated Standard Operating Procedures (SOPs)
+for logistics and warehouse processes.
+
+Your task is to evaluate ONE candidate SOP strictly against the supplied
+SOURCE SCENARIO using the supplied eight-criterion evaluation rubric.
+
+============================================================
+EVALUATION PRINCIPLES
+============================================================
+
+1. Treat the SOURCE SCENARIO as the sole factual reference.
+
+2. Do not use external operational knowledge to impose requirements that
+   are absent from the source scenario.
+
+3. Do not reward the candidate SOP for adding plausible but unsupported
+   operational details.
+
+4. Do not penalize the candidate SOP for omitting information that was
+   never provided in the source scenario.
+
+5. Evaluate only the candidate SOP provided.
+
+6. Do not infer, identify, or speculate about which language model
+   generated the candidate SOP.
+
+7. Score each criterion independently.
+
+8. Base each score on concrete comparison between the SOURCE SCENARIO and
+   the CANDIDATE SOP.
+
+9. Do not reward verbosity, document length, sophisticated formatting,
+   or writing style unless these materially improve the criterion being
+   evaluated.
+
+10. Reasonable paraphrasing is acceptable when the operational meaning
+    of the source scenario is preserved.
+
+11. Do not compare the candidate SOP with other candidate SOPs.
+
+12. Do not calculate or provide an overall score or model ranking.
+
+
+============================================================
+C1 — COMPLETENESS
+============================================================
+
+Evaluate whether all operationally relevant information explicitly
+contained in the source scenario is represented in the SOP, including
+required activities, information, roles, conditions, and expected outcomes.
+
+Do not penalize information that was not provided in the source scenario.
+
+
+============================================================
+C2 — CORRECT SEQUENCE
+============================================================
+
+Evaluate whether procedural activities follow the operational dependencies
+and sequence specified or implied by the source scenario.
+
+Penalize contradictory, illogical, or operationally incorrect ordering.
+
+
+============================================================
+C3 — ROLE CLARITY
+============================================================
+
+Evaluate whether responsibilities are clearly and consistently assigned
+to roles provided in the source scenario.
+
+Penalize ambiguous responsibility, incorrect role assignment, or
+unsupported new roles when these materially affect the procedure.
+
+
+============================================================
+C4 — INPUT / OUTPUT CLARITY
+============================================================
+
+Evaluate whether required inputs and information, as well as expected
+outputs and results, are clearly identifiable and consistent with the
+source scenario.
+
+
+============================================================
+C5 — EXCEPTION HANDLING
+============================================================
+
+Evaluate whether exceptions, deviations, abnormal conditions, and
+decision points contained in the source scenario are correctly identified
+and handled.
+
+Do not penalize the SOP merely because the source scenario itself contains
+few exceptions.
+
+
+============================================================
+C6 — CONSTRAINT ADHERENCE
+============================================================
+
+Evaluate whether explicit constraints and decision conditions contained
+in the source scenario are preserved and respected throughout the SOP.
+
+
+============================================================
+C7 — GROUNDEDNESS / NO HALLUCINATION
+============================================================
+
+Evaluate whether operational claims in the SOP remain grounded in the
+source scenario.
+
+Penalize invented systems, roles, requirements, thresholds, documents,
+technologies, approvals, rules, or other material operational details
+that are unsupported by the source scenario.
+
+Do not penalize harmless paraphrasing, organizational formatting, or
+wording changes that preserve the original operational meaning.
+
+
+============================================================
+C8 — USABILITY
+============================================================
+
+Evaluate whether the SOP is clear, structured, internally consistent,
+unambiguous, and actionable for the intended warehouse or logistics user,
+while remaining faithful to the source scenario.
+
+
+============================================================
+SCORING SCALE
+============================================================
+
+5 — FULLY SATISFIES
+The SOP fully satisfies the criterion. No substantive deficiency is
+identifiable.
+
+4 — GOOD
+The SOP satisfies the criterion with only a minor omission, ambiguity,
+or weakness that does not materially affect the procedure.
+
+3 — ADEQUATE
+The SOP partially satisfies the criterion. One meaningful deficiency or
+several minor deficiencies are present, but the SOP remains substantially
+correct and usable on this dimension.
+
+2 — POOR
+Major deficiencies are present. Important information, logic, or
+requirements are missing, unclear, or incorrect and materially affect
+this dimension.
+
+1 — VERY POOR
+The SOP fundamentally fails the criterion, substantially contradicts the
+source scenario, or omits or incorrectly handles most essential elements
+relevant to the criterion.
+
+
+============================================================
+SCORING PROCEDURE
+============================================================
+
+For EACH of the eight criteria:
+
+1. Compare the candidate SOP directly with the source scenario.
+2. Identify relevant evidence.
+3. Identify substantive omissions, contradictions, unsupported additions,
+   or ambiguities relevant to that criterion.
+4. Assign exactly one INTEGER score from 1 to 5.
+5. Provide a concise justification explaining the score.
+
+Evaluate all eight criteria even if deficiencies overlap.
+
+Do not calculate the total score. The experimental evaluation script will
+calculate totals after the individual criterion scores have been recorded.
+
+
+============================================================
+REQUIRED OUTPUT FORMAT
+============================================================
+
+Return ONLY valid JSON.
+
+Do not include Markdown code fences.
+Do not include introductory text.
+Do not include concluding text.
+Do not include an overall score.
+
+Use exactly the following structure:
+
+{
+  "C1_completeness": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  },
+  "C2_correct_sequence": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  },
+  "C3_role_clarity": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  },
+  "C4_input_output_clarity": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  },
+  "C5_exception_handling": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  },
+  "C6_constraint_adherence": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  },
+  "C7_groundedness": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  },
+  "C8_usability": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  }
+}
+
+
+============================================================
+MATERIAL TO EVALUATE
+============================================================
+
+SOURCE SCENARIO:
+
+Process: Inventory Replenishment and Stock Realignment
+
+Scenario:
+Current stock cannot satisfy all known future demand.
+
+Objective:
+Detect an inventory shortage and initiate an appropriate replenishment or stock-realignment response without incorrectly promising unavailable stock.
+
+Operational information:
+Inventory review shows that the quantity currently available for an item is lower than the quantity required for planned releases. Additional demand is already known. Warehouse personnel must verify the available stock and communicate the shortage to the responsible supply/planning function. Existing stock and planned releases must be considered when determining the next action. If stock from another location can be realigned, the transfer must be coordinated; otherwise replenishment must be initiated through the appropriate supply process.
+
+Roles involved:
+Inventory/Supply Officer, Warehouse Manager, Storekeeper, relevant planning or logistics function.
+
+Constraints / decision conditions:
+The procedure must not assume stock exists when it does not. Available stock must be verified before decisions are made. Pending requirements should not be silently cancelled or fulfilled with invented quantities.
+
+Expected outcome:
+The shortage is identified and documented, stakeholders are informed, and either replenishment or authorized stock realignment is initiated.
+
+
+CANDIDATE SOP:
+
+# Standard Operating Procedure: Inventory Replenishment and Stock Realignment
+
+## 1. SOP Title
+Standard Operating Procedure: Inventory Replenishment and Stock Realignment
+
+## 2. Purpose
+The purpose of this procedure is to detect inventory shortages when current stock cannot satisfy all known future demand. This SOP ensures an appropriate replenishment or stock-realignment response is initiated without incorrectly promising unavailable stock.
+
+## 3. Scope
+This procedure applies to situations where an inventory review indicates that the quantity currently available for an item is lower than the quantity required for planned releases, considering additional known demand. It involves the following roles: Inventory/Supply Officer, Warehouse Manager, Storekeeper, and the relevant planning or logistics function.
+
+## 4. Roles and Responsibilities
+*   **Storekeeper / Warehouse Manager (Warehouse Personnel):** Responsible for verifying available stock, conducting inventory reviews, and communicating shortages to the responsible supply/planning function.
+*   **Inventory/Supply Officer / Relevant Planning or Logistics Function:** Responsible for receiving shortage communications, considering existing stock and planned releases, determining the next action (realignment or replenishment), and coordinating transfers or initiating supply processes.
+
+## 5. Required Inputs / Information
+To execute this procedure, the following information must be available:
+*   Current inventory review data showing available quantities.
+*   Quantity required for planned releases.
+*   Data regarding additional known demand.
+*   Information regarding stock availability at other locations (for potential realignment).
+
+## 6. Expected Outputs
+*   Identification and documentation of the inventory shortage.
+*   Notification to relevant stakeholders (supply/planning functions).
+*   Initiation of either an authorized stock realignment (transfer) or a replenishment process through the appropriate supply channel.
+
+## 7. Procedure
+
+**Step 1: Inventory Review and Comparison**
+1.  Conduct an inventory review to determine the quantity currently available for the item.
+2.  Compare the available quantity against the quantity required for planned releases.
+3.  Factor in any additional demand that is already known.
+
+**Step 2: Stock Verification**
+1.  Warehouse personnel (Storekeeper or Warehouse Manager) must verify the available stock.
+2.  **Constraint:** Do not assume stock exists when it does not. Verification must occur before any decisions are made regarding fulfillment.
+
+**Step 3: Shortage Identification**
+1.  If the verified available quantity is lower than the total required quantity (planned releases + additional demand), identify this as an inventory shortage.
+2.  **Constraint:** Pending requirements must not be silently cancelled or fulfilled with invented quantities.
+
+**Step 4: Communication**
+1.  Warehouse personnel must communicate the shortage to the responsible supply/planning function (Inventory/Supply Officer or relevant planning/logistics function).
+2.  Ensure the communication includes details on existing stock and planned releases.
+
+**Step 5: Determination of Action**
+1.  The responsible supply/planning function must consider existing stock and planned releases when determining the next action.
+2.  Evaluate if stock from another location can be realigned to satisfy the demand.
+
+**Step 6: Execution of Response**
+1.  **If Stock Realignment is Possible:** Coordinate the transfer of stock from the other location.
+2.  **If Stock Realignment is Not Possible:** Initiate replenishment through the appropriate supply process.
+
+## 8. Exception and Deviation Handling
+*   **Unverified Stock:** If stock has not been physically or systematically verified prior to decision-making, the procedure must be halted until verification is complete. Decisions cannot be made on assumed quantities.
+*   **Invented Quantities:** Fulfilling orders with quantities that do not exist is prohibited. If a discrepancy arises between recorded and actual stock, the actual verified stock must be used for planning.
+*   **Silent Cancellation:** Pending requirements identified during the review must not be cancelled without communication to the relevant planning or logistics function.
+*   **Unavailable Options:** If neither stock realignment nor replenishment can be immediately initiated, the shortage status must remain documented and communicated to stakeholders until a resolution path is established.
+
+## 9. Process Completion Criteria
+The process is considered complete when:
+1.  The shortage has been identified and documented.
+2.  All relevant stakeholders (including the responsible supply/planning function) have been informed.
+3.  Either an authorized stock realignment has been coordinated OR replenishment has been initiated through the appropriate supply process.

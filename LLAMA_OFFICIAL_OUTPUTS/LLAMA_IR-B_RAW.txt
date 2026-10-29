@@ -1,0 +1,53 @@
+## 1. SOP Title
+Inventory Replenishment and Stock Realignment Procedure
+
+## 2. Purpose
+To detect inventory shortages, verify available stock, and initiate appropriate replenishment or stock realignment actions to meet known future demand without promising unavailable stock.
+
+## 3. Scope
+This SOP applies to all warehouse operations where inventory levels are reviewed against known future demand, and replenishment or stock realignment actions are required.
+
+## 4. Roles and Responsibilities
+- **Inventory/Supply Officer**: Responsible for reviewing inventory levels, identifying shortages, and coordinating replenishment or stock realignment actions.
+- **Warehouse Manager**: Oversees the verification of available stock and coordinates with the Storekeeper for stock checks.
+- **Storekeeper**: Responsible for verifying the physical stock levels as per the inventory records.
+- **Relevant Planning or Logistics Function**: Receives notifications of inventory shortages and is responsible for processing replenishment or stock realignment requests.
+
+## 5. Required Inputs / Information
+- Current inventory levels for all items.
+- Planned releases and additional known demand.
+- Inventory requirements for planned releases.
+- Information on stock availability at other locations (if applicable).
+
+## 6. Expected Outputs
+- Identification and documentation of inventory shortages.
+- Notification to relevant stakeholders (Inventory/Supply Officer, Warehouse Manager, and relevant planning or logistics function) about the shortages.
+- Initiation of either replenishment or stock realignment actions.
+
+## 7. Procedure
+1. **Review Inventory Levels**: The Inventory/Supply Officer reviews current inventory levels against the quantity required for planned releases and additional known demand to identify potential shortages.
+   
+2. **Identify Shortages**: If the available quantity is lower than the required quantity for an item, the Inventory/Supply Officer identifies it as a shortage.
+
+3. **Verify Available Stock**: The Warehouse Manager instructs the Storekeeper to verify the physical stock level of the identified item(s) against the recorded inventory level.
+
+4. **Confirm Shortage**: After verification by the Storekeeper, if a shortage is confirmed, the Warehouse Manager notifies the Inventory/Supply Officer.
+
+5. **Check for Stock Realignment**: The Inventory/Supply Officer checks if stock is available at other locations that can be realigned to meet the shortage.
+
+6. **Initiate Stock Realignment or Replenishment**:
+   - If stock is available at another location, the Inventory/Supply Officer coordinates the transfer with the relevant logistics function.
+   - If stock is not available at another location, the Inventory/Supply Officer initiates the replenishment process through the appropriate supply process.
+
+7. **Notify Stakeholders**: The Inventory/Supply Officer notifies all relevant stakeholders (including the relevant planning or logistics function) about the shortage and the actions being taken.
+
+## 8. Exception and Deviation Handling
+- **Inaccurate Inventory Records**: If during verification, discrepancies are found between physical stock and recorded inventory levels, the Storekeeper and Warehouse Manager should investigate and correct the records accordingly before proceeding.
+- **Unavailability of Stock for Realignment or Replenishment**: If stock cannot be realigned or replenished in time to meet the demand, the Inventory/Supply Officer should notify the relevant planning or logistics function to adjust plans accordingly.
+
+## 9. Process Completion Criteria
+The Inventory Replenishment and Stock Realignment process is considered complete when:
+- The inventory shortage is identified and documented.
+- The available stock is verified.
+- Either stock realignment or replenishment action is initiated.
+- All relevant stakeholders are notified about the shortage and the actions taken.

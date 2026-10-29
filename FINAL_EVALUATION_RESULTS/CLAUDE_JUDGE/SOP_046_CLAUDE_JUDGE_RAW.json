@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_046",
+  "judge_family": "Anthropic Claude",
+  "judge_model": "anthropic/claude-sonnet-5",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 4,
+      "reason": "Most explicit elements (approved instruction, multi-location picking, checking each line, transfer to staging, inventory accuracy) are captured. However, the SOP only mentions inventory/location record accuracy as an output/completion criterion without an explicit procedural step describing how records are updated after the physical movement, a minor gap relative to the source."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The procedure follows a logical, scenario-consistent order: receive instruction, review, pick per location, check each line, complete picking, transfer to staging/packing, confirm completion, which matches the implied operational flow in the source scenario."
+    },
+    "C3_role_clarity": {
+      "score": 4,
+      "reason": "Roles are clearly separated (Picker performs picking/checking/transfer; Supervisor oversees approval and compliance), consistent with the two roles named in the source. A minor unsupported addition ('ensuring the Storekeeper/Picker is aware of their responsibilities') is added but does not materially affect the procedure."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "Required inputs (approved instruction with references, quantities, locations) and outputs (accurately picked items, transfer to staging, maintained inventory accuracy) are clearly and consistently stated, matching the source scenario's stated inputs and expected outcome."
+    },
+    "C5_exception_handling": {
+      "score": 4,
+      "reason": "The SOP introduces reasonable exception paths (instruction discrepancy, inventory mismatch, damaged/unpickable items) that align with the source's constraint about only picking listed items and checking each line, even though the source itself does not enumerate specific exceptions. This is a reasonable extrapolation rather than a major deficiency, though the resolution actions (e.g., 'adjusting the picking instruction') go slightly beyond what the source explicitly states."
+    },
+    "C6_constraint_adherence": {
+      "score": 4,
+      "reason": "The core constraint 'only picking listed references/quantities' and 'checking each line' is well reflected in steps 2, 4, and exception handling. The inventory-accuracy constraint is acknowledged as an output/completion criterion but not tied to a specific procedural action, slightly weakening enforcement clarity."
+    },
+    "C7_groundedness": {
+      "score": 4,
+      "reason": "No new systems, technologies, or unsupported roles are introduced. Minor extrapolations exist (e.g., specific resolution actions like 'updating inventory records' or 'adjusting the picking instruction') that are not explicitly stated in the source, but they remain plausible and do not introduce contradictory or fabricated operational elements."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is clearly structured with distinct sections (roles, inputs, outputs, procedure, exceptions, completion criteria), uses actionable language, and is internally consistent, making it easy for a warehouse user to follow while remaining faithful to the source scenario."
+    }
+  }
+}

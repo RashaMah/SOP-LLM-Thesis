@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_031",
+  "judge_family": "Google Gemini",
+  "judge_model": "gemini-3.1-pro-preview",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "The SOP captures all elements of the source scenario, including the trigger (low picking stock), objective, roles, constraints (batch, rotation, record accuracy), and expected outcomes."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The procedure follows a highly logical and operationally correct sequence: identifying the need, confirming reserve stock, selecting the correct batch, transferring, updating records, and verifying."
+    },
+    "C3_role_clarity": {
+      "score": 5,
+      "reason": "Responsibilities are clearly and appropriately divided between the Storekeeper/Warehouse Staff (execution) and the Warehouse or Store Manager (oversight and exception handling), exactly matching the source roles."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "Inputs (e.g., item identity, locations, rotation rules) and expected outputs (e.g., sufficient stock, aligned records) are explicitly listed and perfectly aligned with the source scenario."
+    },
+    "C5_exception_handling": {
+      "score": 5,
+      "reason": "The SOP effectively anticipates exceptions based on the scenario's constraints, providing clear handling steps for incorrect batches, insufficient reserve stock, inventory discrepancies, and rotation conflicts."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "All explicit constraints from the source scenario-specifically using the correct product/batch, maintaining stock-rotation rules, and preventing unexplained inventory differences-are strictly enforced throughout the procedure."
+    },
+    "C7_groundedness": {
+      "score": 5,
+      "reason": "The SOP remains entirely grounded in the source text. It does not invent unsupported systems, specific numerical thresholds, or external documents, relying only on the provided operational logic."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is highly usable, featuring a clear, logical structure with actionable steps, well-defined sections, and unambiguous language suitable for warehouse personnel."
+    }
+  }
+}

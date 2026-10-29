@@ -1,0 +1,19 @@
+Process: Inventory Replenishment and Stock Realignment
+
+Scenario:
+Current stock cannot satisfy all known future demand.
+
+Objective:
+Detect an inventory shortage and initiate an appropriate replenishment or stock-realignment response without incorrectly promising unavailable stock.
+
+Operational information:
+Inventory review shows that the quantity currently available for an item is lower than the quantity required for planned releases. Additional demand is already known. Warehouse personnel must verify the available stock and communicate the shortage to the responsible supply/planning function. Existing stock and planned releases must be considered when determining the next action. If stock from another location can be realigned, the transfer must be coordinated; otherwise replenishment must be initiated through the appropriate supply process.
+
+Roles involved:
+Inventory/Supply Officer, Warehouse Manager, Storekeeper, relevant planning or logistics function.
+
+Constraints / decision conditions:
+The procedure must not assume stock exists when it does not. Available stock must be verified before decisions are made. Pending requirements should not be silently cancelled or fulfilled with invented quantities.
+
+Expected outcome:
+The shortage is identified and documented, stakeholders are informed, and either replenishment or authorized stock realignment is initiated.

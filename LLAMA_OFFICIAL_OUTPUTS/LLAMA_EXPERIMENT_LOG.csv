@@ -1,0 +1,13 @@
+scenario_id,model,provider,temperature,max_tokens,status,http_status,start_time,end_time,output_file
+GR-A,meta-llama/llama-4-maverick,DeepInfra,0,4000,success,200,2026-09-17T23:54:45.426037,2026-09-17T23:54:51.540446,LLAMA_GR-A_RAW.txt
+GR-B,meta-llama/llama-4-maverick,DeepInfra,0,4000,success,200,2026-09-17T23:54:53.541951,2026-09-17T23:55:01.218545,LLAMA_GR-B_RAW.txt
+RL-A,meta-llama/llama-4-maverick,DeepInfra,0,4000,success,200,2026-09-17T23:55:03.221384,2026-09-17T23:55:12.230473,LLAMA_RL-A_RAW.txt
+RL-B,meta-llama/llama-4-maverick,DeepInfra,0,4000,success,200,2026-09-17T23:55:14.267294,2026-09-17T23:55:22.261967,LLAMA_RL-B_RAW.txt
+IR-A,meta-llama/llama-4-maverick,DeepInfra,0,4000,success,200,2026-09-17T23:55:24.266702,2026-09-17T23:55:33.731980,LLAMA_IR-A_RAW.txt
+IR-B,meta-llama/llama-4-maverick,DeepInfra,0,4000,success,200,2026-09-17T23:55:35.734908,2026-09-17T23:55:44.228013,LLAMA_IR-B_RAW.txt
+OP-A,meta-llama/llama-4-maverick,DeepInfra,0,4000,success,200,2026-09-17T23:55:46.270170,2026-09-17T23:55:54.912021,LLAMA_OP-A_RAW.txt
+OP-B,meta-llama/llama-4-maverick,DeepInfra,0,4000,success,200,2026-09-17T23:55:57.214034,2026-09-17T23:56:04.467458,LLAMA_OP-B_RAW.txt
+ST-A,meta-llama/llama-4-maverick,DeepInfra,0,4000,success,200,2026-09-17T23:56:06.473161,2026-09-17T23:56:14.487269,LLAMA_ST-A_RAW.txt
+ST-B,meta-llama/llama-4-maverick,DeepInfra,0,4000,success,200,2026-09-17T23:56:16.491476,2026-09-17T23:56:24.011052,LLAMA_ST-B_RAW.txt
+PD-A,meta-llama/llama-4-maverick,DeepInfra,0,4000,success,200,2026-09-17T23:56:26.014173,2026-09-17T23:56:32.303302,LLAMA_PD-A_RAW.txt
+PD-B,meta-llama/llama-4-maverick,DeepInfra,0,4000,success,200,2026-09-17T23:56:34.305350,2026-09-17T23:56:42.136216,LLAMA_PD-B_RAW.txt

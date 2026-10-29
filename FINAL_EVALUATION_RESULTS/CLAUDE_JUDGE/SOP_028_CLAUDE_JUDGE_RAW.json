@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_028",
+  "judge_family": "Anthropic Claude",
+  "judge_model": "anthropic/claude-sonnet-5",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "All operationally relevant elements from the source scenario are represented: low picking stock trigger, reserve stock availability, transfer requirement, record accuracy requirement, correct product/batch constraint, no unexplained discrepancy constraint, stock-rotation constraint, and expected outcome of sufficient stock with aligned records. No material omissions identified."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The procedure follows a logical and scenario-consistent order: identify low stock, verify reserve availability, plan replenishment (batch/rotation check), transfer stock, update records, then verify by manager. This matches the implied operational dependencies in the source scenario."
+    },
+    "C3_role_clarity": {
+      "score": 5,
+      "reason": "Responsibilities are clearly and consistently assigned to the two roles specified in the source scenario (Storekeeper/Warehouse Staff and Warehouse or Store Manager) with no new or ambiguous roles introduced, and each step specifies who performs it."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "Inputs (current picking quantity, reserve quantity/location, batch info, inventory records) and outputs (replenished location, updated records, aligned physical/recorded quantities) are explicitly listed and directly traceable to the source scenario."
+    },
+    "C5_exception_handling": {
+      "score": 4,
+      "reason": "The SOP adds reasonable exception handling for incorrect stock/batch and inventory discrepancy, which are grounded in the source's constraints (correct batch, no unexplained difference). However, the specific corrective actions (returning stock, restarting process, investigation) are somewhat elaborated beyond what the scenario explicitly states, though they remain plausible extensions of the stated constraints rather than fabrications, warranting a minor deduction for added specificity not explicitly sourced."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "All three explicit constraints—correct product/batch, no unexplained physical-recorded difference, and stock-rotation rule—are directly addressed in the planning step and reinforced in exception handling and completion criteria, fully respecting the source's decision conditions."
+    },
+    "C7_groundedness": {
+      "score": 4,
+      "reason": "The SOP stays largely grounded in the source scenario. The mention of 'First-In-First-Out' as an example of stock rotation is a minor addition not explicitly stated in the source (which only mentions 'any applicable stock-rotation rule'), introducing a specific unsupported detail, though it is presented as an example and does not materially distort the procedure."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is clearly structured with distinct sections (purpose, scope, roles, inputs/outputs, procedure, exceptions, completion criteria), uses actionable step-by-step language, and remains internally consistent and faithful to the source scenario, making it practical for warehouse users."
+    }
+  }
+}

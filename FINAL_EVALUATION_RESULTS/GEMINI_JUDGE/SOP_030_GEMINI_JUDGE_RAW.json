@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_030",
+  "judge_family": "Google Gemini",
+  "judge_model": "gemini-3.1-pro-preview",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "The SOP includes all operationally relevant information from the source scenario, including identifying the quantity, removing from usable stock, updating records, and coordinating return with documentation."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The procedure follows the correct operational sequence implied by the source scenario: identification, quantification, segregation, record updating, and return coordination."
+    },
+    "C3_role_clarity": {
+      "score": 5,
+      "reason": "Responsibilities are clearly and consistently assigned to the specific roles provided in the source scenario (Warehouse staff, Storekeeper, Manager, Supply Officer)."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "Required inputs (identified goods, quantity, records) and expected outputs (isolated goods, updated records, prepared for return) are clearly identifiable and match the scenario."
+    },
+    "C5_exception_handling": {
+      "score": 5,
+      "reason": "The source scenario contains no explicit exceptions. The SOP adequately addresses this dimension by adding logical, standard exception handling without missing or contradicting any source requirements."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "Explicit constraints from the source scenario (goods not available for normal picking, traceability maintained, documented process for leaving) are strictly preserved in the procedure."
+    },
+    "C7_groundedness": {
+      "score": 4,
+      "reason": "The SOP remains largely grounded in the source scenario, though it introduces minor unsupported operational rules in the 'Exception and Deviation Handling' section (e.g., alternative holding areas, specific managerial escalations)."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is well-structured, internally consistent, clear, and highly actionable for warehouse users while remaining faithful to the core scenario."
+    }
+  }
+}

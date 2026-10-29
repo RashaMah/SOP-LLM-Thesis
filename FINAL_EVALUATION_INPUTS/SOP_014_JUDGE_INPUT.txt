@@ -1,0 +1,316 @@
+FINAL SOP EVALUATION JUDGE PROMPT — VERSION 1.0
+
+You are an evaluator of generated Standard Operating Procedures (SOPs)
+for logistics and warehouse processes.
+
+Your task is to evaluate ONE candidate SOP strictly against the supplied
+SOURCE SCENARIO using the supplied eight-criterion evaluation rubric.
+
+============================================================
+EVALUATION PRINCIPLES
+============================================================
+
+1. Treat the SOURCE SCENARIO as the sole factual reference.
+
+2. Do not use external operational knowledge to impose requirements that
+   are absent from the source scenario.
+
+3. Do not reward the candidate SOP for adding plausible but unsupported
+   operational details.
+
+4. Do not penalize the candidate SOP for omitting information that was
+   never provided in the source scenario.
+
+5. Evaluate only the candidate SOP provided.
+
+6. Do not infer, identify, or speculate about which language model
+   generated the candidate SOP.
+
+7. Score each criterion independently.
+
+8. Base each score on concrete comparison between the SOURCE SCENARIO and
+   the CANDIDATE SOP.
+
+9. Do not reward verbosity, document length, sophisticated formatting,
+   or writing style unless these materially improve the criterion being
+   evaluated.
+
+10. Reasonable paraphrasing is acceptable when the operational meaning
+    of the source scenario is preserved.
+
+11. Do not compare the candidate SOP with other candidate SOPs.
+
+12. Do not calculate or provide an overall score or model ranking.
+
+
+============================================================
+C1 — COMPLETENESS
+============================================================
+
+Evaluate whether all operationally relevant information explicitly
+contained in the source scenario is represented in the SOP, including
+required activities, information, roles, conditions, and expected outcomes.
+
+Do not penalize information that was not provided in the source scenario.
+
+
+============================================================
+C2 — CORRECT SEQUENCE
+============================================================
+
+Evaluate whether procedural activities follow the operational dependencies
+and sequence specified or implied by the source scenario.
+
+Penalize contradictory, illogical, or operationally incorrect ordering.
+
+
+============================================================
+C3 — ROLE CLARITY
+============================================================
+
+Evaluate whether responsibilities are clearly and consistently assigned
+to roles provided in the source scenario.
+
+Penalize ambiguous responsibility, incorrect role assignment, or
+unsupported new roles when these materially affect the procedure.
+
+
+============================================================
+C4 — INPUT / OUTPUT CLARITY
+============================================================
+
+Evaluate whether required inputs and information, as well as expected
+outputs and results, are clearly identifiable and consistent with the
+source scenario.
+
+
+============================================================
+C5 — EXCEPTION HANDLING
+============================================================
+
+Evaluate whether exceptions, deviations, abnormal conditions, and
+decision points contained in the source scenario are correctly identified
+and handled.
+
+Do not penalize the SOP merely because the source scenario itself contains
+few exceptions.
+
+
+============================================================
+C6 — CONSTRAINT ADHERENCE
+============================================================
+
+Evaluate whether explicit constraints and decision conditions contained
+in the source scenario are preserved and respected throughout the SOP.
+
+
+============================================================
+C7 — GROUNDEDNESS / NO HALLUCINATION
+============================================================
+
+Evaluate whether operational claims in the SOP remain grounded in the
+source scenario.
+
+Penalize invented systems, roles, requirements, thresholds, documents,
+technologies, approvals, rules, or other material operational details
+that are unsupported by the source scenario.
+
+Do not penalize harmless paraphrasing, organizational formatting, or
+wording changes that preserve the original operational meaning.
+
+
+============================================================
+C8 — USABILITY
+============================================================
+
+Evaluate whether the SOP is clear, structured, internally consistent,
+unambiguous, and actionable for the intended warehouse or logistics user,
+while remaining faithful to the source scenario.
+
+
+============================================================
+SCORING SCALE
+============================================================
+
+5 — FULLY SATISFIES
+The SOP fully satisfies the criterion. No substantive deficiency is
+identifiable.
+
+4 — GOOD
+The SOP satisfies the criterion with only a minor omission, ambiguity,
+or weakness that does not materially affect the procedure.
+
+3 — ADEQUATE
+The SOP partially satisfies the criterion. One meaningful deficiency or
+several minor deficiencies are present, but the SOP remains substantially
+correct and usable on this dimension.
+
+2 — POOR
+Major deficiencies are present. Important information, logic, or
+requirements are missing, unclear, or incorrect and materially affect
+this dimension.
+
+1 — VERY POOR
+The SOP fundamentally fails the criterion, substantially contradicts the
+source scenario, or omits or incorrectly handles most essential elements
+relevant to the criterion.
+
+
+============================================================
+SCORING PROCEDURE
+============================================================
+
+For EACH of the eight criteria:
+
+1. Compare the candidate SOP directly with the source scenario.
+2. Identify relevant evidence.
+3. Identify substantive omissions, contradictions, unsupported additions,
+   or ambiguities relevant to that criterion.
+4. Assign exactly one INTEGER score from 1 to 5.
+5. Provide a concise justification explaining the score.
+
+Evaluate all eight criteria even if deficiencies overlap.
+
+Do not calculate the total score. The experimental evaluation script will
+calculate totals after the individual criterion scores have been recorded.
+
+
+============================================================
+REQUIRED OUTPUT FORMAT
+============================================================
+
+Return ONLY valid JSON.
+
+Do not include Markdown code fences.
+Do not include introductory text.
+Do not include concluding text.
+Do not include an overall score.
+
+Use exactly the following structure:
+
+{
+  "C1_completeness": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  },
+  "C2_correct_sequence": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  },
+  "C3_role_clarity": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  },
+  "C4_input_output_clarity": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  },
+  "C5_exception_handling": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  },
+  "C6_constraint_adherence": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  },
+  "C7_groundedness": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  },
+  "C8_usability": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  }
+}
+
+
+============================================================
+MATERIAL TO EVALUATE
+============================================================
+
+SOURCE SCENARIO:
+
+Process: Reverse Logistics and Damaged Goods Handling
+
+Scenario:
+Goods already held in the warehouse are identified as non-conforming and must be returned.
+
+Objective:
+Remove identified non-conforming goods from usable inventory and prepare them for controlled return.
+
+Operational information:
+A stored batch is identified as unsuitable for normal use because of a documented quality problem. Warehouse personnel must identify the affected quantity, remove it from normal usable stock, place it in a clearly separated holding area and update the relevant stock records. The responsible logistics/supply function must coordinate the further return or disposition process. Required supporting documentation must accompany the goods when they leave the warehouse.
+
+Roles involved:
+Supply Officer/Logistics function, Warehouse or Store Manager, Storekeeper, warehouse staff.
+
+Constraints / decision conditions:
+Affected goods must not remain available for normal picking. Their identity and quantity must remain traceable. The goods may only leave the warehouse through an authorized and documented process.
+
+Expected outcome:
+Affected stock is isolated, correctly recorded and prepared for authorized return without contaminating normal available inventory.
+
+
+CANDIDATE SOP:
+
+# Standard Operating Procedure: Reverse Logistics and Damaged Goods Handling
+
+## 1. SOP Title
+Reverse Logistics and Damaged Goods Handling
+
+## 2. Purpose
+To remove identified non-conforming goods from usable inventory and prepare them for controlled return.
+
+## 3. Scope
+This procedure applies to goods already held in the warehouse that are identified as non-conforming and must be returned. It covers the identification, isolation, recording, and preparation of such goods for disposition.
+
+## 4. Roles and Responsibilities
+*   **Warehouse Staff / Storekeeper:** Responsible for identifying the affected quantity, removing goods from normal usable stock, placing goods in a clearly separated holding area, and updating relevant stock records.
+*   **Supply Officer / Logistics Function:** Responsible for coordinating the further return or disposition process.
+*   **Warehouse or Store Manager:** Responsible for overseeing the process to ensure compliance with operational constraints and inventory integrity.
+*   **All Personnel:** Must ensure affected goods do not remain available for normal picking and that identity and quantity remain traceable.
+
+## 5. Required Inputs / Information
+*   Notification or identification of a stored batch as unsuitable for normal use.
+*   Documentation of the quality problem causing the non-conformance.
+*   Relevant stock records for updating.
+*   Required supporting documentation for goods leaving the warehouse.
+
+## 6. Expected Outputs
+*   Affected stock isolated in a clearly separated holding area.
+*   Stock records updated to reflect the removal from usable inventory.
+*   Goods prepared for authorized return accompanied by required supporting documentation.
+*   Normal available inventory remains uncontaminated by non-conforming goods.
+
+## 7. Procedure
+
+**Step 1: Identification of Non-Conforming Goods**
+Upon notification that a stored batch is unsuitable for normal use due to a documented quality problem, Warehouse Staff / Storekeeper must identify the specific affected quantity.
+
+**Step 2: Removal from Usable Stock**
+Warehouse Staff / Storekeeper must physically remove the identified non-conforming goods from normal usable stock locations immediately.
+
+**Step 3: Segregation**
+Place the removed goods in a clearly separated holding area designated for non-conforming items. Ensure the goods are not accessible for normal picking operations.
+
+**Step 4: Record Updating**
+Update the relevant stock records to reflect the removal of the affected quantity from usable inventory. Ensure the identity and quantity of the goods remain traceable within the records.
+
+**Step 5: Coordination of Return**
+The Supply Officer / Logistics Function must coordinate the further return or disposition process for the isolated goods.
+
+**Step 6: Preparation for Exit**
+Ensure all required supporting documentation accompanies the goods when they leave the warehouse. Verify that the exit process is authorized and documented before release.
+
+## 8. Exception and Deviation Handling
+*   **Availability for Picking:** If affected goods are found remaining available for normal picking, they must be immediately removed and segregated per Step 2 and Step 3.
+*   **Traceability Loss:** If the identity or quantity of the goods cannot be traced during the process, the movement must be halted until traceability is re-established.
+*   **Unauthorized Exit:** Goods may only leave the warehouse through an authorized and documented process. Any attempt to move goods without authorization or required supporting documentation must be stopped and reported to the Warehouse or Store Manager.
+*   **Documentation Missing:** If required supporting documentation is not available when goods are scheduled to leave, the goods must remain in the holding area until documentation is secured.
+
+## 9. Process Completion Criteria
+The process is considered complete when:
+1.  Affected stock is fully isolated in the separated holding area.
+2.  Stock records are correctly updated.
+3.  Goods are prepared for authorized return with all required supporting documentation attached.
+4.  Normal available inventory is confirmed free of contamination by the non-conforming goods.

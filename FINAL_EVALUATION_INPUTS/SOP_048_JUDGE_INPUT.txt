@@ -1,0 +1,438 @@
+FINAL SOP EVALUATION JUDGE PROMPT — VERSION 1.0
+
+You are an evaluator of generated Standard Operating Procedures (SOPs)
+for logistics and warehouse processes.
+
+Your task is to evaluate ONE candidate SOP strictly against the supplied
+SOURCE SCENARIO using the supplied eight-criterion evaluation rubric.
+
+============================================================
+EVALUATION PRINCIPLES
+============================================================
+
+1. Treat the SOURCE SCENARIO as the sole factual reference.
+
+2. Do not use external operational knowledge to impose requirements that
+   are absent from the source scenario.
+
+3. Do not reward the candidate SOP for adding plausible but unsupported
+   operational details.
+
+4. Do not penalize the candidate SOP for omitting information that was
+   never provided in the source scenario.
+
+5. Evaluate only the candidate SOP provided.
+
+6. Do not infer, identify, or speculate about which language model
+   generated the candidate SOP.
+
+7. Score each criterion independently.
+
+8. Base each score on concrete comparison between the SOURCE SCENARIO and
+   the CANDIDATE SOP.
+
+9. Do not reward verbosity, document length, sophisticated formatting,
+   or writing style unless these materially improve the criterion being
+   evaluated.
+
+10. Reasonable paraphrasing is acceptable when the operational meaning
+    of the source scenario is preserved.
+
+11. Do not compare the candidate SOP with other candidate SOPs.
+
+12. Do not calculate or provide an overall score or model ranking.
+
+
+============================================================
+C1 — COMPLETENESS
+============================================================
+
+Evaluate whether all operationally relevant information explicitly
+contained in the source scenario is represented in the SOP, including
+required activities, information, roles, conditions, and expected outcomes.
+
+Do not penalize information that was not provided in the source scenario.
+
+
+============================================================
+C2 — CORRECT SEQUENCE
+============================================================
+
+Evaluate whether procedural activities follow the operational dependencies
+and sequence specified or implied by the source scenario.
+
+Penalize contradictory, illogical, or operationally incorrect ordering.
+
+
+============================================================
+C3 — ROLE CLARITY
+============================================================
+
+Evaluate whether responsibilities are clearly and consistently assigned
+to roles provided in the source scenario.
+
+Penalize ambiguous responsibility, incorrect role assignment, or
+unsupported new roles when these materially affect the procedure.
+
+
+============================================================
+C4 — INPUT / OUTPUT CLARITY
+============================================================
+
+Evaluate whether required inputs and information, as well as expected
+outputs and results, are clearly identifiable and consistent with the
+source scenario.
+
+
+============================================================
+C5 — EXCEPTION HANDLING
+============================================================
+
+Evaluate whether exceptions, deviations, abnormal conditions, and
+decision points contained in the source scenario are correctly identified
+and handled.
+
+Do not penalize the SOP merely because the source scenario itself contains
+few exceptions.
+
+
+============================================================
+C6 — CONSTRAINT ADHERENCE
+============================================================
+
+Evaluate whether explicit constraints and decision conditions contained
+in the source scenario are preserved and respected throughout the SOP.
+
+
+============================================================
+C7 — GROUNDEDNESS / NO HALLUCINATION
+============================================================
+
+Evaluate whether operational claims in the SOP remain grounded in the
+source scenario.
+
+Penalize invented systems, roles, requirements, thresholds, documents,
+technologies, approvals, rules, or other material operational details
+that are unsupported by the source scenario.
+
+Do not penalize harmless paraphrasing, organizational formatting, or
+wording changes that preserve the original operational meaning.
+
+
+============================================================
+C8 — USABILITY
+============================================================
+
+Evaluate whether the SOP is clear, structured, internally consistent,
+unambiguous, and actionable for the intended warehouse or logistics user,
+while remaining faithful to the source scenario.
+
+
+============================================================
+SCORING SCALE
+============================================================
+
+5 — FULLY SATISFIES
+The SOP fully satisfies the criterion. No substantive deficiency is
+identifiable.
+
+4 — GOOD
+The SOP satisfies the criterion with only a minor omission, ambiguity,
+or weakness that does not materially affect the procedure.
+
+3 — ADEQUATE
+The SOP partially satisfies the criterion. One meaningful deficiency or
+several minor deficiencies are present, but the SOP remains substantially
+correct and usable on this dimension.
+
+2 — POOR
+Major deficiencies are present. Important information, logic, or
+requirements are missing, unclear, or incorrect and materially affect
+this dimension.
+
+1 — VERY POOR
+The SOP fundamentally fails the criterion, substantially contradicts the
+source scenario, or omits or incorrectly handles most essential elements
+relevant to the criterion.
+
+
+============================================================
+SCORING PROCEDURE
+============================================================
+
+For EACH of the eight criteria:
+
+1. Compare the candidate SOP directly with the source scenario.
+2. Identify relevant evidence.
+3. Identify substantive omissions, contradictions, unsupported additions,
+   or ambiguities relevant to that criterion.
+4. Assign exactly one INTEGER score from 1 to 5.
+5. Provide a concise justification explaining the score.
+
+Evaluate all eight criteria even if deficiencies overlap.
+
+Do not calculate the total score. The experimental evaluation script will
+calculate totals after the individual criterion scores have been recorded.
+
+
+============================================================
+REQUIRED OUTPUT FORMAT
+============================================================
+
+Return ONLY valid JSON.
+
+Do not include Markdown code fences.
+Do not include introductory text.
+Do not include concluding text.
+Do not include an overall score.
+
+Use exactly the following structure:
+
+{
+  "C1_completeness": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  },
+  "C2_correct_sequence": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  },
+  "C3_role_clarity": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  },
+  "C4_input_output_clarity": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  },
+  "C5_exception_handling": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  },
+  "C6_constraint_adherence": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  },
+  "C7_groundedness": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  },
+  "C8_usability": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  }
+}
+
+
+============================================================
+MATERIAL TO EVALUATE
+============================================================
+
+SOURCE SCENARIO:
+
+Process: Goods Receipt / Receiving
+
+Scenario: Standard supplier delivery to a warehouse.
+
+Objective:
+Receive an expected shipment correctly, verify it against the available documentation, record the receipt and transfer accepted goods into warehouse stock.
+
+Operational information:
+A scheduled supplier delivery arrives at the warehouse. The shipment has an approved purchase-order reference, shipping documentation and a packing list. Warehouse personnel must verify the documentation and compare the delivered items and quantities with the expected shipment. The goods must be unloaded and visually inspected before they are accepted into stock. Accepted goods must be documented through the appropriate receiving record and subsequently moved to the designated storage area. Warehouse stock records must be updated after receipt.
+
+Roles involved:
+Warehouse Manager/Store Manager, Storekeeper/Warehouse Staff, receiving or inspection personnel.
+
+Constraints / decision conditions:
+The warehouse may only accept goods associated with valid shipment documentation. Product identity and received quantity must correspond to the expected shipment. Goods should not be entered into normal stock before the required receiving checks have been completed.
+
+Expected outcome:
+The shipment is verified, accepted, documented, recorded in inventory and transferred to the appropriate storage location.
+
+
+CANDIDATE SOP:
+
+# Standard Operating Procedure: Goods Receipt / Receiving
+
+## 1. Purpose
+
+To ensure scheduled supplier deliveries are received correctly, verified against available documentation, recorded, and transferred into warehouse stock only after all required receiving checks have been completed.
+
+## 2. Scope
+
+This SOP applies to standard supplier deliveries arriving at the warehouse with:
+
+- An approved purchase-order reference
+- Shipping documentation
+- A packing list
+
+It covers document verification, unloading, visual inspection, item and quantity verification, acceptance, receiving documentation, inventory record updates, and movement to the designated storage area.
+
+## 3. Roles and Responsibilities
+
+### 3.1 Warehouse Manager / Store Manager
+
+- Oversee the receiving process.
+- Ensure goods are not accepted without valid shipment documentation.
+- Ensure goods are not entered into normal stock before required receiving checks are completed.
+- Support the handling of discrepancies or deviations identified during receipt.
+
+### 3.2 Storekeeper / Warehouse Staff
+
+- Receive and unload the shipment.
+- Make shipment documentation available for verification.
+- Assist with checking delivered items and quantities.
+- Move accepted goods to the designated storage area.
+- Ensure warehouse stock records are updated after receipt.
+
+### 3.3 Receiving or Inspection Personnel
+
+- Verify the approved purchase-order reference, shipping documentation, and packing list.
+- Compare product identity and received quantity with the expected shipment.
+- Visually inspect unloaded goods before acceptance.
+- Complete the appropriate receiving record for accepted goods.
+- Identify and report documentation, product, quantity, or visible-condition discrepancies.
+
+## 4. Required Inputs / Information
+
+The following are required to perform the receiving process:
+
+- Scheduled supplier delivery
+- Approved purchase-order reference
+- Shipping documentation
+- Packing list
+- Expected shipment information, including:
+  - Expected product identity
+  - Expected quantity
+- Designated storage location for accepted goods
+- Appropriate receiving record
+
+## 5. Expected Outputs
+
+- Shipment documentation verified
+- Delivered product identity and quantity checked against the expected shipment
+- Goods unloaded and visually inspected
+- Compliant goods accepted
+- Receipt documented through the appropriate receiving record
+- Warehouse stock records updated
+- Accepted goods transferred to the designated storage area
+- Any discrepancy or deviation identified and withheld from normal stock pending handling
+
+## 6. Procedure
+
+### 6.1 Receive the Scheduled Delivery
+
+1. Confirm that the arriving shipment is a scheduled supplier delivery.
+2. Obtain the shipment’s:
+   - Approved purchase-order reference
+   - Shipping documentation
+   - Packing list
+3. Do not accept the goods if valid shipment documentation is unavailable.
+
+### 6.2 Verify Shipment Documentation
+
+1. Review the purchase-order reference, shipping documentation, and packing list.
+2. Confirm that the documentation applies to the delivered shipment.
+3. Confirm that the shipment is associated with an approved purchase-order reference.
+4. If documentation is missing, invalid, or does not correspond to the delivery, do not accept or enter the goods into normal stock. Follow Section 7.
+
+### 6.3 Unload the Goods
+
+1. Unload the shipment.
+2. Keep the unloaded goods separate from normal stock until all required receiving checks are complete.
+
+### 6.4 Perform Visual Inspection
+
+1. Visually inspect the unloaded goods before acceptance.
+2. Identify any visible condition issue.
+3. Do not accept affected goods into normal stock until the issue has been addressed under Section 7.
+
+### 6.5 Verify Product Identity
+
+1. Compare each delivered product with the expected shipment information and packing list.
+2. Confirm that the identity of the delivered product corresponds to the expected product.
+3. If the delivered product does not correspond to the expected shipment, do not accept it into normal stock. Follow Section 7.
+
+### 6.6 Verify Received Quantity
+
+1. Determine the quantity received for each delivered item.
+2. Compare the received quantity with the expected shipment and packing list.
+3. Confirm whether the received quantity corresponds to the expected quantity.
+4. If a quantity discrepancy exists, do not enter the discrepant goods into normal stock until the discrepancy has been addressed under Section 7.
+
+### 6.7 Accept the Goods
+
+1. Accept goods only after confirming that:
+   - Valid shipment documentation is available.
+   - The purchase-order reference is approved.
+   - Product identity corresponds to the expected shipment.
+   - Received quantity corresponds to the expected shipment.
+   - The goods have been unloaded and visually inspected.
+2. Do not enter goods into normal stock before all required receiving checks are complete.
+
+### 6.8 Document the Receipt
+
+1. Complete the appropriate receiving record for accepted goods.
+2. Ensure the record reflects the goods and quantities accepted.
+
+### 6.9 Update Warehouse Stock Records
+
+1. Update warehouse stock records after the receipt has been verified, accepted, and documented.
+2. Record only accepted goods in normal inventory.
+
+### 6.10 Transfer Goods to Storage
+
+1. Move accepted goods to the designated storage area.
+2. Confirm that the accepted goods have been transferred to the appropriate storage location.
+
+## 7. Exception and Deviation Handling
+
+### 7.1 Missing, Invalid, or Mismatched Documentation
+
+If the approved purchase-order reference, shipping documentation, or packing list is missing, invalid, or does not correspond to the delivery:
+
+- Do not accept the goods.
+- Do not enter the goods into normal stock.
+- Notify the Warehouse Manager / Store Manager for handling.
+
+### 7.2 Product Identity Discrepancy
+
+If a delivered product does not correspond to the expected shipment:
+
+- Do not accept the discrepant product into normal stock.
+- Keep it separate from accepted stock.
+- Notify the Warehouse Manager / Store Manager for handling.
+
+### 7.3 Quantity Discrepancy
+
+If the received quantity does not correspond to the expected shipment:
+
+- Do not record the discrepant quantity as accepted normal stock.
+- Keep the affected goods separate from accepted stock.
+- Notify the Warehouse Manager / Store Manager for handling.
+
+### 7.4 Visible Condition Issue
+
+If visual inspection identifies an issue:
+
+- Do not accept the affected goods into normal stock.
+- Keep the affected goods separate from accepted stock.
+- Notify the Warehouse Manager / Store Manager for handling.
+
+### 7.5 Unspecified Resolution
+
+The scenario does not define disposition, supplier communication, approval, rejection, or return procedures for discrepant goods. Such goods must remain outside normal stock until the deviation is handled.
+
+## 8. Process Completion Criteria
+
+The goods receipt process is complete when:
+
+- Valid shipment documentation has been verified.
+- The approved purchase-order reference has been confirmed.
+- Delivered product identity and quantity have been compared with the expected shipment.
+- The goods have been unloaded and visually inspected.
+- Compliant goods have been accepted.
+- The appropriate receiving record has been completed.
+- Warehouse stock records have been updated for accepted goods.
+- Accepted goods have been moved to the designated storage area.
+- Any identified discrepancy or deviation has been kept out of normal stock and referred for handling.

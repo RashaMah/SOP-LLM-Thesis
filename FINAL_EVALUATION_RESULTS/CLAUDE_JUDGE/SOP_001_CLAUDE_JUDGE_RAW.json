@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_001",
+  "judge_family": "Anthropic Claude",
+  "judge_model": "anthropic/claude-sonnet-5",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "The SOP captures all operationally relevant elements from the source scenario: recall receipt, identification, blocking, segregation, marking, record updates, coordination with relevant offices/external parties, and controlled dispatch with documentation and security/release controls. No explicit source information is omitted."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The sequence (receipt -> identification/blocking -> segregation/marking -> record updates -> coordination -> dispatch/release) matches the logical and implied order in the source scenario without contradiction."
+    },
+    "C3_role_clarity": {
+      "score": 4,
+      "reason": "Supply Officer and Security are clearly assigned per the source. However, Store Manager, Store Supervisor, Storekeeper, and Store Helper/Warehouse Staff are collapsed into a single 'Warehouse Personnel' grouping rather than distinguishing individual responsibilities, slightly reducing role granularity though not contradicting the source, which also does not differentiate their specific duties."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "Inputs (recall notice, product details, stock records, dispatch documentation) and outputs (identified/blocked/segregated stock, updated records, coordinated dispatch, traceability) are clearly listed and consistent with the source scenario's stated requirements."
+    },
+    "C5_exception_handling": {
+      "score": 4,
+      "reason": "The SOP proactively addresses exceptions (unauthorized release, missing quantities, traceability failure) tied to source constraints, which is reasonable given the scenario's implicit conditions. However, the 'Undefined Damage During Handling' exception introduces a scenario not mentioned in the source, slightly extending beyond given information though it is appropriately caveated as undefined."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "All explicit constraints—immediate blocking after recall confirmation, traceability of moved quantities, and dispatch requiring documentation and security/release controls—are explicitly preserved and enforced throughout the procedure steps and exception handling."
+    },
+    "C7_groundedness": {
+      "score": 4,
+      "reason": "Most content is well-grounded in the source. The 'Undefined Damage During Handling' exception is a minor addition not present in the source scenario, representing a small unsupported elaboration, though it is explicitly flagged as undefined rather than presented as a firm requirement."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is clearly structured with defined sections (purpose, scope, roles, inputs/outputs, procedure steps, exceptions, completion criteria), uses actionable step-by-step instructions, and remains internally consistent and faithful to the source, making it usable for warehouse personnel."
+    }
+  }
+}

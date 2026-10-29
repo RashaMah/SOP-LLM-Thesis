@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_003",
+  "judge_family": "OpenAI GPT",
+  "judge_model": "gpt-5.6-sol",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "The SOP includes the required documentation checks, item and quantity comparison, unloading, visual inspection, acceptance, receiving record, storage transfer, and stock-record update."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The activities follow the required dependencies: documentation is verified, goods are unloaded and inspected, identity and quantity are checked, acceptance is determined, receipt is documented, goods are stored, and stock records are updated."
+    },
+    "C3_role_clarity": {
+      "score": 4,
+      "reason": "Responsibilities are clearly assigned among the source-provided roles, although verification and inspection duties overlap somewhat between warehouse staff and receiving personnel."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "The approved purchase-order reference, shipping documents, packing list, and delivered goods are identifiable as inputs, while the receiving record, updated stock records, and stored accepted goods are clear outputs."
+    },
+    "C5_exception_handling": {
+      "score": 5,
+      "reason": "The SOP correctly prevents undocumented or discrepant goods from entering stock and provides a clear path for documenting and escalating discrepancies."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "It preserves the key constraints that documentation must be valid, identity and quantity must match expectations, and goods cannot enter stock before receiving checks and acceptance are completed."
+    },
+    "C7_groundedness": {
+      "score": 4,
+      "reason": "Most content is grounded in the scenario, but making satisfactory condition an explicit acceptance criterion and assigning the manager responsibility for resolving damage or discrepancies with the supplier add operational details not expressly supplied."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is well structured, internally consistent, and actionable, with clear sections for roles, inputs, outputs, procedure steps, exceptions, and completion criteria."
+    }
+  }
+}

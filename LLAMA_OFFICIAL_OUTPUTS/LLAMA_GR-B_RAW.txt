@@ -1,0 +1,62 @@
+**1. SOP Title**
+Goods Receipt Process for Handling Damaged Goods and Quantity Discrepancies
+
+**2. Purpose**
+To outline the procedure for processing an incoming shipment that contains damaged goods and quantity discrepancies, ensuring that discrepancies are correctly documented and communicated to the responsible logistics/supply function.
+
+**3. Scope**
+This SOP applies to all incoming shipments received by the warehouse that are found to have damaged goods or quantity discrepancies during the receiving process.
+
+**4. Roles and Responsibilities**
+- **Warehouse Manager/Store Manager**: Oversees the receiving process and ensures that discrepancies are handled according to this SOP.
+- **Storekeeper/Warehouse Staff**: Responsible for unloading shipments, inspecting goods, and identifying discrepancies.
+- **Inspection Personnel**: Conducts detailed inspections of goods to identify damage or discrepancies.
+- **Responsible Supply/Logistics Function**: Receives notification of discrepancies and makes decisions regarding the disposition of damaged or discrepant goods.
+
+**5. Required Inputs / Information**
+- Incoming shipment with valid shipping documentation.
+- Relevant order documentation (e.g., purchase order).
+- Packing documentation (e.g., packing list).
+
+**6. Expected Outputs**
+- Accurate inventory records reflecting only accepted quantities and status.
+- Documentation of discrepancies (damage and quantity).
+- Notification to the responsible Supply/Logistics function regarding discrepancies.
+
+**7. Procedure**
+1. **Receipt and Inspection**:
+   - Upon arrival, verify the shipment against the shipping documentation.
+   - Unload the shipment and inspect the goods for damage or discrepancies.
+   - Compare the physical delivery with the order and packing documentation to identify any mismatches.
+
+2. **Identifying and Documenting Discrepancies**:
+   - Identify and document any damaged goods or quantity discrepancies.
+   - Clearly identify and separate damaged or questionable goods from normal stock.
+
+3. **Processing Accepted Goods**:
+   - Process goods that are not damaged or discrepant as normal stock, updating inventory records accordingly.
+
+4. **Handling Discrepancies**:
+   - Document all discrepancies (damage and quantity) in detail.
+   - Inform the Warehouse Manager/Store Manager of the discrepancies.
+
+5. **Notification and Escalation**:
+   - The Warehouse Manager/Store Manager notifies the responsible Supply/Logistics function about the discrepancies, providing all relevant documentation.
+
+6. **Decision on Discrepant Goods**:
+   - Await decision from the responsible Supply/Logistics function regarding the disposition of damaged or discrepant goods.
+   - Do not treat affected items as normal usable stock until a decision has been made.
+
+7. **Updating Inventory Records**:
+   - Update inventory records to reflect the accepted quantities and status of goods.
+
+**8. Exception and Deviation Handling**
+- In cases where the discrepancy cannot be resolved through the normal process, the Warehouse Manager/Store Manager will escalate the issue to the responsible Supply/Logistics function for further action.
+- Any deviation from this SOP must be approved by the Warehouse Manager/Store Manager and documented.
+
+**9. Process Completion Criteria**
+The Goods Receipt process is considered complete when:
+- All goods have been inspected and discrepancies documented.
+- Inventory records have been updated to reflect the accepted quantities and status.
+- The responsible Supply/Logistics function has been notified of discrepancies and has made a decision regarding the disposition of damaged or discrepant goods.
+- Discrepant goods have been handled according to the decision made by the responsible Supply/Logistics function.

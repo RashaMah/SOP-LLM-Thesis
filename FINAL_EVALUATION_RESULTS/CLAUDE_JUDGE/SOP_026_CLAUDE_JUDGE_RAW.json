@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_026",
+  "judge_family": "Anthropic Claude",
+  "judge_model": "anthropic/claude-sonnet-5",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 4,
+      "reason": "Most source elements (stock analysis, authorization, picking/packing, dispatch, receiving, record updates, traceability) are captured, but the explicit constraint that redistribution must not create an unmanaged shortage at the source location is omitted entirely, leaving a gap in completeness."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The procedure follows a logical, dependency-consistent flow: analysis→authorization→picking/packing→dispatch→transport→receipt→record update, matching the implied sequence in the scenario without contradictions."
+    },
+    "C3_role_clarity": {
+      "score": 4,
+      "reason": "Roles largely match the source list and are assigned consistently, but the merging of 'Storekeeper' and 'Receiving Facility' into a single title ('Storekeeper/Receiving Facility') introduces slight ambiguity not present in the source, where these appear as distinct roles."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "Required inputs (stock analysis data, authorized decision) and expected outputs (stock transferred, records updated) are clearly stated and consistent with the source scenario."
+    },
+    "C5_exception_handling": {
+      "score": 3,
+      "reason": "The SOP adds plausible exception handling for quantity discrepancies, damage, and transport delays, which is reasonable extrapolation, but it fails to address the explicit source condition of avoiding an unmanaged shortage at the source location, a key decision point left unhandled."
+    },
+    "C6_constraint_adherence": {
+      "score": 3,
+      "reason": "The constraint of authorized, data-based quantity determination is respected, and traceability is partially addressed at handover, but traceability is not consistently reinforced at every step, and the critical constraint against creating an unmanaged shortage at the source is not addressed anywhere in the procedure."
+    },
+    "C7_groundedness": {
+      "score": 3,
+      "reason": "The SOP introduces specific unsupported details, such as 'delivery note or consignment note' as documentation and detailed exception scenarios (damage, delay) not mentioned in the source scenario, constituting minor but noticeable operational additions."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is clearly structured with distinct sections for roles, inputs, outputs, procedure, exceptions, and completion criteria, making it actionable and easy to follow for warehouse personnel while remaining largely faithful to the source scenario."
+    }
+  }
+}

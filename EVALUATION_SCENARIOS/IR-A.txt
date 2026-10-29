@@ -1,0 +1,19 @@
+Process: Inventory Replenishment and Stock Realignment
+
+Scenario:
+Picking stock has fallen to a low level while reserve stock is available.
+
+Objective:
+Replenish the active picking location from warehouse reserve stock before it becomes insufficient for expected picking activity.
+
+Operational information:
+The warehouse uses separate active picking locations and reserve storage. During stock review, warehouse personnel determine that the quantity of an item in its picking location has become low. Additional quantity of the same item is available in reserve storage. The required stock must be transferred from reserve storage to the designated picking location and the inventory/location records must remain accurate after the movement.
+
+Roles involved:
+Storekeeper/Warehouse Staff, Warehouse or Store Manager.
+
+Constraints / decision conditions:
+The correct product and stock batch must be used. The movement must not create an unexplained difference between physical and recorded inventory. Any applicable stock-rotation rule must continue to be respected.
+
+Expected outcome:
+The picking location contains sufficient stock for continued operations and both physical and recorded quantities remain aligned.

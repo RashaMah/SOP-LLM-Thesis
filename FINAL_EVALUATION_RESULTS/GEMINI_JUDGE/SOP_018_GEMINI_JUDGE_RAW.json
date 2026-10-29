@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_018",
+  "judge_family": "Google Gemini",
+  "judge_model": "gemini-3.1-pro-preview",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "The SOP comprehensively covers all operational information, roles, constraints, and expected outcomes explicitly stated in the source scenario, including handling both damage and quantity discrepancies."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The procedural steps follow a logical and operationally correct sequence, starting from receipt and inspection, moving to segregation and verification, and concluding with documentation, escalation, and inventory updates."
+    },
+    "C3_role_clarity": {
+      "score": 5,
+      "reason": "Responsibilities are clearly and consistently assigned to the exact roles provided in the source scenario (Storekeeper, Inspection Personnel, Warehouse Manager, Supply/Logistics function) without introducing unsupported new roles."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "Required inputs (e.g., shipping and order documentation, physical delivery) and expected outputs (e.g., segregated goods, updated inventory, escalated discrepancies) are clearly defined in dedicated sections and perfectly align with the source scenario."
+    },
+    "C5_exception_handling": {
+      "score": 5,
+      "reason": "The SOP explicitly addresses the core exceptions of the scenario (visible damage and quantity discrepancies) in a dedicated section, providing clear instructions for segregating goods, documenting issues, and escalating for a decision."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "All explicit constraints from the source scenario, such as comparing physical delivery with documentation, separating damaged goods, and ensuring inventory records reflect only accepted quantities, are strictly adhered to throughout the procedure."
+    },
+    "C7_groundedness": {
+      "score": 5,
+      "reason": "The SOP remains entirely grounded in the source scenario. It does not invent unsupported systems, specific forms, quantitative thresholds, or extraneous operational details."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is highly structured, internally consistent, and written in clear, actionable language that would be highly usable for warehouse and logistics personnel."
+    }
+  }
+}

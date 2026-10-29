@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_007",
+  "judge_family": "Google Gemini",
+  "judge_model": "gemini-3.1-pro-preview",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "The SOP captures all operationally relevant information from the source scenario, including the review of planned releases, physical verification of stock, communication of shortages, and the decision between realignment and replenishment."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The procedural steps follow a logical and operationally correct sequence: reviewing inventory, identifying the shortage, physically verifying stock, deciding on realignment versus replenishment, and notifying stakeholders."
+    },
+    "C3_role_clarity": {
+      "score": 5,
+      "reason": "All four roles provided in the source scenario (Inventory/Supply Officer, Warehouse Manager, Storekeeper, relevant planning or logistics function) are explicitly defined and assigned clear, consistent responsibilities."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "Required inputs (current levels, planned releases, known demand) and expected outputs (documentation, notifications, initiated actions) are explicitly listed in dedicated sections and perfectly align with the source scenario."
+    },
+    "C5_exception_handling": {
+      "score": 5,
+      "reason": "The SOP effectively handles exceptions by addressing inaccurate inventory records during verification and the potential unavailability of stock for realignment or replenishment, ensuring requirements are not silently cancelled."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "The SOP strictly adheres to the source constraints by mandating physical stock verification before any decisions are made and ensuring that pending requirements are communicated rather than fulfilled with invented quantities."
+    },
+    "C7_groundedness": {
+      "score": 5,
+      "reason": "The SOP remains entirely grounded in the source scenario. It does not introduce any unsupported systems, technologies, or arbitrary thresholds, and any added details are harmless organizational formatting."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is highly usable, well-structured, clear, and actionable for warehouse personnel. It uses standard SOP formatting and maintains strict fidelity to the source scenario."
+    }
+  }
+}

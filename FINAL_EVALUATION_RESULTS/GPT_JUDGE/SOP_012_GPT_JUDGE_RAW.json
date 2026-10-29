@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_012",
+  "judge_family": "OpenAI GPT",
+  "judge_model": "gpt-5.6-sol",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "The SOP represents all substantive source elements: staged picked order, separation, packing, order association, packing and release documentation, pre-release checks, quantity verification, custody transfer, and stock-record updating."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "Activities follow the required dependencies: maintain separation, pack and associate goods, prepare documentation, verify shipment and quantity before transfer, release the shipment, and update records to reflect released goods."
+    },
+    "C3_role_clarity": {
+      "score": 4,
+      "reason": "Responsibilities are clearly assigned among all source roles. However, mandatory manager review, discrepancy approval, and supervisory resolution duties are more specific than the source supports."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "The completed picked order and necessary order/document information are identifiable inputs, while packed and verified goods, completed documentation, custody transfer, and updated stock records are clearly stated outputs."
+    },
+    "C5_exception_handling": {
+      "score": 4,
+      "reason": "The SOP appropriately prevents release when order, documentation, quantity, or staging-separation discrepancies exist. Manager-supervised correction is an unsupported procedural addition, but it does not undermine the core exception controls."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "All explicit constraints are preserved: staged orders remain separated, packed goods match the authorized order, and outgoing quantity is verified before custody transfer."
+    },
+    "C7_groundedness": {
+      "score": 4,
+      "reason": "Most content closely tracks the source and avoids invented systems, forms, or thresholds. The required manager review and manager-led discrepancy resolution are unsupported additions, although limited in operational impact."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is clearly structured, internally consistent, and actionable, with defined roles, sequential steps, release conditions, exceptions, and completion criteria faithful to the core process."
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_032",
+  "judge_family": "Google Gemini",
+  "judge_model": "gemini-3.1-pro-preview",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "The SOP includes all operationally relevant information from the source scenario, capturing all required activities, roles, conditions, constraints, and expected outcomes without omitting any details."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The procedural steps follow a logical and operationally correct sequence (review, verify, document, communicate, evaluate, and initiate action) that perfectly mirrors the dependencies outlined in the source scenario."
+    },
+    "C3_role_clarity": {
+      "score": 5,
+      "reason": "Responsibilities are clearly and consistently assigned to the exact four roles provided in the source scenario (Storekeeper, Inventory/Supply Officer, Warehouse Manager, and relevant planning/logistics function) without introducing unsupported new roles."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "Required inputs (e.g., current stock, planned releases, known demand) and expected outputs (e.g., documented shortage, communication, initiated action) are explicitly listed and entirely consistent with the source scenario."
+    },
+    "C5_exception_handling": {
+      "score": 5,
+      "reason": "The SOP correctly identifies and handles exceptions based on the constraints provided in the source scenario, providing clear guidance for scenarios like unverified stock, ambiguous demand data, and unresolvable shortages."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "Explicit constraints from the source scenario, such as verifying stock before making decisions and ensuring pending requirements are not silently cancelled or fulfilled with invented quantities, are strictly preserved and enforced."
+    },
+    "C7_groundedness": {
+      "score": 5,
+      "reason": "The SOP remains fully grounded in the source scenario. It does not invent unsupported systems, technologies, or material operational details, utilizing only harmless organizational formatting."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is highly structured, clear, internally consistent, and actionable for warehouse personnel. It uses standard SOP sections (Purpose, Scope, Roles, Procedure, Exceptions) while remaining completely faithful to the source scenario."
+    }
+  }
+}

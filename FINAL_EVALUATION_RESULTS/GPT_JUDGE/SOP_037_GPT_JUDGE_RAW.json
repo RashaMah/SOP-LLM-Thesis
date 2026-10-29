@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_037",
+  "judge_family": "OpenAI GPT",
+  "judge_model": "gpt-5.6-sol",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "The SOP represents all material source elements: low picking stock, available reserve stock, same-item transfer, correct product and batch, stock rotation, record accuracy, involved roles, and the required outcome."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The sequence logically follows the scenario: review stock, identify low stock, verify reserve availability, select compliant stock, transfer it, and update records."
+    },
+    "C3_role_clarity": {
+      "score": 4,
+      "reason": "Warehouse staff responsibilities are clearly assigned and consistent with the scenario. The manager is identified but has no defined responsibility; however, the source also provides no specific managerial duty."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "Required stock status, reserve availability, item/location information, records, and rotation rules are identifiable, and the outputs clearly state sufficient picking stock and aligned physical and recorded quantities."
+    },
+    "C5_exception_handling": {
+      "score": 4,
+      "reason": "The SOP addresses inability to verify product or batch, rotation-rule violations, discrepancies, and unavailable reserve stock. The halt-and-resolution protocol is a reasonable safeguard but is more specific than the source."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "The SOP preserves all explicit constraints by requiring the correct product and batch, preventing unexplained inventory differences, and respecting applicable stock-rotation rules."
+    },
+    "C7_groundedness": {
+      "score": 4,
+      "reason": "The SOP is largely grounded in the scenario, but it adds a scheduled review period, an immediate-update requirement, and specific halt or non-proceed instructions that were not explicitly provided."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is well structured, internally consistent, and actionable, with clear inputs, ordered steps, exception conditions, and completion criteria faithful to the core process."
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_016",
+  "judge_family": "OpenAI GPT",
+  "judge_model": "gpt-5.6-sol",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "The SOP includes all source activities, roles, constraints, documentation requirements, verification, custody transfer, stock-record updating, and the expected outcome."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The sequence correctly progresses from staging and separation through packing, documentation, pre-release verification, custody transfer, and updating records for released goods."
+    },
+    "C3_role_clarity": {
+      "score": 4,
+      "reason": "Core responsibilities are clearly assigned to warehouse staff, loading/checking personnel, and the transport representative. The manager's responsibility is only described vaguely as overall oversight, and the carrier or recipient is somewhat broadly equated with the transport representative."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "The completed picking order, authorized order details, and items are clear inputs, while packed and documented goods, verification, release readiness, and accurate stock records are clearly identified results."
+    },
+    "C5_exception_handling": {
+      "score": 5,
+      "reason": "The SOP correctly prevents progression or release when order separation, goods correspondence, documentation, shipment matching, or quantity verification requirements are not satisfied, without inventing specific remediation steps."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "All explicit constraints are preserved: staged orders remain separated, packed goods correspond to the authorized order, and outgoing quantity is verified before custody transfer."
+    },
+    "C7_groundedness": {
+      "score": 4,
+      "reason": "The procedure is overwhelmingly grounded in the scenario. Minor unsupported additions include assigning the manager general oversight and referring unspecified remediation to existing organizational protocols, but these do not materially alter the process."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is clearly structured, internally consistent, actionable, and includes explicit completion criteria and release-blocking conditions faithful to the scenario."
+    }
+  }
+}

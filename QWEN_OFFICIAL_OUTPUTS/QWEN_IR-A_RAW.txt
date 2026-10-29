@@ -1,0 +1,47 @@
+# Standard Operating Procedure: Inventory Replenishment and Stock Realignment
+
+## 1. SOP Title
+Inventory Replenishment and Stock Realignment
+
+## 2. Purpose
+To replenish the active picking location from warehouse reserve stock before it becomes insufficient for expected picking activity, ensuring that inventory and location records remain accurate after the movement.
+
+## 3. Scope
+This procedure applies to operations within a warehouse environment that utilizes separate active picking locations and reserve storage. It is triggered when picking stock has fallen to a low level while reserve stock is available for the same item.
+
+## 4. Roles and Responsibilities
+*   **Storekeeper/Warehouse Staff:** Responsible for conducting stock reviews, determining when picking location quantities are low, verifying reserve stock availability, executing the stock transfer, and ensuring inventory/location records remain accurate.
+*   **Warehouse or Store Manager:** Involved in the process. (Note: Specific managerial duties or approval steps are not defined in the provided process scenario.)
+
+## 5. Required Inputs / Information
+*   Current status of stock in active picking locations.
+*   Availability of additional quantity of the same item in reserve storage.
+*   Identification of the designated picking location.
+*   Current inventory and location records.
+*   Applicable stock-rotation rules.
+
+## 6. Expected Outputs
+*   The picking location contains sufficient stock for continued operations.
+*   Both physical and recorded quantities remain aligned.
+*   Inventory/location records accurately reflect the movement.
+
+## 7. Procedure
+1.  **Conduct Stock Review:** Warehouse personnel shall review stock levels during the scheduled stock review period.
+2.  **Identify Low Stock:** Determine if the quantity of an item in its picking location has become low relative to expected picking activity.
+3.  **Verify Reserve Availability:** Confirm that additional quantity of the same item is available in reserve storage.
+4.  **Select Stock:** Identify the correct product and stock batch to be moved.
+5.  **Apply Rotation Rules:** Ensure that any applicable stock-rotation rule is respected during the selection and movement process.
+6.  **Execute Transfer:** Transfer the required stock from reserve storage to the designated picking location.
+7.  **Update Records:** Adjust inventory and location records immediately following the movement to ensure they match the physical stock.
+
+## 8. Exception and Deviation Handling
+*   **Inventory Discrepancy:** The movement must not create an unexplained difference between physical and recorded inventory. If a discrepancy is detected during or after the transfer, the process must be halted until the difference is explained and resolved.
+*   **Incorrect Product or Batch:** If the correct product or stock batch cannot be verified, the transfer must not proceed.
+*   **Rotation Rule Violation:** If the movement would violate an applicable stock-rotation rule, the transfer must not proceed.
+*   **Insufficient Reserve Stock:** If additional quantity is not available in reserve storage, the replenishment process cannot be completed for this item at this time.
+
+## 9. Process Completion Criteria
+The process is considered complete when:
+1.  The picking location contains sufficient stock for continued operations.
+2.  Physical quantities match recorded quantities (no unexplained differences exist).
+3.  All inventory and location records have been updated to reflect the transfer.

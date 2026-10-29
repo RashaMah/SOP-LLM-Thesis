@@ -1,0 +1,19 @@
+Process: Stock Transfer and Redistribution
+
+Scenario:
+Approved stock is transferred from one warehouse to another warehouse within the same logistics network.
+
+Objective:
+Prepare, release and document an authorized stock transfer while preserving inventory traceability.
+
+Operational information:
+An approved transfer request identifies the goods and quantities to be moved from the sending warehouse to another warehouse. The required goods are available. Warehouse personnel must reserve, pick and stage the correct goods and prepare the required release and transport documentation. The outgoing quantity must be removed from the sending warehouse records. The receiving warehouse will subsequently confirm receipt through its receiving process.
+
+Roles involved:
+Supply/Inventory Officer, Warehouse Manager, Storekeeper/Warehouse Staff, receiving warehouse personnel.
+
+Constraints / decision conditions:
+Stock may only be released against an approved transfer request. Requested items must remain clearly associated with the correct transfer during staging and loading. Inventory records must reflect the outgoing movement.
+
+Expected outcome:
+The correct goods are released to the destination warehouse with complete documentation and traceable stock records.

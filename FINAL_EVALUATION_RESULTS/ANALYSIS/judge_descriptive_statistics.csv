@@ -1,0 +1,4 @@
+judge,n,mean_total,median_total,sd_total,minimum_total,maximum_total,perfect_40_count,perfect_40_percent
+GPT,48,36.0208,37.0,2.8916,28,40,2,4.17
+CLAUDE,48,38,38.0,1.868,32,40,13,27.08
+GEMINI,48,39.6667,40.0,1.0176,35,40,42,87.5

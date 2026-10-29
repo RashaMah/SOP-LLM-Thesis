@@ -1,0 +1,19 @@
+Process: Stock Transfer and Redistribution
+
+Scenario:
+One location holds surplus stock approaching a risk of expiration while another location faces insufficient stock.
+
+Objective:
+Realign inventory between locations to reduce the risk of expiry and prevent stockout.
+
+Operational information:
+Stock analysis identifies excess quantity of an item at one facility and insufficient quantity at another facility. The responsible Supply function determines that redistribution is required. The source location must prepare the agreed quantity for collection or dispatch. The receiving location must receive and record the stock. Picking, packing, transport handover, receiving and stock-record updates must remain traceable.
+
+Roles involved:
+Supply Officer, Store Manager, Store Supervisor, Storekeeper, Store Helper/Warehouse Staff, transport/3PL personnel, receiving facility.
+
+Constraints / decision conditions:
+The redistribution quantity must be based on stock information and an authorized decision. Stock must remain traceable throughout the transfer. The movement should not create an unmanaged shortage at the source location.
+
+Expected outcome:
+Inventory is redistributed from the surplus location to the shortage location and both locations' stock records correctly reflect the movement.

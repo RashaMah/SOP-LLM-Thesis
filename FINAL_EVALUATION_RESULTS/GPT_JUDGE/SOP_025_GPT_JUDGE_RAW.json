@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_025",
+  "judge_family": "OpenAI GPT",
+  "judge_model": "gpt-5.6-sol",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "The SOP includes all source activities, documentation, roles, conditions, and outcomes: document verification, item and quantity comparison, unloading, visual inspection, acceptance, receiving documentation, stock updating, and transfer to designated storage."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The sequence preserves the required dependencies: documentation and shipment checks occur before acceptance, unloading precedes visual inspection, and receiving documentation, stock updating, and storage transfer follow acceptance."
+    },
+    "C3_role_clarity": {
+      "score": 3,
+      "reason": "Responsibilities are clearly assigned among the source-provided roles, but the SOP invents specific managerial decision and authorization duties and refers to a separation of duties that the source does not establish."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "The approved purchase-order reference, shipping documentation, packing list, expected shipment information, and physical shipment are clearly identified as inputs, while the receiving record, inventory update, accepted goods, and storage transfer are clear outputs."
+    },
+    "C5_exception_handling": {
+      "score": 4,
+      "reason": "The SOP correctly prevents acceptance for missing or invalid documentation and prevents discrepant or inspection-failed goods from entering stock. However, it adds unsupported escalation, managerial disposition, and organizational-policy mechanisms beyond the source."
+    },
+    "C6_constraint_adherence": {
+      "score": 4,
+      "reason": "The SOP generally preserves the constraints requiring valid documentation, matching product identity and quantity, and completion of checks before stock entry. The statement that the manager may authorize acceptance where deviations exist introduces some ambiguity because the source does not permit managerial override of these conditions."
+    },
+    "C7_groundedness": {
+      "score": 3,
+      "reason": "The core receiving process is grounded in the scenario, but several material governance details are invented, including managerial acceptance or rejection authority, mandatory escalation, disposition decisions, organizational-policy resolution, and a claimed separation of duties."
+    },
+    "C8_usability": {
+      "score": 4,
+      "reason": "The SOP is well structured, actionable, and internally coherent overall. Usability is slightly weakened by the unsupported exception governance and ambiguity over whether a manager can authorize acceptance despite deviations from mandatory acceptance conditions."
+    }
+  }
+}

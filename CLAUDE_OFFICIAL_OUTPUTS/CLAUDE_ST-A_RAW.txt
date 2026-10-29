@@ -1,0 +1,108 @@
+# Standard Operating Procedure (SOP): Stock Transfer and Redistribution Between Warehouses
+
+## 1. SOP Title
+Stock Transfer and Redistribution Between Warehouses Within the Same Logistics Network
+
+## 2. Purpose
+This SOP defines the procedure for preparing, releasing, and documenting an authorized transfer of approved stock from a sending warehouse to a receiving warehouse within the same logistics network. It ensures that only approved transfers are executed, that goods remain correctly identified throughout the process, and that inventory records accurately reflect the outgoing movement to preserve traceability.
+
+## 3. Scope
+This SOP applies to all stock transfer activities between warehouses within the same logistics network where:
+- A transfer request has been approved, and
+- The goods and quantities to be transferred are available at the sending warehouse.
+
+This SOP covers activities from receipt of an approved transfer request through release and dispatch of goods from the sending warehouse. Confirmation of receipt at the destination warehouse is governed by that warehouse's own receiving process and is referenced here only as a downstream dependency, not described in detail.
+
+## 4. Roles and Responsibilities
+
+**Supply/Inventory Officer**
+- Reviews and validates the approved transfer request.
+- Confirms that requested goods and quantities are correctly identified.
+- Coordinates communication of the transfer request to the sending warehouse.
+- Ensures inventory records are updated to reflect the outgoing movement.
+
+**Warehouse Manager**
+- Authorizes release of stock strictly against an approved transfer request.
+- Oversees preparation of release and transport documentation.
+- Ensures staging and loading activities comply with this SOP.
+- Resolves discrepancies or exceptions identified during the process.
+
+**Storekeeper/Warehouse Staff**
+- Reserves, picks, and stages the correct goods according to the approved transfer request.
+- Verifies that staged goods match the requested items and quantities.
+- Prepares goods for loading and ensures correct association with the corresponding transfer throughout staging and loading.
+- Supports preparation of release and transport documentation.
+
+**Receiving Warehouse Personnel**
+- Receive the transferred goods at the destination warehouse.
+- Confirm receipt through the receiving warehouse's own receiving process (outside the scope of this SOP).
+
+## 5. Required Inputs / Information
+- An approved transfer request specifying:
+  - Goods to be transferred
+  - Quantities to be transferred
+  - Sending warehouse
+  - Receiving warehouse
+- Confirmation that the required goods are available at the sending warehouse.
+- Current inventory records for the sending warehouse.
+
+## 6. Expected Outputs
+- Correct goods released and dispatched to the destination warehouse.
+- Complete and accurate release and transport documentation.
+- Updated sending warehouse inventory records reflecting the outgoing quantity.
+- Traceable stock movement linking the released goods to the approved transfer request.
+
+## 7. Procedure
+
+**Step 1: Receive and Validate Transfer Request**
+1.1 The Supply/Inventory Officer receives the approved transfer request identifying the goods, quantities, sending warehouse, and receiving warehouse.
+1.2 The Supply/Inventory Officer confirms that the transfer request has been approved. Stock must not be released against a request that has not been approved.
+1.3 The Supply/Inventory Officer confirms that the required goods are available at the sending warehouse.
+
+**Step 2: Authorize Release**
+2.1 The Warehouse Manager reviews the approved transfer request and authorizes the release of stock for staging and dispatch.
+2.2 No stock release activity may proceed without this authorization tied to an approved transfer request.
+
+**Step 3: Reserve, Pick, and Stage Goods**
+3.1 The Storekeeper/Warehouse Staff reserves the goods and quantities specified in the transfer request to prevent their use for other purposes.
+3.2 The Storekeeper/Warehouse Staff picks the correct goods matching the transfer request.
+3.3 The Storekeeper/Warehouse Staff stages the picked goods, ensuring they remain clearly and correctly associated with the corresponding transfer request throughout the staging process.
+
+**Step 4: Prepare Release and Transport Documentation**
+4.1 The Storekeeper/Warehouse Staff, supported by the Warehouse Manager, prepares the required release documentation for the goods being transferred.
+4.2 Transport documentation is prepared to accompany the goods during movement to the receiving warehouse.
+4.3 The scenario does not specify the exact names, formats, or systems used for release and transport documentation; personnel should use the documentation formats designated by their facility for this purpose.
+
+**Step 5: Load and Dispatch Goods**
+5.1 The Storekeeper/Warehouse Staff loads the staged goods for transport, ensuring the correct association between goods and transfer request is maintained during loading.
+5.2 The goods are dispatched to the receiving warehouse along with the prepared release and transport documentation.
+
+**Step 6: Update Sending Warehouse Inventory Records**
+6.1 The Supply/Inventory Officer ensures that the outgoing quantity is removed from the sending warehouse's inventory records upon release/dispatch of the goods.
+6.2 This update must accurately reflect the transferred goods and quantities as specified in the approved transfer request.
+
+**Step 7: Downstream Receipt Confirmation**
+7.1 The receiving warehouse personnel receive the goods and confirm receipt through their own receiving process.
+7.2 This confirmation step is outside the scope of this SOP and is governed by the receiving warehouse's receiving procedure.
+
+## 8. Exception and Deviation Handling
+
+- **Unapproved Transfer Request:** If a transfer request is not approved, stock must not be reserved, picked, staged, or released. The Warehouse Manager and Supply/Inventory Officer must resolve the approval status before any physical action is taken.
+
+- **Insufficient or Unavailable Stock:** The scenario assumes the required goods are available. If goods are found to be unavailable or insufficient during picking, this represents a deviation from the expected condition. The Storekeeper/Warehouse Staff must notify the Warehouse Manager and Supply/Inventory Officer; the scenario does not specify further corrective steps, so personnel should escalate for resolution before proceeding.
+
+- **Incorrect Goods or Quantities Identified:** If staged or loaded goods do not match the transfer request, the discrepancy must be identified and corrected before dispatch. Goods must not be loaded or released until they are confirmed to correctly match the approved transfer request.
+
+- **Loss of Association Between Goods and Transfer:** If goods become mixed with other transfers or lose clear association with their corresponding transfer request during staging or loading, staff must halt the process and re-verify goods against the transfer request before proceeding.
+
+- **Inventory Record Discrepancy:** If the outgoing quantity is not correctly reflected in the sending warehouse's inventory records, the Supply/Inventory Officer must correct the records to ensure traceability before the transfer is considered complete.
+
+- **Undefined Scenarios:** For any deviation not explicitly described in the source scenario, personnel must not assume a resolution method. The issue should be escalated to the Warehouse Manager for a decision, as no specific resolution procedure is defined in the available information.
+
+## 9. Process Completion Criteria
+This SOP is considered complete when:
+- The transfer request has been validated as approved.
+- The correct goods and quantities have been reserved, picked, staged, and loaded in clear association with the approved transfer request.
+- Required release and transport documentation has been prepared and accompanies the dispatched goods.
+- The outgoing quantity has been accurately removed from the sending warehouse's inventory records.
+- Goods have been dispatched to the receiving warehouse, pending confirmation of receipt through the receiving warehouse's own receiving process.

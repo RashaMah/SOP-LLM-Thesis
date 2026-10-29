@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_013",
+  "judge_family": "Google Gemini",
+  "judge_model": "gemini-3.1-pro-preview",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "The SOP captures all required activities, roles, conditions, and expected outcomes explicitly mentioned in the source scenario without omitting any operational details."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The procedural steps follow a logical and operationally correct sequence, moving from staging and packing to documentation, verification, release, and finally updating stock records."
+    },
+    "C3_role_clarity": {
+      "score": 5,
+      "reason": "Responsibilities are clearly and consistently assigned to the exact roles provided in the source scenario, with no unsupported roles added."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "Required inputs and expected outputs are clearly identifiable in dedicated sections and perfectly align with the source scenario."
+    },
+    "C5_exception_handling": {
+      "score": 5,
+      "reason": "The SOP effectively identifies and handles potential exceptions derived from the source scenario's constraints, such as mixed orders, quantity discrepancies, and documentation errors."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "All explicit constraints from the source scenario, including order separation, order correspondence, and pre-transfer quantity verification, are strictly preserved and enforced throughout the procedure."
+    },
+    "C7_groundedness": {
+      "score": 5,
+      "reason": "The SOP remains entirely grounded in the source scenario. It structures the provided information into a professional format without inventing unsupported systems, technologies, or arbitrary thresholds."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is highly usable, featuring a clear, logical structure with numbered steps, distinct sections, and unambiguous, actionable instructions suitable for warehouse personnel."
+    }
+  }
+}

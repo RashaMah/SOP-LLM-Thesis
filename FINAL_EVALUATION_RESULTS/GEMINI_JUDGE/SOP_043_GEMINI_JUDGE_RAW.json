@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_043",
+  "judge_family": "Google Gemini",
+  "judge_model": "gemini-3.1-pro-preview",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "The SOP captures all operationally relevant information from the source scenario, including the objective, roles, required activities (picking, packing, transport, receiving, recording), constraints, and expected outcomes."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The procedural steps follow a logical and operationally correct sequence: identification and authorization, preparation at the source, transport, receiving at the destination, and final stock record updates."
+    },
+    "C3_role_clarity": {
+      "score": 5,
+      "reason": "Responsibilities are clearly and accurately assigned to the exact roles provided in the source scenario, such as the Supply Officer for authorization, warehouse staff for preparation/receiving, and 3PL for transport."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "Inputs (stock analysis, authorized decision, agreed quantity) and outputs (redistributed inventory, updated records, traceable documentation) are explicitly listed and perfectly align with the source scenario."
+    },
+    "C5_exception_handling": {
+      "score": 5,
+      "reason": "The SOP effectively translates the constraints from the source scenario (e.g., preventing unmanaged shortages, maintaining traceability) into clear, actionable exception handling steps."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "All explicit constraints, including basing quantities on authorized decisions, maintaining traceability throughout the transfer, and avoiding unmanaged shortages at the source, are strictly preserved and integrated into the steps."
+    },
+    "C7_groundedness": {
+      "score": 5,
+      "reason": "The SOP remains entirely faithful to the source scenario. It does not invent unsupported systems, documents, thresholds, or technologies, relying solely on the provided operational details."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is highly structured, clear, and actionable. The use of standard sections, bullet points, and sequential steps makes it an excellent, usable document for logistics personnel."
+    }
+  }
+}

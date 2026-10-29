@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_040",
+  "judge_family": "OpenAI GPT",
+  "judge_model": "gpt-5.6-sol",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "The SOP includes all source activities and outcomes: identifying the affected quantity, removing it from usable stock, segregating it, updating records, maintaining traceability, coordinating return/disposition, and requiring documentation and authorization before departure."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The procedure follows a coherent source-aligned sequence from identification and quantity determination through removal, isolation, record updating, logistics coordination, documentation, and authorized departure."
+    },
+    "C3_role_clarity": {
+      "score": 4,
+      "reason": "Responsibilities are clearly assigned among the source-listed roles. However, manager verification, notification, escalation, and release oversight are more specifically assigned than the source establishes."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "The documented quality problem, batch identity, affected quantity, stock records, and departure documentation are clearly identified as inputs, with isolation, updated records, traceability, coordination, and authorized departure preparation stated as outputs."
+    },
+    "C5_exception_handling": {
+      "score": 4,
+      "reason": "The SOP effectively addresses the source constraints as deviations, including picking availability, lost traceability, and unauthorized or undocumented departure. Some reporting and escalation instructions are unsupported additions, but they remain consistent with the source controls."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "All explicit constraints are preserved: affected goods are unavailable for normal picking, identity and quantity remain traceable, and departure is permitted only through an authorized, documented process."
+    },
+    "C7_groundedness": {
+      "score": 3,
+      "reason": "The core procedure is strongly grounded, but several operational details are invented, including mandatory manager verification, manager notification, incident reporting and escalation paths, pre-release matching confirmation, liaison duties, and holding pending undefined instructions."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is well structured, actionable, internally consistent, and clear about steps, responsibilities, controls, outputs, and completion conditions, while retaining the source process's essential meaning."
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_022",
+  "judge_family": "OpenAI GPT",
+  "judge_model": "gpt-5.6-sol",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "The SOP includes the shortage trigger, stock verification, known demand, planned releases, communication, documentation, realignment decision, replenishment alternative, involved roles, constraints, and expected outcome."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The procedure logically reviews and verifies stock before identifying and communicating the shortage, then determines and initiates either realignment or replenishment."
+    },
+    "C3_role_clarity": {
+      "score": 5,
+      "reason": "Responsibilities are clearly assigned among the source-provided warehouse roles and supply/planning roles, with no materially incorrect or unsupported role introduced."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "Required stock, planned-release, known-demand, and other-location information is identifiable, and the outputs clearly include documented shortage, stakeholder notification, and initiation of realignment or replenishment."
+    },
+    "C5_exception_handling": {
+      "score": 5,
+      "reason": "The SOP explicitly addresses unverified stock, invented quantities, silent cancellation, and inability to initiate an immediate response while preserving communication and documentation."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "It consistently requires verification before decisions, prohibits assumptions of nonexistent stock and invented quantities, and prevents silent cancellation of pending requirements."
+    },
+    "C7_groundedness": {
+      "score": 4,
+      "reason": "The SOP is strongly grounded in the scenario, but adds minor unsupported procedural details such as physical or systematic verification, recorded-versus-actual discrepancy handling, and maintaining status until a resolution path is established."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is clearly structured, internally consistent, and actionable, with defined roles, inputs, outputs, decision branches, constraints, and completion criteria."
+    }
+  }
+}

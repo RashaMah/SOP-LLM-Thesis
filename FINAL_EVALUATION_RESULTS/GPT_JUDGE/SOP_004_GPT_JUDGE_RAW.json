@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_004",
+  "judge_family": "OpenAI GPT",
+  "judge_model": "gpt-5.6-sol",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "The SOP includes the surplus/shortage analysis, Supply determination and authorization, source preparation, picking, packing, transport handover, receiving, traceability, stock-record updates, source-shortage constraint, and expected redistribution outcome."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "Activities follow the scenario's operational dependencies: stock analysis, redistribution decision, source preparation, transport handover, receipt, and final record reconciliation."
+    },
+    "C3_role_clarity": {
+      "score": 4,
+      "reason": "Responsibilities are clearly assigned among all listed roles, and the Supply Officer reasonably represents the responsible Supply function. However, several detailed assignments are not specified by the source, and receipt responsibility is shared broadly among assumed equivalent receiving roles."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "The required stock information, authorized item and quantity, source and receiving locations, and expected physical, record, and traceability outputs are clearly identified."
+    },
+    "C5_exception_handling": {
+      "score": 5,
+      "reason": "The material abnormal condition in the source—creating an unmanaged shortage at the source—is explicitly checked and handled before dispatch. Traceability failures are also addressed without omitting any source-defined exception."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "The SOP preserves all explicit constraints: quantity is tied to stock information and authorization, traceability is required throughout, and dispatch is prevented when it would create an unmanaged source shortage."
+    },
+    "C7_groundedness": {
+      "score": 3,
+      "reason": "The core process is grounded, but the SOP adds several unsupported operational rules, including exact role assignments, mandatory quantity verification, specific discrepancy escalations, reassessment and reauthorization, process halts, and generalized escalation of undefined exceptions to the Supply Officer."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is clearly structured, actionable, and internally coherent, with identifiable steps, responsibilities, completion criteria, and decision points that enable execution of the transfer."
+    }
+  }
+}

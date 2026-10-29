@@ -1,0 +1,60 @@
+# Standard Operating Procedure: Order Picking – Handling Unavailable Stock
+
+## 1. SOP Title
+Order Picking Procedure: Handling Unavailable Stock at Expected Location
+
+## 2. Purpose
+To ensure the correct continuation of multi-item picking operations when a requested item is not physically available at its expected picking location. This procedure ensures that unavailable stock is not substituted or invented, discrepancies are properly recorded and communicated, and available items are processed correctly.
+
+## 3. Scope
+This procedure applies to all multi-item picking operations within the warehouse where a picker encounters a situation where the required quantity of an item is not physically available at the listed location. It involves the Picker/Storekeeper, the Storekeeper responsible for stock records, and the Warehouse Supervisor/Manager.
+
+## 4. Roles and Responsibilities
+*   **Picker/Storekeeper:**
+    *   Follows the authorized picking instruction.
+    *   Verifies physical availability of items at listed locations.
+    *   Records discrepancies between physical location and inventory/picking information.
+    *   Communicates discrepancies to responsible warehouse personnel.
+    *   Picks available items correctly.
+    *   Ensures missing quantities are not falsely marked as picked.
+*   **Storekeeper responsible for stock records:**
+    *   Receives communication regarding stock discrepancies.
+    *   Checks and reconciles stock records upon notification.
+*   **Warehouse Supervisor/Manager:**
+    *   Acts as responsible warehouse personnel for escalation.
+    *   Oversees stock reconciliation or back-order handling processes.
+
+## 5. Required Inputs / Information
+*   Authorized picking instruction containing item locations and quantities.
+*   Physical inventory present at the picking location.
+*   Warehouse stock rules regarding batch or quantity selection.
+
+## 6. Expected Outputs
+*   Available items picked correctly according to the instruction.
+*   Unavailable quantities not falsely confirmed as picked.
+*   Recorded discrepancy between physical location and inventory/picking information.
+*   Escalation of the discrepancy for stock reconciliation or back-order handling.
+
+## 7. Procedure
+1.  **Receive Instruction:** Obtain the authorized picking instruction for the order.
+2.  **Navigate to Location:** Proceed to the listed location for each item specified in the picking instruction.
+3.  **Verify Availability:** Physically verify the presence and quantity of the requested item at the location.
+4.  **Pick Available Items:** If the required quantity is physically available, pick the item and proceed to the next item in the instruction.
+5.  **Identify Unavailability:** If the required quantity is not physically available at the expected location, stop the picking action for that specific item.
+6.  **Adhere to Substitution Rules:** Do not select an alternative batch or quantity unless explicitly permitted by the warehouse stock rules.
+7.  **Record Discrepancy:** Document the discrepancy between the physical location and the inventory/picking information.
+8.  **Communicate Discrepancy:** Notify the responsible warehouse personnel (Storekeeper responsible for stock records or Warehouse Supervisor/Manager) regarding the unavailability.
+9.  **Continue Operation:** Resume the picking operation for other items in the picking instruction that are available.
+10. **Prevent False Confirmation:** Ensure the system or record does not indicate that the missing quantity has been picked.
+
+## 8. Exception and Deviation Handling
+*   **Unavailable Stock:** When an item is not found at the expected location, the picker must not attempt to fulfill the requirement using stock from an unauthorized location or by estimating quantity.
+*   **Substitution Prohibition:** An alternative batch or quantity must not be selected unless permitted by the warehouse stock rules. If rules do not permit substitution, the item remains unpicked.
+*   **Recording Requirement:** The discrepancy must be recorded immediately upon discovery. Failure to record prevents stock records from being checked and reconciled.
+*   **Escalation:** All instances of unavailable stock must be communicated to the Storekeeper responsible for stock records or Warehouse Supervisor/Manager to facilitate stock reconciliation or back-order handling.
+
+## 9. Process Completion Criteria
+The picking process is considered complete when:
+1.  All available items identified in the picking instruction have been picked correctly.
+2.  Unavailable quantities have not been falsely confirmed as picked.
+3.  The discrepancy regarding unavailable stock has been recorded and escalated to the responsible warehouse personnel for stock reconciliation or back-order handling.

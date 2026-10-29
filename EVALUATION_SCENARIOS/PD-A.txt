@@ -1,0 +1,19 @@
+Process: Packing and Dispatch Preparation
+
+Scenario:
+A correctly picked order is ready for packing and shipment.
+
+Objective:
+Pack, document, stage and release the prepared goods accurately for transport.
+
+Operational information:
+A completed picking order has been moved to the staging area. The items must be packed appropriately, associated with the correct order and prepared for dispatch. A packing list and required transport/release documentation must be prepared. Before release, the shipment must be checked against the dispatch documentation. Stock records must reflect the released goods.
+
+Roles involved:
+Warehouse Staff/Storekeeper, Warehouse or Store Manager, loading/checking personnel, transport representative.
+
+Constraints / decision conditions:
+Orders in the staging area must remain clearly separated. Packed goods must correspond to the authorized order. The outgoing quantity must be verified before custody is transferred to the carrier or recipient.
+
+Expected outcome:
+The correct shipment is packed, documented, verified and handed over for transport with accurate stock records.

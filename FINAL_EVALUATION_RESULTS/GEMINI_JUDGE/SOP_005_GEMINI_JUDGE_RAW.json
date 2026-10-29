@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_005",
+  "judge_family": "Google Gemini",
+  "judge_model": "gemini-3.1-pro-preview",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "The SOP captures all operationally relevant information from the source scenario, including all required activities, roles, constraints, and expected outcomes."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The procedural steps follow a highly logical and operationally correct sequence, moving from receipt and staging to documentation, loading, verification, and final release."
+    },
+    "C3_role_clarity": {
+      "score": 5,
+      "reason": "All roles mentioned in the source scenario (Warehouse Manager, Storekeeper/Warehouse Staff, Tally/Checking/Security, Transport personnel) are explicitly included and assigned appropriate, clear responsibilities."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "Inputs and expected outputs are clearly listed in dedicated sections and perfectly align with the conditions and expected outcomes specified in the source scenario."
+    },
+    "C5_exception_handling": {
+      "score": 5,
+      "reason": "The SOP effectively translates the source scenario's constraints (order mixing, capacity limits, quantity discrepancies) into clear, actionable exception handling procedures."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "All explicit constraints from the source scenario, such as preventing order mixing, respecting capacity limits, and verifying quantities before release, are strictly adhered to and embedded in the procedure."
+    },
+    "C7_groundedness": {
+      "score": 5,
+      "reason": "The SOP remains entirely faithful to the source scenario. It does not invent any unsupported systems, documents, roles, or operational thresholds."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is exceptionally well-structured, clear, and actionable. The use of standard SOP sections makes it highly usable for warehouse and logistics personnel."
+    }
+  }
+}

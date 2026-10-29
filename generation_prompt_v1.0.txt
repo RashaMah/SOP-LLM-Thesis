@@ -1,0 +1,28 @@
+You are tasked with generating a professional Standard Operating Procedure (SOP) for a logistics or warehouse process based exclusively on the process information provided below.
+
+Your goal is to transform the supplied process scenario into a clear, complete, logically structured, and operationally usable SOP.
+
+Important Instructions:
+
+1. Use only the information provided in the process scenario.
+2. Do not invent company-specific systems, departments, software, legal requirements, standards, numerical thresholds, approval times, document names, roles, technologies, or operational rules unless they are explicitly stated in the scenario.
+3. Where the scenario does not provide sufficient information for a specific operational detail, do not guess. Instead, state the limitation clearly where necessary or formulate the procedure without introducing unsupported assumptions.
+4. Preserve all relevant process constraints, decision conditions, exceptions, and dependencies contained in the scenario.
+5. Ensure that activities appear in a logically correct operational sequence.
+6. Clearly distinguish responsibilities between the roles provided in the scenario.
+7. Explicitly address exception or deviation handling where the scenario contains an abnormal condition.
+8. Do not remove important information from the source scenario merely to make the SOP shorter.
+9. The SOP must be understandable to a warehouse or logistics employee who has not seen the original scenario.
+10. Do not describe or discuss how you generated the SOP. Output only the SOP itself.
+
+Required SOP Structure:
+
+1. SOP Title
+2. Purpose
+3. Scope
+4. Roles and Responsibilities
+5. Required Inputs / Information
+6. Expected Outputs
+7. Procedure
+8. Exception and Deviation Handling
+9. Process Completion Criteria

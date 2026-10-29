@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_001",
+  "judge_family": "Google Gemini",
+  "judge_model": "gemini-3.1-pro-preview",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "The SOP captures all operationally relevant information, activities, roles, conditions, and expected outcomes explicitly contained in the source scenario without omitting any details."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The procedural activities follow a logical and operationally correct sequence that perfectly mirrors the dependencies implied by the source scenario, from receipt of notice to final dispatch."
+    },
+    "C3_role_clarity": {
+      "score": 4,
+      "reason": "Roles are assigned consistently with the source scenario. However, grouping four distinct warehouse roles into a single 'Warehouse Personnel' category slightly reduces the clarity of specific responsibilities among the warehouse staff."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "Required inputs and expected outputs are clearly identifiable, well-structured in dedicated sections, and entirely consistent with the source scenario."
+    },
+    "C5_exception_handling": {
+      "score": 5,
+      "reason": "Although the source scenario contains no explicit exceptions, the SOP logically derives potential deviations from the stated constraints (e.g., traceability failures, unauthorized release) and handles them appropriately."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "All explicit constraints from the source scenario, including immediate prevention of release, maintaining traceability, and requiring documentation and security controls for dispatch, are strictly preserved."
+    },
+    "C7_groundedness": {
+      "score": 5,
+      "reason": "The SOP remains firmly grounded in the source scenario. It does not invent unsupported systems, specific documents, or material operational details."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is highly clear, well-structured with numbered steps, internally consistent, and actionable for warehouse users while remaining completely faithful to the source scenario."
+    }
+  }
+}

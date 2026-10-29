@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_017",
+  "judge_family": "Anthropic Claude",
+  "judge_model": "anthropic/claude-sonnet-5",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "All explicit elements from the source (approved transfer request, availability, reserve/pick/stage, documentation, removal from records, release, receiving confirmation, all roles, constraints, expected outcome) are represented in the SOP without adding unsupported operational content."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The procedural steps (verify authorization → verify availability → reserve/pick/stage → documentation → update records → release → confirm receipt) match the logical dependencies implied by the scenario, with no contradictory or illogical ordering."
+    },
+    "C3_role_clarity": {
+      "score": 4,
+      "reason": "Storekeeper/Warehouse Staff and Receiving Warehouse Personnel are clearly assigned tasks consistent with the scenario. Supply/Inventory Officer and Warehouse Manager are acknowledged but left without specific tasks, mirroring the scenario's own ambiguity rather than introducing new ambiguity, though this leaves two roles without concrete operational responsibility."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "Required inputs (approved transfer request, availability confirmation, inventory records) and expected outputs (goods released, documentation, traceable records, receipt confirmation) are clearly and accurately identified, matching the source scenario."
+    },
+    "C5_exception_handling": {
+      "score": 4,
+      "reason": "The SOP identifies exception conditions directly tied to the stated constraints (unapproved request, loss of association, record discrepancy, unavailability) and provides reasonable handling guidance; these are logical extrapolations rather than fabricated scenarios, though the source did not explicitly specify corrective actions."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "All three explicit constraints (approval required, association during staging/loading, records reflecting outgoing movement) are explicitly labeled and enforced at the relevant procedural steps."
+    },
+    "C7_groundedness": {
+      "score": 4,
+      "reason": "No new systems, technologies, roles, or approval thresholds are invented; however, minor procedural elaborations in the exception section (e.g., 'process must be halted,' 'corrective action must be taken') go slightly beyond what is explicitly stated, though they remain closely tied to the source constraints."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is clearly structured with distinct sections for roles, inputs, outputs, procedure, exceptions, and completion criteria, making it actionable and internally consistent for warehouse personnel while remaining faithful to the source scenario."
+    }
+  }
+}

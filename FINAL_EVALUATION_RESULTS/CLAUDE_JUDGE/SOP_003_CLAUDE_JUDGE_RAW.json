@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_003",
+  "judge_family": "Anthropic Claude",
+  "judge_model": "anthropic/claude-sonnet-5",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "All operationally relevant elements from the source (document verification, comparison of items/quantities, unloading, visual inspection, receiving record, storage transfer, stock update, roles, constraints) are represented in the SOP without omitting any explicitly provided information."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The procedure follows the logical order implied by the scenario: check documentation, verify against PO, unload/inspect, compare quantities, accept, record, store, then update stock records, matching the scenario's implied dependencies."
+    },
+    "C3_role_clarity": {
+      "score": 3,
+      "reason": "Responsibilities are assigned to the three roles named in the scenario, but there is overlap and ambiguity between 'Storekeeper/Warehouse Staff' and 'Receiving or Inspection Personnel' performing similar verification/inspection tasks (steps 2 and 4), which the source does not clearly differentiate, creating some role ambiguity."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "Required inputs (PO reference, shipping documentation, packing list, delivered goods) and expected outputs (verified shipment, receiving record, updated stock records, stored goods) are explicitly and clearly listed, consistent with the source scenario."
+    },
+    "C5_exception_handling": {
+      "score": 4,
+      "reason": "The SOP correctly handles the source's main exception (invalid documentation or mismatched goods leads to non-acceptance) and adds a reasonable escalation to the Warehouse Manager, though the detail about resolving issues 'with the supplier' is a minor unsupported extension beyond the source."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "All explicit constraints from the scenario (only accept goods with valid documentation, product identity/quantity must match, no entry into stock before checks are complete) are preserved and enforced in the procedure and exception handling sections."
+    },
+    "C7_groundedness": {
+      "score": 4,
+      "reason": "The SOP stays largely grounded in the source, but introduces a few unsupported details such as the Warehouse Manager notification protocol and resolving discrepancies 'with the supplier,' which are plausible but not explicitly stated in the scenario."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is clearly structured with distinct sections (roles, inputs/outputs, procedure, exceptions, completion criteria), is unambiguous, and provides actionable step-by-step guidance consistent with the source scenario."
+    }
+  }
+}

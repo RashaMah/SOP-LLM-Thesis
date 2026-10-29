@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_005",
+  "judge_family": "Anthropic Claude",
+  "judge_model": "anthropic/claude-sonnet-5",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "All operationally relevant elements from the source scenario are represented: staging area organization, shipment identification, packing/dispatch documentation, loading coordination, vehicle correspondence to authorized shipment, physical warehouse and vehicle weight/volume limitations, quantity verification against Waybill, and release without mixing or undocumented differences. No explicit source information is omitted."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The sequence (receipt of picked shipment → staging → documentation → loading coordination/planning → loading execution → verification → release) follows a logical operational flow consistent with the scenario's implied dependencies, with verification correctly placed before release as required by the constraint."
+    },
+    "C3_role_clarity": {
+      "score": 5,
+      "reason": "All four roles from the source scenario (Warehouse Manager, Storekeeper/Warehouse Staff, Tally/Checking or Security Personnel, Transport Personnel) are used consistently and assigned specific, non-overlapping responsibilities matching their described functions in the scenario, with no unsupported new roles introduced."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "Required inputs (approved picked shipment, authorized shipment details, Waybill information, warehouse/vehicle limitations) and expected outputs (staged/packed/loaded/verified/released shipment, documentation, no mixing/discrepancies) are clearly listed and directly traceable to the source scenario."
+    },
+    "C5_exception_handling": {
+      "score": 5,
+      "reason": "The SOP explicitly addresses the three decision conditions from the scenario (order mixing, capacity constraints, quantity discrepancies) as exceptions with stop/adjust/resolve actions, appropriately extending the scenario's constraints into decision points without inventing new exception types."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "All explicit constraints (no mixing of orders, respecting vehicle/operational capacity, checking quantities against dispatch/Waybill before release) are preserved and reinforced at multiple points in both the procedure and exception handling sections."
+    },
+    "C7_groundedness": {
+      "score": 5,
+      "reason": "No invented systems, roles, documents, thresholds, or approvals beyond what is stated in the source scenario; terms like 'Waybill' and 'packing and dispatch documentation' are directly drawn from the scenario text, and paraphrasing remains faithful to original meaning."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is clearly structured with numbered steps, defined roles, explicit exception handling, and completion criteria, making it actionable and unambiguous for warehouse/logistics personnel while remaining fully consistent with the source scenario."
+    }
+  }
+}

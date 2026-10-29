@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_002",
+  "judge_family": "Anthropic Claude",
+  "judge_model": "anthropic/claude-sonnet-5",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "The SOP captures all operationally relevant elements from the source: recall notification receipt, identification, blocking from issue, segregation, marking, stock record updates, coordination with offices/external parties, and controlled dispatch. All six roles are used, and the expected outcome is fully reflected in the completion criteria section."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The sequence follows the scenario's implied logic: notification received first, immediate blocking occurs right after recall confirmation (explicitly stated to precede physical segregation in 2.3), followed by identification, physical segregation/marking, record updates, coordination, and finally controlled dispatch. This matches the scenario's emphasis that stock must be blocked immediately after confirmation, then segregated and marked, with dispatch only after coordination and documentation."
+    },
+    "C3_role_clarity": {
+      "score": 5,
+      "reason": "All six roles from the source scenario (Supply Officer, Store Manager, Store Supervisor, Storekeeper, Store Helper/Warehouse Staff, Security) are used consistently and assigned clear, distinct responsibilities throughout the procedure without introducing unsupported new roles."
+    },
+    "C4_input_output_clarity": {
+      "score": 4,
+      "reason": "Inputs (recall notice, stock records, coordination info, dispatch documentation) and outputs (identified/blocked/segregated stock, updated records, coordinated dispatch) are clearly listed and consistent with the scenario. Minor weakness: the SOP explicitly notes dispatch documentation types are unspecified, which is appropriately flagged rather than invented, but leaves this input slightly underspecified for full clarity."
+    },
+    "C5_exception_handling": {
+      "score": 5,
+      "reason": "The SOP identifies plausible exception points directly tied to scenario constraints (incomplete identification, attempted release of blocked stock, missing documentation, incomplete coordination, traceability gaps) and explicitly notes where the scenario lacks detail, escalating appropriately to existing roles without inventing procedures not grounded in the source."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "All explicit constraints from the scenario are preserved: immediate blocking after recall confirmation (Step 2.3), traceability of quantities moved out of usable stock (Step 5.2, exception handling), and dispatch requiring documentation and security/release controls (Step 7.2, exception handling). No constraints are contradicted or omitted."
+    },
+    "C7_groundedness": {
+      "score": 5,
+      "reason": "The SOP remains grounded in the source scenario throughout. It does not invent specific document types, systems, or thresholds; instead, it explicitly notes in Section 5 and the exception handling notes that exact documentation types and procedures are not specified in the scenario, avoiding hallucination while still providing a usable structure."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is clearly structured with numbered steps, defined roles, explicit inputs/outputs, exception handling, and completion criteria, making it actionable for warehouse users. It remains internally consistent and faithful to the source scenario while being clear and unambiguous in its instructions."
+    }
+  }
+}

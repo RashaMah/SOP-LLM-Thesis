@@ -1,0 +1,436 @@
+FINAL SOP EVALUATION JUDGE PROMPT — VERSION 1.0
+
+You are an evaluator of generated Standard Operating Procedures (SOPs)
+for logistics and warehouse processes.
+
+Your task is to evaluate ONE candidate SOP strictly against the supplied
+SOURCE SCENARIO using the supplied eight-criterion evaluation rubric.
+
+============================================================
+EVALUATION PRINCIPLES
+============================================================
+
+1. Treat the SOURCE SCENARIO as the sole factual reference.
+
+2. Do not use external operational knowledge to impose requirements that
+   are absent from the source scenario.
+
+3. Do not reward the candidate SOP for adding plausible but unsupported
+   operational details.
+
+4. Do not penalize the candidate SOP for omitting information that was
+   never provided in the source scenario.
+
+5. Evaluate only the candidate SOP provided.
+
+6. Do not infer, identify, or speculate about which language model
+   generated the candidate SOP.
+
+7. Score each criterion independently.
+
+8. Base each score on concrete comparison between the SOURCE SCENARIO and
+   the CANDIDATE SOP.
+
+9. Do not reward verbosity, document length, sophisticated formatting,
+   or writing style unless these materially improve the criterion being
+   evaluated.
+
+10. Reasonable paraphrasing is acceptable when the operational meaning
+    of the source scenario is preserved.
+
+11. Do not compare the candidate SOP with other candidate SOPs.
+
+12. Do not calculate or provide an overall score or model ranking.
+
+
+============================================================
+C1 — COMPLETENESS
+============================================================
+
+Evaluate whether all operationally relevant information explicitly
+contained in the source scenario is represented in the SOP, including
+required activities, information, roles, conditions, and expected outcomes.
+
+Do not penalize information that was not provided in the source scenario.
+
+
+============================================================
+C2 — CORRECT SEQUENCE
+============================================================
+
+Evaluate whether procedural activities follow the operational dependencies
+and sequence specified or implied by the source scenario.
+
+Penalize contradictory, illogical, or operationally incorrect ordering.
+
+
+============================================================
+C3 — ROLE CLARITY
+============================================================
+
+Evaluate whether responsibilities are clearly and consistently assigned
+to roles provided in the source scenario.
+
+Penalize ambiguous responsibility, incorrect role assignment, or
+unsupported new roles when these materially affect the procedure.
+
+
+============================================================
+C4 — INPUT / OUTPUT CLARITY
+============================================================
+
+Evaluate whether required inputs and information, as well as expected
+outputs and results, are clearly identifiable and consistent with the
+source scenario.
+
+
+============================================================
+C5 — EXCEPTION HANDLING
+============================================================
+
+Evaluate whether exceptions, deviations, abnormal conditions, and
+decision points contained in the source scenario are correctly identified
+and handled.
+
+Do not penalize the SOP merely because the source scenario itself contains
+few exceptions.
+
+
+============================================================
+C6 — CONSTRAINT ADHERENCE
+============================================================
+
+Evaluate whether explicit constraints and decision conditions contained
+in the source scenario are preserved and respected throughout the SOP.
+
+
+============================================================
+C7 — GROUNDEDNESS / NO HALLUCINATION
+============================================================
+
+Evaluate whether operational claims in the SOP remain grounded in the
+source scenario.
+
+Penalize invented systems, roles, requirements, thresholds, documents,
+technologies, approvals, rules, or other material operational details
+that are unsupported by the source scenario.
+
+Do not penalize harmless paraphrasing, organizational formatting, or
+wording changes that preserve the original operational meaning.
+
+
+============================================================
+C8 — USABILITY
+============================================================
+
+Evaluate whether the SOP is clear, structured, internally consistent,
+unambiguous, and actionable for the intended warehouse or logistics user,
+while remaining faithful to the source scenario.
+
+
+============================================================
+SCORING SCALE
+============================================================
+
+5 — FULLY SATISFIES
+The SOP fully satisfies the criterion. No substantive deficiency is
+identifiable.
+
+4 — GOOD
+The SOP satisfies the criterion with only a minor omission, ambiguity,
+or weakness that does not materially affect the procedure.
+
+3 — ADEQUATE
+The SOP partially satisfies the criterion. One meaningful deficiency or
+several minor deficiencies are present, but the SOP remains substantially
+correct and usable on this dimension.
+
+2 — POOR
+Major deficiencies are present. Important information, logic, or
+requirements are missing, unclear, or incorrect and materially affect
+this dimension.
+
+1 — VERY POOR
+The SOP fundamentally fails the criterion, substantially contradicts the
+source scenario, or omits or incorrectly handles most essential elements
+relevant to the criterion.
+
+
+============================================================
+SCORING PROCEDURE
+============================================================
+
+For EACH of the eight criteria:
+
+1. Compare the candidate SOP directly with the source scenario.
+2. Identify relevant evidence.
+3. Identify substantive omissions, contradictions, unsupported additions,
+   or ambiguities relevant to that criterion.
+4. Assign exactly one INTEGER score from 1 to 5.
+5. Provide a concise justification explaining the score.
+
+Evaluate all eight criteria even if deficiencies overlap.
+
+Do not calculate the total score. The experimental evaluation script will
+calculate totals after the individual criterion scores have been recorded.
+
+
+============================================================
+REQUIRED OUTPUT FORMAT
+============================================================
+
+Return ONLY valid JSON.
+
+Do not include Markdown code fences.
+Do not include introductory text.
+Do not include concluding text.
+Do not include an overall score.
+
+Use exactly the following structure:
+
+{
+  "C1_completeness": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  },
+  "C2_correct_sequence": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  },
+  "C3_role_clarity": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  },
+  "C4_input_output_clarity": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  },
+  "C5_exception_handling": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  },
+  "C6_constraint_adherence": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  },
+  "C7_groundedness": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  },
+  "C8_usability": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  }
+}
+
+
+============================================================
+MATERIAL TO EVALUATE
+============================================================
+
+SOURCE SCENARIO:
+
+Process: Stock Transfer and Redistribution
+
+Scenario:
+Approved stock is transferred from one warehouse to another warehouse within the same logistics network.
+
+Objective:
+Prepare, release and document an authorized stock transfer while preserving inventory traceability.
+
+Operational information:
+An approved transfer request identifies the goods and quantities to be moved from the sending warehouse to another warehouse. The required goods are available. Warehouse personnel must reserve, pick and stage the correct goods and prepare the required release and transport documentation. The outgoing quantity must be removed from the sending warehouse records. The receiving warehouse will subsequently confirm receipt through its receiving process.
+
+Roles involved:
+Supply/Inventory Officer, Warehouse Manager, Storekeeper/Warehouse Staff, receiving warehouse personnel.
+
+Constraints / decision conditions:
+Stock may only be released against an approved transfer request. Requested items must remain clearly associated with the correct transfer during staging and loading. Inventory records must reflect the outgoing movement.
+
+Expected outcome:
+The correct goods are released to the destination warehouse with complete documentation and traceable stock records.
+
+
+CANDIDATE SOP:
+
+# Standard Operating Procedure: Stock Transfer and Redistribution
+
+## 1. SOP Title
+
+**Stock Transfer and Redistribution Between Warehouses**
+
+## 2. Purpose
+
+To define the process for preparing, releasing, documenting, and recording an authorized stock transfer between warehouses within the same logistics network while preserving inventory traceability.
+
+## 3. Scope
+
+This SOP applies to approved stock transfers from a sending warehouse to a receiving warehouse within the same logistics network. It covers:
+
+- Verification of the approved transfer request
+- Reservation, picking, and staging of goods
+- Preparation of release and transport documentation
+- Loading and release of goods
+- Recording the outgoing inventory movement
+- Handover to the receiving warehouse’s receiving process
+
+## 4. Roles and Responsibilities
+
+### 4.1 Supply/Inventory Officer
+
+- Ensure that an approved transfer request identifies the goods, quantities, and destination warehouse.
+- Support inventory traceability for the transfer.
+- Ensure the outgoing movement is reflected in the sending warehouse inventory records.
+
+### 4.2 Warehouse Manager
+
+- Confirm that stock is released only against an approved transfer request.
+- Oversee preparation and release of the transfer.
+- Ensure the goods and documentation correspond to the approved request.
+- Ensure inventory records reflect the outgoing movement.
+
+### 4.3 Storekeeper/Warehouse Staff
+
+- Reserve the required goods.
+- Pick the correct goods and quantities.
+- Stage the goods while maintaining a clear association with the correct transfer.
+- Prepare the required release and transport documentation.
+- Maintain transfer identification during loading.
+- Release the goods only as authorized.
+
+### 4.4 Receiving Warehouse Personnel
+
+- Confirm receipt through the receiving warehouse’s receiving process.
+
+## 5. Required Inputs / Information
+
+The following information and conditions are required:
+
+- An approved transfer request
+- Identification of the goods to be transferred
+- Approved quantities
+- Identification of the destination warehouse
+- Availability of the required goods
+- Information necessary to prepare the required release and transport documentation
+
+## 6. Expected Outputs
+
+- Correct goods and quantities released to the specified destination warehouse
+- Complete release and transport documentation
+- Goods traceably associated with the approved transfer throughout staging and loading
+- Outgoing quantities removed from the sending warehouse records
+- Transfer made available for confirmation through the receiving warehouse’s receiving process
+
+## 7. Procedure
+
+### 7.1 Verify Transfer Authorization
+
+1. Obtain the approved transfer request.
+2. Verify that the request identifies:
+   - The goods to be moved
+   - The quantities to be moved
+   - The destination warehouse
+3. Do not begin release activities if the transfer request is not approved or does not contain sufficient information to identify the goods, quantities, and destination.
+
+### 7.2 Confirm Stock Availability
+
+1. Confirm that the sending warehouse has the required goods and quantities.
+2. Match the available goods against the approved transfer request.
+3. Proceed only with goods and quantities authorized by the approved request.
+
+### 7.3 Reserve the Goods
+
+1. Reserve the required goods for the approved transfer.
+2. Ensure the reserved goods remain associated with the correct transfer.
+3. Prevent the reserved goods from being mixed with goods for another transfer or warehouse activity.
+
+### 7.4 Pick the Goods
+
+1. Pick the goods specified in the approved transfer request.
+2. Verify that the picked goods match the requested items.
+3. Verify that the picked quantities match the approved quantities.
+4. Keep the picked goods identifiable as belonging to the correct transfer.
+
+### 7.5 Stage the Goods
+
+1. Move the picked goods to the staging area.
+2. Maintain clear association between the staged goods and the approved transfer request.
+3. Keep goods for different transfers distinguishable during staging.
+4. Recheck the staged goods and quantities against the approved transfer request before documentation and loading.
+
+### 7.6 Prepare Documentation
+
+1. Prepare the required release documentation.
+2. Prepare the required transport documentation.
+3. Ensure the documentation corresponds to:
+   - The approved transfer request
+   - The goods being released
+   - The quantities being released
+   - The destination warehouse
+4. Confirm that the documentation is complete before release.
+
+### 7.7 Load and Release the Goods
+
+1. Verify that the goods selected for loading are the staged goods associated with the approved transfer.
+2. Maintain the association between the goods and the transfer during loading.
+3. Confirm that the goods and quantities being loaded match the approved transfer request and accompanying documentation.
+4. Release the goods to the destination warehouse only after authorization and documentation have been verified.
+
+### 7.8 Record the Outgoing Inventory Movement
+
+1. Record the outgoing stock movement in the sending warehouse records.
+2. Remove the quantity released from the sending warehouse inventory records.
+3. Ensure the recorded movement corresponds to the goods and quantities actually released.
+4. Preserve traceability between the inventory movement, approved transfer request, and release documentation.
+
+### 7.9 Receiving Warehouse Confirmation
+
+1. The receiving warehouse personnel shall process the transferred goods through the receiving warehouse’s receiving process.
+2. Receipt confirmation is completed subsequently by the receiving warehouse.
+3. Detailed receiving activities are outside the scope of this SOP because they are not specified in the process scenario.
+
+## 8. Exception and Deviation Handling
+
+### 8.1 Transfer Request Is Not Approved
+
+- Do not reserve, pick, stage, load, or release stock.
+- Hold the transfer until an approved transfer request is available.
+
+### 8.2 Transfer Information Is Missing or Unclear
+
+- Do not release goods if the items, quantities, or destination warehouse cannot be confirmed.
+- Obtain clarification before continuing the transfer.
+
+### 8.3 Goods or Quantities Do Not Match the Request
+
+- Stop the affected transfer activity.
+- Do not release incorrect or unauthorized goods or quantities.
+- Reconcile the discrepancy against the approved transfer request before proceeding.
+
+### 8.4 Transfer Association Is Lost During Staging or Loading
+
+- Stop staging or loading of the affected goods.
+- Re-establish a clear association between the goods and the correct approved transfer before continuing.
+
+### 8.5 Documentation Is Incomplete or Does Not Match
+
+- Do not release the affected goods.
+- Correct or complete the release and transport documentation so that it matches the approved request and the goods being released.
+
+### 8.6 Inventory Record Discrepancy
+
+- Do not treat the transfer as complete until the outgoing movement is accurately reflected in the sending warehouse records.
+- Reconcile the inventory record with the quantity actually released.
+
+## 9. Process Completion Criteria
+
+The stock transfer and redistribution process is complete when:
+
+- The transfer request is approved.
+- The correct goods and authorized quantities have been released.
+- The goods were kept clearly associated with the correct transfer during staging and loading.
+- Required release and transport documentation is complete and accompanies the transfer.
+- The destination warehouse is correctly identified.
+- The outgoing quantity has been removed from the sending warehouse records.
+- Traceability is maintained between the approved request, released goods, documentation, and inventory movement.
+- The transfer has been handed over for subsequent confirmation through the receiving warehouse’s receiving process.

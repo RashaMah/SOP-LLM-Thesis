@@ -1,0 +1,91 @@
+# Standard Operating Procedure: Stock Transfer and Redistribution Between Locations
+
+## 1. SOP Title
+Stock Transfer and Redistribution Between Surplus and Shortage Locations
+
+## 2. Purpose
+This SOP defines the standard process for identifying, authorizing, and executing the transfer of stock from a location holding surplus inventory (at risk of expiration) to a location experiencing insufficient stock. The purpose is to reduce the risk of stock expiry at the source location while preventing stockout at the receiving location, ensuring full traceability of the movement.
+
+## 3. Scope
+This procedure applies to all stock transfer and redistribution activities between two facilities where one location has been identified as having excess/at-risk stock and another has been identified as having insufficient stock of the same item. It covers activities from stock analysis and authorization through picking, packing, transport handover, receiving, and stock-record updates at both locations.
+
+This SOP does not cover procurement of new stock, disposal/write-off of expired stock, or transfers not resulting from a surplus-shortage redistribution decision.
+
+## 4. Roles and Responsibilities
+
+| Role | Responsibilities |
+|---|---|
+| **Supply Officer** | Reviews stock analysis, determines that redistribution is required, authorizes the redistribution decision and the quantity to be transferred. |
+| **Store Manager** | Oversees execution of the transfer at the source location; ensures the process is carried out in accordance with the authorized decision. |
+| **Store Supervisor** | Coordinates picking, packing, and dispatch activities at the source location; supervises traceability of stock movement. |
+| **Storekeeper** | Maintains and updates stock records at the source and/or receiving location; records the transfer transaction. |
+| **Store Helper / Warehouse Staff** | Performs physical picking and packing of the agreed quantity for collection or dispatch. |
+| **Transport / 3PL Personnel** | Collects the prepared stock from the source location and transports it to the receiving location; participates in the transport handover process. |
+| **Receiving Facility** (Store Manager/Supervisor/Storekeeper at receiving location) | Receives the transferred stock, verifies quantity received, and records the stock in the receiving location's stock records. |
+
+*Note: The scenario does not specify which exact role at the receiving facility performs receipt and recording; this SOP assumes the equivalent roles (Store Manager, Store Supervisor, Storekeeper) at the receiving location perform these functions, consistent with their responsibilities at the source location.*
+
+## 5. Required Inputs / Information
+- Stock analysis data showing surplus quantity (with expiry risk) at the source location
+- Stock analysis data showing insufficient quantity at the receiving location
+- Authorized decision specifying the item and quantity to be redistributed
+- Identification of the source location and the receiving location
+
+## 6. Expected Outputs
+- Agreed quantity of stock picked, packed, and dispatched from the source location
+- Stock received and recorded at the receiving location
+- Updated stock records at both the source and receiving locations accurately reflecting the movement
+- A traceable record of the transfer covering picking, packing, transport handover, and receipt
+
+## 7. Procedure
+
+### Step 1: Stock Analysis
+1.1 The Supply function (Supply Officer) reviews stock levels across locations and identifies:
+   - A source location with surplus stock at risk of expiration
+   - A receiving location with insufficient stock of the same item
+
+### Step 2: Authorization of Redistribution
+2.1 The Supply Officer evaluates the stock information and determines that redistribution is required.
+2.2 The Supply Officer authorizes the redistribution decision, specifying the item and the quantity to be transferred.
+   - The redistribution quantity must be based on verified stock information and this authorized decision. No transfer quantity should be prepared or dispatched without this authorization.
+
+### Step 3: Preparation at Source Location
+3.1 The Store Manager at the source location is informed of the authorized redistribution decision and oversees preparation.
+3.2 The Store Supervisor coordinates the picking and packing activity for the agreed quantity.
+3.3 The Store Helper/Warehouse Staff physically picks and packs the agreed quantity for collection or dispatch.
+3.4 The Storekeeper records the picked/packed quantity to maintain traceability of stock leaving the source location.
+3.5 The Store Manager/Supervisor confirms that removal of this quantity does not create an unmanaged shortage at the source location before dispatch proceeds.
+
+### Step 4: Transport Handover
+4.1 The prepared stock is handed over to transport/3PL personnel for collection or dispatch.
+4.2 The handover must be documented/recorded to maintain traceability of the stock in transit.
+
+### Step 5: Receipt at Receiving Location
+5.1 The receiving facility receives the transported stock from transport/3PL personnel.
+5.2 The receiving facility verifies the received quantity against the agreed/authorized quantity.
+5.3 The receiving facility records the received stock into its stock records.
+
+### Step 6: Stock Record Reconciliation
+6.1 The source location's stock records are updated to reflect the quantity removed.
+6.2 The receiving location's stock records are updated to reflect the quantity received.
+6.3 Both records together should correctly and consistently reflect the completed stock movement.
+
+## 8. Exception and Deviation Handling
+
+- **Unmanaged shortage risk at source location:** If preparing and dispatching the agreed quantity would create an unmanaged shortage at the source location, the Store Manager/Supervisor must flag this concern to the Supply Officer before dispatch. The redistribution quantity may need to be reassessed and re-authorized.
+
+- **Discrepancy between authorized quantity and picked/packed quantity:** Any deviation between the authorized quantity and the quantity actually picked, packed, or dispatched must be identified and addressed by the Store Supervisor/Storekeeper before handover to transport, ensuring traceability is not broken.
+
+- **Discrepancy at receipt:** If the quantity received at the receiving facility does not match the quantity dispatched/authorized, this discrepancy must be recorded and escalated to the Supply Officer for resolution. The scenario does not specify a defined resolution process for such discrepancies; therefore, correction actions beyond escalation and record annotation are not defined in this SOP.
+
+- **Traceability gap:** If at any point in picking, packing, transport handover, or receiving, the stock movement cannot be traced, the responsible role at that stage must halt the process step and report the gap to the Supply Officer and relevant Store Manager for resolution before proceeding.
+
+- **Undefined scenarios:** The scenario does not provide specific thresholds, timeframes, or escalation contacts beyond the roles listed. Where an exception arises that is not covered above, personnel should escalate to the Supply Officer as the authorizing role for the redistribution decision.
+
+## 9. Process Completion Criteria
+The stock transfer and redistribution process is considered complete when:
+- The agreed/authorized quantity has been picked, packed, and dispatched from the source location
+- The stock has been transported and handed over to the receiving facility
+- The receiving facility has received and recorded the stock
+- Both the source and receiving locations' stock records have been updated and correctly reflect the completed movement
+- The full transaction (picking, packing, transport handover, receiving, and record updates) remains traceable end-to-end

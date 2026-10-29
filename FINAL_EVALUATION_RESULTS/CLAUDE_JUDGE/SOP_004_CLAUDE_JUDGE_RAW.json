@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_004",
+  "judge_family": "Anthropic Claude",
+  "judge_model": "anthropic/claude-sonnet-5",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "All explicit elements from the scenario (stock analysis, authorization, source preparation, transport handover, receiving, record updates, roles, constraints, expected outcome) are represented in the SOP. No source-provided operational detail appears omitted."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The procedure follows the logical dependency implied by the scenario: analysis → authorization → picking/packing at source → transport handover → receipt → stock-record reconciliation, matching the scenario's implied flow without contradiction."
+    },
+    "C3_role_clarity": {
+      "score": 4,
+      "reason": "All roles named in the scenario are assigned specific responsibilities consistent with the source text. The SOP transparently flags an assumption about which role performs receipt/recording at the receiving facility, since the scenario only says 'receiving facility.' This transparency is good practice but still reflects an unavoidable minor ambiguity inherited from the source, so it is not perfectly clear-cut."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "Required inputs (stock analysis data, authorized decision, quantity) and outputs (picked/packed stock, updated records at both locations, traceable transfer record) are explicitly and consistently listed, matching the scenario's stated inputs and expected outcome."
+    },
+    "C5_exception_handling": {
+      "score": 4,
+      "reason": "The explicit exception from the scenario (avoiding unmanaged shortage at source) is correctly handled. The SOP also introduces additional exception types (quantity discrepancy, receipt discrepancy, traceability gap) that are reasonable extrapolations of the traceability constraint but are not explicitly stated in the scenario, so while thorough, they go slightly beyond what is grounded, which is acceptable but not perfectly aligned to only what's provided."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "All explicit constraints (quantity based on stock info and authorized decision, traceability throughout, avoidance of unmanaged shortage) are directly referenced and enforced at the correct procedural steps, matching the source scenario closely."
+    },
+    "C7_groundedness": {
+      "score": 4,
+      "reason": "Most claims are grounded in the scenario. However, some elaborations—such as specific escalation triggers ('flag to Supply Officer before dispatch,' 're-authorized,' detailed discrepancy resolution language)—are inferred rather than explicitly stated, representing minor unsupported procedural detail beyond the source, though not fabricated systems, roles, or documents."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is clearly structured with defined sections (roles, inputs/outputs, procedure steps, exceptions, completion criteria), uses consistent terminology matching the scenario, and provides actionable steps for warehouse staff without introducing confusing or contradictory instructions."
+    }
+  }
+}

@@ -1,0 +1,8 @@
+requests
+openai
+pandas
+numpy
+scipy==1.18.1
+scikit-learn
+matplotlib
+krippendorff

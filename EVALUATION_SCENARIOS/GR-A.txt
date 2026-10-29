@@ -1,0 +1,18 @@
+Process: Goods Receipt / Receiving
+
+Scenario: Standard supplier delivery to a warehouse.
+
+Objective:
+Receive an expected shipment correctly, verify it against the available documentation, record the receipt and transfer accepted goods into warehouse stock.
+
+Operational information:
+A scheduled supplier delivery arrives at the warehouse. The shipment has an approved purchase-order reference, shipping documentation and a packing list. Warehouse personnel must verify the documentation and compare the delivered items and quantities with the expected shipment. The goods must be unloaded and visually inspected before they are accepted into stock. Accepted goods must be documented through the appropriate receiving record and subsequently moved to the designated storage area. Warehouse stock records must be updated after receipt.
+
+Roles involved:
+Warehouse Manager/Store Manager, Storekeeper/Warehouse Staff, receiving or inspection personnel.
+
+Constraints / decision conditions:
+The warehouse may only accept goods associated with valid shipment documentation. Product identity and received quantity must correspond to the expected shipment. Goods should not be entered into normal stock before the required receiving checks have been completed.
+
+Expected outcome:
+The shipment is verified, accepted, documented, recorded in inventory and transferred to the appropriate storage location.

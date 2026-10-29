@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_035",
+  "judge_family": "Google Gemini",
+  "judge_model": "gemini-3.1-pro-preview",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "The SOP captures all operationally relevant information from the source scenario, including all required documents, verification steps, unloading, inspection, documentation, and storage transfer."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The procedural steps follow a logical and operationally correct sequence, starting from delivery arrival and documentation verification, through unloading and inspection, to final documentation and stock updates."
+    },
+    "C3_role_clarity": {
+      "score": 5,
+      "reason": "The SOP accurately includes all roles mentioned in the source scenario and logically assigns the required tasks to 'Warehouse Personnel' while defining what that term encompasses based on the source roles."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "Inputs (scheduled delivery, PO, shipping docs, packing list) and expected outputs (verified, accepted, documented, recorded, transferred) are explicitly listed and perfectly align with the source scenario."
+    },
+    "C5_exception_handling": {
+      "score": 5,
+      "reason": "The SOP effectively translates the constraints from the source scenario (e.g., invalid documentation, mismatched quantities) into clear exception handling rules."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "All constraints provided in the source scenario, such as requiring valid documentation, matching identity/quantity, and restricting stock entry before checks, are strictly preserved and emphasized in the SOP."
+    },
+    "C7_groundedness": {
+      "score": 5,
+      "reason": "The SOP does not invent any unsupported systems, documents, roles, or operational details. It remains entirely faithful to the provided source scenario."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is highly structured, clear, and actionable. The use of distinct sections for inputs, outputs, step-by-step procedures, and exceptions makes it an excellent operational document."
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_017",
+  "judge_family": "OpenAI GPT",
+  "judge_model": "gpt-5.6-sol",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "The SOP includes all stated activities, roles, constraints, required information, documentation, inventory updating, receiving confirmation, and expected outcomes."
+    },
+    "C2_correct_sequence": {
+      "score": 4,
+      "reason": "The overall flow is logical and receipt confirmation correctly follows release. However, removing stock from inventory records before the physical release could record an outgoing movement prematurely; the source does not explicitly require this ordering."
+    },
+    "C3_role_clarity": {
+      "score": 5,
+      "reason": "Warehouse activities are clearly assigned to Storekeeper/Warehouse Staff, and receipt confirmation is assigned to receiving warehouse personnel. The SOP appropriately notes that the source provides no specific tasks for the other named roles."
+    },
+    "C4_input_output_clarity": {
+      "score": 4,
+      "reason": "The approved request, identified goods and quantities, availability, records, released goods, documentation, and traceable outgoing records are clear. Receipt confirmation is presented as an output and completion requirement even though the source describes it as a subsequent receiving-process activity rather than part of the stated transfer outcome."
+    },
+    "C5_exception_handling": {
+      "score": 4,
+      "reason": "The SOP correctly prevents release without approval and addresses loss of transfer association, record discrepancies, and unavailable goods. Some prescribed responses, such as halting until association is restored and taking unspecified corrective action, are reasonable but not explicitly supplied by the source."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "All explicit constraints are preserved: release requires an approved request, goods remain associated with the correct transfer during staging and loading, and inventory records reflect the outgoing movement."
+    },
+    "C7_groundedness": {
+      "score": 4,
+      "reason": "The SOP is overwhelmingly grounded in the scenario and invents no systems, documents, thresholds, or additional roles. Minor unsupported extensions include specific exception responses and treating subsequent receipt confirmation as a mandatory completion condition for this procedure."
+    },
+    "C8_usability": {
+      "score": 4,
+      "reason": "The SOP is clearly structured, actionable, and internally consistent. Usability is slightly weakened by updating outgoing inventory before release and by making receipt confirmation from a subsequent receiving process a condition for completing the transfer procedure."
+    }
+  }
+}

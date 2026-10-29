@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_006",
+  "judge_family": "OpenAI GPT",
+  "judge_model": "gpt-5.6-sol",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "The SOP captures the approved instruction, assigned operator or team, multiple products and locations, picking and line-check requirements, record accuracy, transfer destination, and expected outcome."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The sequence logically proceeds from assignment and instruction retrieval through locating, picking, checking, maintaining record accuracy, and transferring the completed pick."
+    },
+    "C3_role_clarity": {
+      "score": 5,
+      "reason": "The Storekeeper/Picker is clearly assigned the operational activities, while the SOP correctly notes that the source provides no specific duties for the listed Warehouse Supervisor or Manager."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "Required product references, quantities, locations, approved instruction, and task assignment are identifiable, and the outputs clearly include checked available items, accurate records, and transfer to staging or packing."
+    },
+    "C5_exception_handling": {
+      "score": 4,
+      "reason": "The SOP reasonably addresses unavailable items based on the 'all available requested items' outcome and preserves picking and record constraints, although continuing after excluding an unavailable item is an inferred response rather than an explicitly stated procedure."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "It explicitly restricts picking to authorized product references and quantities, requires every picked line to be checked, and requires inventory and location records to remain accurate."
+    },
+    "C7_groundedness": {
+      "score": 4,
+      "reason": "The SOP is overwhelmingly grounded in the source and openly identifies unspecified escalation procedures, but adds minor inferred details such as immediate record maintenance and continuing the pick when an item is unavailable."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is well structured, internally consistent, and actionable, with clear inputs, responsibilities, sequential steps, constraints, outputs, and completion criteria."
+    }
+  }
+}

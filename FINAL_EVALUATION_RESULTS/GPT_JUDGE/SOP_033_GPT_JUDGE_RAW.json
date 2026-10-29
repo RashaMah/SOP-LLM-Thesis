@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_033",
+  "judge_family": "OpenAI GPT",
+  "judge_model": "gpt-5.6-sol",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "The SOP represents all source elements: approved and picked shipment status, planned staging and loading, order separation, identification, packing, documentation, coordinated loading, capacity limitations, quantity checking, verification, and release."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The sequence logically progresses from readiness and constraint assessment through staging, identification, packing, documentation, loading, verification, and release, preserving the source scenario's operational dependencies."
+    },
+    "C3_role_clarity": {
+      "score": 4,
+      "reason": "Responsibilities are clearly allocated among all four source roles, but the final authority or role performing the actual release is not explicitly identified, and some detailed role allocations are inferred rather than stated in the source."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "Required shipment, quantity, documentation, capacity, and staging information is clearly identified, and the outputs align with the expected complete, separated, documented, verified, and released shipment."
+    },
+    "C5_exception_handling": {
+      "score": 5,
+      "reason": "The SOP clearly handles the source-relevant deviations of mixed orders, quantity differences, documentation mismatches, and vehicle or warehouse capacity constraints, including stopping release until required verification is possible."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "The SOP consistently preserves the prohibitions on order mixing and exceeding vehicle or operational capacity, and it requires comparison of loaded quantities with dispatch/Waybill information before release."
+    },
+    "C7_groundedness": {
+      "score": 4,
+      "reason": "The SOP remains substantially grounded and expressly avoids inventing packing specifications, approval authority, or transport arrangements. However, detailed requirements such as isolation, re-identification, traceability, specific stop-work actions, and some role assignments go beyond what the source explicitly provides."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is well structured, actionable, internally consistent, and clear about readiness, staging, loading, verification, exceptions, and completion conditions while remaining faithful to the source process."
+    }
+  }
+}

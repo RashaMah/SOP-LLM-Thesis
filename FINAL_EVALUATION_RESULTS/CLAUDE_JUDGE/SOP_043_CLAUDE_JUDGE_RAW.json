@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_043",
+  "judge_family": "Anthropic Claude",
+  "judge_model": "anthropic/claude-sonnet-5",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "All source elements are represented: stock analysis, Supply function determination, source preparation, receiving/recording, traceability requirement, roles, and expected outcome. No operationally relevant information from the scenario is omitted."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The procedure follows the logical dependency implied by the scenario: analysis/authorization -> preparation at source -> transport handover -> receiving -> stock record updates, matching the scenario's implied flow exactly."
+    },
+    "C3_role_clarity": {
+      "score": 4,
+      "reason": "Roles are mapped to responsibilities largely faithfully (Supply Officer, source location staff, transport/3PL, receiving facility). Minor ambiguity remains because the source scenario does not clearly indicate whether Store Manager/Supervisor/Storekeeper/Store Helper apply identically at both source and receiving locations, and the SOP applies the same undifferentiated list to both without clarifying any distinction in authority (e.g., who authorizes the decision)."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "Inputs (stock analysis, authorized decision, agreed quantity) and outputs (redistributed inventory, updated records, traceability) are clearly listed and match the source scenario without unsupported additions."
+    },
+    "C5_exception_handling": {
+      "score": 4,
+      "reason": "The SOP addresses the unmanaged shortage risk and traceability loss, which are grounded in the scenario. It introduces a 'Discrepancy in Quantity' exception not explicitly stated in the source, which is a reasonable inference but slightly extends beyond explicit source content, so not fully grounded exception handling."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "All explicit constraints (quantity based on stock information and authorized decision, traceability throughout, no unmanaged shortage at source) are preserved and reflected in both the procedure steps and the exception handling section."
+    },
+    "C7_groundedness": {
+      "score": 4,
+      "reason": "Most content is well grounded in the source. The 'Discrepancy in Quantity' exception and the verification step against agreed quantity at receiving are plausible but not explicitly stated in the source scenario, representing a minor unsupported addition."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is clearly structured with logical sections (purpose, scope, roles, inputs/outputs, procedure, exceptions, completion criteria), uses consistent terminology matching the source, and is actionable for warehouse staff without introducing confusing or contradictory elements."
+    }
+  }
+}

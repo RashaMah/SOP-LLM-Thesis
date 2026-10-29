@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_048",
+  "judge_family": "Anthropic Claude",
+  "judge_model": "anthropic/claude-sonnet-5",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "All operationally relevant elements from the source scenario are represented: documentation verification, unloading, visual inspection, item/quantity comparison, acceptance, receiving record, stock update, and storage transfer, along with all three roles and the constraints. No explicit information from the scenario is omitted."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The procedure follows the logical dependency implied by the scenario: receive shipment/documentation \\u2192 verify documentation \\u2192 unload \\u2192 visually inspect \\u2192 verify identity/quantity \\u2192 accept \\u2192 document \\u2192 update stock \\u2192 transfer to storage. This matches the scenario's implied order and correctly gates stock entry behind checks."
+    },
+    "C3_role_clarity": {
+      "score": 4,
+      "reason": "Responsibilities are clearly assigned to the three roles named in the scenario. However, the SOP introduces some overlap/ambiguity, e.g., 'assist with checking' for Storekeeper and 'compare product identity and quantity' for Receiving/Inspection Personnel, without fully clarifying who performs the final verification versus who assists, slightly blurring who has ultimate accountability for the checks in Section 6.5/6.6."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "Required inputs (PO reference, shipping documentation, packing list, expected shipment info, storage location, receiving record) and expected outputs (verified documentation, accepted goods, updated stock records, storage transfer) are clearly and explicitly listed and consistent with the scenario."
+    },
+    "C5_exception_handling": {
+      "score": 5,
+      "reason": "The SOP identifies and handles all discrepancy types implied by the scenario's constraints (documentation issues, product identity mismatch, quantity mismatch, visible condition issues) with consistent handling logic (withhold from stock, notify Warehouse Manager), and appropriately notes that further resolution steps are unspecified in the source scenario rather than inventing them."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "All three explicit constraints from the scenario (valid documentation required, product identity/quantity must match, goods not entered into stock before checks) are explicitly preserved and repeatedly enforced throughout Sections 6 and 7."
+    },
+    "C7_groundedness": {
+      "score": 4,
+      "reason": "Mostly grounded, but the SOP introduces some assumed procedural details not explicitly stated in the scenario, such as 'keep it separate from accepted stock' as a specific handling instruction and 'Notify the Warehouse Manager / Store Manager for handling' as a formalized step; these are reasonable inferences from role oversight duties but slightly extend beyond explicit scenario text without being clearly harmless paraphrase."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is clearly structured with logical sections (roles, inputs, procedure, exceptions, completion criteria), unambiguous step-by-step instructions, and actionable guidance for warehouse staff, while remaining consistent with the source scenario throughout."
+    }
+  }
+}

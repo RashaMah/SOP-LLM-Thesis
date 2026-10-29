@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_019",
+  "judge_family": "Google Gemini",
+  "judge_model": "gemini-3.1-pro-preview",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "The SOP captures all operational information, roles, constraints, and expected outcomes explicitly mentioned in the source scenario without omitting any details."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The procedural steps follow a logical and operationally correct sequence, moving from staging and documentation to packing, loading, verification, and final release."
+    },
+    "C3_role_clarity": {
+      "score": 5,
+      "reason": "Responsibilities are clearly and consistently assigned to the exact roles provided in the source scenario, with no unsupported roles added."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "Required inputs and expected outputs are explicitly listed in dedicated sections and perfectly align with the source scenario's requirements and expected outcomes."
+    },
+    "C5_exception_handling": {
+      "score": 5,
+      "reason": "The SOP effectively anticipates and handles exceptions based on the constraints provided in the source scenario, such as order mixing, capacity exceedance, and quantity discrepancies."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "All explicit constraints from the source scenario, including preventing order mixing, respecting capacity limits, and verifying quantities before release, are strictly adhered to throughout the SOP."
+    },
+    "C7_groundedness": {
+      "score": 5,
+      "reason": "The SOP remains strictly grounded in the source scenario. It avoids inventing unsupported systems, documents, or thresholds, and explicitly notes the boundaries of the provided information."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is highly structured, clear, and actionable. It uses standard SOP formatting with distinct sections for roles, inputs/outputs, procedure steps, and exception handling, making it highly usable for warehouse personnel."
+    }
+  }
+}

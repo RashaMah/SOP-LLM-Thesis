@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_001",
+  "judge_family": "OpenAI GPT",
+  "judge_model": "gpt-5.6-sol",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "The SOP includes all source-required activities, roles, conditions, and outcomes: recall receipt and confirmation, identification, immediate blocking, segregation, marking, record updates, traceability, pre-dispatch coordination, documentation, security controls, and controlled release."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The sequence correctly progresses from receipt and confirmation through immediate identification and blocking, segregation and recording, coordination, and finally controlled dispatch."
+    },
+    "C3_role_clarity": {
+      "score": 4,
+      "reason": "The Supply Officer, warehouse personnel, and Security have clear responsibilities consistent with the scenario. However, the listed warehouse roles are grouped together without distinguishing their individual responsibilities, and responsibility for dispatch documentation and coordination is not assigned to a specific role."
+    },
+    "C4_input_output_clarity": {
+      "score": 4,
+      "reason": "The recall notice, product details, stock records, dispatch documentation, and expected stock-control results are identifiable. The statement that goods are dispatched 'to relevant offices and external parties' slightly misstates the source, which only requires coordination with those parties before dispatch and does not identify them as destinations."
+    },
+    "C5_exception_handling": {
+      "score": 3,
+      "reason": "The SOP addresses the critical source conditions of unauthorized release and loss of traceability, but it invents several exception rules not supplied by the scenario, including recovery action, recording unsuccessful search results, damage documentation, and halting the process until traceability is restored."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "All explicit constraints are preserved: immediate prevention of normal release after confirmation, continued traceability for quantities removed from usable stock, and documentation plus security/release controls for dispatch."
+    },
+    "C7_groundedness": {
+      "score": 3,
+      "reason": "The core procedure is closely grounded in the source, but the exception section introduces unsupported operational requirements, including stock recovery, special recording of search results, documentation of handling damage, and a mandatory process halt upon traceability failure."
+    },
+    "C8_usability": {
+      "score": 4,
+      "reason": "The SOP is well structured, readable, and largely actionable, with clear completion criteria. Usability is reduced slightly by unassigned ownership for coordination and documentation and by unsupported exception instructions that could create uncertainty about authorized responses."
+    }
+  }
+}

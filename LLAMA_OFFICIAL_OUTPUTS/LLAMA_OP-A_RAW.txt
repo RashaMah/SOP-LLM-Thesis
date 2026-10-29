@@ -1,0 +1,43 @@
+## 1. SOP Title
+Order Picking Procedure for Multi-Item Picking Wave
+
+## 2. Purpose
+To ensure accurate and efficient picking of products as per the approved picking instruction, maintaining inventory accuracy and facilitating smooth order fulfillment.
+
+## 3. Scope
+This SOP applies to the Storekeeper/Picker and Warehouse Supervisor or Manager involved in the order picking process for a normal multi-item picking wave within the warehouse.
+
+## 4. Roles and Responsibilities
+- **Storekeeper/Picker:** Responsible for picking products according to the approved picking instruction, checking the picked items against the instruction, and transferring the picked items to the designated staging/packing area.
+- **Warehouse Supervisor or Manager:** Responsible for ensuring that the picking instruction is approved and that the Storekeeper/Picker is aware of their responsibilities. They may also oversee the process to ensure compliance with this SOP.
+
+## 5. Required Inputs / Information
+- Approved picking instruction containing product references, required quantities, and corresponding storage locations.
+- Access to the warehouse storage locations as indicated in the picking instruction.
+- Designated staging/packing area for transferring the picked items.
+
+## 6. Expected Outputs
+- Accurately picked products and quantities as per the picking instruction.
+- Transferred picked items to the designated staging/packing area.
+- Maintained accuracy of inventory/location records.
+
+## 7. Procedure
+1. **Receive Picking Instruction:** The Storekeeper/Picker receives the approved picking instruction from the Warehouse Supervisor or Manager.
+2. **Review Picking Instruction:** The Storekeeper/Picker reviews the picking instruction to understand the products, quantities, and storage locations involved.
+3. **Start Picking:** Begin picking products from their assigned storage locations as indicated in the picking instruction.
+4. **Check Picked Items:** For each line item picked, check the product reference and quantity against the picking instruction to ensure accuracy.
+5. **Complete Picking:** Continue picking until all items listed on the picking instruction are picked and checked.
+6. **Transfer to Staging/Packing Area:** Once all items are picked and verified, transfer them to the designated staging/packing area.
+7. **Confirm Completion:** The Storekeeper/Picker confirms that the picking task is complete and that all picked items have been transferred.
+
+## 8. Exception and Deviation Handling
+- **Discrepancy in Picking Instruction:** If there's a discrepancy or an issue with the picking instruction (e.g., incorrect or missing information), the Storekeeper/Picker should notify the Warehouse Supervisor or Manager for resolution before proceeding.
+- **Inventory Discrepancy:** If the actual quantity of a product at the storage location does not match the quantity indicated in the picking instruction or if the product is not found, the Storekeeper/Picker should document the discrepancy and notify the Warehouse Supervisor or Manager. The issue should be resolved before completing the picking task, which may involve adjusting the picking instruction or updating inventory records.
+- **Damage or Unpickable Items:** If a product is damaged or cannot be picked for any reason, the Storekeeper/Picker should document the issue and notify the Warehouse Supervisor or Manager for further instructions.
+
+## 9. Process Completion Criteria
+The order picking process is considered complete when:
+- All items listed on the approved picking instruction have been picked accurately.
+- The picked items have been checked against the picking instruction.
+- The picked items have been transferred to the designated staging/packing area.
+- Any discrepancies or issues have been documented and addressed with the Warehouse Supervisor or Manager.

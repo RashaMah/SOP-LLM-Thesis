@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_047",
+  "judge_family": "OpenAI GPT",
+  "judge_model": "gpt-5.6-sol",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "The SOP represents all material source elements: stock analysis, Supply-function decision, authorized quantity, source preparation, picking and packing, transport handover, receipt, record updates, traceability, source-shortage protection, and the expected redistribution outcome."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "Activities follow a coherent dependency order from stock analysis and authorization through preparation, handover, transport, receipt, reconciliation, and completion. No source-scenario sequencing requirement is contradicted."
+    },
+    "C3_role_clarity": {
+      "score": 4,
+      "reason": "Responsibilities are clearly assigned across all listed roles, and the Supply Officer and receiving facility align with responsibilities stated in the source. However, the detailed division among Store Manager, Store Supervisor, Storekeeper, and Store Helper/Warehouse Staff is not specified by the source and is therefore somewhat unsupported."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "The SOP clearly identifies required stock information, item, locations, authorized decision, agreed quantity, traceability information, and dispatch arrangements, along with the expected transfer, traceability, and corrected stock-record outputs."
+    },
+    "C5_exception_handling": {
+      "score": 4,
+      "reason": "The SOP correctly handles the source-based decision conditions concerning unauthorized quantities, source shortages, and loss of traceability. It also adds detailed discrepancy procedures and completion holds that are plausible but not explicitly supplied by the scenario."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "All explicit constraints are consistently preserved: quantity is based on stock information and authorization, traceability is required throughout the movement, and transfer must not create an unmanaged shortage at the source."
+    },
+    "C7_groundedness": {
+      "score": 3,
+      "reason": "The core process remains faithful to the source, but the SOP adds numerous material rules not stated there, including mandatory stopping, segregation of discrepant receipts, specific discrepancy notifications and reconciliation gates, detailed verification duties, and fixed responsibility allocations among source-store roles."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is well structured, internally consistent, unambiguous, and readily actionable. Inputs, responsibilities, sequential steps, decision points, record updates, and completion conditions are easy for logistics and warehouse users to follow."
+    }
+  }
+}

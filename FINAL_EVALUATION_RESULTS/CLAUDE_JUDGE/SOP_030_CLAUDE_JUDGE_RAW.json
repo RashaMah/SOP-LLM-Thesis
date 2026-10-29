@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_030",
+  "judge_family": "Anthropic Claude",
+  "judge_model": "anthropic/claude-sonnet-5",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "The SOP captures all operationally relevant elements from the source: identification of non-conforming goods, quantification, segregation, holding area, stock record updates, coordination by Supply Officer, and required documentation for departure. All roles listed in the scenario are included and used."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The sequence (identify \ninges6C quantify -> segregate -> relocate to holding -> update records -> verify -> coordinate return) matches the logical order implied by the scenario: identify affected quantity, remove from usable stock, place in holding area, update records, then coordinate return/disposition with documentation."
+    },
+    "C3_role_clarity": {
+      "score": 4,
+      "reason": "Roles are clearly assigned and match those in the scenario (Supply Officer/Logistics, Warehouse/Store Manager, Storekeeper, warehouse staff). Minor ambiguity exists in step 1 (\"warehouse staff identify\") vs scenario's more general \"warehouse personnel must identify,\" and slight overlap between Storekeeper and warehouse staff duties in segregation, but overall responsibilities are consistently and clearly assigned throughout."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "Inputs (documented quality problem, affected quantity, stock records) and outputs (isolated goods, updated records, goods ready for authorized return with documentation) are explicitly and clearly stated, consistent with the source scenario's described inputs and expected outcome."
+    },
+    "C5_exception_handling": {
+      "score": 4,
+      "reason": "The SOP adds reasonable exception handling (unclear quantity, holding area full, record discrepancies) tied to Warehouse/Store Manager resolution, which is a sensible extrapolation from the scenario's need for traceability and controlled segregation. This is a plausible operational interpretation rather than a contradiction, though these specific exceptions are not explicitly stated in the source, slightly extending beyond given information."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "All three constraints are respected: goods are removed from picking availability (relocation to holding area, explicitly noting 'not available for normal picking'), traceability is maintained via stock record updates preserving identity and quantity, and departure only occurs through an authorized documented process coordinated by the Supply Officer."
+    },
+    "C7_groundedness": {
+      "score": 4,
+      "reason": "Most content is grounded in the scenario. The exception handling section (Section 8) introduces specific scenarios (holding area full, quantity undetermined) that are plausible but not explicitly stated in the source, representing a minor unsupported elaboration rather than a major hallucination of systems, roles, or documents."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is clearly structured with distinct sections (purpose, scope, roles, inputs/outputs, procedure, exceptions, completion criteria), uses consistent terminology matching the scenario, and provides an actionable step-by-step procedure that a warehouse user could follow without ambiguity."
+    }
+  }
+}

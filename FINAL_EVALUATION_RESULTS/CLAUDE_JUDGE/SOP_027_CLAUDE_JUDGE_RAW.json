@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_027",
+  "judge_family": "Anthropic Claude",
+  "judge_model": "anthropic/claude-sonnet-5",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "All operationally relevant elements from the scenario (arrival with valid docs, unloading/inspection, damage and quantity discrepancy identification, comparison to order/packing docs, separation of affected goods, documentation, escalation to Supply/Logistics, inventory reflecting only accepted quantities/status, pending decision) are represented in the SOP."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The step order (arrival → unloading → inspection → documentation comparison → classification → separation → documentation → escalation → receipt of good items → inventory update → pending decision) logically follows the scenario's implied dependencies without contradiction."
+    },
+    "C3_role_clarity": {
+      "score": 5,
+      "reason": "Responsibilities are clearly and consistently assigned to the four roles named in the scenario (Storekeeper/Warehouse Staff, Inspection Personnel, Warehouse Manager/Store Manager, Supply/Logistics function) with no invented roles and no ambiguity in task ownership."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "Required inputs (shipping documentation, order/packing docs, physical goods, inspection findings) and expected outputs (accepted stock, separated discrepant goods, documentation, escalation, updated inventory) are explicitly listed and match the scenario's stated inputs/outcomes."
+    },
+    "C5_exception_handling": {
+      "score": 5,
+      "reason": "Both explicit exceptions from the scenario (damage and quantity discrepancy) are handled with dedicated sections specifying separation, non-usable status, documentation, and escalation, plus a general deviation handling clause; this matches the scenario's minimal but clear exception requirements."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "All stated constraints—comparison of physical delivery to order/packing docs, reporting mismatches, separating damaged/questionable goods, and inventory reflecting only accepted quantities/status—are explicitly preserved throughout the procedure (Steps 4-6, 10, Section 8)."
+    },
+    "C7_groundedness": {
+      "score": 5,
+      "reason": "The SOP stays grounded in the scenario; it explicitly notes where detail (e.g., specific resolution actions) is not defined because it is not specified in the source, avoiding invented systems, thresholds, or approval chains beyond what was given."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is clearly structured with numbered steps, defined roles, inputs/outputs, exception handling, and completion criteria, making it actionable and internally consistent for warehouse users while remaining faithful to the source scenario."
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_044",
+  "judge_family": "Anthropic Claude",
+  "judge_model": "anthropic/claude-sonnet-5",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "All operational elements from the source (verification of stock, comparison with planned releases and demand, communication to responsible functions, realignment vs replenishment decision, non-cancellation of pending requirements) are represented in the SOP's scope, roles, procedure, and completion criteria."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The procedure follows the logical order implied by the scenario: identify potential shortage, verify stock, determine shortage position, document/communicate, assess realignment, then coordinate transfer or initiate replenishment, matching the scenario's implied dependency chain."
+    },
+    "C3_role_clarity": {
+      "score": 5,
+      "reason": "Responsibilities are clearly and consistently assigned to the four roles named in the scenario (Storekeeper, Warehouse Manager, Inventory/Supply Officer, relevant planning/logistics function) with no unsupported new roles introduced."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "Required inputs (item ID, verified quantity, planned releases, known demand, pending requirements, realignment info, authorization) and outputs (documented shortage, notifications, initiated realignment/replenishment) are explicitly and consistently listed, matching the scenario's operational information."
+    },
+    "C5_exception_handling": {
+      "score": 5,
+      "reason": "Section 8 addresses plausible deviations directly tied to the scenario's constraints (unverifiable stock, unconfirmed realignment stock, lack of authorization, demand exceeding stock, incomplete information), all grounded in the source's stated constraints without inventing unrelated exceptions."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "The SOP repeatedly enforces the scenario's core constraints: no assuming stock exists, verification before decisions, no silent cancellation, no invented quantities, and no promising unavailable stock, consistently throughout the procedure and exception sections."
+    },
+    "C7_groundedness": {
+      "score": 5,
+      "reason": "No invented systems, thresholds, documents, or unsupported roles are introduced; all details (e.g., 'authorized transfer', 'appropriate supply process') are paraphrases of the source scenario's language without adding fabricated specifics."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is clearly structured with numbered sections, defined roles, step-by-step procedures, exception handling, and completion criteria, making it actionable and internally consistent while remaining faithful to the source scenario."
+    }
+  }
+}

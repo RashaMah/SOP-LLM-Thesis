@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_005",
+  "judge_family": "OpenAI GPT",
+  "judge_model": "gpt-5.6-sol",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 4,
+      "reason": "The SOP captures nearly all source activities, constraints, roles, documentation, verification, and outcomes, but packing appears only as an expected output and is not included as an executable procedural activity."
+    },
+    "C2_correct_sequence": {
+      "score": 4,
+      "reason": "Staging, documentation preparation, loading planning, loading, quantity verification, and release follow a sound dependency order. However, the sequence does not specify when packing occurs before loading."
+    },
+    "C3_role_clarity": {
+      "score": 4,
+      "reason": "Responsibilities are clearly assigned among the source roles for staging, documentation, coordination, loading, and checking. The party responsible for authorizing release in Step 7 is not identified."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "The picked and approved shipment, authorized shipment details, dispatch/Waybill information, and warehouse and vehicle limitations are clearly identified as inputs, while the required staged, packed, loaded, verified, documented, and released shipment is clearly stated as the output."
+    },
+    "C5_exception_handling": {
+      "score": 5,
+      "reason": "The SOP directly addresses the source decision conditions: mixed orders require segregation before proceeding, capacity excess requires adjustment, and quantity discrepancies prevent release until resolved."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "The SOP consistently preserves the prohibitions on order mixing, exceeding vehicle or operational capacity, and releasing before loaded quantities are checked against dispatch/Waybill information."
+    },
+    "C7_groundedness": {
+      "score": 4,
+      "reason": "The SOP remains substantially grounded in the scenario and introduces no new systems, documents, thresholds, or roles. Minor procedural additions such as immediate stoppage, segregation, plan adjustment, and an unspecified release authorization are reasonable but not explicitly stated in the source."
+    },
+    "C8_usability": {
+      "score": 4,
+      "reason": "The SOP is well structured, clear, and largely actionable, with defined inputs, roles, steps, exceptions, and completion criteria. Actionability is slightly reduced because there is no explicit packing step and no role is assigned to authorize release."
+    }
+  }
+}

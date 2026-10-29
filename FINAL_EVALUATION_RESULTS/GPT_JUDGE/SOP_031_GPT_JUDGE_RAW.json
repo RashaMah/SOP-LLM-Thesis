@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_031",
+  "judge_family": "OpenAI GPT",
+  "judge_model": "gpt-5.6-sol",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "The SOP represents all source elements: low picking stock, available reserve stock, transfer to the designated picking location, correct product and batch, stock rotation, record accuracy, stated roles, and the expected outcome."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The sequence is operationally coherent: identify the need, confirm reserve availability, select compliant stock, transfer it, update records, and verify physical and recorded quantities."
+    },
+    "C3_role_clarity": {
+      "score": 4,
+      "reason": "Responsibilities are clearly divided between Warehouse Staff and the Manager, both of whom are source-listed roles. However, the specific managerial oversight and escalation duties are elaborations not explicitly assigned in the source."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "Required item, quantity, locations, batch, rotation rule, and inventory information are clearly identified, and outputs accurately reflect sufficient picking stock and aligned physical and recorded quantities."
+    },
+    "C5_exception_handling": {
+      "score": 4,
+      "reason": "The SOP clearly handles failures involving product, batch, records, rotation, quantity, and destination. Some responses, especially partial replenishment and detailed escalation actions, are unsupported elaborations, although they generally remain consistent with the source constraints."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "The SOP consistently preserves the explicit constraints: use the correct product and batch, avoid unexplained inventory differences, respect applicable stock rotation, and replenish the designated picking location sufficiently."
+    },
+    "C7_groundedness": {
+      "score": 4,
+      "reason": "The SOP remains substantially grounded and introduces no new systems, technologies, thresholds, or documents. It does add operational rules such as mandatory stopping, escalation, returning incorrectly selected stock, and partial transfer that are not expressly stated in the source."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is clear, structured, internally consistent, and actionable, with explicit verification and completion criteria that faithfully support the source objective."
+    }
+  }
+}

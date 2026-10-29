@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_009",
+  "judge_family": "Anthropic Claude",
+  "judge_model": "anthropic/claude-sonnet-5",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "All operationally relevant elements from the scenario are represented: identification of the affected batch, quantity, removal from usable stock, isolation in a separated holding area, stock record updates, coordination by Supply/Logistics, required documentation, and authorized release. No source information is omitted."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The procedure follows the logical dependency implied by the scenario: confirm non-conforming stock, remove from usable inventory, isolate, update records, coordinate return/disposition, then prepare for authorized release. This matches the scenario's implied order."
+    },
+    "C3_role_clarity": {
+      "score": 5,
+      "reason": "Responsibilities are clearly and consistently assigned to the four roles named in the scenario (Supply Officer/Logistics, Warehouse/Store Manager, Storekeeper, Warehouse Staff) with no unsupported new roles introduced."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "Required inputs (quality problem documentation, affected quantity, stock records, authorization/documentation) and outputs (isolated stock, updated records, authorized release with documentation) are explicitly and consistently listed, matching the scenario."
+    },
+    "C5_exception_handling": {
+      "score": 4,
+      "reason": "The SOP adds a reasonable set of exception scenarios (unconfirmed quantity, unidentifiable goods, record discrepancy, missing authorization, compromised separation) consistent with the constraints in the source. While the source scenario contains no explicit exceptions, these are logical extrapolations of the stated constraints rather than fabricated new rules, though they go beyond what is explicitly stated, warranting a very good but not perfect score."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "All explicit constraints (not available for normal picking, traceable identity/quantity, authorized and documented release) are preserved and reinforced throughout the procedure and completion criteria."
+    },
+    "C7_groundedness": {
+      "score": 4,
+      "reason": "The SOP stays largely grounded in the scenario without inventing new systems, roles, or thresholds. The exception handling section (8.1–8.5) elaborates on decision points not explicitly stated in the source, which is a mild extrapolation beyond the given text, though it does not introduce contradictory or clearly fabricated operational details."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is clearly structured with defined sections (roles, inputs/outputs, procedure steps, exceptions, completion criteria), making it actionable and unambiguous for warehouse staff while remaining faithful to the source scenario."
+    }
+  }
+}

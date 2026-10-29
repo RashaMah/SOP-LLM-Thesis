@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_032",
+  "judge_family": "Anthropic Claude",
+  "judge_model": "anthropic/claude-sonnet-5",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "All operationally relevant elements from the source scenario are represented: inventory review, verification, shortage identification, documentation, communication to planning/supply function, consideration of existing stock and planned releases, realignment vs replenishment decision, and expected outcomes. Roles listed match those in the scenario."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The sequence (review -> verify -> identify shortage -> document -> communicate -> evaluate options -> realign or replenish -> confirm) logically matches the dependencies implied in the scenario, where verification precedes decision-making and communication precedes action."
+    },
+    "C3_role_clarity": {
+      "score": 5,
+      "reason": "Responsibilities are clearly and consistently assigned to the four roles named in the scenario (Storekeeper, Inventory/Supply Officer, Warehouse Manager, Planning/Logistics Function) with no unsupported new roles introduced; each role's actions align with the scenario's description of duties."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "Required inputs (available stock, planned releases, known demand, other-location stock data) and outputs (documented shortage, communication, initiated corrective action) are explicitly and clearly listed, directly reflecting the scenario's operational information and expected outcome."
+    },
+    "C5_exception_handling": {
+      "score": 5,
+      "reason": "The SOP addresses relevant deviations explicitly tied to scenario constraints: unverified stock assumption, incomplete demand data, no realignment source, conflicting priorities, and pending requirement handling \"\" all grounded in the source's constraints without inventing unsupported scenarios beyond reasonable extensions of stated rules."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "All explicit constraints (no assuming stock exists, verify before deciding, no silent cancellation, no invented quantities) are directly and repeatedly embedded in the procedure steps and exception handling section, preserving the scenario's decision conditions."
+    },
+    "C7_groundedness": {
+      "score": 4,
+      "reason": "Overall the SOP stays closely grounded to the scenario; however, some added details (e.g., 'tracked until shortage is resolved', 'conflicting priorities across locations' scenario, 'formally started' confirmation) are plausible elaborations not explicitly stated in the source, representing minor unsupported additions rather than fabricated systems or roles."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is clearly structured with distinct sections (purpose, scope, roles, inputs/outputs, procedure steps, exceptions, completion criteria), using unambiguous language and actionable steps that a warehouse user could follow, while remaining faithful to the source scenario."
+    }
+  }
+}

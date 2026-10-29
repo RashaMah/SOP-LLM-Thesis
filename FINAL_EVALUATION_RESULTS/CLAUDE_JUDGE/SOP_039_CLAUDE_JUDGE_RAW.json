@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_039",
+  "judge_family": "Anthropic Claude",
+  "judge_model": "anthropic/claude-sonnet-5",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "All operationally relevant elements from the scenario are represented: staging, clear identification, packing/dispatch documentation, coordinated loading, vehicle capacity/warehouse limitations, quantity verification against waybill, and release without mixing or undocumented differences. No explicit source information is omitted."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The procedure follows a logical and scenario-consistent order: staging, documentation preparation, capacity planning, pre-load verification, loading, in-process and post-load quantity checks, and final confirmation before release, matching the implied dependencies in the scenario."
+    },
+    "C3_role_clarity": {
+      "score": 5,
+      "reason": "All four roles from the scenario (Warehouse Manager, Storekeeper/Warehouse Staff, Tally/Checking or Security Personnel, Transport Personnel) are used consistently and assigned specific, non-overlapping responsibilities that align with the scenario's role descriptions."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "Inputs (approved shipment details, waybill info, vehicle capacity, warehouse limitations) and outputs (staged/packed shipment, documentation, loaded vehicle, verified quantities) are explicitly listed and directly traceable to the source scenario."
+    },
+    "C5_exception_handling": {
+      "score": 5,
+      "reason": "The SOP explicitly addresses the key deviation scenarios implied by the source constraints: discrepancies in quantities, insufficient vehicle capacity, and mixing of orders, with clear escalation and corrective steps, even though the source scenario itself does not enumerate exceptions in detail."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "The constraints of no order mixing, respecting vehicle/operational capacity, and checking quantities against the waybill before release are explicitly and consistently enforced throughout staging, loading, and verification steps."
+    },
+    "C7_groundedness": {
+      "score": 5,
+      "reason": "No invented systems, roles, thresholds, or approvals are introduced; all procedural details (roles, documents, checks) are directly traceable to the source scenario without unsupported additions."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is clearly structured with distinct sections for roles, inputs/outputs, procedure, exceptions, and completion criteria, making it actionable and unambiguous for warehouse personnel while remaining faithful to the source scenario."
+    }
+  }
+}

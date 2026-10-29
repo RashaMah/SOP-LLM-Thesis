@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_011",
+  "judge_family": "Anthropic Claude",
+  "judge_model": "anthropic/claude-sonnet-5",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "The SOP captures all operationally relevant elements from the scenario: the discrepancy detection, recording, communication to responsible personnel, continued picking of available items, non-falsification of picked status, and escalation for reconciliation/back-order handling. All three roles and constraints are represented."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The procedure logically follows: receive instruction → go to location → verify availability → identify discrepancy → pick available quantity → continue other items → record discrepancy → communicate/escalate → resolve outstanding quantity. This matches the implied operational flow of the source scenario without contradiction."
+    },
+    "C3_role_clarity": {
+      "score": 5,
+      "reason": "Responsibilities are clearly and consistently assigned to the three roles named in the scenario (Picker/Storekeeper, Storekeeper responsible for stock records, Warehouse Supervisor/Manager) with no invented roles, and each action is attributed appropriately."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "Required inputs (picking instruction, item, quantity, location, batch info) and outputs (correctly picked available items, unconfirmed missing quantity, recorded/escalated discrepancy) are explicitly and clearly listed, consistent with the scenario."
+    },
+    "C5_exception_handling": {
+      "score": 5,
+      "reason": "The SOP identifies multiple exception scenarios (no stock, partial stock, alternative batch, records mismatch, uncertainty) all grounded in the source scenario's discrepancy and decision-condition language, without inventing unsupported exceptions."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "The constraints—following the authorized picking instruction, not substituting stock unless permitted by warehouse stock rules, and recording the discrepancy—are consistently reiterated and enforced throughout the procedure and exception sections."
+    },
+    "C7_groundedness": {
+      "score": 5,
+      "reason": "The SOP stays tightly grounded in the source scenario, explicitly noting when the scenario does not specify a method (e.g., recording format, permission process) rather than inventing new systems, thresholds, or documents."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is clearly structured with numbered steps, defined roles, explicit exception handling, and completion criteria, making it actionable for warehouse staff while remaining faithful to the scenario's scope and constraints."
+    }
+  }
+}

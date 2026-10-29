@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_025",
+  "judge_family": "Anthropic Claude",
+  "judge_model": "anthropic/claude-sonnet-5",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "All operationally relevant elements from the source scenario are represented: documentation verification, comparison against expected shipment, unloading, visual inspection, acceptance, receiving record, stock update, and transfer to storage. Roles and constraints are also fully captured."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The procedure follows a logical sequence consistent with the scenario: arrival, documentation verification, comparison, unloading, visual inspection, acceptance decision, receiving documentation, stock update, and transfer to storage, matching the implied dependencies (checks before stock entry, stock entry before storage)."
+    },
+    "C3_role_clarity": {
+      "score": 5,
+      "reason": "Responsibilities are clearly and consistently assigned to the three roles named in the scenario (Warehouse Manager/Store Manager, Storekeeper/Warehouse Staff, Receiving/Inspection Personnel) without introducing unsupported new roles; the note about potential role overlap is a reasonable clarification, not a new role."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "Required inputs (PO reference, shipping documentation, packing list, physical shipment) and expected outputs (verified shipment, inspected/accepted goods, receiving record, updated stock records, goods in storage) are explicitly and clearly listed, matching the scenario's stated objective and outcome."
+    },
+    "C5_exception_handling": {
+      "score": 4,
+      "reason": "The SOP identifies and handles the three exception types implied by the scenario's constraints (missing/invalid documentation, quantity/identity discrepancy, failed inspection) with escalation to the Warehouse Manager, which is reasonable given the scenario's role list. It appropriately flags areas the scenario doesn't specify, but the escalation to the Manager for resolution, while plausible, is an inferred procedural detail not explicitly stated in the scenario, slightly extending beyond the source."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "All explicit constraints are preserved: acceptance only with valid documentation, product identity/quantity must match expected shipment, and goods must not enter normal stock before required checks are completed \"as reflected in Steps 2, 3, 5, and 8 and reinforced in Section 8.\""
+    },
+    "C7_groundedness": {
+      "score": 4,
+      "reason": "Most content is grounded in the scenario. However, the SOP introduces specific escalation to the 'Warehouse Manager/Store Manager' for exception resolution and disposition decisions (e.g., quarantine, disposal, return) as illustrative examples not explicitly stated in the scenario, which is a mild extension beyond the given facts, though the SOP does flag these as assumptions requiring organizational policy."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is clearly structured with numbered sections, explicit step-by-step procedures, defined roles, inputs/outputs, exception handling, and completion criteria, making it clear, actionable, and internally consistent for warehouse personnel while remaining faithful to the source scenario."
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "PILOT_SOP_002",
+  "judge_family": "Google Gemini",
+  "judge_model": "gemini-3.1-pro-preview",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "The SOP captures all operationally relevant information, including required activities, roles, conditions, and expected outcomes provided in the source scenario."
+    },
+    "C2_correct_sequence": {
+      "score": 4,
+      "reason": "Procedural activities follow a logical sequence, though separating the physical segregation of damaged goods into an 'Exception Handling' section rather than integrating it directly after identification in the main procedure creates a minor chronological disconnect."
+    },
+    "C3_role_clarity": {
+      "score": 4,
+      "reason": "Responsibilities are assigned consistently with the source, but the Warehouse Manager/Store Manager is included without any specific actionable duties, reflecting the source's list but leaving the role underutilized in the procedural steps."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "Required inputs (shipping/order documentation, physical items) and expected outputs (accepted goods, updated records, escalated discrepancies) are clearly identifiable and perfectly match the source."
+    },
+    "C5_exception_handling": {
+      "score": 5,
+      "reason": "The SOP correctly identifies and handles the specific abnormal conditions (damaged goods and quantity discrepancies), detailing segregation, stock control, and escalation exactly as required by the source."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "Explicit constraints, such as comparing physical delivery with documentation, separating damaged goods, and ensuring inventory records reflect only accepted quantities, are fully preserved and respected."
+    },
+    "C7_groundedness": {
+      "score": 5,
+      "reason": "The SOP remains strictly grounded in the source scenario without inventing unsupported systems, documents, thresholds, or technologies."
+    },
+    "C8_usability": {
+      "score": 4,
+      "reason": "The SOP is structured and unambiguous, but usability is slightly impacted by splitting the main workflow and the physical segregation of discrepant items into two separate sections (7 and 8), which could cause a worker to miss a step if not reading concurrently."
+    }
+  }
+}

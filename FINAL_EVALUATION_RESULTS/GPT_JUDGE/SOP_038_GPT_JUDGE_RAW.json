@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_038",
+  "judge_family": "OpenAI GPT",
+  "judge_model": "gpt-5.6-sol",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "The SOP represents all source elements: the approved multi-item instruction, assigned picker or team, product references, quantities, locations, line checks, record accuracy, transfer to staging/packing, and the expected outcome for available items."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The procedure follows a coherent sequence of reviewing the instruction, visiting assigned locations, picking authorized items, checking each line, maintaining records, confirming completion, and transferring the pick."
+    },
+    "C3_role_clarity": {
+      "score": 4,
+      "reason": "Picker responsibilities are clearly and consistently assigned. The Supervisor or Manager is given additional oversight, direction, and discrepancy-resolution duties that were not explicitly assigned in the source, but these do not materially obscure responsibility."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "Required inputs are explicitly identified, and outputs clearly cover accurate picking, line verification, authorized quantities, accurate records, and transfer to the designated next-stage area."
+    },
+    "C5_exception_handling": {
+      "score": 4,
+      "reason": "The SOP clearly handles unavailable stock, mismatches, overpicks, location issues, and record discrepancies. Some escalation and resolution steps are unsupported additions, but the treatment of availability and deviations is consistent with the source constraints."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "The SOP consistently enforces picking only listed product references and authorized quantities, checking every line, using the stated locations, and keeping inventory/location records aligned with physical movement."
+    },
+    "C7_groundedness": {
+      "score": 3,
+      "reason": "The core process is grounded in the source, but the SOP adds several material rules not stated there, including mandatory discrepancy reporting, stopping affected lines, supervisor direction for unresolved quantities, prohibitions on assumed alternate locations, and conditional substitution after changed authorization."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is well structured, internally consistent, and actionable, with clear steps, responsibilities, checks, completion criteria, and exception sections that preserve the core source process."
+    }
+  }
+}

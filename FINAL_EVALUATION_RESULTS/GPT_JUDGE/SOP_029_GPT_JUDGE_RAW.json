@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_029",
+  "judge_family": "OpenAI GPT",
+  "judge_model": "gpt-5.6-sol",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "The SOP captures all source elements: the missing quantity, continuation of available-item picking, prohibition on false confirmation and unauthorized substitution, discrepancy recording and communication, stock reconciliation, escalation, and possible back-order handling."
+    },
+    "C2_correct_sequence": {
+      "score": 4,
+      "reason": "The overall flow is logical and substantially consistent with the scenario. However, it places continuation of all other picking before discrepancy recording and communication, while later requiring communication without delay; this creates a minor sequencing ambiguity not resolved by the source."
+    },
+    "C3_role_clarity": {
+      "score": 5,
+      "reason": "Responsibilities are clearly assigned among the Picker/Storekeeper, the Storekeeper responsible for stock records, and the Warehouse Supervisor/Manager, consistently with the roles and escalation path in the source."
+    },
+    "C4_input_output_clarity": {
+      "score": 4,
+      "reason": "The authorized instruction, physical-stock observation, picked available quantities, outstanding unavailable quantity, discrepancy record, and escalation are clear. Treating current inventory records as a generally required input is a minor overstatement because the source only specifies that responsible personnel must check them."
+    },
+    "C5_exception_handling": {
+      "score": 5,
+      "reason": "The stated exception is handled fully: unavailable stock is not falsely confirmed, substitution is conditional on warehouse rules, available items continue, and the discrepancy is recorded, communicated, and escalated."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "The SOP preserves the explicit constraints to follow the authorized picking instruction, avoid selecting an alternative batch or quantity unless permitted, record the physical-versus-record discrepancy, and never mark missing quantities as picked."
+    },
+    "C7_groundedness": {
+      "score": 4,
+      "reason": "The SOP is predominantly grounded and expressly avoids inventing reconciliation timeframes or back-order mechanics. Minor unsupported additions include prohibiting an alternate location, requiring communication 'without delay,' and assigning inventory-record correction and supervisory oversight beyond what the source explicitly states."
+    },
+    "C8_usability": {
+      "score": 4,
+      "reason": "The SOP is clear, structured, and actionable. Minor internal ambiguity arises because Step 8 presents supervisor escalation categorically, while other sections describe it as conditional, and the timing of discrepancy reporting relative to continued picking is not fully consistent."
+    }
+  }
+}

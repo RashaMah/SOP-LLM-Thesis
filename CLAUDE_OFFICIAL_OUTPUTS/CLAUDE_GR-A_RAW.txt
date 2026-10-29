@@ -1,0 +1,105 @@
+# Standard Operating Procedure: Goods Receipt / Receiving
+
+## 1. SOP Title
+Standard Operating Procedure for Goods Receipt of Standard Supplier Deliveries at the Warehouse
+
+## 2. Purpose
+This SOP defines the standard process for receiving a scheduled supplier delivery at the warehouse. It establishes the steps required to verify incoming shipments against available documentation, inspect and accept goods, record the receipt, and transfer accepted goods into warehouse stock. The purpose is to ensure that only verified, correctly documented, and inspected goods are entered into warehouse inventory.
+
+## 3. Scope
+This procedure applies to standard supplier deliveries arriving at the warehouse that are associated with an approved purchase-order reference, shipping documentation, and a packing list. It covers activities from the arrival of the shipment through documentation, inspection, acceptance, stock recording, and physical transfer to storage. This SOP does not cover procurement, supplier selection, transportation arrangement, or any process step prior to the physical arrival of the shipment at the warehouse.
+
+## 4. Roles and Responsibilities
+
+**Warehouse Manager/Store Manager**
+- Oversees the overall receiving process to ensure compliance with this procedure.
+- Makes decisions regarding shipments with documentation or quantity discrepancies.
+- Authorizes acceptance or rejection of goods where deviations are identified.
+
+**Storekeeper/Warehouse Staff**
+- Receives the physical shipment upon arrival.
+- Unloads goods and prepares them for inspection.
+- Moves accepted goods to the designated storage area after documentation and inspection are complete.
+- Updates warehouse stock records following receipt.
+
+**Receiving or Inspection Personnel**
+- Verifies shipment documentation (purchase-order reference, shipping documentation, packing list) against the delivered shipment.
+- Compares delivered items and quantities with the expected shipment.
+- Conducts visual inspection of goods before acceptance into stock.
+- Completes the appropriate receiving record for accepted goods.
+
+*Note: The scenario does not specify whether these roles are held by separate individuals or may overlap in smaller operations. Organizations should assign these responsibilities according to their internal staffing structure while preserving the separation of duties described above.*
+
+## 5. Required Inputs / Information
+- Approved purchase-order reference
+- Shipping documentation accompanying the delivery
+- Packing list detailing shipped items and quantities
+- Physical shipment delivered by the supplier
+
+## 6. Expected Outputs
+- Verified shipment matching documentation and expected quantities
+- Visually inspected and accepted goods
+- Completed receiving record documenting the accepted goods
+- Updated warehouse stock records reflecting the received goods
+- Goods physically transferred to the designated storage area
+
+## 7. Procedure
+
+**Step 1: Shipment Arrival**
+The scheduled supplier delivery arrives at the warehouse. Storekeeper/Warehouse Staff receives the shipment.
+
+**Step 2: Documentation Verification**
+Receiving or inspection personnel verify that the shipment is accompanied by:
+- An approved purchase-order reference
+- Shipping documentation
+- A packing list
+
+If any of the required documentation is missing or invalid, the shipment must not proceed to acceptance (see Section 8, Exception Handling).
+
+**Step 3: Comparison Against Expected Shipment**
+Receiving or inspection personnel compare the delivered items and quantities listed in the packing list and shipping documentation against the expected shipment associated with the purchase-order reference. Product identity and received quantity must correspond to what was expected.
+
+**Step 4: Unloading**
+Storekeeper/Warehouse Staff unload the goods from the delivery vehicle.
+
+**Step 5: Visual Inspection**
+Receiving or inspection personnel conduct a visual inspection of the unloaded goods. This inspection must be completed before goods are accepted into stock.
+
+**Step 6: Acceptance Decision**
+Based on the documentation verification, quantity/identity comparison, and visual inspection:
+- If the shipment matches the expected documentation, quantities, and passes visual inspection, the goods are accepted.
+- If discrepancies are identified, the shipment is handled according to the exception process described in Section 8.
+
+**Step 7: Receiving Documentation**
+Receiving or inspection personnel document the accepted goods through the appropriate receiving record.
+
+**Step 8: Stock Record Update**
+Storekeeper/Warehouse Staff update the warehouse stock records to reflect the receipt of the accepted goods. This update must occur only after the required receiving checks (documentation verification, comparison, and visual inspection) have been completed.
+
+**Step 9: Transfer to Storage**
+Storekeeper/Warehouse Staff move the accepted goods to the designated storage area within the warehouse.
+
+## 8. Exception and Deviation Handling
+
+**Missing or Invalid Documentation**
+If the shipment lacks a valid purchase-order reference, shipping documentation, or packing list, the goods must not be accepted into stock. The Warehouse Manager/Store Manager must be informed to determine appropriate next steps. The scenario does not specify the exact resolution process for missing documentation; this must be addressed according to organizational policy beyond the scope of this SOP.
+
+**Quantity or Product Identity Discrepancy**
+If the delivered items or quantities do not correspond to the expected shipment (as defined by the purchase-order reference and packing list), the discrepancy must be escalated to the Warehouse Manager/Store Manager for a decision. Goods associated with the discrepancy must not be entered into normal stock until the discrepancy is resolved.
+
+**Failed Visual Inspection**
+If goods fail visual inspection, they must not be accepted into stock. The Warehouse Manager/Store Manager must be involved in determining the disposition of the goods. The scenario does not specify particular criteria for inspection failure or subsequent handling procedures (e.g., return, quarantine, disposal); this determination should be made according to organizational policy.
+
+**General Principle**
+In all cases of deviation, goods must not proceed to stock recording or storage transfer until the deviation has been reviewed and a decision has been made by the Warehouse Manager/Store Manager. The scenario does not provide further detail on documentation requirements for exception cases; any such documentation should follow organizational practice.
+
+## 9. Process Completion Criteria
+The goods receipt process is considered complete when:
+- The shipment has been verified against valid documentation (purchase-order reference, shipping documentation, and packing list)
+- Delivered items and quantities have been confirmed to correspond to the expected shipment
+- Goods have been unloaded and have passed visual inspection
+- Accepted goods have been documented through the appropriate receiving record
+- Warehouse stock records have been updated to reflect the receipt
+- Accepted goods have been physically transferred to the designated storage area
+
+If any of these criteria are not met due to an identified exception, the process is not complete until the exception has been resolved according to Section 8.

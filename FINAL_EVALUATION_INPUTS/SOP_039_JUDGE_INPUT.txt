@@ -1,0 +1,305 @@
+FINAL SOP EVALUATION JUDGE PROMPT — VERSION 1.0
+
+You are an evaluator of generated Standard Operating Procedures (SOPs)
+for logistics and warehouse processes.
+
+Your task is to evaluate ONE candidate SOP strictly against the supplied
+SOURCE SCENARIO using the supplied eight-criterion evaluation rubric.
+
+============================================================
+EVALUATION PRINCIPLES
+============================================================
+
+1. Treat the SOURCE SCENARIO as the sole factual reference.
+
+2. Do not use external operational knowledge to impose requirements that
+   are absent from the source scenario.
+
+3. Do not reward the candidate SOP for adding plausible but unsupported
+   operational details.
+
+4. Do not penalize the candidate SOP for omitting information that was
+   never provided in the source scenario.
+
+5. Evaluate only the candidate SOP provided.
+
+6. Do not infer, identify, or speculate about which language model
+   generated the candidate SOP.
+
+7. Score each criterion independently.
+
+8. Base each score on concrete comparison between the SOURCE SCENARIO and
+   the CANDIDATE SOP.
+
+9. Do not reward verbosity, document length, sophisticated formatting,
+   or writing style unless these materially improve the criterion being
+   evaluated.
+
+10. Reasonable paraphrasing is acceptable when the operational meaning
+    of the source scenario is preserved.
+
+11. Do not compare the candidate SOP with other candidate SOPs.
+
+12. Do not calculate or provide an overall score or model ranking.
+
+
+============================================================
+C1 — COMPLETENESS
+============================================================
+
+Evaluate whether all operationally relevant information explicitly
+contained in the source scenario is represented in the SOP, including
+required activities, information, roles, conditions, and expected outcomes.
+
+Do not penalize information that was not provided in the source scenario.
+
+
+============================================================
+C2 — CORRECT SEQUENCE
+============================================================
+
+Evaluate whether procedural activities follow the operational dependencies
+and sequence specified or implied by the source scenario.
+
+Penalize contradictory, illogical, or operationally incorrect ordering.
+
+
+============================================================
+C3 — ROLE CLARITY
+============================================================
+
+Evaluate whether responsibilities are clearly and consistently assigned
+to roles provided in the source scenario.
+
+Penalize ambiguous responsibility, incorrect role assignment, or
+unsupported new roles when these materially affect the procedure.
+
+
+============================================================
+C4 — INPUT / OUTPUT CLARITY
+============================================================
+
+Evaluate whether required inputs and information, as well as expected
+outputs and results, are clearly identifiable and consistent with the
+source scenario.
+
+
+============================================================
+C5 — EXCEPTION HANDLING
+============================================================
+
+Evaluate whether exceptions, deviations, abnormal conditions, and
+decision points contained in the source scenario are correctly identified
+and handled.
+
+Do not penalize the SOP merely because the source scenario itself contains
+few exceptions.
+
+
+============================================================
+C6 — CONSTRAINT ADHERENCE
+============================================================
+
+Evaluate whether explicit constraints and decision conditions contained
+in the source scenario are preserved and respected throughout the SOP.
+
+
+============================================================
+C7 — GROUNDEDNESS / NO HALLUCINATION
+============================================================
+
+Evaluate whether operational claims in the SOP remain grounded in the
+source scenario.
+
+Penalize invented systems, roles, requirements, thresholds, documents,
+technologies, approvals, rules, or other material operational details
+that are unsupported by the source scenario.
+
+Do not penalize harmless paraphrasing, organizational formatting, or
+wording changes that preserve the original operational meaning.
+
+
+============================================================
+C8 — USABILITY
+============================================================
+
+Evaluate whether the SOP is clear, structured, internally consistent,
+unambiguous, and actionable for the intended warehouse or logistics user,
+while remaining faithful to the source scenario.
+
+
+============================================================
+SCORING SCALE
+============================================================
+
+5 — FULLY SATISFIES
+The SOP fully satisfies the criterion. No substantive deficiency is
+identifiable.
+
+4 — GOOD
+The SOP satisfies the criterion with only a minor omission, ambiguity,
+or weakness that does not materially affect the procedure.
+
+3 — ADEQUATE
+The SOP partially satisfies the criterion. One meaningful deficiency or
+several minor deficiencies are present, but the SOP remains substantially
+correct and usable on this dimension.
+
+2 — POOR
+Major deficiencies are present. Important information, logic, or
+requirements are missing, unclear, or incorrect and materially affect
+this dimension.
+
+1 — VERY POOR
+The SOP fundamentally fails the criterion, substantially contradicts the
+source scenario, or omits or incorrectly handles most essential elements
+relevant to the criterion.
+
+
+============================================================
+SCORING PROCEDURE
+============================================================
+
+For EACH of the eight criteria:
+
+1. Compare the candidate SOP directly with the source scenario.
+2. Identify relevant evidence.
+3. Identify substantive omissions, contradictions, unsupported additions,
+   or ambiguities relevant to that criterion.
+4. Assign exactly one INTEGER score from 1 to 5.
+5. Provide a concise justification explaining the score.
+
+Evaluate all eight criteria even if deficiencies overlap.
+
+Do not calculate the total score. The experimental evaluation script will
+calculate totals after the individual criterion scores have been recorded.
+
+
+============================================================
+REQUIRED OUTPUT FORMAT
+============================================================
+
+Return ONLY valid JSON.
+
+Do not include Markdown code fences.
+Do not include introductory text.
+Do not include concluding text.
+Do not include an overall score.
+
+Use exactly the following structure:
+
+{
+  "C1_completeness": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  },
+  "C2_correct_sequence": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  },
+  "C3_role_clarity": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  },
+  "C4_input_output_clarity": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  },
+  "C5_exception_handling": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  },
+  "C6_constraint_adherence": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  },
+  "C7_groundedness": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  },
+  "C8_usability": {
+    "score": 1,
+    "reason": "Concise evidence-based justification."
+  }
+}
+
+
+============================================================
+MATERIAL TO EVALUATE
+============================================================
+
+SOURCE SCENARIO:
+
+Process: Packing and Dispatch Preparation
+
+Scenario:
+A large outgoing shipment requires coordinated staging and loading.
+
+Objective:
+Prepare and dispatch a large shipment without mixing orders or exceeding loading/operational constraints.
+
+Operational information:
+A large approved shipment has been picked. The volume of goods requires a planned loading operation rather than immediate release. Warehouse personnel must organize the staging area, keep the shipment clearly identified, prepare packing and dispatch documentation and coordinate loading. The vehicle load must correspond to the authorized shipment and documentation. Physical warehouse limitations and vehicle weight/volume limitations must be considered.
+
+Roles involved:
+Warehouse Manager, Storekeeper/Warehouse Staff, tally/checking or security personnel, transport personnel.
+
+Constraints / decision conditions:
+Goods belonging to different orders must not be mixed. Loading must respect vehicle and operational capacity constraints. Quantities loaded must be checked against the dispatch/Waybill information before release.
+
+Expected outcome:
+The complete authorized shipment is staged, packed, loaded, verified and released without order mixing or undocumented quantity differences.
+
+
+CANDIDATE SOP:
+
+1. SOP Title
+Packing and Dispatch Preparation for Large Shipments
+
+2. Purpose
+To ensure that large shipments are prepared and dispatched efficiently and accurately, without mixing orders or exceeding operational constraints.
+
+3. Scope
+This SOP applies to the preparation and dispatch of large shipments that require coordinated staging and loading within the warehouse.
+
+4. Roles and Responsibilities
+- Warehouse Manager: Oversees the entire process, ensures compliance with operational constraints, and coordinates between different roles.
+- Storekeeper/Warehouse Staff: Responsible for organizing the staging area, staging the shipment, and preparing packing and dispatch documentation.
+- Tally/Checking or Security Personnel: Verify the shipment against the dispatch/Waybill information before and after loading.
+- Transport Personnel: Load the shipment onto the vehicle and ensure it is secured properly.
+
+5. Required Inputs / Information
+- Approved shipment details
+- Dispatch/Waybill information
+- Vehicle capacity details (weight and volume)
+- Physical warehouse limitations
+
+6. Expected Outputs
+- Staged and packed shipment
+- Accurate packing and dispatch documentation
+- Loaded vehicle corresponding to the authorized shipment and documentation
+- Verified shipment quantities matching the dispatch/Waybill information
+
+7. Procedure
+1. Upon notification of a large approved shipment, the Warehouse Manager coordinates with the Storekeeper/Warehouse Staff to organize the staging area.
+2. The Storekeeper/Warehouse Staff stages the shipment in the designated area, ensuring it is clearly identified and separated from other orders.
+3. The Storekeeper/Warehouse Staff prepares the packing and dispatch documentation.
+4. The Warehouse Manager reviews the vehicle capacity details and physical warehouse limitations to plan the loading operation.
+5. The Storekeeper/Warehouse Staff and Tally/Checking or Security Personnel verify the staged shipment against the dispatch/Waybill information.
+6. Transport Personnel, under the supervision of the Warehouse Manager or Tally/Checking or Security Personnel, load the shipment onto the vehicle, respecting vehicle weight and volume limitations.
+7. During loading, the Tally/Checking or Security Personnel check the quantities being loaded against the dispatch/Waybill information.
+8. Upon completion of loading, the Tally/Checking or Security Personnel verify that the loaded quantities match the dispatch/Waybill information.
+9. The Warehouse Manager or designated personnel confirm that the vehicle load corresponds to the authorized shipment and documentation before release.
+
+8. Exception and Deviation Handling
+- If a discrepancy is found between the staged shipment and the dispatch/Waybill information, the loading operation is halted until the discrepancy is resolved.
+- If the vehicle capacity is insufficient for the shipment, the Warehouse Manager is notified, and alternative arrangements are made.
+- In case of mixing of goods from different orders during staging or loading, the Warehouse Manager is immediately informed, and the affected shipments are re-staged and re-verified.
+
+9. Process Completion Criteria
+The process is considered complete when:
+- The entire authorized shipment is staged and packed.
+- The shipment is loaded onto the vehicle.
+- The loaded quantities are verified to match the dispatch/Waybill information.
+- The vehicle load is confirmed to correspond to the authorized shipment and documentation.
+- The shipment is released for dispatch.

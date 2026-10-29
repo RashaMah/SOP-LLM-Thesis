@@ -1,0 +1,39 @@
+{
+  "anonymous_candidate_id": "SOP_019",
+  "judge_family": "OpenAI GPT",
+  "judge_model": "gpt-5.6-sol",
+  "evaluation": {
+    "C1_completeness": {
+      "score": 5,
+      "reason": "The SOP includes all source activities, roles, constraints, decision conditions, and outcomes: staging, identification, packing, documentation, coordinated loading, capacity consideration, quantity verification, and release without mixing or undocumented differences."
+    },
+    "C2_correct_sequence": {
+      "score": 5,
+      "reason": "The sequence is operationally consistent with the source: prepare and identify the staging area, prepare documentation and pack, coordinate and perform loading, verify loaded quantities against dispatch/Waybill information, then release."
+    },
+    "C3_role_clarity": {
+      "score": 4,
+      "reason": "Responsibilities are clearly and consistently assigned among all source-listed roles. However, making Warehouse Manager authorization a mandatory release gate and assigning specific loading duties to Transport Personnel are not explicitly established by the source."
+    },
+    "C4_input_output_clarity": {
+      "score": 5,
+      "reason": "The approved picked shipment, order identification, dispatch/Waybill information, warehouse limitations, and vehicle limits are clearly identified as inputs, while the staged, packed, documented, loaded, verified, and released shipment is clearly defined as the output."
+    },
+    "C5_exception_handling": {
+      "score": 5,
+      "reason": "The SOP correctly addresses the source-relevant abnormal conditions—order mixing, capacity exceedance, and quantity discrepancies—and prevents continuation or release until the applicable constraint is satisfied."
+    },
+    "C6_constraint_adherence": {
+      "score": 5,
+      "reason": "The SOP consistently preserves all explicit constraints: orders remain separated, warehouse and vehicle capacity limits are respected, and loaded quantities are checked against dispatch/Waybill information before release."
+    },
+    "C7_groundedness": {
+      "score": 3,
+      "reason": "Most content is grounded in the scenario, but the SOP adds several operational requirements not supplied by the source, notably mandatory Warehouse Manager release authorization, required halting and escalation steps, manager-directed corrective action, and documentation of discrepancies before authorization."
+    },
+    "C8_usability": {
+      "score": 5,
+      "reason": "The SOP is well structured, internally consistent, and actionable, with clear numbered steps, responsibilities, completion criteria, and decision handling that support practical execution of the stated process."
+    }
+  }
+}

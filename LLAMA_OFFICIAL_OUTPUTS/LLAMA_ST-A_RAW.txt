@@ -1,0 +1,64 @@
+**1. SOP Title**
+Stock Transfer and Redistribution Procedure
+
+**2. Purpose**
+This Standard Operating Procedure (SOP) outlines the steps for transferring approved stock from one warehouse to another within the same logistics network, ensuring that the stock is properly prepared, released, and documented while maintaining stock traceability.
+
+**3. Scope**
+This SOP applies to all inter-warehouse stock transfers within the logistics network, involving the transferring warehouse and the receiving warehouse.
+
+**4. Roles and Responsibilities**
+
+- **Supply/Inventory Officer**: Responsible for ensuring that the stock transfer request is approved and for maintaining accurate inventory records.
+- **Warehouse Manager**: Oversees the stock transfer process, ensuring that it is carried out according to this SOP.
+- **Storekeeper/Warehouse Staff**: Responsible for reserving, picking, and staging the stock for transfer, as well as preparing the necessary documentation.
+- **Receiving Warehouse Personnel**: Responsible for confirming receipt of the transferred stock through their receiving process.
+
+**5. Required Inputs / Information**
+
+- Approved stock transfer request
+- Availability of the requested goods in the transferring warehouse
+- Accurate inventory records
+
+**6. Expected Outputs**
+
+- Successfully transferred stock to the destination warehouse
+- Complete and accurate release/transport documentation
+- Updated inventory records reflecting the outgoing stock movement
+- Confirmation of receipt from the receiving warehouse
+
+**7. Procedure**
+
+1. **Receive and Verify Transfer Request**: The Supply/Inventory Officer receives an approved stock transfer request and verifies its authenticity and completeness.
+   
+2. **Reserve Stock**: The Storekeeper/Warehouse Staff reserve the requested stock in the warehouse inventory system to prevent it from being allocated to other requests.
+
+3. **Pick Stock**: The Storekeeper/Warehouse Staff pick the reserved stock according to the transfer request.
+
+4. **Move to Staging Area**: The picked stock is moved to a designated staging area within the warehouse.
+
+5. **Prepare Release/Transport Documentation**: The Storekeeper/Warehouse Staff prepare the necessary release and transport documentation, ensuring that the documentation clearly identifies the stock being transferred and its destination.
+
+6. **Verify Stock against Documentation**: Before releasing the stock, the Storekeeper/Warehouse Staff verify that the stock matches the documentation to ensure accuracy.
+
+7. **Release Stock**: The stock is released from the warehouse, and the Warehouse Manager or designated personnel ensure that it is loaded for transport.
+
+8. **Update Inventory Records**: The Supply/Inventory Officer updates the inventory records to reflect the outgoing stock movement, ensuring that the stock is removed from the transferring warehouse's inventory.
+
+9. **Handover to Transport**: The stock and accompanying documentation are handed over to the transport personnel for delivery to the receiving warehouse.
+
+10. **Receiving Warehouse Confirmation**: The receiving warehouse personnel confirm receipt of the stock through their receiving process.
+
+**8. Exception and Deviation Handling**
+
+- If the requested stock is not available, the Supply/Inventory Officer is notified, and the transfer request is put on hold until the stock is available or the request is cancelled or amended.
+- If there is a discrepancy between the stock and the documentation during verification, the Storekeeper/Warehouse Staff notify the Warehouse Manager. The discrepancy is investigated, and corrective action is taken before proceeding with the transfer.
+- Any damage or loss during the transfer process is documented, and the Supply/Inventory Officer is informed for further action.
+
+**9. Process Completion Criteria**
+
+The stock transfer process is considered complete when:
+- The stock has been successfully transferred to the receiving warehouse.
+- The inventory records have been updated to reflect the stock movement.
+- The receiving warehouse has confirmed receipt of the stock.
+- All necessary documentation has been completed and filed accordingly.
