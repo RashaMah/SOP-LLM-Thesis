@@ -1,8 +1,7 @@
 # LLM-Based Generation of Standard Operating Procedures for Logistics Processes
 
 Code and data for the master's thesis *"Large Language Model-Based Generation of
-Standard Operating Procedures for Logistics Processes – A Controlled Comparative
-Study"* (Rasha Mahodudi, TUM School of Management, 2026).
+Standard Operating Procedures for Logistics Processes"* (Rasha Mahodudi, TUM School of Management, 2026).
 
 Four LLMs generated one SOP for each of 12 frozen logistics scenarios (48 SOPs).
 Three LLM judges scored every SOP on an eight-criterion rubric (144 evaluations,
